@@ -423,24 +423,24 @@ Version: 1.3.1
 		//Menu 30
 	
 		$('#30Ravel').click(function() {
-			$("#rightImage30").attr('src', 'images/30/ravel.jpg');
+			$("#rightImage30").attr('src', 'images/30/ravel.JPG');
 			document.getElementById("rightTitle30").innerText = 'ravel';
 			document.getElementById("rightDesc30").innerText = 'Esta é a descrição do ravel';
 		});
 		
 		$('#30Antigota').click(function() {
-			$("#rightImage30").attr('src', 'images/30/antigota.jpg');
+			$("#rightImage30").attr('src', 'images/30/antigota.JPG');
 			document.getElementById("rightTitle30").innerText = 'antigota';
 			document.getElementById("rightDesc30").innerText = 'Esta é a descrição do antigota';
 		});
 		
 		$('#30Angora').click(function() {
-			$("#rightImage30").attr('src', 'images/30/angora.jpg');
+			$("#rightImage30").attr('src', 'images/30/angora.JPG');
 			document.getElementById("rightTitle30").innerText = 'angora';
 			document.getElementById("rightDesc30").innerText = 'Esta é a descrição do angora';
 		});
 		$('#30Microfibra').click(function() {
-			$("#rightImage30").attr('src', 'images/30/microfibra.jpg');
+			$("#rightImage30").attr('src', 'images/30/microfibra.JPG');
 			document.getElementById("rightTitle30").innerText = 'microfibra';
 			document.getElementById("rightDesc30").innerText = 'Esta é a descrição do microfibra';
 		});
@@ -448,13 +448,13 @@ Version: 1.3.1
 		//Menu 45
 		
 		$('#45Junior').click(function() {
-			$("#rightImage45").attr('src', 'images/45/junior.jpg');
+			$("#rightImage45").attr('src', 'images/45/junior.JPG');
 			document.getElementById("rightTitle45").innerText = 'junior';
 			document.getElementById("rightDesc45").innerText = 'Esta é a descrição do junior';
 		});
 		
 		$('#45Angora').click(function() {
-			$("#rightImage45").attr('src', 'images/45/angora.jpg');
+			$("#rightImage45").attr('src', 'images/45/angora.JPG');
 			document.getElementById("rightTitle45").innerText = 'angora';
 			document.getElementById("rightDesc45").innerText = 'Esta é a descrição do angora';
 		});
@@ -465,34 +465,34 @@ Version: 1.3.1
 			document.getElementById("rightDesc45").innerText = 'Esta é a descrição do super';
 		});
 		$('#45Merino').click(function() {
-			$("#rightImage45").attr('src', 'images/45/merino.jpg');
+			$("#rightImage45").attr('src', 'images/45/merino.JPG');
 			document.getElementById("rightTitle45").innerText = 'merino';
 			document.getElementById("rightDesc45").innerText = 'Esta é a descrição do merino';
 		});
 		$('#45Cromado').click(function() {
-			$("#rightImage45").attr('src', 'images/45/cromado.jpg');
+			$("#rightImage45").attr('src', 'images/45/cromado.JPG');
 			document.getElementById("rightTitle45").innerText = 'cromado';
 			document.getElementById("rightDesc45").innerText = 'Esta é a descrição do cromado';
 		});
 		
 		$('#45Ravel').click(function() {
-			$("#rightImage45").attr('src', 'images/45/ravel.jpg');
+			$("#rightImage45").attr('src', 'images/45/ravel.JPG');
 			document.getElementById("rightTitle45").innerText = 'ravel';
 			document.getElementById("rightDesc45").innerText = 'Esta é a descrição do ravel';
 		});
 		
 		$('#45Antigota').click(function() {
-			$("#rightImage45").attr('src', 'images/45/antigota.jpg');
+			$("#rightImage45").attr('src', 'images/45/antigota.JPG');
 			document.getElementById("rightTitle45").innerText = 'antigota';
 			document.getElementById("rightDesc45").innerText = 'Esta é a descrição do antigota';
 		});
 		$('#45AntigotaVerde').click(function() {
-			$("#rightImage45").attr('src', 'images/45/antigotaVerde.jpg');
+			$("#rightImage45").attr('src', 'images/45/antigotaVerde.JPG');
 			document.getElementById("rightTitle45").innerText = 'Antigota Verde';
 			document.getElementById("rightDesc45").innerText = 'Esta é a descrição do Antigota Verde';
 		});
 		$('#45Rugo').click(function() {
-			$("#rightImage45").attr('src', 'images/45/rugo.jpg');
+			$("#rightImage45").attr('src', 'images/45/rugo.JPG');
 			document.getElementById("rightTitle45").innerText = 'Rugo';
 			document.getElementById("rightDesc45").innerText = 'Esta é a descrição do Rugo';
 		});
@@ -501,29 +501,29 @@ Version: 1.3.1
 	   //Menu 50
 	   
 	   $('#50Junior').click(function() {
-			$("#rightImage50").attr('src', 'images/50/junior.jpg');
+			$("#rightImage50").attr('src', 'images/50/junior.JPG');
 			document.getElementById("rightTitle50").innerText = 'junior';
 			document.getElementById("rightDesc50").innerText = 'Esta é a descrição do junior';
 		});
 		
 		$('#50Ravel').click(function() {
-			$("#rightImage50").attr('src', 'images/50/ravel.jpg');
+			$("#rightImage50").attr('src', 'images/50/ravel.JPG');
 			document.getElementById("rightTitle50").innerText = 'ravel';
 			document.getElementById("rightDesc50").innerText = 'Esta é a descrição do ravel';
 		});
 		$('#50Antigota').click(function() {
-			$("#rightImage50").attr('src', 'images/50/antigota.jpg');
+			$("#rightImage50").attr('src', 'images/50/antigota.JPG');
 			document.getElementById("rightTitle50").innerText = 'antigota';
 			document.getElementById("rightDesc50").innerText = 'Esta é a descrição do antigota';
 		});
 		$('#50Merino').click(function() {
-			$("#rightImage50").attr('src', 'images/50/merino.jpg');
+			$("#rightImage50").attr('src', 'images/50/merino.JPG');
 			document.getElementById("rightTitle50").innerText = 'merino';
 			document.getElementById("rightDesc50").innerText = 'Esta é a descrição do merino';
 		});
 		
 		$('#50AntigotaVerde').click(function() {
-			$("#rightImage50").attr('src', 'images/50/antigotaVerde.jpg');
+			$("#rightImage50").attr('src', 'images/50/antigotaVerde.JPG');
 			document.getElementById("rightTitle50").innerText = 'antigotaVerde';
 			document.getElementById("rightDesc50").innerText = 'Esta é a descrição do antigotaVerde';
 		});
@@ -532,12 +532,12 @@ Version: 1.3.1
 		// Menu Canto
 		
 		$('#CantoAntigota').click(function() {
-			$("#rightImageC").attr('src', 'images/Canto/antigota.jpg');
+			$("#rightImageC").attr('src', 'images/Canto/antigota.JPG');
 			document.getElementById("rightTitleC").innerText = 'antigota';
 			document.getElementById("rightDescC").innerText = 'Esta é a descrição do antigota';
 		});
 		$('#CantoRavel').click(function() {
-			$("#rightImageC").attr('src', 'images/Canto/ravel.jpg');
+			$("#rightImageC").attr('src', 'images/Canto/ravel.JPG');
 			document.getElementById("rightTitleC").innerText = 'ravel';
 			document.getElementById("rightDescC").innerText = 'Esta é a descrição do ravel';
 		});
@@ -545,22 +545,22 @@ Version: 1.3.1
 		//Menu Acolchoados
 		
 		$('#AcolchoadoAntigotaSuper').click(function() {
-			$("#rightImageA").attr('src', 'images/Acolchoados/antigotaSuper.jpg');
+			$("#rightImageA").attr('src', 'images/Acolchoados/antigotaSuper.JPG');
 			document.getElementById("rightTitleA").innerText = 'antigotaSuper';
 			document.getElementById("rightDescA").innerText = 'Esta é a descrição do antigotaSuper';
 		});
 		$('#AcolchoadoMerino').click(function() {
-			$("#rightImageA").attr('src', 'images/Acolchoados/merino.jpg');
+			$("#rightImageA").attr('src', 'images/Acolchoados/merino.JPG');
 			document.getElementById("rightTitleA").innerText = 'merino';
 			document.getElementById("rightDescA").innerText = 'Esta é a descrição do merino';
 		});
 		$('#AcolchoadoMicrofibra').click(function() {
-			$("#rightImageA").attr('src', 'images/Acolchoados/microfibra.jpg');
+			$("#rightImageA").attr('src', 'images/Acolchoados/microfibra.JPG');
 			document.getElementById("rightTitleA").innerText = 'microfibra';
 			document.getElementById("rightDescA").innerText = 'Esta é a descrição do microfibra';
 		});
 		$('#AcolchoadoRavel').click(function() {
-			$("#rightImageA").attr('src', 'images/Acolchoados/ravel.jpg');
+			$("#rightImageA").attr('src', 'images/Acolchoados/ravel.JPG');
 			document.getElementById("rightTitleA").innerText = 'ravel';
 			document.getElementById("rightDescA").innerText = 'Esta é a descrição do ravel';
 		});
@@ -570,29 +570,29 @@ Version: 1.3.1
 	//Menu Acessórios
 	
 		$('#AcessoriosArmacoes').click(function() {
-			$("#rightImageAc").attr('src', 'images/Acessorios/armacoes.jpg');
+			$("#rightImageAc").attr('src', 'images/Acessorios/armacoes.JPG');
 			document.getElementById("rightTitleAc").innerText = 'armacoes';
 			document.getElementById("rightDescAc").innerText = 'Esta é a descrição do armacoes';
 		});
 		
 		$('#AcessoriosEspatulas').click(function() {
-			$("#rightImageAc").attr('src', 'images/Acessorios/espatulas.jpg');
+			$("#rightImageAc").attr('src', 'images/Acessorios/espatulas.JPG');
 			document.getElementById("rightTitleAc").innerText = 'espatulas';
 			document.getElementById("rightDescAc").innerText = 'Esta é a descrição do espatulas';
 		});
 		$('#AcessoriosTabuleiros').click(function() {
-			$("#rightImageAc").attr('src', 'images/Acessorios/tabuleiros.jpg');
+			$("#rightImageAc").attr('src', 'images/Acessorios/tabuleiros.JPG');
 			document.getElementById("rightTitleAc").innerText = 'tabuleiros';
 			document.getElementById("rightDescAc").innerText = 'Esta é a descrição do tabuleiros';
 		});
 		$('#AcessoriosCoberturas').click(function() {
-			$("#rightImageAc").attr('src', 'images/Acessorios/coberturas.jpg');
+			$("#rightImageAc").attr('src', 'images/Acessorios/coberturas.JPG');
 			document.getElementById("rightTitleAc").innerText = 'coberturas';
 			document.getElementById("rightDescAc").innerText = 'Esta é a descrição do coberturas';
 		});
 		
 		$('#AcessoriosCabosExtensiveis').click(function() {
-			$("#rightImageAc").attr('src', 'images/Acessorios/cabosExtensiveis.jpg');
+			$("#rightImageAc").attr('src', 'images/Acessorios/cabosExtensiveis.JPG');
 			document.getElementById("rightTitleAc").innerText = 'cabosExtensiveis';
 			document.getElementById("rightDescAc").innerText = 'Esta é a descrição do cabosExtensiveis';
 		});
