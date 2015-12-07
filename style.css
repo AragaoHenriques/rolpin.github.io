@@ -2541,13 +2541,14 @@ body.mobile #video_background {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(0,0,0,0.8);
+	background: #545454;
 	z-index: 99999;
 	opacity:0;
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in;
 	transition: opacity 400ms ease-in;
 	pointer-events: none;
+	
 }
 
 
@@ -2559,26 +2560,26 @@ body.mobile #video_background {
 
 .modalDialog > div {
 	width: 70%;
-	height: 60%;
+	height: 70%;
 	position: relative;
 	margin: 10% auto;
     /*padding: 5px 20px 13px 20px;*/
 	border-radius: 10px;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
+	background: #545454;
+	/*border: solid 1px rgb(217,135,25);*/
 }
 
 .close {
-	background: #606061;
+	background: rgb(201,89,40);
 	color: #FFFFFF;
-	line-height: 25px;
+	opacity: 1;
+	font: bold 2.0em , Arial; 
+	line-height: 35px;
 	position: absolute;
 	right: -12px;
 	text-align: center;
 	top: -10px;
-	width: 24px;
+	width: 34px;
 	text-decoration: none;
 	font-weight: bold;
 	-webkit-border-radius: 12px;
@@ -2586,10 +2587,10 @@ body.mobile #video_background {
 	border-radius: 12px;
 	-moz-box-shadow: 1px 1px 3px #000;
 	-webkit-box-shadow: 1px 1px 3px #000;
-	box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;*/
 }
 
-.close:hover { background: #00d9ff; }
+.close:hover { background: rgb(201,89,40); opacity:0.5; }
 
 
 nav.vertical {
@@ -2640,21 +2641,21 @@ nav.vertical > ul > li > a:hover {
 }
 
 
-.leftDiv {
+.upDiv {
 	position:absolute;
-	width: 20%;
-	height: 100%;
-	left:0%;
+	width: 100%;
+	height: 50%;
+	top:0%;
 	border-color: #31b0d5;
 	border-style: solid;
 }
 
 
-.rigthDiv {
+.downDiv {
 	position: absolute;
-	width: 20%;
-	left:80%;
-	height: 100%;
+	width: 100%;
+	height:50%;
+	top:50%;
 	border-color: #5cb85c;
 }
 
@@ -2669,15 +2670,27 @@ nav.vertical > ul > li > a:hover {
 
 .lInnerLeftDiv{
 	position:absolute;
-	width: 100%;
-	height: 50%;
+	width: 50%;
+	height: 100%;
+	left:0%;
 }
 
 .rInnerRigthDiv{
 	position:absolute;
-	height: 50%;
-	width: 100%;
-	top:50%;
+	height: 100%;
+	width: 50%;
+	left:50%;
+	text-align: left;
+	padding-left: 2%;
+}
+
+#rightDesc{
+	text-align: left;
+	padding-left: 2%;
+}
+
+.produto_resumo{
+	padding-top: 10%;
 }
 
 
@@ -2736,4 +2749,100 @@ span.text-content span {
 	width: 50%;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+.features-table
+{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  
+  border-spacing: 0;
+  text-shadow: 0 1px 0 #fff;
+  /*color: #2a2a2a;
+  background: #fafafa;  
+  background-image: -moz-linear-gradient(top, #fff, #eaeaea, #fff); 
+  background-image: -webkit-gradient(linear,center bottom,center top,from(#fff),color-stop(0.5, #eaeaea),to(#fff)); */
+}
+
+.features-table td
+{
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  vertical-align: middle;
+  box-shadow: 0 1px 0 white;
+  -moz-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 1px 0 white;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/*Body*/
+.features-table tbody td
+{
+  text-align: center;
+  vertical-align: middle;
+  font: bold 1.0em 'trebuchet MS', 'Lucida Sans', Arial; 
+  color: #FFF;
+  
+}
+
+.features-table tbody td:first-child
+{
+  width: auto;
+  text-align: left;
+}
+
+/*.features-table td:nth-child(2), .features-table td:nth-child(3)
+{
+  background: #efefef;
+  background: rgba(144,144,144,0.15);
+  border-right: 1px solid white;
+}
+
+
+.features-table td:nth-child(4)
+{
+  background: #e7f3d4;  
+  background: rgba(184,243,85,0.3);
+}
+
+.features-table td:nth-child(6)
+{
+  background: #e7f3d4;  
+  background: rgba(184,243,85,0.3);
+}*/
+
+/*Header*/
+.features-table thead td
+{
+  font: bold 1.0em 'trebuchet MS', 'Lucida Sans', Arial;  
+  color: rgb(201,89,40);
+  /*-moz-border-radius-topright: 10px;
+  -moz-border-radius-topleft: 10px; 
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;*/
+  border-top: 1px solid #eaeaea; 
+}
+
+.features-table thead td:first-child
+{
+  border-top: none;
+}
+
+/*Footer*/
+.features-table tfoot td
+{
+  font: bold 1.4em Georgia;  
+  /*-moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px; 
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom: 1px solid #dadada;*/
+}
+
+.features-table tfoot td:first-child
+{
+  border-bottom: none;
 }
