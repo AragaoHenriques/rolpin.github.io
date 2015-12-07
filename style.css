@@ -2687,6 +2687,7 @@ nav.vertical > ul > li > a:hover {
 #rightDesc{
 	text-align: left;
 	padding-left: 2%;
+	color: rgb(201,89,40);
 }
 
 .produto_resumo{
@@ -2759,16 +2760,17 @@ span.text-content span {
   
   border-spacing: 0;
   text-shadow: 0 1px 0 #fff;
+  background: #D0D0D0;  
   /*color: #2a2a2a;
-  background: #fafafa;  
+  
   background-image: -moz-linear-gradient(top, #fff, #eaeaea, #fff); 
   background-image: -webkit-gradient(linear,center bottom,center top,from(#fff),color-stop(0.5, #eaeaea),to(#fff)); */
 }
 
 .features-table td
 {
-  height: 40px;
-  line-height: 40px;
+  height: 35px;
+  line-height: 35px;
   padding: 0 14px;
   vertical-align: middle;
   box-shadow: 0 1px 0 white;
@@ -2783,15 +2785,17 @@ span.text-content span {
 {
   text-align: center;
   vertical-align: middle;
-  font: bold 1.0em 'trebuchet MS', 'Lucida Sans', Arial; 
-  color: #FFF;
+  font: normal 1.0em 'trebuchet MS', 'Lucida Sans', Arial; 
+  color: #404040;
+	text-align: center;
+	border: 1px solid #000; 
   
 }
 
 .features-table tbody td:first-child
 {
   width: auto;
-  text-align: left;
+  text-align: center;	
 }
 
 /*.features-table td:nth-child(2), .features-table td:nth-child(3)
@@ -2817,19 +2821,17 @@ span.text-content span {
 /*Header*/
 .features-table thead td
 {
-  font: bold 1.0em 'trebuchet MS', 'Lucida Sans', Arial;  
+  font: bold 1.5em 'trebuchet MS', 'Lucida Sans', Arial;  
   color: rgb(201,89,40);
   /*-moz-border-radius-topright: 10px;
   -moz-border-radius-topleft: 10px; 
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;*/
-  border-top: 1px solid #eaeaea; 
+  border: 1px solid #000; 
+	text-align: center;
 }
 
-.features-table thead td:first-child
-{
-  border-top: none;
-}
+
 
 /*Footer*/
 .features-table tfoot td
