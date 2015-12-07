@@ -2564,7 +2564,7 @@ body.mobile #video_background {
 	position: relative;
 	margin: 10% auto;
     /*padding: 5px 20px 13px 20px;*/
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	background: #545454;
 	/*border: solid 1px rgb(217,135,25);*/
 }
@@ -2641,11 +2641,15 @@ nav.vertical > ul > li > a:hover {
 }
 
 
+.mainDiv {
+    border:solid 1px rgb(201,89,40);
+}
+
 .upDiv {
 	position:absolute;
-	width: 100%;
-	height: 50%;
-	top:0%;
+	width: 50%;
+	height: 100%;
+	left:0%;
 	border-color: #31b0d5;
 	border-style: solid;
 }
@@ -2653,9 +2657,9 @@ nav.vertical > ul > li > a:hover {
 
 .downDiv {
 	position: absolute;
-	width: 100%;
-	height:50%;
-	top:50%;
+	width: 50%;
+	height:100%;
+	left:50%;
 	border-color: #5cb85c;
 }
 
@@ -2670,18 +2674,19 @@ nav.vertical > ul > li > a:hover {
 
 .lInnerLeftDiv{
 	position:absolute;
-	width: 50%;
-	height: 100%;
-	left:0%;
+	width: 100%;
+	height: 50%;
+	top:0%;
+    text-align: left;
+	padding-left: 2%;
 }
 
 .rInnerRigthDiv{
 	position:absolute;
-	height: 100%;
-	width: 50%;
-	left:50%;
-	text-align: left;
-	padding-left: 2%;
+	height: 50%;
+	width: 100%;
+	top:50%;
+	
 }
 
 #rightDesc{
@@ -2691,7 +2696,7 @@ nav.vertical > ul > li > a:hover {
 }
 
 .produto_resumo{
-	padding-top: 10%;
+	padding-top: 5%;
 }
 
 
@@ -2759,8 +2764,8 @@ span.text-content span {
   margin: 0 auto;
   
   border-spacing: 0;
-  text-shadow: 0 1px 0 #fff;
-  background: #D0D0D0;  
+  
+  /*background: #D0D0D0;  */
   /*color: #2a2a2a;
   
   background-image: -moz-linear-gradient(top, #fff, #eaeaea, #fff); 
@@ -2769,13 +2774,13 @@ span.text-content span {
 
 .features-table td
 {
-  height: 35px;
-  line-height: 35px;
+  
+  line-height: 100%;
   padding: 0 14px;
   vertical-align: middle;
-  box-shadow: 0 1px 0 white;
+  /*box-shadow: 0 1px 0 white;
   -moz-box-shadow: 0 1px 0 white;
-  -webkit-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 1px 0 white;*/
   white-space: nowrap;
   text-align: center;
 }
@@ -2785,18 +2790,13 @@ span.text-content span {
 {
   text-align: center;
   vertical-align: middle;
-  font: normal 1.0em 'trebuchet MS', 'Lucida Sans', Arial; 
-  color: #404040;
+  font: normal 0.9em 'trebuchet MS', 'Lucida Sans', Arial; 
+  color: #d3d3d3;
 	text-align: center;
-	border: 1px solid #000; 
+	border-bottom: 1px solid #e9e9e9; 
   
 }
 
-.features-table tbody td:first-child
-{
-  width: auto;
-  text-align: center;	
-}
 
 /*.features-table td:nth-child(2), .features-table td:nth-child(3)
 {
@@ -2821,13 +2821,13 @@ span.text-content span {
 /*Header*/
 .features-table thead td
 {
-  font: bold 1.5em 'trebuchet MS', 'Lucida Sans', Arial;  
+  font: bold 1.2em 'trebuchet MS', 'Lucida Sans', Arial;  
   color: rgb(201,89,40);
   /*-moz-border-radius-topright: 10px;
   -moz-border-radius-topleft: 10px; 
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;*/
-  border: 1px solid #000; 
+  border-bottom: 1px solid #e9e9e9; 
 	text-align: center;
 }
 
