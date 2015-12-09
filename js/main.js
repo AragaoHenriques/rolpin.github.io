@@ -395,6 +395,62 @@ Version: 1.3.1
 		
 		
 		//Menu 18
+		$('#openModelEspumaImg').click(function() {
+			document.getElementById("rbMiniRolo").click();
+		});
+		
+		
+		$('#rbRolo').click(function() {
+			$("#rightImage").attr('src', 'images/18/ravel.jpg');
+			document.getElementById("tr1td1").innerText = '01MRA6';
+			document.getElementById("tr1td2").innerText = '60';
+			document.getElementById("tr1td3").innerText = '16';
+			document.getElementById("tr2td1").innerText = '01MRA11';
+			document.getElementById("tr2td2").innerText = '100';
+			document.getElementById("tr2td3").innerText = '16';
+			document.getElementById("tr3td1").innerText = '01RA60';
+			document.getElementById("tr3td2").innerText = '60';
+			document.getElementById("tr3td3").innerText = '45';
+			document.getElementById("tr4td1").innerText = '01RA150';
+			document.getElementById("tr4td2").innerText = '150';
+			document.getElementById("tr4td3").innerText = '45';
+			document.getElementById("tr5td1").innerText = '01RA180';
+			document.getElementById("tr5td2").innerText = '180';
+			document.getElementById("tr5td3").innerText = '45';
+			document.getElementById("tr6td1").innerText = '01RA220';
+			document.getElementById("tr6td2").innerText = '220';
+			document.getElementById("tr6td3").innerText = '45';
+			document.getElementById("tr7td1").innerText = '01RA250';
+			document.getElementById("tr7td2").innerText = '250';
+			document.getElementById("tr7td3").innerText = '45';
+			
+		});
+							   
+		$('#rbMiniRolo').click(function() {
+			$("#rightImage").attr('src', 'images/18/angora.jpg');
+			document.getElementById("tr1td1").innerText = 'asd';
+			document.getElementById("tr1td2").innerText = '1';
+			document.getElementById("tr1td3").innerText = '2';
+			document.getElementById("tr2td1").innerText = 'asd';
+			document.getElementById("tr2td2").innerText = 'MiniRolo';
+			document.getElementById("tr2td3").innerText = 'MiniRolo';
+			document.getElementById("tr3td1").innerText = 'MiniRolo';
+			document.getElementById("tr3td2").innerText = 'MiniRolo';
+			document.getElementById("tr3td3").innerText = 'MiniRolo';
+			document.getElementById("tr4td1").innerText = 'MiniRolo';
+			document.getElementById("tr4td2").innerText = 'MiniRolo';
+			document.getElementById("tr4td3").innerText = 'MiniRolo';
+			document.getElementById("tr5td1").innerText = 'MiniRolo';
+			document.getElementById("tr5td2").innerText = 'MiniRolo';
+			document.getElementById("tr5td3").innerText = 'MiniRolo';
+			document.getElementById("tr6td1").innerText = 'MiniRolo';
+			document.getElementById("tr6td2").innerText = 'MiniRolo';
+			document.getElementById("tr6td3").innerText = 'MiniRolo';
+			document.getElementById("tr7td1").innerText = 'MiniRolo';
+			document.getElementById("tr7td2").innerText = 'MiniRolo';
+			document.getElementById("tr7td3").innerText = 'MiniRolo';
+			
+		});
 		
 		$('#18Angora').click(function() {
 			$("#rightImage").attr('src', 'images/18/angora.jpg');

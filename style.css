@@ -2685,8 +2685,12 @@ nav.vertical > ul > li > a:hover {
 	position:absolute;
 	height: 50%;
 	width: 100%;
-	top:50%;
+	top:45%;
 	
+}
+
+#chooseRB{
+	left:0;
 }
 
 #rightDesc{
