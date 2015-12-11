@@ -2573,7 +2573,7 @@ body.mobile #video_background {
 	background: rgb(201,89,40);
 	color: #FFFFFF;
 	opacity: 1;
-	font: bold 2.0em , Arial; 
+	font: bold 3.0em , Arial; 
 	line-height: 35px;
 	position: absolute;
 	right: -12px;
@@ -2582,12 +2582,12 @@ body.mobile #video_background {
 	width: 34px;
 	text-decoration: none;
 	font-weight: bold;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
 	-moz-box-shadow: 1px 1px 3px #000;
 	-webkit-box-shadow: 1px 1px 3px #000;
-	box-shadow: 1px 1px 3px #000;*/
+	box-shadow: 1px 1px 3px #000;
 }
 
 .close:hover { background: rgb(201,89,40); opacity:0.5; }
@@ -2686,12 +2686,51 @@ nav.vertical > ul > li > a:hover {
 	height: 50%;
 	width: 100%;
 	top:45%;
+	text-align: left;
+}
+
+.buttonSelectedDiv{
+width: 100%;
+	top:0%;
+	height: 15%;
+	
 	
 }
 
-#chooseRB{
-	left:0;
+.tableData{
+width: 100%;
+	height: 95%;
+	top:15%;
+	
+	
 }
+
+
+.buttonTypeRolo{
+	left: 0%;
+	width: 25%;
+    background: rgba(214,214,214,1);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(214,214,214,1)), color-stop(0%, rgba(196,196,196,1)), color-stop(1%, rgba(207,207,207,1)), color-stop(100%, rgba(240,240,240,1)));
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#f0f0f0', GradientType=1 );
+    border-bottom: solid 2px rgb(201,89,40);
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+	height: 100%;
+}
+
+.buttonTypeRolo:hover {
+	color:#fff;
+	background: transparent;
+}
+
+
+
 
 #rightDesc{
 	text-align: left;

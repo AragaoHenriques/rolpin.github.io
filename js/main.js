@@ -402,6 +402,10 @@ Version: 1.3.1
 		
 		$('#rbRolo').click(function() {
 			$("#rightImage").attr('src', 'images/18/ravel.jpg');
+			/*document.getElementById('rbRolo').style.fontSize = '1.2em';
+			document.getElementById('rbMiniRolo').style.fontSize = '1.0em';*/
+			document.getElementById('rbRolo').style.fontWeight = 'bold';
+			document.getElementById('rbMiniRolo').style.fontWeight = 'normal';
 			document.getElementById("tr1td1").innerText = '01MRA6';
 			document.getElementById("tr1td2").innerText = '60';
 			document.getElementById("tr1td3").innerText = '16';
@@ -428,6 +432,10 @@ Version: 1.3.1
 							   
 		$('#rbMiniRolo').click(function() {
 			$("#rightImage").attr('src', 'images/18/angora.jpg');
+			/*document.getElementById('rbRolo').style.fontSize = '1.0em';
+			document.getElementById('rbMiniRolo').style.fontSize = '1.2em';*/
+			document.getElementById('rbRolo').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRolo').style.fontWeight = 'bold';
 			document.getElementById("tr1td1").innerText = 'asd';
 			document.getElementById("tr1td2").innerText = '1';
 			document.getElementById("tr1td3").innerText = '2';
@@ -652,33 +660,7 @@ Version: 1.3.1
 			document.getElementById("rightTitleAc").innerText = 'cabosExtensiveis';
 			document.getElementById("rightDescAc").innerText = 'Esta é a descrição do cabosExtensiveis';
 		});
-    
-   
-      
-          $('#openModelEspumaImg').hover(function() {
-    $(document).bind('mousewheel DOMMouseScroll',function(){ 
-        stopWheel(); 
-    });
-}, function() {
-    $(document).unbind('mousewheel DOMMouseScroll');
-   });
-      
-    
-    function stopWheel(e){
-    if(!e){ /* IE7, IE8, Chrome, Safari */ 
-        e = window.event; 
-    }
-    if(e.preventDefault) { /* Chrome, Safari, Firefox */ 
-        e.preventDefault(); 
-    } 
-    e.returnValue = false; /* IE7, IE8 */
-}
-      
-    
-      $('#close').click(function() {
-        $(window).unbind('scroll');    
-      });
-    
+
     
     
 	
