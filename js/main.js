@@ -401,11 +401,13 @@ Version: 1.3.1
 		
 		
 		$('#rbRolo').click(function() {
-			$("#rightImage").attr('src', 'images/18/ravel.jpg');
-			/*document.getElementById('rbRolo').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRolo').style.fontSize = '1.0em';*/
+			$("#rightImage").attr('src', 'images/18/ravel.JPG');
+			document.getElementById('rbRolo').style.fontSize = '1.2em';
+			document.getElementById('rbMiniRolo').style.fontSize = '1.0em';
 			document.getElementById('rbRolo').style.fontWeight = 'bold';
 			document.getElementById('rbMiniRolo').style.fontWeight = 'normal';
+			document.getElementById('rbRolo').style.color = '#FFF';
+			document.getElementById('rbMiniRolo').style.color = '#FFF';
 			document.getElementById("tr1td1").innerText = '01MRA6';
 			document.getElementById("tr1td2").innerText = '60';
 			document.getElementById("tr1td3").innerText = '16';
@@ -431,11 +433,13 @@ Version: 1.3.1
 		});
 							   
 		$('#rbMiniRolo').click(function() {
-			$("#rightImage").attr('src', 'images/18/angora.jpg');
-			/*document.getElementById('rbRolo').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRolo').style.fontSize = '1.2em';*/
+			$("#rightImage").attr('src', 'images/18/angora.JPG');
+			document.getElementById('rbRolo').style.fontSize = '1.0em';
+			document.getElementById('rbMiniRolo').style.fontSize = '1.2em';
 			document.getElementById('rbRolo').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRolo').style.fontWeight = 'bold';
+			document.getElementById('rbRolo').style.color = '#FFF';
+			document.getElementById('rbMiniRolo').style.color = '#FFF';
 			document.getElementById("tr1td1").innerText = 'asd';
 			document.getElementById("tr1td2").innerText = '1';
 			document.getElementById("tr1td3").innerText = '2';
