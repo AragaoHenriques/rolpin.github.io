@@ -402,10 +402,10 @@ Version: 1.3.1
 		
 		$('#rbRoloAngora').click(function() {
 			$("#rightImageAngora").attr('src', 'images/18/ravel.JPG');
-			document.getElementById('rbRoloAngora').style.fontSize = '1.2em';
-			document.getElementById('rbCRoloAngora').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloAngora').style.fontSize = '1.0em';
-			document.getElementById('rbCMiniRoloAngora').style.fontSize = '1.0em';
+			document.getElementById('rbRoloAngora').style.fontSize = '1.0em';
+			document.getElementById('rbCRoloAngora').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloAngora').style.fontSize = '0.8em';
+			document.getElementById('rbCMiniRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbRoloAngora').style.fontWeight = 'bold';
 			document.getElementById('rbCRoloAngora').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloAngora').style.fontWeight = 'normal';
@@ -415,32 +415,32 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 			document.getElementById("ul1li1tr1td1").innerText = '01RA60';
-			document.getElementById("ul1li1tr1td2").innerText = 'Rolo Angora';
+			document.getElementById("ul1li1tr1td2").innerText = 'Rolo';
 			document.getElementById("ul1li1tr1td3").innerText = '60';
 			document.getElementById("ul1li1tr1td4").innerText = '45';
 			document.getElementById("ul1li1tr2td1").innerText = '01RA150';
-			document.getElementById("ul1li1tr2td2").innerText = 'Rolo Angora';
+			document.getElementById("ul1li1tr2td2").innerText = 'Rolo';
 			document.getElementById("ul1li1tr2td3").innerText = '150';
 			document.getElementById("ul1li1tr2td4").innerText = '45';
 			document.getElementById("ul1li1tr3td1").innerText = '01RA180';
-			document.getElementById("ul1li1tr3td2").innerText = 'Rolo Angora';
+			document.getElementById("ul1li1tr3td2").innerText = 'Rolo';
 			document.getElementById("ul1li1tr3td3").innerText = '180';
 			document.getElementById("ul1li1tr3td4").innerText = '45';
 			document.getElementById("ul1li1tr4td1").innerText = '01RA220';
-			document.getElementById("ul1li1tr4td2").innerText = 'Rolo Angora';
+			document.getElementById("ul1li1tr4td2").innerText = 'Rolo';
 			document.getElementById("ul1li1tr4td3").innerText = '220';
 			document.getElementById("ul1li1tr4td4").innerText = '45';
 			document.getElementById("ul1li1tr5td1").innerText = '01RA250';
-			document.getElementById("ul1li1tr5td2").innerText = 'Rolo Angora';
+			document.getElementById("ul1li1tr5td2").innerText = 'Rolo';
 			document.getElementById("ul1li1tr5td3").innerText = '250';
 			document.getElementById("ul1li1tr5td4").innerText = '45';
 		});
 		$('#rbCRoloAngora').click(function() {
 			$("#rightImageAngora").attr('src', 'images/18/ravel.JPG');
-			document.getElementById('rbRoloAngora').style.fontSize = '1.0em';
-			document.getElementById('rbCRoloAngora').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloAngora').style.fontSize = '1.0em';
-			document.getElementById('rbCMiniRoloAngora').style.fontSize = '1.0em';
+			document.getElementById('rbRoloAngora').style.fontSize = '0.8em';
+			document.getElementById('rbCRoloAngora').style.fontSize = '1.0em';
+			document.getElementById('rbMiniRoloAngora').style.fontSize = '0.8em';
+			document.getElementById('rbCMiniRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbRoloAngora').style.fontWeight = 'normal';
 			document.getElementById('rbCRoloAngora').style.fontWeight = 'bold';
 			document.getElementById('rbMiniRoloAngora').style.fontWeight = 'normal';
@@ -450,23 +450,23 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 			document.getElementById("ul1li1tr1td1").innerText = '01CA60';
-			document.getElementById("ul1li1tr1td2").innerText = 'Carga Angora';
+			document.getElementById("ul1li1tr1td2").innerText = 'Carga';
 			document.getElementById("ul1li1tr1td3").innerText = '60';
 			document.getElementById("ul1li1tr1td4").innerText = '45';
 			document.getElementById("ul1li1tr2td1").innerText = '01CA150';
-			document.getElementById("ul1li1tr2td2").innerText = 'Carga Angora';
+			document.getElementById("ul1li1tr2td2").innerText = 'Carga';
 			document.getElementById("ul1li1tr2td3").innerText = '150';
 			document.getElementById("ul1li1tr2td4").innerText = '45';
 			document.getElementById("ul1li1tr3td1").innerText = '01CA180';
-			document.getElementById("ul1li1tr3td2").innerText = 'Carga Angora';
+			document.getElementById("ul1li1tr3td2").innerText = 'Carga';
 			document.getElementById("ul1li1tr3td3").innerText = '180';
 			document.getElementById("ul1li1tr3td4").innerText = '45';
 			document.getElementById("ul1li1tr4td1").innerText = '01CA220';
-			document.getElementById("ul1li1tr4td2").innerText = 'Carga Angora';
+			document.getElementById("ul1li1tr4td2").innerText = 'Carga';
 			document.getElementById("ul1li1tr4td3").innerText = '220';
 			document.getElementById("ul1li1tr4td4").innerText = '45';
 			document.getElementById("ul1li1tr5td1").innerText = '01CA250';
-			document.getElementById("ul1li1tr5td2").innerText = 'Carga Angora';
+			document.getElementById("ul1li1tr5td2").innerText = 'Carga';
 			document.getElementById("ul1li1tr5td3").innerText = '250';
 			document.getElementById("ul1li1tr5td4").innerText = '45';
 		});
@@ -475,10 +475,10 @@ Version: 1.3.1
 							   
 		$('#rbMiniRoloAngora').click(function() {
 			$("#rightImageAngora").attr('src', 'images/18/angora.JPG');
-			document.getElementById('rbRoloAngora').style.fontSize = '1.0em';
-			document.getElementById('rbCRoloAngora').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloAngora').style.fontSize = '1.2em';
-			document.getElementById('rbCMiniRoloAngora').style.fontSize = '1.0em';
+			document.getElementById('rbRoloAngora').style.fontSize = '0.8em';
+			document.getElementById('rbCRoloAngora').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloAngora').style.fontSize = '1.0em';
+			document.getElementById('rbCMiniRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbRoloAngora').style.fontWeight = 'normal';
 			document.getElementById('rbCRoloAngora').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloAngora').style.fontWeight = 'bold';
@@ -488,15 +488,15 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 			document.getElementById("ul1li1tr1td1").innerText = '01RSM2205';
-			document.getElementById("ul1li1tr1td2").innerText = 'Mini Rolo Angora';
+			document.getElementById("ul1li1tr1td2").innerText = 'Mini Rolo';
 			document.getElementById("ul1li1tr1td3").innerText = '60';
 			document.getElementById("ul1li1tr1td4").innerText = '16';
 			document.getElementById("ul1li1tr2td1").innerText = '01MRANGC10';
-			document.getElementById("ul1li1tr2td2").innerText = 'Mini Rolo Angora';
+			document.getElementById("ul1li1tr2td2").innerText = 'Mini Rolo';
 			document.getElementById("ul1li1tr2td3").innerText = '100';
 			document.getElementById("ul1li1tr2td4").innerText = '16';
 			document.getElementById("ul1li1tr3td1").innerText = '01MRANGL10';
-			document.getElementById("ul1li1tr3td2").innerText = 'Mini Rolo Angora (Armação Longa)';
+			document.getElementById("ul1li1tr3td2").innerText = 'Mini Rolo (Armação Longa)';
 			document.getElementById("ul1li1tr3td3").innerText = '100';
 			document.getElementById("ul1li1tr3td4").innerText = '16';
 			document.getElementById("ul1li1tr4td1").innerText = '01CMDRA12';
@@ -513,10 +513,10 @@ Version: 1.3.1
 		
 		$('#rbCMiniRoloAngora').click(function() {
 			$("#rightImageAngora").attr('src', 'images/18/angora.JPG');
-			document.getElementById('rbRoloAngora').style.fontSize = '1.0em';
-			document.getElementById('rbCRoloAngora').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloAngora').style.fontSize = '1.0em';
-			document.getElementById('rbCMiniRoloAngora').style.fontSize = '1.2em';
+			document.getElementById('rbRoloAngora').style.fontSize = '0.8em';
+			document.getElementById('rbCRoloAngora').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloAngora').style.fontSize = '0.8em';
+			document.getElementById('rbCMiniRoloAngora').style.fontSize = '1.0em';
 			document.getElementById('rbRoloAngora').style.fontWeight = 'normal';
 			document.getElementById('rbCRoloAngora').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloAngora').style.fontWeight = 'normal';
@@ -526,27 +526,27 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 			document.getElementById("ul1li1tr1td1").innerText = '01CIANG6';
-			document.getElementById("ul1li1tr1td2").innerText = 'Carga Rolo Angora';
+			document.getElementById("ul1li1tr1td2").innerText = 'Carga Rolo';
 			document.getElementById("ul1li1tr1td3").innerText = '60';
 			document.getElementById("ul1li1tr1td4").innerText = '16';
 			document.getElementById("ul1li1tr2td1").innerText = '01CIANG';
-			document.getElementById("ul1li1tr2td2").innerText = 'Carga Rolo Angora';
+			document.getElementById("ul1li1tr2td2").innerText = 'Carga Rolo';
 			document.getElementById("ul1li1tr2td3").innerText = '100';
 			document.getElementById("ul1li1tr2td4").innerText = '16';
 			document.getElementById("ul1li1tr3td1").innerText = '01CIANG16';
-			document.getElementById("ul1li1tr3td2").innerText = 'Carga Rolo Angora';
+			document.getElementById("ul1li1tr3td2").innerText = 'Carga Rolo';
 			document.getElementById("ul1li1tr3td3").innerText = '160';
 			document.getElementById("ul1li1tr3td4").innerText = '16';
 			document.getElementById("ul1li1tr4td1").innerText = '012CMRA6';
-			document.getElementById("ul1li1tr4td2").innerText = '2 Cargas Mini Rolo Angora';
+			document.getElementById("ul1li1tr4td2").innerText = 'Pack 2 unidades';
 			document.getElementById("ul1li1tr4td3").innerText = '60';
 			document.getElementById("ul1li1tr4td4").innerText = '16';
 			document.getElementById("ul1li1tr5td1").innerText = '012CMRA11';
-			document.getElementById("ul1li1tr5td2").innerText = '2 Cargas Mini Rolo Angora';
+			document.getElementById("ul1li1tr5td2").innerText = 'Pack 2 unidades';
 			document.getElementById("ul1li1tr5td3").innerText = '100';
 			document.getElementById("ul1li1tr5td4").innerText = '16';
 			document.getElementById("ul1li1tr6td1").innerText = '012CMRA16';
-			document.getElementById("ul1li1tr6td2").innerText = '2 Cargas Mini Rolo Angora';
+			document.getElementById("ul1li1tr6td2").innerText = 'Pack 2 unidades';
 			document.getElementById("ul1li1tr6td3").innerText = '150';
 			document.getElementById("ul1li1tr6td4").innerText = '16';
 			document.getElementById("ul1li1tr7td1").innerText = '01CXANG';
@@ -1689,7 +1689,7 @@ Version: 1.3.1
 		
 
 //END DOCUMENT.READY FUNCTION
-	
+	});
 	
 	
 	
