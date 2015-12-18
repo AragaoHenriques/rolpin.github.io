@@ -2348,15 +2348,7 @@ body.mobile #video_background {
 
 .chooseLang{
     
-    
-    
-    position: absolute;
-    left: 4%;
-    right: 4%;
-    top: 0%;
-    bottom: 5%;
-    background-color: #000;
-    z-index: 1000000
+  
     
 }
 
