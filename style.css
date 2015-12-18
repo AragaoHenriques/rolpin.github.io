@@ -2348,7 +2348,19 @@ body.mobile #video_background {
 
 .chooseLang{
     
+<<<<<<< HEAD
   
+=======
+    
+    
+    /*position: absolute;
+    left: 4%;
+    right: 4%;
+    top: 0%;
+    bottom: 5%;
+    background-color: #000;
+    z-index: 1000000*/
+>>>>>>> 28ed4c64823b56af33f38718dcd82ed5096c48d8
     
 }
 
@@ -2779,16 +2791,31 @@ ul.img-list li {
   
 }
 
+
+.imgMenu:hover img {
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+     transform:scale(1.5);
+    z-index: 999;
+}
+
+.imgMenu {
+    border:solid 5px #3ec;
+}
+
 span.text-content {
   background: rgba(0,0,0,0.5);
   color: white;
   cursor: pointer;
   display: table;
-  height: 150px;
-  left: 0;
-  position: absolute;
+  height: 100%;
+  position:absolute;
   top: 0;
-  width: 250px;
+  left: 500;
+  width: 100%;
+  border:solid 2px #ecb;
   opacity: 1;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
@@ -2802,17 +2829,31 @@ span.text-content span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+
+}
+.text-content{
+left:10%;
+	
+	
 }
 
 
 .map{
-	width: 500px;
+	
+	
+	width: 50%;
+	left: 0;
+	top:0;
 	height: 400px;
-	background-color: #CCC;
 	float: left;
+	
 }
-.contacts {
+#contacts {
 	float: right;
+	width: 50%;
+	
+	padding-right: 10%;
+	text-align: left;
 }
 
 #slidy-container {
@@ -2914,16 +2955,3 @@ span.text-content span {
   border-bottom: none;
 }
 
-.imgMenu:hover img {
-    -webkit-transform:scale(1.5); /* Safari and Chrome */
-    -moz-transform:scale(1.5); /* Firefox */
-    -ms-transform:scale(1.5); /* IE 9 */
-    -o-transform:scale(1.5); /* Opera */
-     transform:scale(1.5);
-    z-index: 999;
-}
-
-.imgMenu {
-    width: 100px;
-    height: 100px;
-}
