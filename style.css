@@ -659,6 +659,7 @@ textarea::-webkit-input-placeholder {
 .container {
 	z-index: 10;
 	position: relative;
+    
 }
 
 
@@ -2762,13 +2763,18 @@ width: 100%;
 	padding-top: 5%;
 }
 
-
+.rolosList{
+     border:solid 1px #ecb;
+    position: relative;
+    bottom: 0;
+    top:0;
+}
 ul.img-list {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+
   text-align: center;
     position:relative;
+   
 }
 
 ul.img-list ul {
@@ -2794,7 +2800,7 @@ ul.img-list li {
 }
 
 .imgMenu {
-    border:solid 5px #3ec;
+    
 }
 
 span.text-content {
@@ -2802,12 +2808,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 100%;
-  position:absolute;
+  height: 125px;
+  left: 0;
+  position: absolute;
   top: 0;
-  left: 500;
-  width: 100%;
-  border:solid 2px #ecb;
+  width: 200px;
   opacity: 1;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
@@ -2821,12 +2826,6 @@ span.text-content span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-
-}
-.text-content{
-left:10%;
-	
-	
 }
 
 

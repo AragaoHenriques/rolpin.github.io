@@ -396,7 +396,7 @@ Version: 1.3.1
 		
 		//Menu 18
 		$('#openModelAngoraImg').click(function() {
-			document.getElementById("rbMiniRoloAngora").click();
+			document.getElementById("rbRoloAngora").click();
 		});
 		
 		
@@ -444,6 +444,30 @@ Version: 1.3.1
 			document.getElementById("ul1li1tr5td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td3").innerText = '250';
 			document.getElementById("ul1li1tr5td4").innerText = '45';
+            document.getElementById("ul1li1tr6td1").innerText = '';
+			document.getElementById("ul1li1tr6td1").style.textAlign = '';
+			document.getElementById("ul1li1tr6td2").innerText = '';
+			document.getElementById("ul1li1tr6td2").style.textAlign = '';
+			document.getElementById("ul1li1tr6td3").innerText = '';
+			document.getElementById("ul1li1tr6td4").innerText = '';
+			document.getElementById("ul1li1tr7td1").innerText = '';
+			document.getElementById("ul1li1tr7td1").style.textAlign = '';
+			document.getElementById("ul1li1tr7td2").innerText = '';
+			document.getElementById("ul1li1tr7td2").style.textAlign = '';
+			document.getElementById("ul1li1tr7td3").innerText = '';
+			document.getElementById("ul1li1tr7td4").innerText = '';
+			document.getElementById("ul1li1tr8td1").innerText = '';
+			document.getElementById("ul1li1tr8td1").style.textAlign = '';
+			document.getElementById("ul1li1tr8td2").innerText = '';
+			document.getElementById("ul1li1tr8td2").style.textAlign = '';
+			document.getElementById("ul1li1tr8td3").innerText = '';
+			document.getElementById("ul1li1tr8td4").innerText = '';
+			document.getElementById("ul1li1tr9td1").innerText = '';
+			document.getElementById("ul1li1tr9td1").style.textAlign = '';
+			document.getElementById("ul1li1tr9td2").innerText = '';
+			document.getElementById("ul1li1tr9td2").style.textAlign = '';
+			document.getElementById("ul1li1tr9td3").innerText = '';
+			document.getElementById("ul1li1tr9td4").innerText = '';
 		});
 		$('#rbCRoloAngora').click(function() {
 			$("#rightImageAngora").attr('src', 'images/18/ravel.JPG');
@@ -489,6 +513,30 @@ Version: 1.3.1
 			document.getElementById("ul1li1tr5td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td3").innerText = '250';
 			document.getElementById("ul1li1tr5td4").innerText = '45';
+            document.getElementById("ul1li1tr6td1").innerText = '';
+			document.getElementById("ul1li1tr6td1").style.textAlign = '';
+			document.getElementById("ul1li1tr6td2").innerText = '';
+			document.getElementById("ul1li1tr6td2").style.textAlign = '';
+			document.getElementById("ul1li1tr6td3").innerText = '';
+			document.getElementById("ul1li1tr6td4").innerText = '';
+			document.getElementById("ul1li1tr7td1").innerText = '';
+			document.getElementById("ul1li1tr7td1").style.textAlign = '';
+			document.getElementById("ul1li1tr7td2").innerText = '';
+			document.getElementById("ul1li1tr7td2").style.textAlign = '';
+			document.getElementById("ul1li1tr7td3").innerText = '';
+			document.getElementById("ul1li1tr7td4").innerText = '';
+			document.getElementById("ul1li1tr8td1").innerText = '';
+			document.getElementById("ul1li1tr8td1").style.textAlign = '';
+			document.getElementById("ul1li1tr8td2").innerText = '';
+			document.getElementById("ul1li1tr8td2").style.textAlign = '';
+			document.getElementById("ul1li1tr8td3").innerText = '';
+			document.getElementById("ul1li1tr8td4").innerText = '';
+			document.getElementById("ul1li1tr9td1").innerText = '';
+			document.getElementById("ul1li1tr9td1").style.textAlign = '';
+			document.getElementById("ul1li1tr9td2").innerText = '';
+			document.getElementById("ul1li1tr9td2").style.textAlign = '';
+			document.getElementById("ul1li1tr9td3").innerText = '';
+			document.getElementById("ul1li1tr9td4").innerText = '';
 		});
 		
 
@@ -537,6 +585,30 @@ Version: 1.3.1
 			document.getElementById("ul1li1tr5td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td3").innerText = '150';
 			document.getElementById("ul1li1tr5td4").innerText = '30';
+            document.getElementById("ul1li1tr6td1").innerText = '';
+			document.getElementById("ul1li1tr6td1").style.textAlign = '';
+			document.getElementById("ul1li1tr6td2").innerText = '';
+			document.getElementById("ul1li1tr6td2").style.textAlign = '';
+			document.getElementById("ul1li1tr6td3").innerText = '';
+			document.getElementById("ul1li1tr6td4").innerText = '';
+			document.getElementById("ul1li1tr7td1").innerText = '';
+			document.getElementById("ul1li1tr7td1").style.textAlign = '';
+			document.getElementById("ul1li1tr7td2").innerText = '';
+			document.getElementById("ul1li1tr7td2").style.textAlign = '';
+			document.getElementById("ul1li1tr7td3").innerText = '';
+			document.getElementById("ul1li1tr7td4").innerText = '';
+			document.getElementById("ul1li1tr8td1").innerText = '';
+			document.getElementById("ul1li1tr8td1").style.textAlign = '';
+			document.getElementById("ul1li1tr8td2").innerText = '';
+			document.getElementById("ul1li1tr8td2").style.textAlign = '';
+			document.getElementById("ul1li1tr8td3").innerText = '';
+			document.getElementById("ul1li1tr8td4").innerText = '';
+			document.getElementById("ul1li1tr9td1").innerText = '';
+			document.getElementById("ul1li1tr9td1").style.textAlign = '';
+			document.getElementById("ul1li1tr9td2").innerText = '';
+			document.getElementById("ul1li1tr9td2").style.textAlign = '';
+			document.getElementById("ul1li1tr9td3").innerText = '';
+			document.getElementById("ul1li1tr9td4").innerText = '';
 			
 		});
 		
@@ -616,18 +688,24 @@ Version: 1.3.1
 		
 		//Antigota
 		$('#openModelAntigotaImg').click(function() {
-			document.getElementById("rbMiniRoloAntigota").click();
+			document.getElementById("rbRoloAntigota").click();
 		});
 		
 		
 		$('#rbRoloAntigota').click(function() {
 			$("#rightImageAntigota").attr('src', 'images/18/ravel.JPG');
-			document.getElementById('rbRoloAntigota').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloAntigota').style.fontSize = '1.0em';
+			document.getElementById('rbRoloAntigota').style.fontSize = '1.0em';
+			document.getElementById('rbCRoloAntigota').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloAntigota').style.fontSize = '0.8em';
+			document.getElementById('rbCMiniRoloAntigota').style.fontSize = '0.8em';
 			document.getElementById('rbRoloAntigota').style.fontWeight = 'bold';
+			document.getElementById('rbCRoloAntigota').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloAntigota').style.fontWeight = 'normal';
+			document.getElementById('rbCMiniRoloAntigota').style.fontWeight = 'normal';
 			document.getElementById('rbRoloAntigota').style.color = '#FFF';
+			document.getElementById('rbCRoloAntigota').style.color = '#FFF';
 			document.getElementById('rbMiniRoloAntigota').style.color = '#FFF';
+			document.getElementById('rbCMiniRoloAntigota').style.color = '#FFF';
 			document.getElementById("ul1li2tr1td1").innerText = '01RANT180';
 			document.getElementById("ul1li2tr1td2").innerText = 'Rolo Antigota';
 			document.getElementById("ul1li2tr1td3").innerText = '180';
@@ -640,54 +718,100 @@ Version: 1.3.1
 			document.getElementById("ul1li2tr3td2").innerText = 'Rolo Antigota';
 			document.getElementById("ul1li2tr3td3").innerText = '250';
 			document.getElementById("ul1li2tr3td4").innerText = '45';
-			document.getElementById("ul1li2tr4td1").innerText = '01CANT180';
+			document.getElementById("ul1li2tr4td1").innerText = '01RANT1805';
+			document.getElementById("ul1li2tr4td2").innerText = 'Rolo Antigota';
+			document.getElementById("ul1li2tr4td3").innerText = '180';
+			document.getElementById("ul1li2tr4td4").innerText = '50';
+			document.getElementById("ul1li2tr5td1").innerText = '01RANT2205';
+			document.getElementById("ul1li2tr5td2").innerText = 'Rolo Antigota';
+			document.getElementById("ul1li2tr5td3").innerText = '220';
+			document.getElementById("ul1li2tr5td4").innerText = '50';
+			document.getElementById("ul1li2tr6td1").innerText = '01RANT2505';
+			document.getElementById("ul1li2tr6td2").innerText = 'Rolo Antigota';
+			document.getElementById("ul1li2tr6td3").innerText = '250';
+			document.getElementById("ul1li2tr6td4").innerText = '50';
+			document.getElementById("ul1li2tr7td1").innerText = '';
+			document.getElementById("ul1li2tr7td2").innerText = '';
+			document.getElementById("ul1li2tr7td3").innerText = '';
+			document.getElementById("ul1li2tr7td4").innerText = '';
+			document.getElementById("ul1li2tr8td1").innerText = '';
+			document.getElementById("ul1li2tr8td2").innerText = '';
+			document.getElementById("ul1li2tr8td3").innerText = '';
+			document.getElementById("ul1li2tr8td4").innerText = '';
+		});
+        
+        $('#rbCRoloAntigota').click(function() {
+			$("#rightImageAntigota").attr('src', 'images/18/ravel.JPG');
+			document.getElementById('rbRoloAntigota').style.fontSize = '0.8em';
+			document.getElementById('rbCRoloAntigota').style.fontSize = '1.0em';
+			document.getElementById('rbMiniRoloAntigota').style.fontSize = '0.8em';
+			document.getElementById('rbCMiniRoloAntigota').style.fontSize = '0.8em';
+			document.getElementById('rbRoloAntigota').style.fontWeight = 'normal';
+			document.getElementById('rbCRoloAntigota').style.fontWeight = 'bold';
+			document.getElementById('rbMiniRoloAntigota').style.fontWeight = 'normal';
+			document.getElementById('rbCMiniRoloAntigota').style.fontWeight = 'normal';
+			document.getElementById('rbRoloAntigota').style.color = '#FFF';
+			document.getElementById('rbCRoloAntigota').style.color = '#FFF';
+			document.getElementById('rbMiniRoloAntigota').style.color = '#FFF';
+			document.getElementById('rbCMiniRoloAntigota').style.color = '#FFF';
+			document.getElementById("ul1li2tr1td1").innerText = '01CANT180';
+			document.getElementById("ul1li2tr1td2").innerText = 'Carga Antigota';
+			document.getElementById("ul1li2tr1td3").innerText = '180';
+			document.getElementById("ul1li2tr1td4").innerText = '45';
+			document.getElementById("ul1li2tr2td1").innerText = '01CANT220';
+			document.getElementById("ul1li2tr2td2").innerText = 'Carga Antigota';
+			document.getElementById("ul1li2tr2td3").innerText = '220';
+			document.getElementById("ul1li2tr2td4").innerText = '45';
+			document.getElementById("ul1li2tr3td1").innerText = '01CANT250';
+			document.getElementById("ul1li2tr3td2").innerText = 'Carga Antigota';
+			document.getElementById("ul1li2tr3td3").innerText = '250';
+			document.getElementById("ul1li2tr3td4").innerText = '45';
+			document.getElementById("ul1li2tr4td1").innerText = '01CANT1805';
 			document.getElementById("ul1li2tr4td2").innerText = 'Carga Antigota';
 			document.getElementById("ul1li2tr4td3").innerText = '180';
-			document.getElementById("ul1li2tr4td4").innerText = '45';
-			document.getElementById("ul1li2tr5td1").innerText = '01CANT220';
-			document.getElementById("ul1li2tr5td2").innerText = 'Carga Antigota';
-			document.getElementById("ul1li2tr5td3").innerText = '220';
-			document.getElementById("ul1li2tr5td4").innerText = '45';
-			document.getElementById("ul1li2tr6td1").innerText = '01CANT250';
-			document.getElementById("ul1li2tr6td2").innerText = 'Carga Antigota';
-			document.getElementById("ul1li2tr6td3").innerText = '250';
-			document.getElementById("ul1li2tr6td4").innerText = '45';
-			document.getElementById("ul1li2tr7td1").innerText = '01RANT1805';
-			document.getElementById("ul1li2tr7td2").innerText = 'Rolo Antigota';
-			document.getElementById("ul1li2tr7td3").innerText = '180';
-			document.getElementById("ul1li2tr7td4").innerText = '50';
-			document.getElementById("ul1li2tr8td1").innerText = '01RANT2205';
-			document.getElementById("ul1li2tr8td2").innerText = 'Rolo Antigota';
-			document.getElementById("ul1li2tr8td3").innerText = '220';
-			document.getElementById("ul1li2tr8td4").innerText = '50';
-			document.getElementById("ul1li2tr9td1").innerText = '01RANT2505';
-			document.getElementById("ul1li2tr9td2").innerText = 'Rolo Antigota';
-			document.getElementById("ul1li2tr9td3").innerText = '250';
-			document.getElementById("ul1li2tr9td4").innerText = '50';
-			document.getElementById("ul1li2tr10td1").innerText = '01CANT1805';
-			document.getElementById("ul1li2tr10td2").innerText = 'Carga Antigota';
-			document.getElementById("ul1li2tr10td3").innerText = '180';
-			document.getElementById("ul1li2tr10td4").innerText = '50';
-			document.getElementById("ul1li2tr11td1").innerText = '01CANT2205';
-			document.getElementById("ul1li2tr11td2").innerText = 'Carga Antigota';
-			document.getElementById("ul1li2tr11td3").innerText = '220';
-			document.getElementById("ul1li2tr11td4").innerText = '50';
-			document.getElementById("ul1li2tr12td1").innerText = '01CANT2505';
-			document.getElementById("ul1li2tr12td2").innerText = 'Carga Antigota';
-			document.getElementById("ul1li2tr12td3").innerText = '250';
-			document.getElementById("ul1li2tr12td4").innerText = '50';
+			document.getElementById("ul1li2tr4td4").innerText = '50';
+			document.getElementById("ul1li2tr4td1").innerText = '01CANT2205';
+			document.getElementById("ul1li2tr4td2").innerText = 'Carga Antigota';
+			document.getElementById("ul1li2tr4td3").innerText = '220';
+			document.getElementById("ul1li2tr4td4").innerText = '50';
+			document.getElementById("ul1li2tr4td1").innerText = '01CANT2505';
+			document.getElementById("ul1li2tr4td2").innerText = 'Carga Antigota';
+			document.getElementById("ul1li2tr4td3").innerText = '250';
+			document.getElementById("ul1li2tr4td4").innerText = '50';
+            document.getElementById("ul1li2tr5td1").innerText = '';
+			document.getElementById("ul1li2tr5td2").innerText = '';
+			document.getElementById("ul1li2tr5td3").innerText = '';
+			document.getElementById("ul1li2tr5td4").innerText = '';
+			document.getElementById("ul1li2tr6td1").innerText = '';
+			document.getElementById("ul1li2tr6td2").innerText = '';
+			document.getElementById("ul1li2tr6td3").innerText = '';
+			document.getElementById("ul1li2tr6td4").innerText = '';
+			document.getElementById("ul1li2tr7td1").innerText = '';
+			document.getElementById("ul1li2tr7td2").innerText = '';
+			document.getElementById("ul1li2tr7td3").innerText = '';
+			document.getElementById("ul1li2tr7td4").innerText = '';
+			document.getElementById("ul1li2tr8td1").innerText = '';
+			document.getElementById("ul1li2tr8td2").innerText = '';
+			document.getElementById("ul1li2tr8td3").innerText = '';
+			document.getElementById("ul1li2tr8td4").innerText = '';
 			
 		});
 
 							   
 		$('#rbMiniRoloAntigota').click(function() {
 			$("#rightImageAntigota").attr('src', 'images/18/Antigota.JPG');
-			document.getElementById('rbRoloAntigota').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloAntigota').style.fontSize = '1.2em';
+			document.getElementById('rbRoloAntigota').style.fontSize = '0.8em';
+			document.getElementById('rbCRoloAntigota').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloAntigota').style.fontSize = '1.0em';
+			document.getElementById('rbCMiniRoloAntigota').style.fontSize = '0.8em';
 			document.getElementById('rbRoloAntigota').style.fontWeight = 'normal';
+			document.getElementById('rbCRoloAntigota').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloAntigota').style.fontWeight = 'bold';
+			document.getElementById('rbCMiniRoloAntigota').style.fontWeight = 'normal';
 			document.getElementById('rbRoloAntigota').style.color = '#FFF';
+			document.getElementById('rbCRoloAntigota').style.color = '#FFF';
 			document.getElementById('rbMiniRoloAntigota').style.color = '#FFF';
+			document.getElementById('rbCMiniRoloAntigota').style.color = '#FFF';
 			document.getElementById("ul1li2tr1td1").innerText = '01MRANTC6';
 			document.getElementById("ul1li2tr1td2").innerText = 'Mini Rolo';
 			document.getElementById("ul1li2tr1td3").innerText = '60';
@@ -696,49 +820,78 @@ Version: 1.3.1
 			document.getElementById("ul1li2tr2td2").innerText = 'Mini Rolo';
 			document.getElementById("ul1li2tr2td3").innerText = '100';
 			document.getElementById("ul1li2tr2td4").innerText = '16';
-			document.getElementById("ul1li2tr3td1").innerText = '01CIANT6';
-			document.getElementById("ul1li2tr3td2").innerText = 'Carga Antigota';
+			document.getElementById("ul1li2tr3td1").innerText = '01CMDRANT12';
+			document.getElementById("ul1li2tr3td2").innerText = 'Mini Rolo';
+			document.getElementById("ul1li2tr3td3").innerText = '120';
+			document.getElementById("ul1li2tr3td4").innerText = '30';
+			document.getElementById("ul1li2tr4td1").innerText = '01CMDRANT15';
+			document.getElementById("ul1li2tr4td2").innerText = 'Mini Rolo';
+			document.getElementById("ul1li2tr4td3").innerText = '150';
+			document.getElementById("ul1li2tr4td4").innerText = '30';
+            document.getElementById("ul1li2tr5td1").innerText = '';
+			document.getElementById("ul1li2tr5td2").innerText = '';
+			document.getElementById("ul1li2tr5td3").innerText = '';
+			document.getElementById("ul1li2tr5td4").innerText = '';
+			document.getElementById("ul1li2tr6td1").innerText = '';
+			document.getElementById("ul1li2tr6td2").innerText = '';
+			document.getElementById("ul1li2tr6td3").innerText = '';
+			document.getElementById("ul1li2tr6td4").innerText = '';
+			document.getElementById("ul1li2tr7td1").innerText = '';
+			document.getElementById("ul1li2tr7td2").innerText = '';
+			document.getElementById("ul1li2tr7td3").innerText = '';
+			document.getElementById("ul1li2tr7td4").innerText = '';
+			document.getElementById("ul1li2tr8td1").innerText = '';
+			document.getElementById("ul1li2tr8td2").innerText = '';
+			document.getElementById("ul1li2tr8td3").innerText = '';
+			document.getElementById("ul1li2tr8td4").innerText = '';
+		});
+        
+        $('#rbCMiniRoloAntigota').click(function() {
+			$("#rightImageAntigota").attr('src', 'images/18/Antigota.JPG');
+			document.getElementById('rbRoloAntigota').style.fontSize = '0.8em';
+			document.getElementById('rbCRoloAntigota').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloAntigota').style.fontSize = '0.8em';
+			document.getElementById('rbCMiniRoloAntigota').style.fontSize = '1.0em';
+			document.getElementById('rbRoloAntigota').style.fontWeight = 'normal';
+			document.getElementById('rbCRoloAntigota').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloAntigota').style.fontWeight = 'normal';
+			document.getElementById('rbCMiniRoloAntigota').style.fontWeight = 'bold';
+			document.getElementById('rbRoloAntigota').style.color = '#FFF';
+			document.getElementById('rbCRoloAntigota').style.color = '#FFF';
+			document.getElementById('rbMiniRoloAntigota').style.color = '#FFF';
+			document.getElementById('rbCMiniRoloAntigota').style.color = '#FFF';
+			document.getElementById("ul1li2tr1td1").innerText = '01CIANT6';
+			document.getElementById("ul1li2tr1td2").innerText = 'Carga Antigota';
+			document.getElementById("ul1li2tr1td3").innerText = '60';
+			document.getElementById("ul1li2tr1td4").innerText = '16';
+			document.getElementById("ul1li2tr2td1").innerText = '01CIANT';
+			document.getElementById("ul1li2tr2td2").innerText = 'Carga Antigora';
+			document.getElementById("ul1li2tr2td3").innerText = '100';
+			document.getElementById("ul1li2tr2td4").innerText = '16';
+			document.getElementById("ul1li2tr3td1").innerText = '012CMRANT6';
+			document.getElementById("ul1li2tr3td2").innerText = 'Pack 2 unidades';
 			document.getElementById("ul1li2tr3td3").innerText = '60';
 			document.getElementById("ul1li2tr3td4").innerText = '16';
-			document.getElementById("ul1li2tr4td1").innerText = '01CIANT';
-			document.getElementById("ul1li2tr4td2").innerText = 'Carga Antigora';
+			document.getElementById("ul1li2tr4td1").innerText = '012CMRANT11';
+			document.getElementById("ul1li2tr4td2").innerText = 'Pack 2 unidades';
 			document.getElementById("ul1li2tr4td3").innerText = '100';
 			document.getElementById("ul1li2tr4td4").innerText = '16';
 			document.getElementById("ul1li2tr5td1").innerText = '012CMRANT6';
 			document.getElementById("ul1li2tr5td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul1li2tr5td3").innerText = '60';
+			document.getElementById("ul1li2tr5td3").innerText = '150';
 			document.getElementById("ul1li2tr5td4").innerText = '16';
-			document.getElementById("ul1li2tr6td1").innerText = '012CMRANT11';
-			document.getElementById("ul1li2tr6td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul1li2tr6td3").innerText = '100';
+			document.getElementById("ul1li2tr6td1").innerText = '01CXANT';
+			document.getElementById("ul1li2tr6td2").innerText = 'Blister 10 unidades';
+			document.getElementById("ul1li2tr6td3").innerText = '150';
 			document.getElementById("ul1li2tr6td4").innerText = '16';
-			document.getElementById("ul1li2tr7td1").innerText = '012CMRANT6';
+			document.getElementById("ul1li2tr7td1").innerText = '012CMDRANT12';
 			document.getElementById("ul1li2tr7td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul1li2tr7td3").innerText = '150';
-			document.getElementById("ul1li2tr7td4").innerText = '16';
-			document.getElementById("ul1li2tr8td1").innerText = '01CXANT';
-			document.getElementById("ul1li2tr8td2").innerText = 'Blister 10 unidades';
+			document.getElementById("ul1li2tr7td3").innerText = '120';
+			document.getElementById("ul1li2tr7td4").innerText = '30';
+			document.getElementById("ul1li2tr8td1").innerText = '012CMDRANT15';
+			document.getElementById("ul1li2tr8td2").innerText = 'Pack 2 unidades';
 			document.getElementById("ul1li2tr8td3").innerText = '150';
-			document.getElementById("ul1li2tr8td4").innerText = '16';
-			
-			document.getElementById("ul1li2tr9td1").innerText = '01CMDRANT12';
-			document.getElementById("ul1li2tr9td2").innerText = 'Mini Rolo';
-			document.getElementById("ul1li2tr9td3").innerText = '120';
-			document.getElementById("ul1li2tr9td4").innerText = '30';
-			document.getElementById("ul1li2tr10td1").innerText = '01CMDRANT15';
-			document.getElementById("ul1li2tr10td2").innerText = 'Mini Rolo';
-			document.getElementById("ul1li2tr10td3").innerText = '150';
-			document.getElementById("ul1li2tr10td4").innerText = '30';
-			document.getElementById("ul1li2tr11td1").innerText = '012CMDRANT12';
-			document.getElementById("ul1li2tr11td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul1li2tr11td3").innerText = '120';
-			document.getElementById("ul1li2tr11td4").innerText = '30';
-			document.getElementById("ul1li2tr12td1").innerText = '012CMDRANT15';
-			document.getElementById("ul1li2tr12td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul1li2tr12td3").innerText = '150';
-			document.getElementById("ul1li2tr12td4").innerText = '30';
-			
-			
+			document.getElementById("ul1li2tr8td4").innerText = '30';
 		});
 		
 		
@@ -746,18 +899,18 @@ Version: 1.3.1
 		
 		//Antigota Verde
 		$('#openModelAntigotaVImg').click(function() {
-			document.getElementById("rbMiniRoloAntigotaV").click();
+			document.getElementById("rbRoloAntigotaV").click();
 		});
 		
 		
 		$('#rbRoloAntigotaV').click(function() {
 			$("#rightImageAntigotaV").attr('src', 'images/18/ravel.JPG');
-			document.getElementById('rbRoloAntigotaV').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloAntigotaV').style.fontSize = '1.0em';
+			document.getElementById('rbRoloAntigotaV').style.fontSize = '1.0em';
+			document.getElementById('rbCRoloAntigotaV').style.fontSize = '0.8em';
 			document.getElementById('rbRoloAntigotaV').style.fontWeight = 'bold';
-			document.getElementById('rbMiniRoloAntigotaV').style.fontWeight = 'normal';
+			document.getElementById('rbCRoloAntigotaV').style.fontWeight = 'normal';
 			document.getElementById('rbRoloAntigotaV').style.color = '#FFF';
-			document.getElementById('rbMiniRoloAntigotaV').style.color = '#FFF';
+			document.getElementById('rbCRoloAntigotaV').style.color = '#FFF';
 			document.getElementById("ul1li3tr1td1").innerText = '01RANTV180';
 			document.getElementById("ul1li3tr1td2").innerText = 'Rolo Antigota Verde';
 			document.getElementById("ul1li3tr1td3").innerText = '180';
@@ -770,47 +923,57 @@ Version: 1.3.1
 			document.getElementById("ul1li3tr3td2").innerText = 'Rolo Antigota Verde';
 			document.getElementById("ul1li3tr3td3").innerText = '250';
 			document.getElementById("ul1li3tr3td4").innerText = '45';
-			document.getElementById("ul1li3tr4td1").innerText = '01CANTV180';
+			document.getElementById("ul1li3tr4td1").innerText = '01RANTV1805';
+			document.getElementById("ul1li3tr4td2").innerText = 'Rolo Antigota Verde';
+			document.getElementById("ul1li3tr4td3").innerText = '180';
+			document.getElementById("ul1li3tr4td4").innerText = '50';
+			document.getElementById("ul1li3tr5td1").innerText = '01RANTV2205';
+			document.getElementById("ul1li3tr5td2").innerText = 'Rolo Antigota Verde';
+			document.getElementById("ul1li3tr5td3").innerText = '220';
+			document.getElementById("ul1li3tr5td4").innerText = '50';
+			document.getElementById("ul1li3tr6td1").innerText = '01RANTV2505';
+			document.getElementById("ul1li3tr6td2").innerText = 'Rolo Antigota Verde';
+			document.getElementById("ul1li3tr6td3").innerText = '250';
+			document.getElementById("ul1li3tr6td4").innerText = '50';
+		});
+        
+        $('#rbCRoloAntigotaV').click(function() {
+			$("#rightImageAntigotaV").attr('src', 'images/18/ravel.JPG');
+			document.getElementById('rbRoloAntigotaV').style.fontSize = '0.8em';
+			document.getElementById('rbCRoloAntigotaV').style.fontSize = '1.0em';
+			document.getElementById('rbRoloAntigotaV').style.fontWeight = 'normal';
+			document.getElementById('rbCRoloAntigotaV').style.fontWeight = 'bold';
+			document.getElementById('rbRoloAntigotaV').style.color = '#FFF';
+			document.getElementById('rbCRoloAntigotaV').style.color = '#FFF';
+			document.getElementById("ul1li3tr1td1").innerText = '01CANTV180';
+			document.getElementById("ul1li3tr1td2").innerText = 'Carga Antigota Verde';
+			document.getElementById("ul1li3tr1td3").innerText = '180';
+			document.getElementById("ul1li3tr1td4").innerText = '45';
+			document.getElementById("ul1li3tr2td1").innerText = '01CANTV220';
+			document.getElementById("ul1li3tr2td2").innerText = 'Carga Antigota Verde';
+			document.getElementById("ul1li3tr2td3").innerText = '220';
+			document.getElementById("ul1li3tr2td4").innerText = '45';
+			document.getElementById("ul1li3tr3td1").innerText = '01CANTV250';
+			document.getElementById("ul1li3tr3td2").innerText = 'Carga Antigota Verde';
+			document.getElementById("ul1li3tr3td3").innerText = '250';
+			document.getElementById("ul1li3tr3td4").innerText = '45';
+			document.getElementById("ul1li3tr4td1").innerText = '01CANTV1805';
 			document.getElementById("ul1li3tr4td2").innerText = 'Carga Antigota Verde';
 			document.getElementById("ul1li3tr4td3").innerText = '180';
-			document.getElementById("ul1li3tr4td4").innerText = '45';
-			document.getElementById("ul1li3tr5td1").innerText = '01CANTV220';
+			document.getElementById("ul1li3tr4td4").innerText = '50';
+			document.getElementById("ul1li3tr5td1").innerText = '01CANTV2205';
 			document.getElementById("ul1li3tr5td2").innerText = 'Carga Antigota Verde';
 			document.getElementById("ul1li3tr5td3").innerText = '220';
-			document.getElementById("ul1li3tr5td4").innerText = '45';
-			document.getElementById("ul1li3tr6td1").innerText = '01CANTV250';
+			document.getElementById("ul1li3tr5td4").innerText = '50';
+			document.getElementById("ul1li3tr6td1").innerText = '01CANTV2505';
 			document.getElementById("ul1li3tr6td2").innerText = 'Carga Antigota Verde';
 			document.getElementById("ul1li3tr6td3").innerText = '250';
-			document.getElementById("ul1li3tr6td4").innerText = '45';
-			document.getElementById("ul1li3tr7td1").innerText = '01RANTV1805';
-			document.getElementById("ul1li3tr7td2").innerText = 'Rolo Antigota Verde';
-			document.getElementById("ul1li3tr7td3").innerText = '180';
-			document.getElementById("ul1li3tr7td4").innerText = '50';
-			document.getElementById("ul1li3tr8td1").innerText = '01RANTV2205';
-			document.getElementById("ul1li3tr8td2").innerText = 'Rolo Antigota Verde';
-			document.getElementById("ul1li3tr8td3").innerText = '220';
-			document.getElementById("ul1li3tr8td4").innerText = '50';
-			document.getElementById("ul1li3tr9td1").innerText = '01RANTV2505';
-			document.getElementById("ul1li3tr9td2").innerText = 'Rolo Antigota Verde';
-			document.getElementById("ul1li3tr9td3").innerText = '250';
-			document.getElementById("ul1li3tr9td4").innerText = '50';
-			document.getElementById("ul1li3tr10td1").innerText = '01CANTV1805';
-			document.getElementById("ul1li3tr10td2").innerText = 'Carga Antigota Verde';
-			document.getElementById("ul1li3tr10td3").innerText = '180';
-			document.getElementById("ul1li3tr10td4").innerText = '50';
-			document.getElementById("ul1li3tr11td1").innerText = '01CANTV2205';
-			document.getElementById("ul1li3tr11td2").innerText = 'Carga Antigota Verde';
-			document.getElementById("ul1li3tr11td3").innerText = '220';
-			document.getElementById("ul1li3tr11td4").innerText = '50';
-			document.getElementById("ul1li3tr12td1").innerText = '01CANTV2505';
-			document.getElementById("ul1li3tr12td2").innerText = 'Carga Antigota Verde';
-			document.getElementById("ul1li3tr12td3").innerText = '250';
-			document.getElementById("ul1li3tr12td4").innerText = '50';
+			document.getElementById("ul1li3tr6td4").innerText = '50';
 			
 		});
 
 							   
-		$('#rbMiniRoloAntigotaV').click(function() {
+		/*$('#rbMiniRoloAntigotaV').click(function() {
 			$("#rightImageAntigotaV").attr('src', 'images/18/AntigotaV.JPG');
 			document.getElementById('rbRoloAntigotaV').style.fontSize = '1.0em';
 			document.getElementById('rbMiniRoloAntigotaV').style.fontSize = '1.2em';
@@ -848,23 +1011,62 @@ Version: 1.3.1
 			document.getElementById("ul1li3tr7td4").innerText = '';
 			
 		});
+        
+        $('#rbCMiniRoloAntigotaV').click(function() {
+			$("#rightImageAntigotaV").attr('src', 'images/18/AntigotaV.JPG');
+			document.getElementById('rbRoloAntigotaV').style.fontSize = '1.0em';
+			document.getElementById('rbMiniRoloAntigotaV').style.fontSize = '1.2em';
+			document.getElementById('rbRoloAntigotaV').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloAntigotaV').style.fontWeight = 'bold';
+			document.getElementById('rbRoloAntigotaV').style.color = '#FFF';
+			document.getElementById('rbMiniRoloAntigotaV').style.color = '#FFF';
+			document.getElementById("ul1li3tr1td1").innerText = '';
+			document.getElementById("ul1li3tr1td2").innerText = '';
+			document.getElementById("ul1li3tr1td3").innerText = '';
+			document.getElementById("ul1li3tr1td4").innerText = '';
+			document.getElementById("ul1li3tr2td1").innerText = '';
+			document.getElementById("ul1li3tr2td2").innerText = '';
+			document.getElementById("ul1li3tr2td3").innerText = '';
+			document.getElementById("ul1li3tr2td4").innerText = '';
+			document.getElementById("ul1li3tr3td1").innerText = '';
+			document.getElementById("ul1li3tr3td2").innerText = '';
+			document.getElementById("ul1li3tr3td3").innerText = '';
+			document.getElementById("ul1li3tr3td4").innerText = '';
+			document.getElementById("ul1li3tr4td1").innerText = '';
+			document.getElementById("ul1li3tr4td2").innerText = '';
+			document.getElementById("ul1li3tr4td3").innerText = '';
+			document.getElementById("ul1li3tr4td4").innerText = '';
+			document.getElementById("ul1li3tr5td1").innerText = '';
+			document.getElementById("ul1li3tr5td2").innerText = '';
+			document.getElementById("ul1li3tr5td3").innerText = '';
+			document.getElementById("ul1li3tr5td4").innerText = '';
+			document.getElementById("ul1li3tr6td1").innerText = '';
+			document.getElementById("ul1li3tr6td2").innerText = '';
+			document.getElementById("ul1li3tr6td3").innerText = '';
+			document.getElementById("ul1li3tr6td4").innerText = '';
+			document.getElementById("ul1li3tr7td1").innerText = '';
+			document.getElementById("ul1li3tr7td2").innerText = '';
+			document.getElementById("ul1li3tr7td3").innerText = '';
+			document.getElementById("ul1li3tr7td4").innerText = '';
+			
+		});*/
     
     
 	
 		//Menu 18
 		$('#openModelCromadoImg').click(function() {
-			document.getElementById("rbMiniRoloCromado").click();
+			document.getElementById("rbRoloCromado").click();
 		});
 		
 		
 		$('#rbRoloCromado').click(function() {
 			$("#rightImageCromado").attr('src', 'images/18/ravel.JPG');
-			document.getElementById('rbRoloCromado').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloCromado').style.fontSize = '1.0em';
+			document.getElementById('rbRoloCromado').style.fontSize = '1.0em';
+			document.getElementById('rbCRoloCromado').style.fontSize = '0.8em';
 			document.getElementById('rbRoloCromado').style.fontWeight = 'bold';
-			document.getElementById('rbMiniRoloCromado').style.fontWeight = 'normal';
+			document.getElementById('rbCRoloCromado').style.fontWeight = 'normal';
 			document.getElementById('rbRoloCromado').style.color = '#FFF';
-			document.getElementById('rbMiniRoloCromado').style.color = '#FFF';
+			document.getElementById('rbCRoloCromado').style.color = '#FFF';
 			document.getElementById("ul1li4tr1td1").innerText = '01RPC180';
 			document.getElementById("ul1li4tr1td2").innerText = 'Rolo Cromado';
 			document.getElementById("ul1li4tr1td3").innerText = '180';
@@ -877,26 +1079,33 @@ Version: 1.3.1
 			document.getElementById("ul1li4tr3td2").innerText = 'Rolo Cromado';
 			document.getElementById("ul1li4tr3td3").innerText = '250';
 			document.getElementById("ul1li4tr3td4").innerText = '45';
-			document.getElementById("ul1li4tr4td1").innerText = '01CPC180';
-			document.getElementById("ul1li4tr4td2").innerText = 'Carga Cromado';
-			document.getElementById("ul1li4tr4td3").innerText = '180';
-			document.getElementById("ul1li4tr4td4").innerText = '45';
-			document.getElementById("ul1li4tr5td1").innerText = '01CPC220';
-			document.getElementById("ul1li4tr5td2").innerText = 'Carga Cromado';
-			document.getElementById("ul1li4tr5td3").innerText = '220';
-			document.getElementById("ul1li4tr5td4").innerText = '45';
-			document.getElementById("ul1li4tr6td1").innerText = '01CPC250';
-			document.getElementById("ul1li4tr6td2").innerText = 'Carga Cromado';
-			document.getElementById("ul1li4tr6td3").innerText = '250';
-			document.getElementById("ul1li4tr6td4").innerText = '45';
-			document.getElementById("ul1li4tr7td1").innerText = '';
-			document.getElementById("ul1li4tr7td2").innerText = '';
-			document.getElementById("ul1li4tr7td3").innerText = '';
-			document.getElementById("ul1li4tr7td4").innerText = '';
+			
+		});
+        
+        $('#rbCRoloCromado').click(function() {
+			$("#rightImageCromado").attr('src', 'images/18/ravel.JPG');
+			document.getElementById('rbRoloCromado').style.fontSize = '0.8em';
+			document.getElementById('rbCRoloCromado').style.fontSize = '1.0em';
+			document.getElementById('rbRoloCromado').style.fontWeight = 'normal';
+			document.getElementById('rbCRoloCromado').style.fontWeight = 'bold';
+			document.getElementById('rbRoloCromado').style.color = '#FFF';
+			document.getElementById('rbCRoloCromado').style.color = '#FFF';
+			document.getElementById("ul1li4tr1td1").innerText = '01CPC180';
+			document.getElementById("ul1li4tr1td2").innerText = 'Carga Cromado';
+			document.getElementById("ul1li4tr1td3").innerText = '180';
+			document.getElementById("ul1li4tr1td4").innerText = '45';
+			document.getElementById("ul1li4tr2td1").innerText = '01CPC220';
+			document.getElementById("ul1li4tr2td2").innerText = 'Carga Cromado';
+			document.getElementById("ul1li4tr2td3").innerText = '220';
+			document.getElementById("ul1li4tr2td4").innerText = '45';
+			document.getElementById("ul1li4tr3td1").innerText = '01CPC250';
+			document.getElementById("ul1li4tr3td2").innerText = 'Carga Cromado';
+			document.getElementById("ul1li4tr3td3").innerText = '250';
+			document.getElementById("ul1li4tr3td4").innerText = '45';
 			
 		});
 
-							   
+		/*					   
 		$('#rbMiniRoloCromado').click(function() {
 			$("#rightImageCromado").attr('src', 'images/18/Cromado.JPG');
 			document.getElementById('rbRoloCromado').style.fontSize = '1.0em';
@@ -935,30 +1144,36 @@ Version: 1.3.1
 			document.getElementById("ul1li4tr7td4").innerText = '';
 			
 		});
-		
+		 */
 		
 		//Espuma
 		$('#openModelEspumaImg').click(function() {
-			document.getElementById("rbMiniRoloEspuma").click();
+			document.getElementById("rbRoloEspuma").click();
 		});
 		
 		
 		$('#rbRoloEspuma').click(function() {
 			$("#rightImageEspuma").attr('src', 'images/18/ravel.JPG');
-			document.getElementById('rbRoloEspuma').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloEspuma').style.fontSize = '1.0em';
+			document.getElementById('rbRoloEspuma').style.fontSize = '1.0em';
+            document.getElementById('rbCRoloEspuma').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloEspuma').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloEspuma').style.fontSize = '0.8em';
 			document.getElementById('rbRoloEspuma').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloEspuma').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloEspuma').style.fontWeight = 'normal';
+			document.getElementById('rbCMiniRoloEspuma').style.fontWeight = 'normal';
 			document.getElementById('rbRoloEspuma').style.color = '#FFF';
+            document.getElementById('rbCRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbMiniRoloEspuma').style.color = '#FFF';
+			document.getElementById('rbCMiniRoloEspuma').style.color = '#FFF';
 			document.getElementById("ul2li1tr1td1").innerText = '01REC';
-			document.getElementById("ul2li1tr1td2").innerText = 'Rolo Espnuma Canto';
+			document.getElementById("ul2li1tr1td2").innerText = 'Rolo Espuma Canto';
 			document.getElementById("ul2li1tr1td3").innerText = '';
 			document.getElementById("ul2li1tr1td4").innerText = '75';
-			document.getElementById("ul2li1tr2td1").innerText = '01CEC';
-			document.getElementById("ul2li1tr2td2").innerText = 'Carga Espuma Canto';
+			document.getElementById("ul2li1tr2td1").innerText = '';
+			document.getElementById("ul2li1tr2td2").innerText = '';
 			document.getElementById("ul2li1tr2td3").innerText = '';
-			document.getElementById("ul2li1tr2td4").innerText = '75';
+			document.getElementById("ul2li1tr2td4").innerText = '';
 			document.getElementById("ul2li1tr3td1").innerText = '';
 			document.getElementById("ul2li1tr3td2").innerText = '';
 			document.getElementById("ul2li1tr3td3").innerText = '';
@@ -979,18 +1194,78 @@ Version: 1.3.1
 			document.getElementById("ul2li1tr7td2").innerText = '';
 			document.getElementById("ul2li1tr7td3").innerText = '';
 			document.getElementById("ul2li1tr7td4").innerText = '';
+            document.getElementById("ul2li1tr8td1").innerText = '';
+			document.getElementById("ul2li1tr8td2").innerText = '';
+			document.getElementById("ul2li1tr8td3").innerText = '';
+			document.getElementById("ul2li1tr8td4").innerText = '';
+			
+		});
+        
+        $('#rbCRoloEspuma').click(function() {
+			$("#rightImageEspuma").attr('src', 'images/18/ravel.JPG');
+			document.getElementById('rbRoloEspuma').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloEspuma').style.fontSize = '1.0em';
+			document.getElementById('rbMiniRoloEspuma').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloEspuma').style.fontSize = '0.8em';
+			document.getElementById('rbRoloEspuma').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloEspuma').style.fontWeight = 'bold';
+			document.getElementById('rbMiniRoloEspuma').style.fontWeight = 'normal';
+			document.getElementById('rbCMiniRoloEspuma').style.fontWeight = 'normal';
+			document.getElementById('rbRoloEspuma').style.color = '#FFF';
+            document.getElementById('rbCRoloEspuma').style.color = '#FFF';
+			document.getElementById('rbMiniRoloEspuma').style.color = '#FFF';
+			document.getElementById('rbCMiniRoloEspuma').style.color = '#FFF';
+			document.getElementById("ul2li1tr1td1").innerText = '01CEC';
+			document.getElementById("ul2li1tr1td2").innerText = 'Carga Espnuma Canto';
+			document.getElementById("ul2li1tr1td3").innerText = '';
+			document.getElementById("ul2li1tr1td4").innerText = '75';
+			document.getElementById("ul2li1tr2td1").innerText = '';
+			document.getElementById("ul2li1tr2td2").innerText = '';
+			document.getElementById("ul2li1tr2td3").innerText = '';
+			document.getElementById("ul2li1tr2td4").innerText = '';
+			document.getElementById("ul2li1tr3td1").innerText = '';
+			document.getElementById("ul2li1tr3td2").innerText = '';
+			document.getElementById("ul2li1tr3td3").innerText = '';
+			document.getElementById("ul2li1tr3td4").innerText = '';
+			document.getElementById("ul2li1tr4td1").innerText = '';
+			document.getElementById("ul2li1tr4td2").innerText = '';
+			document.getElementById("ul2li1tr4td3").innerText = '';
+			document.getElementById("ul2li1tr4td4").innerText = '';
+			document.getElementById("ul2li1tr5td1").innerText = '';
+			document.getElementById("ul2li1tr5td2").innerText = '';
+			document.getElementById("ul2li1tr5td3").innerText = '';
+			document.getElementById("ul2li1tr5td4").innerText = '';
+			document.getElementById("ul2li1tr6td1").innerText = '';
+			document.getElementById("ul2li1tr6td2").innerText = '';
+			document.getElementById("ul2li1tr6td3").innerText = '';
+			document.getElementById("ul2li1tr6td4").innerText = '';
+			document.getElementById("ul2li1tr7td1").innerText = '';
+			document.getElementById("ul2li1tr7td2").innerText = '';
+			document.getElementById("ul2li1tr7td3").innerText = '';
+			document.getElementById("ul2li1tr7td4").innerText = '';
+            document.getElementById("ul2li1tr8td1").innerText = '';
+			document.getElementById("ul2li1tr8td2").innerText = '';
+			document.getElementById("ul2li1tr8td3").innerText = '';
+			document.getElementById("ul2li1tr8td4").innerText = '';
 			
 		});
 
-							   
+        
+        
 		$('#rbMiniRoloEspuma').click(function() {
 			$("#rightImageEspuma").attr('src', 'images/18/Espuma.JPG');
-			document.getElementById('rbRoloEspuma').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloEspuma').style.fontSize = '1.2em';
+			document.getElementById('rbRoloEspuma').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloEspuma').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloEspuma').style.fontSize = '1.0em';
+            document.getElementById('rbCMiniRoloEspuma').style.fontSize = '0.8em';
 			document.getElementById('rbRoloEspuma').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloEspuma').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloEspuma').style.fontWeight = 'bold';
+			document.getElementById('rbCMiniRoloEspuma').style.fontWeight = 'normal';
 			document.getElementById('rbRoloEspuma').style.color = '#FFF';
+            document.getElementById('rbCRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbMiniRoloEspuma').style.color = '#FFF';
+			document.getElementById('rbCMiniRoloEspuma').style.color = '#FFF';
 			document.getElementById("ul2li1tr1td1").innerText = '01MRE6';
 			document.getElementById("ul2li1tr1td2").innerText = 'Mini Rolo';
 			document.getElementById("ul2li1tr1td3").innerText = '60';
@@ -999,39 +1274,80 @@ Version: 1.3.1
 			document.getElementById("ul2li1tr2td2").innerText = 'Mini Rolo';
 			document.getElementById("ul2li1tr2td3").innerText = '110';
 			document.getElementById("ul2li1tr2td4").innerText = '16';
-			document.getElementById("ul2li1tr3td1").innerText = '01CE5';
+            document.getElementById("ul2li1tr3td1").innerText = '';
+			document.getElementById("ul2li1tr3td2").innerText = '';
+			document.getElementById("ul2li1tr3td3").innerText = '';
+			document.getElementById("ul2li1tr3td4").innerText = '';
+			document.getElementById("ul2li1tr4td1").innerText = '';
+			document.getElementById("ul2li1tr4td2").innerText = '';
+			document.getElementById("ul2li1tr4td3").innerText = '';
+			document.getElementById("ul2li1tr4td4").innerText = '';
+			document.getElementById("ul2li1tr5td1").innerText = '';
+			document.getElementById("ul2li1tr5td2").innerText = '';
+			document.getElementById("ul2li1tr5td3").innerText = '';
+			document.getElementById("ul2li1tr5td4").innerText = '';
+			document.getElementById("ul2li1tr6td1").innerText = '';
+			document.getElementById("ul2li1tr6td2").innerText = '';
+			document.getElementById("ul2li1tr6td3").innerText = '';
+			document.getElementById("ul2li1tr6td4").innerText = '';
+			document.getElementById("ul2li1tr7td1").innerText = '';
+			document.getElementById("ul2li1tr7td2").innerText = '';
+			document.getElementById("ul2li1tr7td3").innerText = '';
+			document.getElementById("ul2li1tr7td4").innerText = '';
+			document.getElementById("ul2li1tr8td1").innerText = '';
+			document.getElementById("ul2li1tr8td2").innerText = '';
+			document.getElementById("ul2li1tr8td3").innerText = '';
+			document.getElementById("ul2li1tr8td4").innerText = '';
+			
+		});
+        
+        
+        $('#rbCMiniRoloEspuma').click(function() {
+			$("#rightImageEspuma").attr('src', 'images/18/Espuma.JPG');
+			document.getElementById('rbRoloEspuma').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloEspuma').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloEspuma').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloEspuma').style.fontSize = '1.0em';
+			document.getElementById('rbRoloEspuma').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloEspuma').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloEspuma').style.fontWeight = 'normal';
+			document.getElementById('rbCMiniRoloEspuma').style.fontWeight = 'bold';
+			document.getElementById('rbRoloEspuma').style.color = '#FFF';
+            document.getElementById('rbCRoloEspuma').style.color = '#FFF';
+			document.getElementById('rbMiniRoloEspuma').style.color = '#FFF';
+			document.getElementById('rbCMiniRoloEspuma').style.color = '#FFF';
+			document.getElementById("ul2li1tr1td1").innerText = '01CE5';
+			document.getElementById("ul2li1tr1td2").innerText = 'Carga Mini Rolo';
+			document.getElementById("ul2li1tr1td3").innerText = '60';
+			document.getElementById("ul2li1tr1td4").innerText = '16';
+			document.getElementById("ul2li1tr2td1").innerText = '01CE11';
+			document.getElementById("ul2li1tr2td2").innerText = 'Carga Mini Rolo';
+			document.getElementById("ul2li1tr2td3").innerText = '110';
+			document.getElementById("ul2li1tr2td4").innerText = '16';
+			document.getElementById("ul2li1tr3td1").innerText = '01CE16';
 			document.getElementById("ul2li1tr3td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li1tr3td3").innerText = '60';
+			document.getElementById("ul2li1tr3td3").innerText = '150';
 			document.getElementById("ul2li1tr3td4").innerText = '16';
-			document.getElementById("ul2li1tr4td1").innerText = '01CE11';
-			document.getElementById("ul2li1tr4td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li1tr4td3").innerText = '110';
+			document.getElementById("ul2li1tr4td1").innerText = '012CMRE6';
+			document.getElementById("ul2li1tr4td2").innerText = 'Pack 2 unidades';
+			document.getElementById("ul2li1tr4td3").innerText = '60';
 			document.getElementById("ul2li1tr4td4").innerText = '16';
-			document.getElementById("ul2li1tr5td1").innerText = '01CE16';
-			document.getElementById("ul2li1tr5td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li1tr5td3").innerText = '150';
+			document.getElementById("ul2li1tr5td1").innerText = '012CMRE11';
+			document.getElementById("ul2li1tr5td2").innerText = 'Pack 2 unidades';
+			document.getElementById("ul2li1tr5td3").innerText = '110';
 			document.getElementById("ul2li1tr5td4").innerText = '16';
-			document.getElementById("ul2li1tr6td1").innerText = '012CMRE6';
+			document.getElementById("ul2li1tr6td1").innerText = '012CMRE15';
 			document.getElementById("ul2li1tr6td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul2li1tr6td3").innerText = '60';
+			document.getElementById("ul2li1tr6td3").innerText = '150';
 			document.getElementById("ul2li1tr6td4").innerText = '16';
-			document.getElementById("ul2li1tr7td1").innerText = '012CMRE11';
-			document.getElementById("ul2li1tr7td2").innerText = 'Pack 2 unidades';
+			document.getElementById("ul2li1tr7td1").innerText = '01CXE';
+			document.getElementById("ul2li1tr7td2").innerText = 'Blister 10 unidades';
 			document.getElementById("ul2li1tr7td3").innerText = '110';
 			document.getElementById("ul2li1tr7td4").innerText = '16';
-			document.getElementById("ul2li1tr8td1").innerText = '012CMRE15';
-			document.getElementById("ul2li1tr8td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul2li1tr8td3").innerText = '150';
+			document.getElementById("ul2li1tr8td1").innerText = '01CXER';
+			document.getElementById("ul2li1tr8td2").innerText = 'Blister 10 unidades (Topo Redondo)';
+			document.getElementById("ul2li1tr8td3").innerText = '110';
 			document.getElementById("ul2li1tr8td4").innerText = '16';
-			
-			document.getElementById("ul2li1tr9td1").innerText = '01CXE';
-			document.getElementById("ul2li1tr9td2").innerText = 'Blister 10 unidades';
-			document.getElementById("ul2li1tr9td3").innerText = '110';
-			document.getElementById("ul2li1tr9td4").innerText = '16';
-			document.getElementById("ul2li1tr10td1").innerText = '01CXER';
-			document.getElementById("ul2li1tr10td2").innerText = 'Blister 10 unidades (Topo Redondo)';
-			document.getElementById("ul2li1tr10td3").innerText = '110';
-			document.getElementById("ul2li1tr10td4").innerText = '16';
 			
 		});
 		
@@ -1039,18 +1355,24 @@ Version: 1.3.1
 		
 		//JUNIOR
 		$('#openModelJuniorImg').click(function() {
-			document.getElementById("rbMiniRoloJunior").click();
+			document.getElementById("rbRoloJunior").click();
 		});
 		
 		
 		$('#rbRoloJunior').click(function() {
 			$("#rightImageJunior").attr('src', 'images/18/ravel.JPG');
-			document.getElementById('rbRoloJunior').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloJunior').style.fontSize = '1.0em';
+			document.getElementById('rbRoloJunior').style.fontSize = '1.0em';
+            document.getElementById('rbCRoloJunior').style.fontSize = '0.8em';
+			//document.getElementById('rbMiniRoloJunior').style.fontSize = '0.8em';
+            //document.getElementById('rbCMiniRoloJunior').style.fontSize = '0.8em';
 			document.getElementById('rbRoloJunior').style.fontWeight = 'bold';
-			document.getElementById('rbMiniRoloJunior').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloJunior').style.fontWeight = 'normal';
+			//document.getElementById('rbMiniRoloJunior').style.fontWeight = 'normal';
+            //document.getElementById('rbCMiniRoloJunior').style.fontWeight = 'normal';
 			document.getElementById('rbRoloJunior').style.color = '#FFF';
-			document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
+            document.getElementById('rbCRoloJunior').style.color = '#FFF';
+			//document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
+            //document.getElementById('rbCMiniRoloJunior').style.color = '#FFF';
 			document.getElementById("ul2li2tr1td1").innerText = '01RJ60';
 			document.getElementById("ul2li2tr1td2").innerText = 'Rolo Júnior';
 			document.getElementById("ul2li2tr1td3").innerText = '60';
@@ -1071,66 +1393,87 @@ Version: 1.3.1
 			document.getElementById("ul2li2tr5td2").innerText = 'Rolo Júnior';
 			document.getElementById("ul2li2tr5td3").innerText = '250';
 			document.getElementById("ul2li2tr5td4").innerText = '45';
+			document.getElementById("ul2li2tr6td1").innerText = '01RJ1805';
+			document.getElementById("ul2li2tr6td2").innerText = 'Rolo Júnior';
+			document.getElementById("ul2li2tr6td3").innerText = '180';
+			document.getElementById("ul2li2tr6td4").innerText = '50';
+			document.getElementById("ul2li2tr7td1").innerText = '01RJ2205';
+			document.getElementById("ul2li2tr7td2").innerText = 'Rolo Júnior';
+			document.getElementById("ul2li2tr7td3").innerText = '220';
+			document.getElementById("ul2li2tr7td4").innerText = '50';
+			document.getElementById("ul2li2tr8td1").innerText = '01RJ2505';
+			document.getElementById("ul2li2tr8td2").innerText = 'Rolo Júnior';
+			document.getElementById("ul2li2tr8td3").innerText = '250';
+			document.getElementById("ul2li2tr8td4").innerText = '50';
 			
-			document.getElementById("ul2li2tr6td1").innerText = '01CJ60';
+		});
+        
+        
+        $('#rbCRoloJunior').click(function() {
+			$("#rightImageJunior").attr('src', 'images/18/ravel.JPG');
+			document.getElementById('rbRoloJunior').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloJunior').style.fontSize = '1.0em';
+			//document.getElementById('rbMiniRoloJunior').style.fontSize = '0.8em';
+            //document.getElementById('rbCMiniRoloJunior').style.fontSize = '0.8em';
+			document.getElementById('rbRoloJunior').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloJunior').style.fontWeight = 'bold';
+			//document.getElementById('rbMiniRoloJunior').style.fontWeight = 'normal';
+            //document.getElementById('rbCMiniRoloJunior').style.fontWeight = 'normal';
+			document.getElementById('rbRoloJunior').style.color = '#FFF';
+            document.getElementById('rbCRoloJunior').style.color = '#FFF';
+			//document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
+            //document.getElementById('rbCMiniRoloJunior').style.color = '#FFF';
+			document.getElementById("ul2li2tr1td1").innerText = '01CJ60';
+			document.getElementById("ul2li2tr1td2").innerText = 'Carga Júnior';
+			document.getElementById("ul2li2tr1td3").innerText = '60';
+			document.getElementById("ul2li2tr1td4").innerText = '45';
+			document.getElementById("ul2li2tr2td1").innerText = '01CJ150';
+			document.getElementById("ul2li2tr2td2").innerText = 'Carga Júnior';
+			document.getElementById("ul2li2tr2td3").innerText = '150';
+			document.getElementById("ul2li2tr2td4").innerText = '45';
+			document.getElementById("ul2li2tr3td1").innerText = '01CJ180';
+			document.getElementById("ul2li2tr3td2").innerText = 'Carga Júnior';
+			document.getElementById("ul2li2tr3td3").innerText = '180';
+			document.getElementById("ul2li2tr3td4").innerText = '45';
+			document.getElementById("ul2li2tr4td1").innerText = '01CJ220';
+			document.getElementById("ul2li2tr4td2").innerText = 'Carga Júnior';
+			document.getElementById("ul2li2tr4td3").innerText = '220';
+			document.getElementById("ul2li2tr4td4").innerText = '45';
+			document.getElementById("ul2li2tr5td1").innerText = '01CJ250';
+			document.getElementById("ul2li2tr5td2").innerText = 'Carga Júnior';
+			document.getElementById("ul2li2tr5td3").innerText = '250';
+			document.getElementById("ul2li2tr5td4").innerText = '45';
+			document.getElementById("ul2li2tr6td1").innerText = '01CJ1805';
 			document.getElementById("ul2li2tr6td2").innerText = 'Carga Júnior';
-			document.getElementById("ul2li2tr6td3").innerText = '60';
-			document.getElementById("ul2li2tr6td4").innerText = '45';
-			document.getElementById("ul2li2tr7td1").innerText = '01CJ150';
+			document.getElementById("ul2li2tr6td3").innerText = '180';
+			document.getElementById("ul2li2tr6td4").innerText = '50';
+			document.getElementById("ul2li2tr7td1").innerText = '01CJ2205';
 			document.getElementById("ul2li2tr7td2").innerText = 'Carga Júnior';
-			document.getElementById("ul2li2tr7td3").innerText = '150';
-			document.getElementById("ul2li2tr7td4").innerText = '45';
-			document.getElementById("ul2li2tr8td1").innerText = '01CJ180';
+			document.getElementById("ul2li2tr7td3").innerText = '220';
+			document.getElementById("ul2li2tr7td4").innerText = '50';
+			document.getElementById("ul2li2tr8td1").innerText = '01CJ2505';
 			document.getElementById("ul2li2tr8td2").innerText = 'Carga Júnior';
-			document.getElementById("ul2li2tr8td3").innerText = '180';
-			document.getElementById("ul2li2tr8td4").innerText = '45';
-			document.getElementById("ul2li2tr9td1").innerText = '01CJ220';
-			document.getElementById("ul2li2tr9td2").innerText = 'Carga Júnior';
-			document.getElementById("ul2li2tr9td3").innerText = '220';
-			document.getElementById("ul2li2tr9td4").innerText = '45';
-			document.getElementById("ul2li2tr10td1").innerText = '01CJ250';
-			document.getElementById("ul2li2tr10td2").innerText = 'Carga Júnior';
-			document.getElementById("ul2li2tr10td3").innerText = '250';
-			document.getElementById("ul2li2tr10td4").innerText = '45';
-			
-			document.getElementById("ul2li2tr11td1").innerText = '01RJ1805';
-			document.getElementById("ul2li2tr11td2").innerText = 'Rolo Júnior';
-			document.getElementById("ul2li2tr11td3").innerText = '180';
-			document.getElementById("ul2li2tr11td4").innerText = '50';
-			document.getElementById("ul2li2tr12td1").innerText = '01RJ2205';
-			document.getElementById("ul2li2tr12td2").innerText = 'Rolo Júnior';
-			document.getElementById("ul2li2tr12td3").innerText = '220';
-			document.getElementById("ul2li2tr12td4").innerText = '50';
-			document.getElementById("ul2li2tr13td1").innerText = '01RJ2505';
-			document.getElementById("ul2li2tr13td2").innerText = 'Rolo Júnior';
-			document.getElementById("ul2li2tr13td3").innerText = '250';
-			document.getElementById("ul2li2tr13td4").innerText = '50';
-			
-			document.getElementById("ul2li2tr11td1").innerText = '01CJ1805';
-			document.getElementById("ul2li2tr11td2").innerText = 'Carga Júnior';
-			document.getElementById("ul2li2tr11td3").innerText = '180';
-			document.getElementById("ul2li2tr11td4").innerText = '50';
-			document.getElementById("ul2li2tr12td1").innerText = '01CJ2205';
-			document.getElementById("ul2li2tr12td2").innerText = 'Carga Júnior';
-			document.getElementById("ul2li2tr12td3").innerText = '220';
-			document.getElementById("ul2li2tr12td4").innerText = '50';
-			document.getElementById("ul2li2tr13td1").innerText = '01CJ2505';
-			document.getElementById("ul2li2tr13td2").innerText = 'Carga Júnior';
-			document.getElementById("ul2li2tr13td3").innerText = '250';
-			document.getElementById("ul2li2tr13td4").innerText = '50';
+			document.getElementById("ul2li2tr8td3").innerText = '250';
+			document.getElementById("ul2li2tr8td4").innerText = '50';
 			
 			
 		});
 
 							   
-		$('#rbMiniRoloJunior').click(function() {
+		/*$('#rbMiniRoloJunior').click(function() {
 			$("#rightImageJunior").attr('src', 'images/18/Junior.JPG');
-			document.getElementById('rbRoloJunior').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloJunior').style.fontSize = '1.2em';
+			document.getElementById('rbRoloJunior').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloJunior').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloJunior').style.fontSize = '1.0em';
+            document.getElementById('rbCMiniRoloJunior').style.fontSize = '0.8em';
 			document.getElementById('rbRoloJunior').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloJunior').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloJunior').style.fontWeight = 'bold';
+            document.getElementById('rbCMiniRoloJunior').style.fontWeight = 'normal';
 			document.getElementById('rbRoloJunior').style.color = '#FFF';
+            document.getElementById('rbCRoloJunior').style.color = '#FFF';
 			document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloJunior').style.color = '#FFF';
 			document.getElementById("ul2li2tr1td1").innerText = '';
 			document.getElementById("ul2li2tr1td2").innerText = '';
 			document.getElementById("ul2li2tr1td3").innerText = '';
@@ -1161,24 +1504,75 @@ Version: 1.3.1
 			document.getElementById("ul2li2tr7td4").innerText = '';
 			
 		});
+        
+        $('#rbCMiniRoloJunior').click(function() {
+			$("#rightImageJunior").attr('src', 'images/18/Junior.JPG');
+			document.getElementById('rbRoloJunior').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloJunior').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloJunior').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloJunior').style.fontSize = '1.0em';
+			document.getElementById('rbRoloJunior').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloJunior').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloJunior').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloJunior').style.fontWeight = 'bold';
+			document.getElementById('rbRoloJunior').style.color = '#FFF';
+            document.getElementById('rbCRoloJunior').style.color = '#FFF';
+			document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloJunior').style.color = '#FFF';
+			document.getElementById("ul2li2tr1td1").innerText = '';
+			document.getElementById("ul2li2tr1td2").innerText = '';
+			document.getElementById("ul2li2tr1td3").innerText = '';
+			document.getElementById("ul2li2tr1td4").innerText = '';
+			document.getElementById("ul2li2tr2td1").innerText = '';
+			document.getElementById("ul2li2tr2td2").innerText = '';
+			document.getElementById("ul2li2tr2td3").innerText = '';
+			document.getElementById("ul2li2tr2td4").innerText = '';
+			document.getElementById("ul2li2tr3td1").innerText = '';
+			document.getElementById("ul2li2tr3td2").innerText = '';
+			document.getElementById("ul2li2tr3td3").innerText = '';
+			document.getElementById("ul2li2tr3td4").innerText = '';
+			document.getElementById("ul2li2tr4td1").innerText = '';
+			document.getElementById("ul2li2tr4td2").innerText = '';
+			document.getElementById("ul2li2tr4td3").innerText = '';
+			document.getElementById("ul2li2tr4td4").innerText = '';
+			document.getElementById("ul2li2tr5td1").innerText = '';
+			document.getElementById("ul2li2tr5td2").innerText = '';
+			document.getElementById("ul2li2tr5td3").innerText = '';
+			document.getElementById("ul2li2tr5td4").innerText = '';
+			document.getElementById("ul2li2tr6td1").innerText = '';
+			document.getElementById("ul2li2tr6td2").innerText = '';
+			document.getElementById("ul2li2tr6td3").innerText = '';
+			document.getElementById("ul2li2tr6td4").innerText = '';
+			document.getElementById("ul2li2tr7td1").innerText = '';
+			document.getElementById("ul2li2tr7td2").innerText = '';
+			document.getElementById("ul2li2tr7td3").innerText = '';
+			document.getElementById("ul2li2tr7td4").innerText = '';
+			
+		});*/
 		
 		
 		
 		
 		//Microfibra
 		$('#openModelMicrofibraImg').click(function() {
-			document.getElementById("rbMiniRoloMicrofibra").click();
+			document.getElementById("rbRoloMicrofibra").click();
 		});
 		
 		
 		$('#rbRoloMicrofibra').click(function() {
 			$("#rightImageMicrofibra").attr('src', 'images/18/ravel.JPG');
-			document.getElementById('rbRoloMicrofibra').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloMicrofibra').style.fontSize = '1.0em';
+			document.getElementById('rbRoloMicrofibra').style.fontSize = '1.0em';
+            document.getElementById('rbCRoloMicrofibra').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloMicrofibra').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloMicrofibra').style.fontSize = '0.8em';
 			document.getElementById('rbRoloMicrofibra').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloMicrofibra').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloMicrofibra').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloMicrofibra').style.fontWeight = 'normal';
 			document.getElementById('rbRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('rbCRoloMicrofibra').style.color = '#FFF';
 			document.getElementById('rbMiniRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloMicrofibra').style.color = '#FFF';
 			document.getElementById("ul2li3tr1td1").innerText = '01RMIC180';
 			document.getElementById("ul2li3tr1td2").innerText = 'Rolo Microfibra';
 			document.getElementById("ul2li3tr1td3").innerText = '180';
@@ -1191,34 +1585,55 @@ Version: 1.3.1
 			document.getElementById("ul2li3tr3td2").innerText = 'Rolo Microfibra';
 			document.getElementById("ul2li3tr3td3").innerText = '250';
 			document.getElementById("ul2li3tr3td4").innerText = '45';
-			document.getElementById("ul2li3tr4td1").innerText = '01CMIC180';
-			document.getElementById("ul2li3tr4td2").innerText = 'Carga Microfibra';
-			document.getElementById("ul2li3tr4td3").innerText = '180';
-			document.getElementById("ul2li3tr4td4").innerText = '45';
-			document.getElementById("ul2li3tr5td1").innerText = '01CMIC220';
-			document.getElementById("ul2li3tr5td2").innerText = 'Carga Microfibra';
-			document.getElementById("ul2li3tr5td3").innerText = '220';
-			document.getElementById("ul2li3tr5td4").innerText = '45';
-			document.getElementById("ul2li3tr6td1").innerText = '01CMIC250';
-			document.getElementById("ul2li3tr6td2").innerText = 'Carga Microfibra';
-			document.getElementById("ul2li3tr6td3").innerText = '250';
-			document.getElementById("ul2li3tr6td4").innerText = '45';
-			document.getElementById("ul2li3tr7td1").innerText = '';
-			document.getElementById("ul2li3tr7td2").innerText = '';
-			document.getElementById("ul2li3tr7td3").innerText = '';
-			document.getElementById("ul2li3tr7td4").innerText = '';
+			
 			
 		});
+        
+        
+        $('#rbCRoloMicrofibra').click(function() {
+			$("#rightImageMicrofibra").attr('src', 'images/18/ravel.JPG');
+			document.getElementById('rbRoloMicrofibra').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloMicrofibra').style.fontSize = '1.0em';
+			document.getElementById('rbMiniRoloMicrofibra').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloMicrofibra').style.fontSize = '0.8em';
+			document.getElementById('rbRoloMicrofibra').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloMicrofibra').style.fontWeight = 'bold';
+			document.getElementById('rbMiniRoloMicrofibra').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloMicrofibra').style.fontWeight = 'normal';
+            document.getElementById('rbRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('rbCRoloMicrofibra').style.color = '#FFF';
+			document.getElementById('rbMiniRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloMicrofibra').style.color = '#FFF';
+			document.getElementById("ul2li3tr1td1").innerText = '01CMIC180';
+			document.getElementById("ul2li3tr1td2").innerText = 'Carga Microfibra';
+			document.getElementById("ul2li3tr1td3").innerText = '180';
+			document.getElementById("ul2li3tr1td4").innerText = '45';
+			document.getElementById("ul2li3tr2td1").innerText = '01CMIC220';
+			document.getElementById("ul2li3tr2td2").innerText = 'Carga Microfibra';
+			document.getElementById("ul2li3tr2td3").innerText = '220';
+			document.getElementById("ul2li3tr2td4").innerText = '45';
+			document.getElementById("ul2li3tr3td1").innerText = '01CMIC250';
+			document.getElementById("ul2li3tr3td2").innerText = 'Carga Microfibra';
+			document.getElementById("ul2li3tr3td3").innerText = '250';
+			document.getElementById("ul2li3tr3td4").innerText = '45';
+		});
+
 
 							   
 		$('#rbMiniRoloMicrofibra').click(function() {
 			$("#rightImageMicrofibra").attr('src', 'images/18/Microfibra.JPG');
-			document.getElementById('rbRoloMicrofibra').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloMicrofibra').style.fontSize = '1.2em';
+			document.getElementById('rbRoloMicrofibra').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloMicrofibra').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloMicrofibra').style.fontSize = '1.0em';
+            document.getElementById('rbCMiniRoloMicrofibra').style.fontSize = '0.8em';
 			document.getElementById('rbRoloMicrofibra').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloMicrofibra').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloMicrofibra').style.fontWeight = 'bold';
-			document.getElementById('rbRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloMicrofibra').style.fontWeight = 'normal';
+            document.getElementById('rbRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('rbCRoloMicrofibra').style.color = '#FFF';
 			document.getElementById('rbMiniRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloMicrofibra').style.color = '#FFF';
 			document.getElementById("ul2li3tr1td1").innerText = '01CMDRMIC12';
 			document.getElementById("ul2li3tr1td2").innerText = 'Mini Rolo';
 			document.getElementById("ul2li3tr1td3").innerText = '120';
@@ -1227,45 +1642,63 @@ Version: 1.3.1
 			document.getElementById("ul2li3tr2td2").innerText = 'Mini Rolo';
 			document.getElementById("ul2li3tr2td3").innerText = '150';
 			document.getElementById("ul2li3tr2td4").innerText = '30';
-			document.getElementById("ul2li3tr3td1").innerText = '012CMDRMIC12';
-			document.getElementById("ul2li3tr3td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li3tr3td3").innerText = '120';
-			document.getElementById("ul2li3tr3td4").innerText = '30';
-			document.getElementById("ul2li3tr4td1").innerText = '012CMDRMIC15';
-			document.getElementById("ul2li3tr4td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li3tr4td3").innerText = '150';
-			document.getElementById("ul2li3tr4td4").innerText = '30';
-			document.getElementById("ul2li3tr5td1").innerText = '';
-			document.getElementById("ul2li3tr5td2").innerText = '';
-			document.getElementById("ul2li3tr5td3").innerText = '';
-			document.getElementById("ul2li3tr5td4").innerText = '';
-			document.getElementById("ul2li3tr6td1").innerText = '';
-			document.getElementById("ul2li3tr6td2").innerText = '';
-			document.getElementById("ul2li3tr6td3").innerText = '';
-			document.getElementById("ul2li3tr6td4").innerText = '';
-			document.getElementById("ul2li3tr7td1").innerText = '';
-			document.getElementById("ul2li3tr7td2").innerText = '';
-			document.getElementById("ul2li3tr7td3").innerText = '';
-			document.getElementById("ul2li3tr7td4").innerText = '';
+			document.getElementById("ul2li3tr3td1").innerText = '';
+			document.getElementById("ul2li3tr3td2").innerText = '';
+			document.getElementById("ul2li3tr3td3").innerText = '';
+			document.getElementById("ul2li3tr3td4").innerText = '';			
 			
+		});
+        
+        $('#rbCMiniRoloMicrofibra').click(function() {
+			$("#rightImageMicrofibra").attr('src', 'images/18/Microfibra.JPG');
+			document.getElementById('rbRoloMicrofibra').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloMicrofibra').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloMicrofibra').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloMicrofibra').style.fontSize = '1.0em';
+			document.getElementById('rbRoloMicrofibra').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloMicrofibra').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloMicrofibra').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloMicrofibra').style.fontWeight = 'bold';
+            document.getElementById('rbRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('rbCRoloMicrofibra').style.color = '#FFF';
+			document.getElementById('rbMiniRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloMicrofibra').style.color = '#FFF';
+			document.getElementById("ul2li3tr1td1").innerText = '012CMDRMIC12';
+			document.getElementById("ul2li3tr1td2").innerText = 'Carga Mini Rolo';
+			document.getElementById("ul2li3tr1td3").innerText = '120';
+			document.getElementById("ul2li3tr1td4").innerText = '30';
+			document.getElementById("ul2li3tr2td1").innerText = '012CMDRMIC15';
+			document.getElementById("ul2li3tr2td2").innerText = 'Carga Mini Rolo';
+			document.getElementById("ul2li3tr2td3").innerText = '150';
+			document.getElementById("ul2li3tr2td4").innerText = '30';
+			document.getElementById("ul2li3tr3td1").innerText = '';
+			document.getElementById("ul2li3tr3td2").innerText = '';
+			document.getElementById("ul2li3tr3td3").innerText = '';
+			document.getElementById("ul2li3tr3td4").innerText = '';
 		});
 		
 		
 		
 		//Ravel
 		$('#openModelRavelImg').click(function() {
-			document.getElementById("rbMiniRoloRavel").click();
+			document.getElementById("rbRoloRavel").click();
 		});
 		
 		
 		$('#rbRoloRavel').click(function() {
 			$("#rightImageRavel").attr('src', 'images/18/ravel.JPG');
-			document.getElementById('rbRoloRavel').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloRavel').style.fontSize = '1.0em';
+			document.getElementById('rbRoloRavel').style.fontSize = '1.0em';
+            document.getElementById('rbCRoloRavel').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloRavel').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloRavel').style.fontSize = '0.8em';
 			document.getElementById('rbRoloRavel').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloRavel').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloRavel').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloRavel').style.fontWeight = 'normal';
 			document.getElementById('rbRoloRavel').style.color = '#FFF';
+            document.getElementById('rbCRoloRavel').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
 			document.getElementById("ul2li4tr1td1").innerText = '01RRA180';
 			document.getElementById("ul2li4tr1td2").innerText = 'Rolo Ravel';
 			document.getElementById("ul2li4tr1td3").innerText = '180';
@@ -1278,54 +1711,78 @@ Version: 1.3.1
 			document.getElementById("ul2li4tr3td2").innerText = 'Rolo Ravel';
 			document.getElementById("ul2li4tr3td3").innerText = '250';
 			document.getElementById("ul2li4tr3td4").innerText = '45';
-			document.getElementById("ul2li4tr4td1").innerText = '01CRA180';
-			document.getElementById("ul2li4tr4td2").innerText = 'Carga Ravel';
+			document.getElementById("ul2li4tr4td1").innerText = '01RRA1805';
+			document.getElementById("ul2li4tr4td2").innerText = 'Rolo Ravel';
 			document.getElementById("ul2li4tr4td3").innerText = '180';
-			document.getElementById("ul2li4tr4td4").innerText = '45';
-			document.getElementById("ul2li4tr5td1").innerText = '01CRA220';
-			document.getElementById("ul2li4tr5td2").innerText = 'Carga Ravel';
+			document.getElementById("ul2li4tr4td4").innerText = '50';
+			document.getElementById("ul2li4tr5td1").innerText = '01RRA2205';
+			document.getElementById("ul2li4tr5td2").innerText = 'Rolo Ravel';
 			document.getElementById("ul2li4tr5td3").innerText = '220';
-			document.getElementById("ul2li4tr5td4").innerText = '45';
-			document.getElementById("ul2li4tr6td1").innerText = '01CRA250';
-			document.getElementById("ul2li4tr6td2").innerText = 'Carga Ravel';
+			document.getElementById("ul2li4tr5td4").innerText = '50';
+			document.getElementById("ul2li4tr6td1").innerText = '01RRA2505';
+			document.getElementById("ul2li4tr6td2").innerText = 'Rolo Ravel';
 			document.getElementById("ul2li4tr6td3").innerText = '250';
-			document.getElementById("ul2li4tr6td4").innerText = '45';
-			document.getElementById("ul2li4tr7td1").innerText = '01RRA1805';
-			document.getElementById("ul2li4tr7td2").innerText = 'Rolo Ravel';
-			document.getElementById("ul2li4tr7td3").innerText = '180';
-			document.getElementById("ul2li4tr7td4").innerText = '50';
-			document.getElementById("ul2li4tr8td1").innerText = '01RRA2205';
-			document.getElementById("ul2li4tr8td2").innerText = 'Rolo Ravel';
-			document.getElementById("ul2li4tr8td3").innerText = '220';
-			document.getElementById("ul2li4tr8td4").innerText = '50';
-			document.getElementById("ul2li4tr9td1").innerText = '01RRA2505';
-			document.getElementById("ul2li4tr9td2").innerText = 'Rolo Ravel';
-			document.getElementById("ul2li4tr9td3").innerText = '250';
-			document.getElementById("ul2li4tr9td4").innerText = '50';
-			document.getElementById("ul2li4tr10td1").innerText = '01CRA1805';
-			document.getElementById("ul2li4tr10td2").innerText = 'Carga Ravel';
-			document.getElementById("ul2li4tr10td3").innerText = '180';
-			document.getElementById("ul2li4tr10td4").innerText = '50';
-			document.getElementById("ul2li4tr11td1").innerText = '01CRA2205';
-			document.getElementById("ul2li4tr11td2").innerText = 'Carga Ravel';
-			document.getElementById("ul2li4tr11td3").innerText = '220';
-			document.getElementById("ul2li4tr11td4").innerText = '50';
-			document.getElementById("ul2li4tr12td1").innerText = '01CRA2505';
-			document.getElementById("ul2li4tr12td2").innerText = 'Carga Ravel';
-			document.getElementById("ul2li4tr12td3").innerText = '250';
-			document.getElementById("ul2li4tr12td4").innerText = '50';
+			document.getElementById("ul2li4tr6td4").innerText = '50';
 			
 		});
+        
+        $('#rbCRoloRavel').click(function() {
+			$("#rightImageRavel").attr('src', 'images/18/ravel.JPG');
+			document.getElementById('rbRoloRavel').style.fontSize = '1.0em';
+            document.getElementById('rbCRoloRavel').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloRavel').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloRavel').style.fontSize = '0.8em';
+			document.getElementById('rbRoloRavel').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloRavel').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloRavel').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloRavel').style.fontWeight = 'normal';
+			document.getElementById('rbRoloRavel').style.color = '#FFF';
+            document.getElementById('rbCRoloRavel').style.color = '#FFF';
+			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
+			document.getElementById("ul2li4tr1td1").innerText = '01CRA180';
+			document.getElementById("ul2li4tr1td2").innerText = 'Carga Ravel';
+			document.getElementById("ul2li4tr1td3").innerText = '180';
+			document.getElementById("ul2li4tr1td4").innerText = '45';
+			document.getElementById("ul2li4tr2td1").innerText = '01CRA220';
+			document.getElementById("ul2li4tr2td2").innerText = 'Carga Ravel';
+			document.getElementById("ul2li4tr2td3").innerText = '220';
+			document.getElementById("ul2li4tr2td4").innerText = '45';
+			document.getElementById("ul2li4tr3td1").innerText = '01CRA250';
+			document.getElementById("ul2li4tr3td2").innerText = 'Carga Ravel';
+			document.getElementById("ul2li4tr3td3").innerText = '250';
+			document.getElementById("ul2li4tr3td4").innerText = '45';
+			document.getElementById("ul2li4tr4td1").innerText = '01CRA1805';
+			document.getElementById("ul2li4tr4td2").innerText = 'Carga Ravel';
+			document.getElementById("ul2li4tr4td3").innerText = '180';
+			document.getElementById("ul2li4tr4td4").innerText = '50';
+			document.getElementById("ul2li4tr5td1").innerText = '01CRA2205';
+			document.getElementById("ul2li4tr5td2").innerText = 'Carga Ravel';
+			document.getElementById("ul2li4tr5td3").innerText = '220';
+			document.getElementById("ul2li4tr5td4").innerText = '50';
+			document.getElementById("ul2li4tr6td1").innerText = '01CRA2505';
+			document.getElementById("ul2li4tr6td2").innerText = 'Carga Ravel';
+			document.getElementById("ul2li4tr6td3").innerText = '250';
+			document.getElementById("ul2li4tr6td4").innerText = '50';
+			
+		});
+
 
 							   
 		$('#rbMiniRoloRavel').click(function() {
 			$("#rightImageRavel").attr('src', 'images/18/Ravel.JPG');
 			document.getElementById('rbRoloRavel').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloRavel').style.fontSize = '1.2em';
-			document.getElementById('rbRoloRavel').style.fontWeight = 'normal';
-			document.getElementById('rbMiniRoloRavel').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloRavel').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloRavel').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloRavel').style.fontSize = '0.8em';
+			document.getElementById('rbRoloRavel').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloRavel').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloRavel').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloRavel').style.fontWeight = 'normal';
 			document.getElementById('rbRoloRavel').style.color = '#FFF';
+            document.getElementById('rbCRoloRavel').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
 			document.getElementById("ul2li4tr1td1").innerText = '01CMDRRA12';
 			document.getElementById("ul2li4tr1td2").innerText = 'Mini Rolo';
 			document.getElementById("ul2li4tr1td3").innerText = '120';
@@ -1334,14 +1791,14 @@ Version: 1.3.1
 			document.getElementById("ul2li4tr2td2").innerText = 'Mini Rolo';
 			document.getElementById("ul2li4tr2td3").innerText = '150';
 			document.getElementById("ul2li4tr2td4").innerText = '30';
-			document.getElementById("ul2li4tr3td1").innerText = '012CMDRRA12';
-			document.getElementById("ul2li4tr3td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li4tr3td3").innerText = '120';
-			document.getElementById("ul2li4tr3td4").innerText = '30';
-			document.getElementById("ul2li4tr4td1").innerText = '012CMDRRA15';
-			document.getElementById("ul2li4tr4td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li4tr4td3").innerText = '150';
-			document.getElementById("ul2li4tr4td4").innerText = '30';
+			document.getElementById("ul2li4tr3td1").innerText = '';
+			document.getElementById("ul2li4tr3td2").innerText = '';
+			document.getElementById("ul2li4tr3td3").innerText = '';
+			document.getElementById("ul2li4tr3td4").innerText = '';
+			document.getElementById("ul2li4tr4td1").innerText = '';
+			document.getElementById("ul2li4tr4td2").innerText = '';
+			document.getElementById("ul2li4tr4td3").innerText = '';
+			document.getElementById("ul2li4tr4td4").innerText = '';
 			document.getElementById("ul2li4tr5td1").innerText = '';
 			document.getElementById("ul2li4tr5td2").innerText = '';
 			document.getElementById("ul2li4tr5td3").innerText = '';
@@ -1350,10 +1807,46 @@ Version: 1.3.1
 			document.getElementById("ul2li4tr6td2").innerText = '';
 			document.getElementById("ul2li4tr6td3").innerText = '';
 			document.getElementById("ul2li4tr6td4").innerText = '';
-			document.getElementById("ul2li4tr7td1").innerText = '';
-			document.getElementById("ul2li4tr7td2").innerText = '';
-			document.getElementById("ul2li4tr7td3").innerText = '';
-			document.getElementById("ul2li4tr7td4").innerText = '';
+		});
+        
+        $('#rbCMiniRoloRavel').click(function() {
+			$("#rightImageRavel").attr('src', 'images/18/Ravel.JPG');
+			document.getElementById('rbRoloRavel').style.fontSize = '1.0em';
+            document.getElementById('rbCRoloRavel').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloRavel').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloRavel').style.fontSize = '0.8em';
+			document.getElementById('rbRoloRavel').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloRavel').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloRavel').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloRavel').style.fontWeight = 'normal';
+			document.getElementById('rbRoloRavel').style.color = '#FFF';
+            document.getElementById('rbCRoloRavel').style.color = '#FFF';
+			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
+			document.getElementById("ul2li4tr1td1").innerText = '012CMDRRA12';
+			document.getElementById("ul2li4tr1td2").innerText = 'Carga Mini Rolo';
+			document.getElementById("ul2li4tr1td3").innerText = '120';
+			document.getElementById("ul2li4tr1td4").innerText = '30';
+			document.getElementById("ul2li4tr2td1").innerText = '012CMDRRA15';
+			document.getElementById("ul2li4tr2td2").innerText = 'Carga Mini Rolo';
+			document.getElementById("ul2li4tr2td3").innerText = '150';
+			document.getElementById("ul2li4tr2td4").innerText = '30';
+			document.getElementById("ul2li4tr3td1").innerText = '';
+			document.getElementById("ul2li4tr3td2").innerText = '';
+			document.getElementById("ul2li4tr3td3").innerText = '';
+			document.getElementById("ul2li4tr3td4").innerText = '';
+			document.getElementById("ul2li4tr4td1").innerText = '';
+			document.getElementById("ul2li4tr4td2").innerText = '';
+			document.getElementById("ul2li4tr4td3").innerText = '';
+			document.getElementById("ul2li4tr4td4").innerText = '';
+			document.getElementById("ul2li4tr5td1").innerText = '';
+			document.getElementById("ul2li4tr5td2").innerText = '';
+			document.getElementById("ul2li4tr5td3").innerText = '';
+			document.getElementById("ul2li4tr5td4").innerText = '';
+			document.getElementById("ul2li4tr6td1").innerText = '';
+			document.getElementById("ul2li4tr6td2").innerText = '';
+			document.getElementById("ul2li4tr6td3").innerText = '';
+			document.getElementById("ul2li4tr6td4").innerText = '';
 			
 		});
 		
@@ -1361,18 +1854,24 @@ Version: 1.3.1
 		
 		//Rugo
 		$('#openModelRugoImg').click(function() {
-			document.getElementById("rbMiniRoloRugo").click();
+			document.getElementById("rbRoloRugo").click();
 		});
 		
 		
 		$('#rbRoloRugo').click(function() {
 			$("#rightImageRugo").attr('src', 'images/18/Rugo.JPG');
-			document.getElementById('rbRoloRugo').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloRugo').style.fontSize = '1.0em';
+			document.getElementById('rbRoloRugo').style.fontSize = '1.0em';
+            document.getElementById('rbCRoloRugo').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloRugo').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloRugo').style.fontSize = '0.8em';
 			document.getElementById('rbRoloRugo').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloRugo').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloRugo').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloRugo').style.fontWeight = 'normal';
 			document.getElementById('rbRoloRugo').style.color = '#FFF';
+            document.getElementById('rbCRoloRugo').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloRugo').style.color = '#FFF';
 			document.getElementById("ul3li1tr1td1").innerText = '01RR60';
 			document.getElementById("ul3li1tr1td2").innerText = 'Rolo Rugo';
 			document.getElementById("ul3li1tr1td3").innerText = '60';
@@ -1393,66 +1892,117 @@ Version: 1.3.1
 			document.getElementById("ul3li1tr5td2").innerText = 'Rolo Rugo Canto';
 			document.getElementById("ul3li1tr5td3").innerText = '';
 			document.getElementById("ul3li1tr5td4").innerText = '45';
-			document.getElementById("ul3li1tr6td1").innerText = '01CR60';
-			document.getElementById("ul3li1tr6td2").innerText = 'Carga Rugo';
-			document.getElementById("ul3li1tr6td3").innerText = '60';
-			document.getElementById("ul3li1tr6td4").innerText = '45';
-			document.getElementById("ul3li1tr7td1").innerText = '01CR180';
-			document.getElementById("ul3li1tr7td2").innerText = 'Carga Rugo';
-			document.getElementById("ul3li1tr7td3").innerText = '180';
-			document.getElementById("ul3li1tr7td4").innerText = '45';
-			document.getElementById("ul3li1tr8td1").innerText = '01CR220';
-			document.getElementById("ul3li1tr8td2").innerText = 'Carga Rugo';
-			document.getElementById("ul3li1tr8td3").innerText = '220';
-			document.getElementById("ul3li1tr8td4").innerText = '45';
-			document.getElementById("ul3li1tr9td1").innerText = '01CR250';
-			document.getElementById("ul3li1tr9td2").innerText = 'Carga Rugo';
-			document.getElementById("ul3li1tr9td3").innerText = '250';
-			document.getElementById("ul3li1tr9td4").innerText = '45';
-			document.getElementById("ul3li1tr10td1").innerText = '01CRC';
-			document.getElementById("ul3li1tr10td2").innerText = 'Carga Rugo Canto';
-			document.getElementById("ul3li1tr10td3").innerText = '';
-			document.getElementById("ul3li1tr10td4").innerText = '45';
+			
+		});
+        
+        $('#rbCRoloRugo').click(function() {
+			$("#rightImageRugo").attr('src', 'images/18/Rugo.JPG');
+			document.getElementById('rbRoloRugo').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloRugo').style.fontSize = '1.0em';
+			document.getElementById('rbMiniRoloRugo').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloRugo').style.fontSize = '0.8em';
+			document.getElementById('rbRoloRugo').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloRugo').style.fontWeight = 'bold';
+			document.getElementById('rbMiniRoloRugo').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloRugo').style.fontWeight = 'normal';
+			document.getElementById('rbRoloRugo').style.color = '#FFF';
+            document.getElementById('rbCRoloRugo').style.color = '#FFF';
+			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloRugo').style.color = '#FFF';
+			document.getElementById("ul3li1tr1td1").innerText = '01CR60';
+			document.getElementById("ul3li1tr1td2").innerText = 'Carga Rugo';
+			document.getElementById("ul3li1tr1td3").innerText = '60';
+			document.getElementById("ul3li1tr1td4").innerText = '45';
+			document.getElementById("ul3li1tr2td1").innerText = '01CR180';
+			document.getElementById("ul3li1tr2td2").innerText = 'Carga Rugo';
+			document.getElementById("ul3li1tr2td3").innerText = '180';
+			document.getElementById("ul3li1tr2td4").innerText = '45';
+			document.getElementById("ul3li1tr3td1").innerText = '01CR220';
+			document.getElementById("ul3li1tr3td2").innerText = 'Carga Rugo';
+			document.getElementById("ul3li1tr3td3").innerText = '220';
+			document.getElementById("ul3li1tr3td4").innerText = '45';
+			document.getElementById("ul3li1tr4td1").innerText = '01CR250';
+			document.getElementById("ul3li1tr4td2").innerText = 'Carga Rugo';
+			document.getElementById("ul3li1tr4td3").innerText = '250';
+			document.getElementById("ul3li1tr4td4").innerText = '45';
+			document.getElementById("ul3li1tr5td1").innerText = '01CRC';
+			document.getElementById("ul3li1tr5td2").innerText = 'Carga Rugo Canto';
+			document.getElementById("ul3li1tr5td3").innerText = '';
+			document.getElementById("ul3li1tr5td4").innerText = '45';
 			
 		});
 
 							   
 		$('#rbMiniRoloRugo').click(function() {
 			$("#rightImageRugo").attr('src', 'images/18/Rugo.JPG');
-			document.getElementById('rbRoloRugo').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloRugo').style.fontSize = '1.2em';
+			document.getElementById('rbRoloRugo').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloRugo').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloRugo').style.fontSize = '1.0em';
+            document.getElementById('rbCMiniRoloRugo').style.fontSize = '0.8em';
 			document.getElementById('rbRoloRugo').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloRugo').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloRugo').style.fontWeight = 'bold';
+            document.getElementById('rbCMiniRoloRugo').style.fontWeight = 'normal';
 			document.getElementById('rbRoloRugo').style.color = '#FFF';
+            document.getElementById('rbCRoloRugo').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloRugo').style.color = '#FFF';
 			document.getElementById("ul3li1tr1td1").innerText = '01MRR11';
 			document.getElementById("ul3li1tr1td2").innerText = 'Mini Rolo';
 			document.getElementById("ul3li1tr1td3").innerText = '110';
 			document.getElementById("ul3li1tr1td4").innerText = '16';
-			document.getElementById("ul3li1tr2td1").innerText = '01CIR';
-			document.getElementById("ul3li1tr2td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul3li1tr2td3").innerText = '110';
-			document.getElementById("ul3li1tr2td4").innerText = '16';
-			document.getElementById("ul3li1tr3td1").innerText = '012CMRR11';
-			document.getElementById("ul3li1tr3td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul3li1tr3td3").innerText = '110';
-			document.getElementById("ul3li1tr3td4").innerText = '16';
-			document.getElementById("ul3li1tr4td1").innerText = '01CXR';
-			document.getElementById("ul3li1tr4td2").innerText = 'Blister 10 unidades';
-			document.getElementById("ul3li1tr4td3").innerText = '110';
-			document.getElementById("ul3li1tr4td4").innerText = '16';
-			document.getElementById("ul3li1tr5td1").innerText = '';
+			document.getElementById("ul3li1tr2td1").innerText = '';
+			document.getElementById("ul3li1tr2td2").innerText = '';
+			document.getElementById("ul3li1tr2td3").innerText = '';
+			document.getElementById("ul3li1tr2td4").innerText = '';
+			document.getElementById("ul3li1tr3td1").innerText = '';
+			document.getElementById("ul3li1tr3td2").innerText = '';
+			document.getElementById("ul3li1tr3td3").innerText = '';
+			document.getElementById("ul3li1tr3td4").innerText = '';
+			document.getElementById("ul3li1tr4td1").innerText = '';
+			document.getElementById("ul3li1tr4td2").innerText = '';
+			document.getElementById("ul3li1tr4td3").innerText = '';
+			document.getElementById("ul3li1tr4td4").innerText = '';
+            document.getElementById("ul3li1tr5td1").innerText = '';
 			document.getElementById("ul3li1tr5td2").innerText = '';
 			document.getElementById("ul3li1tr5td3").innerText = '';
 			document.getElementById("ul3li1tr5td4").innerText = '';
-			document.getElementById("ul3li1tr6td1").innerText = '';
-			document.getElementById("ul3li1tr6td2").innerText = '';
-			document.getElementById("ul3li1tr6td3").innerText = '';
-			document.getElementById("ul3li1tr6td4").innerText = '';
-			document.getElementById("ul3li1tr7td1").innerText = '';
-			document.getElementById("ul3li1tr7td2").innerText = '';
-			document.getElementById("ul3li1tr7td3").innerText = '';
-			document.getElementById("ul3li1tr7td4").innerText = '';
+			
+		});
+        
+        $('#rbCMiniRoloRugo').click(function() {
+			$("#rightImageRugo").attr('src', 'images/18/Rugo.JPG');
+			document.getElementById('rbRoloRugo').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloRugo').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloRugo').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloRugo').style.fontSize = '1.0em';
+			document.getElementById('rbRoloRugo').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloRugo').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloRugo').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloRugo').style.fontWeight = 'bold';
+			document.getElementById('rbRoloRugo').style.color = '#FFF';
+            document.getElementById('rbCRoloRugo').style.color = '#FFF';
+			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
+			document.getElementById("ul3li1tr1td1").innerText = '01CIR';
+			document.getElementById("ul3li1tr1td2").innerText = 'Carga Mini Rolo';
+			document.getElementById("ul3li1tr1td3").innerText = '110';
+			document.getElementById("ul3li1tr1td4").innerText = '16';
+			document.getElementById("ul3li1tr2td1").innerText = '012CMRR11';
+			document.getElementById("ul3li1tr2td2").innerText = 'Pack 2 unidades';
+			document.getElementById("ul3li1tr2td3").innerText = '110';
+			document.getElementById("ul3li1tr2td4").innerText = '16';
+			document.getElementById("ul3li1tr3td1").innerText = '01CXR';
+			document.getElementById("ul3li1tr3td2").innerText = 'Blister 10 unidades';
+			document.getElementById("ul3li1tr3td3").innerText = '110';
+			document.getElementById("ul3li1tr3td4").innerText = '16';
+			document.getElementById("ul3li1tr4td1").innerText = '';
+			document.getElementById("ul3li1tr4td2").innerText = '';
+			document.getElementById("ul3li1tr4td3").innerText = '';
+			document.getElementById("ul3li1tr4td4").innerText = '';
+            document.getElementById("ul3li1tr5td1").innerText = '';
+			document.getElementById("ul3li1tr5td2").innerText = '';
+			document.getElementById("ul3li1tr5td3").innerText = '';
+			document.getElementById("ul3li1tr5td4").innerText = '';
 			
 		});
 	
@@ -1460,18 +2010,24 @@ Version: 1.3.1
 		
 		//Super
 		$('#openModelSuperImg').click(function() {
-			document.getElementById("rbMiniRoloSuper").click();
+			document.getElementById("rbRoloSuper").click();
 		});
 		
 		
 		$('#rbRoloSuper').click(function() {
 			$("#rightImageSuper").attr('src', 'images/18/Super.JPG');
-			document.getElementById('rbRoloSuper').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloSuper').style.fontSize = '1.0em';
+			document.getElementById('rbRoloSuper').style.fontSize = '1.0em';
+            document.getElementById('rbCRoloSuper').style.fontSize = '0.8em';
+			//document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
+            //document.getElementById('rbCMiniRoloSuper').style.fontSize = '0.8em';
 			document.getElementById('rbRoloSuper').style.fontWeight = 'bold';
-			document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloSuper').style.fontWeight = 'normal';
+			//document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
+            //document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'normal';
 			document.getElementById('rbRoloSuper').style.color = '#FFF';
-			document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
+            document.getElementById('rbCRoloSuper').style.color = '#FFF';
+			//document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
+            //document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
 			document.getElementById("ul3li2tr1td1").innerText = '01RS180';
 			document.getElementById("ul3li2tr1td2").innerText = 'Rolo Super';
 			document.getElementById("ul3li2tr1td3").innerText = '180';
@@ -1484,34 +2040,54 @@ Version: 1.3.1
 			document.getElementById("ul3li2tr3td2").innerText = 'Rolo Super';
 			document.getElementById("ul3li2tr3td3").innerText = '250';
 			document.getElementById("ul3li2tr3td4").innerText = '45';
-			document.getElementById("ul3li2tr4td1").innerText = '01CS180';
-			document.getElementById("ul3li2tr4td2").innerText = 'Carga Super';
-			document.getElementById("ul3li2tr4td3").innerText = '180';
-			document.getElementById("ul3li2tr4td4").innerText = '45';
-			document.getElementById("ul3li2tr5td1").innerText = '01CS220';
-			document.getElementById("ul3li2tr5td2").innerText = 'Carga Super';
-			document.getElementById("ul3li2tr5td3").innerText = '220';
-			document.getElementById("ul3li2tr5td4").innerText = '45';
-			document.getElementById("ul3li2tr6td1").innerText = '01CS250';
-			document.getElementById("ul3li2tr6td2").innerText = 'Carga Super';
-			document.getElementById("ul3li2tr6td3").innerText = '250';
-			document.getElementById("ul3li2tr6td4").innerText = '45';
-			document.getElementById("ul3li2tr7td1").innerText = '';
-			document.getElementById("ul3li2tr7td2").innerText = '';
-			document.getElementById("ul3li2tr7td3").innerText = '';
-			document.getElementById("ul3li2tr7td4").innerText = '';
+			
+		});
+        
+        
+        $('#rbCRoloSuper').click(function() {
+			$("#rightImageSuper").attr('src', 'images/18/Super.JPG');
+			document.getElementById('rbRoloSuper').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloSuper').style.fontSize = '1.0em';
+			//document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
+            //document.getElementById('rbCMiniRoloSuper').style.fontSize = '0.8em';
+			document.getElementById('rbRoloSuper').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloSuper').style.fontWeight = 'bold';
+			//document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
+            //document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'normal';
+			document.getElementById('rbRoloSuper').style.color = '#FFF';
+            document.getElementById('rbCRoloSuper').style.color = '#FFF';
+			//document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
+            //document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
+			document.getElementById("ul3li2tr1td1").innerText = '01CS180';
+			document.getElementById("ul3li2tr1td2").innerText = 'Carga Super';
+			document.getElementById("ul3li2tr1td3").innerText = '180';
+			document.getElementById("ul3li2tr1td4").innerText = '45';
+			document.getElementById("ul3li2tr2td1").innerText = '01CS220';
+			document.getElementById("ul3li2tr2td2").innerText = 'Carga Super';
+			document.getElementById("ul3li2tr2td3").innerText = '220';
+			document.getElementById("ul3li2tr2td4").innerText = '45';
+			document.getElementById("ul3li2tr3td1").innerText = '01CS250';
+			document.getElementById("ul3li2tr3td2").innerText = 'Carga Super';
+			document.getElementById("ul3li2tr3td3").innerText = '250';
+			document.getElementById("ul3li2tr3td4").innerText = '45';
 			
 		});
 
-							   
+		/*					   
 		$('#rbMiniRoloSuper').click(function() {
 			$("#rightImageSuper").attr('src', 'images/18/Super.JPG');
 			document.getElementById('rbRoloSuper').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloSuper').style.fontSize = '1.2em';
-			document.getElementById('rbRoloSuper').style.fontWeight = 'normal';
-			document.getElementById('rbMiniRoloSuper').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloSuper').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloSuper').style.fontSize = '0.8em';
+			document.getElementById('rbRoloSuper').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloSuper').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'normal';
 			document.getElementById('rbRoloSuper').style.color = '#FFF';
+            document.getElementById('rbCRoloSuper').style.color = '#FFF';
 			document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
 			document.getElementById("ul3li2tr1td1").innerText = '';
 			document.getElementById("ul3li2tr1td2").innerText = '';
 			document.getElementById("ul3li2tr1td3").innerText = '';
@@ -1543,21 +2119,73 @@ Version: 1.3.1
 			
 		});
 		
+        
+        $('#rbCMiniRoloSuper').click(function() {
+			$("#rightImageSuper").attr('src', 'images/18/Super.JPG');
+			document.getElementById('rbRoloSuper').style.fontSize = '1.0em';
+            document.getElementById('rbCRoloSuper').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloSuper').style.fontSize = '0.8em';
+			document.getElementById('rbRoloSuper').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloSuper').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'normal';
+			document.getElementById('rbRoloSuper').style.color = '#FFF';
+            document.getElementById('rbCRoloSuper').style.color = '#FFF';
+			document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
+			document.getElementById("ul3li2tr1td1").innerText = '';
+			document.getElementById("ul3li2tr1td2").innerText = '';
+			document.getElementById("ul3li2tr1td3").innerText = '';
+			document.getElementById("ul3li2tr1td4").innerText = '';
+			document.getElementById("ul3li2tr2td1").innerText = '';
+			document.getElementById("ul3li2tr2td2").innerText = '';
+			document.getElementById("ul3li2tr2td3").innerText = '';
+			document.getElementById("ul3li2tr2td4").innerText = '';
+			document.getElementById("ul3li2tr3td1").innerText = '';
+			document.getElementById("ul3li2tr3td2").innerText = '';
+			document.getElementById("ul3li2tr3td3").innerText = '';
+			document.getElementById("ul3li2tr3td4").innerText = '';
+			document.getElementById("ul3li2tr4td1").innerText = '';
+			document.getElementById("ul3li2tr4td2").innerText = '';
+			document.getElementById("ul3li2tr4td3").innerText = '';
+			document.getElementById("ul3li2tr4td4").innerText = '';
+			document.getElementById("ul3li2tr5td1").innerText = '';
+			document.getElementById("ul3li2tr5td2").innerText = '';
+			document.getElementById("ul3li2tr5td3").innerText = '';
+			document.getElementById("ul3li2tr5td4").innerText = '';
+			document.getElementById("ul3li2tr6td1").innerText = '';
+			document.getElementById("ul3li2tr6td2").innerText = '';
+			document.getElementById("ul3li2tr6td3").innerText = '';
+			document.getElementById("ul3li2tr6td4").innerText = '';
+			document.getElementById("ul3li2tr7td1").innerText = '';
+			document.getElementById("ul3li2tr7td2").innerText = '';
+			document.getElementById("ul3li2tr7td3").innerText = '';
+			document.getElementById("ul3li2tr7td4").innerText = '';
+			
+		});*/
+        
 		
 		//Merino
 		$('#openModelMerinoImg').click(function() {
-			document.getElementById("rbMiniRoloMerino").click();
+			document.getElementById("rbRoloMerino").click();
 		});
 		
 		
 		$('#rbRoloMerino').click(function() {
 			$("#rightImageMerino").attr('src', 'images/18/Merino.JPG');
-			document.getElementById('rbRoloMerino').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloMerino').style.fontSize = '1.0em';
+			document.getElementById('rbRoloMerino').style.fontSize = '1.0em';
+            document.getElementById('rbCRoloMerino').style.fontSize = '0.8em';
+			//document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
+            //document.getElementById('rbCMiniRoloMerino').style.fontSize = '0.8em';
 			document.getElementById('rbRoloMerino').style.fontWeight = 'bold';
-			document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloMerino').style.fontWeight = 'normal';
+			//document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
+            //document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'normal';
 			document.getElementById('rbRoloMerino').style.color = '#FFF';
-			document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
+            document.getElementById('rbCRoloMerino').style.color = '#FFF';
+			//document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
+            //document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
 			document.getElementById("ul3li3tr1td1").innerText = '01RSM180';
 			document.getElementById("ul3li3tr1td2").innerText = 'Rolo Merino';
 			document.getElementById("ul3li3tr1td3").innerText = '180';
@@ -1570,47 +2198,64 @@ Version: 1.3.1
 			document.getElementById("ul3li3tr3td2").innerText = 'Rolo Merino';
 			document.getElementById("ul3li3tr3td3").innerText = '250';
 			document.getElementById("ul3li3tr3td4").innerText = '45';
-			document.getElementById("ul3li3tr4td1").innerText = '01CSM180';
-			document.getElementById("ul3li3tr4td2").innerText = 'Carga Merino';
+			document.getElementById("ul3li3tr4td1").innerText = '01RSM1805';
+			document.getElementById("ul3li3tr4td2").innerText = 'Rolo Merino';
 			document.getElementById("ul3li3tr4td3").innerText = '180';
-			document.getElementById("ul3li3tr4td4").innerText = '45';
-			document.getElementById("ul3li3tr5td1").innerText = '01CSM220';
-			document.getElementById("ul3li3tr5td2").innerText = 'Carga Merino';
+			document.getElementById("ul3li3tr4td4").innerText = '50';
+			document.getElementById("ul3li3tr5td1").innerText = '01RSM2205';
+			document.getElementById("ul3li3tr5td2").innerText = 'Rolo Merino';
 			document.getElementById("ul3li3tr5td3").innerText = '220';
-			document.getElementById("ul3li3tr5td4").innerText = '45';
-			document.getElementById("ul3li3tr6td1").innerText = '01CSM250';
-			document.getElementById("ul3li3tr6td2").innerText = 'Carga Merino';
+			document.getElementById("ul3li3tr5td4").innerText = '50';
+			document.getElementById("ul3li3tr6td1").innerText = '01RSM2505';
+			document.getElementById("ul3li3tr6td2").innerText = 'Rolo Merino';
 			document.getElementById("ul3li3tr6td3").innerText = '250';
-			document.getElementById("ul3li3tr6td4").innerText = '45';
-			document.getElementById("ul3li3tr7td1").innerText = '01RSM1805';
-			document.getElementById("ul3li3tr7td2").innerText = 'Rolo Merino';
-			document.getElementById("ul3li3tr7td3").innerText = '180';
-			document.getElementById("ul3li3tr7td4").innerText = '50';
-			document.getElementById("ul3li3tr8td1").innerText = '01RSM2205';
-			document.getElementById("ul3li3tr8td2").innerText = 'Rolo Merino';
-			document.getElementById("ul3li3tr8td3").innerText = '220';
-			document.getElementById("ul3li3tr8td4").innerText = '50';
-			document.getElementById("ul3li3tr9td1").innerText = '01RSM2505';
-			document.getElementById("ul3li3tr9td2").innerText = 'Rolo Merino';
-			document.getElementById("ul3li3tr9td3").innerText = '250';
-			document.getElementById("ul3li3tr9td4").innerText = '50';
-			document.getElementById("ul3li3tr7td1").innerText = '01CSM1805';
-			document.getElementById("ul3li3tr7td2").innerText = 'Carga Merino';
-			document.getElementById("ul3li3tr7td3").innerText = '180';
-			document.getElementById("ul3li3tr7td4").innerText = '50';
-			document.getElementById("ul3li3tr8td1").innerText = '01CSM2205';
-			document.getElementById("ul3li3tr8td2").innerText = 'Carga Merino';
-			document.getElementById("ul3li3tr8td3").innerText = '220';
-			document.getElementById("ul3li3tr8td4").innerText = '50';
-			document.getElementById("ul3li3tr9td1").innerText = '01CSM2505';
-			document.getElementById("ul3li3tr9td2").innerText = 'Carga Merino';
-			document.getElementById("ul3li3tr9td3").innerText = '250';
-			document.getElementById("ul3li3tr9td4").innerText = '50';
+			document.getElementById("ul3li3tr6td4").innerText = '50';
 			
 		});
 
-							   
-		$('#rbMiniRoloMerino').click(function() {
+			
+        $('#rbCRoloMerino').click(function() {
+			$("#rightImageMerino").attr('src', 'images/18/Merino.JPG');
+			document.getElementById('rbRoloMerino').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloMerino').style.fontSize = '1.0em';
+			//document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
+            //document.getElementById('rbCMiniRoloMerino').style.fontSize = '0.8em';
+			document.getElementById('rbRoloMerino').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloMerino').style.fontWeight = 'bold';
+			//document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
+            //document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'normal';
+			document.getElementById('rbRoloMerino').style.color = '#FFF';
+            document.getElementById('rbCRoloMerino').style.color = '#FFF';
+			//document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
+            //document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
+			document.getElementById("ul3li3tr1td1").innerText = '01CSM180';
+			document.getElementById("ul3li3tr1td2").innerText = 'Carga Merino';
+			document.getElementById("ul3li3tr1td3").innerText = '180';
+			document.getElementById("ul3li3tr1td4").innerText = '45';
+			document.getElementById("ul3li3tr2td1").innerText = '01CSM220';
+			document.getElementById("ul3li3tr2td2").innerText = 'Carga Merino';
+			document.getElementById("ul3li3tr2td3").innerText = '220';
+			document.getElementById("ul3li3tr2td4").innerText = '45';
+			document.getElementById("ul3li3tr3td1").innerText = '01CSM250';
+			document.getElementById("ul3li3tr3td2").innerText = 'Carga Merino';
+			document.getElementById("ul3li3tr3td3").innerText = '250';
+			document.getElementById("ul3li3tr3td4").innerText = '45';
+			document.getElementById("ul3li3tr4td1").innerText = '01CSM1805';
+			document.getElementById("ul3li3tr4td2").innerText = 'Carga Merino';
+			document.getElementById("ul3li3tr4td3").innerText = '180';
+			document.getElementById("ul3li3tr4td4").innerText = '50';
+			document.getElementById("ul3li3tr5td1").innerText = '01CSM2205';
+			document.getElementById("ul3li3tr5td2").innerText = 'Carga Merino';
+			document.getElementById("ul3li3tr5td3").innerText = '220';
+			document.getElementById("ul3li3tr5td4").innerText = '50';
+			document.getElementById("ul3li3tr6td1").innerText = '01CSM2505';
+			document.getElementById("ul3li3tr6td2").innerText = 'Carga Merino';
+			document.getElementById("ul3li3tr6td3").innerText = '250';
+			document.getElementById("ul3li3tr6td4").innerText = '50';
+			
+		});
+        
+		/*$('#rbMiniRoloMerino').click(function() {
 			$("#rightImageMerino").attr('src', 'images/18/Merino.JPG');
 			document.getElementById('rbRoloMerino').style.fontSize = '1.0em';
 			document.getElementById('rbMiniRoloMerino').style.fontSize = '1.2em';
@@ -1647,7 +2292,7 @@ Version: 1.3.1
 			document.getElementById("ul3li3tr7td3").innerText = '';
 			document.getElementById("ul3li3tr7td4").innerText = '';
 			
-		});
+		});*/
 		
 		
 		
