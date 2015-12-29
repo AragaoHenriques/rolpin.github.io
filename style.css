@@ -2393,15 +2393,23 @@ body.mobile #video_background {
 	text-align: justify;
 }
 .chooseLang{
-    /*position: absolute;
-    left: 4%;
-    right: 4%;
-    top: 0%;
-    bottom: 5%;
-    background-color: #000;
-    z-index: 1000000*/
+    width: 35%;
+	left:5%;
+	top:10%;
+    bottom: 10%;
+    height: 80%;
+	position: absolute;
+    
 }
 
+.initSlider{
+    width: 45%;
+	left: 45%;
+    height: 100%;
+    position: absolute;
+	top:15%;
+    
+}
 
 
 .animatedPage0 { 
