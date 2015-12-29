@@ -2369,6 +2369,7 @@ body.mobile #video_background {
 }
 
 #slidyDiv{
+	padding-top: 3%;
 	float: right;
 	width: 50%;
 	text-align: left;
