@@ -2365,7 +2365,14 @@ body.mobile #video_background {
 	left: 0;
 	top:0;
 	float: left;
+    
 	
+}
+
+#companyProfileDiv *{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: cursive;
 }
 
 #slidyDiv{
