@@ -2346,7 +2346,51 @@ body.mobile #video_background {
     width: 15.5%;
 }
 
+#companyProfile{
+	text-align: justify;
+	
+}
 
+
+
+
+.section1Div{
+	width: 100%;
+	height: 100%;
+	position: relative;	
+	
+}
+#companyProfileDiv{
+	width: 48%;
+	left: 0;
+	top:0;
+	float: left;
+	
+}
+
+#slidyDiv{
+	float: right;
+	width: 50%;
+	text-align: left;
+	
+}
+
+#slidy-container {
+	
+}
+
+.companyTags{
+	
+	padding-left: 2%;
+	color: rgb(201,89,40);
+	text-align: justify;
+	font-weight: bold;
+}
+
+
+.companyTagsR{
+	text-align: justify;
+}
 .chooseLang{
     /*position: absolute;
     left: 4%;
@@ -2829,6 +2873,14 @@ span.text-content span {
 }
 
 
+.mapOwnerDiv{
+	
+	width: 100%;
+	height: 100%;
+	position: relative;
+	
+}
+
 .map{
 	
 	
@@ -2839,19 +2891,20 @@ span.text-content span {
 	float: left;
 	
 }
-#contacts {
+.contacts {
 	float: right;
 	width: 50%;
 	
-	padding-right: 10%;
+
 	text-align: left;
 }
 
-#slidy-container {
-	width: 50%;
-	margin: 0 auto;
-	overflow: hidden;
+.contacts * {
+	margin-left: 10%;
+	line-height: 200%;
 }
+
+
 
 .features-table
 {
