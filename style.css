@@ -2409,12 +2409,12 @@ body.mobile #video_background {
     
 }
 
-.initSlider{
-    width: 45%;
-	left: 45%;
+.myDiv{
+    width: 55%;
+	left: 40%;
     height: 100%;
     position: absolute;
-	top:28%;
+	top:10%;
     
 }
 
