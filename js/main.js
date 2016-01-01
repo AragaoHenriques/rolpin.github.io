@@ -1749,30 +1749,30 @@ Version: 1.3.1
             document.getElementById('rbCRoloRavel').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
-			document.getElementById("ul2li4tr1td1").innerText = '01CRA180';
-			document.getElementById("ul2li4tr1td2").innerText = 'Carga Ravel';
-			document.getElementById("ul2li4tr1td3").innerText = '180';
-			document.getElementById("ul2li4tr1td4").innerText = '45';
-			document.getElementById("ul2li4tr2td1").innerText = '01CRA220';
-			document.getElementById("ul2li4tr2td2").innerText = 'Carga Ravel';
-			document.getElementById("ul2li4tr2td3").innerText = '220';
-			document.getElementById("ul2li4tr2td4").innerText = '45';
-			document.getElementById("ul2li4tr3td1").innerText = '01CRA250';
-			document.getElementById("ul2li4tr3td2").innerText = 'Carga Ravel';
-			document.getElementById("ul2li4tr3td3").innerText = '250';
-			document.getElementById("ul2li4tr3td4").innerText = '45';
-			document.getElementById("ul2li4tr4td1").innerText = '01CRA1805';
-			document.getElementById("ul2li4tr4td2").innerText = 'Carga Ravel';
-			document.getElementById("ul2li4tr4td3").innerText = '180';
-			document.getElementById("ul2li4tr4td4").innerText = '50';
-			document.getElementById("ul2li4tr5td1").innerText = '01CRA2205';
-			document.getElementById("ul2li4tr5td2").innerText = 'Carga Ravel';
-			document.getElementById("ul2li4tr5td3").innerText = '220';
-			document.getElementById("ul2li4tr5td4").innerText = '50';
-			document.getElementById("ul2li4tr6td1").innerText = '01CRA2505';
-			document.getElementById("ul2li4tr6td2").innerText = 'Carga Ravel';
-			document.getElementById("ul2li4tr6td3").innerText = '250';
-			document.getElementById("ul2li4tr6td4").innerText = '50';
+			document.getElementById("ul2li4tr1td1").innerText = '0029';
+			document.getElementById("ul2li4tr1td2").innerText = 'Carga Ravel 180mm';
+			document.getElementById("ul2li4tr1td3").innerText = '45';
+			
+			document.getElementById("ul2li4tr2td1").innerText = '0030';
+			document.getElementById("ul2li4tr2td2").innerText = 'Carga Ravel 220mm';
+			document.getElementById("ul2li4tr2td3").innerText = '45';
+			
+			document.getElementById("ul2li4tr3td1").innerText = '0031';
+			document.getElementById("ul2li4tr3td2").innerText = 'Carga Ravel 250mm';
+			document.getElementById("ul2li4tr3td3").innerText = '45';
+			
+			document.getElementById("ul2li4tr4td1").innerText = '0134';
+			document.getElementById("ul2li4tr4td2").innerText = 'Carga Ravel 180mm';
+			document.getElementById("ul2li4tr4td3").innerText = '50';
+			
+			document.getElementById("ul2li4tr5td1").innerText = '0135';
+			document.getElementById("ul2li4tr5td2").innerText = 'Carga Ravel 220mm';
+			document.getElementById("ul2li4tr5td3").innerText = '50';
+			
+			document.getElementById("ul2li4tr6td1").innerText = '0136';
+			document.getElementById("ul2li4tr6td2").innerText = 'Carga Ravel 250mm';
+			document.getElementById("ul2li4tr6td3").innerText = '50';
+
 			
 		});
 
@@ -1793,29 +1793,29 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
 			document.getElementById("ul2li4tr1td1").innerText = '01CMDRRA12';
-			document.getElementById("ul2li4tr1td2").innerText = 'Mini Rolo';
-			document.getElementById("ul2li4tr1td3").innerText = '120';
-			document.getElementById("ul2li4tr1td4").innerText = '30';
+			document.getElementById("ul2li4tr1td2").innerText = 'Midi Rolo Ravel 120mm';
+			document.getElementById("ul2li4tr1td3").innerText = '30';
+			
 			document.getElementById("ul2li4tr2td1").innerText = '01CMDRRA15';
-			document.getElementById("ul2li4tr2td2").innerText = 'Mini Rolo';
-			document.getElementById("ul2li4tr2td3").innerText = '150';
-			document.getElementById("ul2li4tr2td4").innerText = '30';
+			document.getElementById("ul2li4tr2td2").innerText = 'Midi Rolo Ravel 150mm';
+			document.getElementById("ul2li4tr2td3").innerText = '30';
+	
 			document.getElementById("ul2li4tr3td1").innerText = '';
 			document.getElementById("ul2li4tr3td2").innerText = '';
 			document.getElementById("ul2li4tr3td3").innerText = '';
-			document.getElementById("ul2li4tr3td4").innerText = '';
+		
 			document.getElementById("ul2li4tr4td1").innerText = '';
 			document.getElementById("ul2li4tr4td2").innerText = '';
 			document.getElementById("ul2li4tr4td3").innerText = '';
-			document.getElementById("ul2li4tr4td4").innerText = '';
+	
 			document.getElementById("ul2li4tr5td1").innerText = '';
 			document.getElementById("ul2li4tr5td2").innerText = '';
 			document.getElementById("ul2li4tr5td3").innerText = '';
-			document.getElementById("ul2li4tr5td4").innerText = '';
+		
 			document.getElementById("ul2li4tr6td1").innerText = '';
 			document.getElementById("ul2li4tr6td2").innerText = '';
 			document.getElementById("ul2li4tr6td3").innerText = '';
-			document.getElementById("ul2li4tr6td4").innerText = '';
+			
 		});
         
         $('#rbCMiniRoloRavel').click(function() {
@@ -1832,30 +1832,30 @@ Version: 1.3.1
             document.getElementById('rbCRoloRavel').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
-			document.getElementById("ul2li4tr1td1").innerText = '012CMDRRA12';
-			document.getElementById("ul2li4tr1td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li4tr1td3").innerText = '120';
-			document.getElementById("ul2li4tr1td4").innerText = '30';
-			document.getElementById("ul2li4tr2td1").innerText = '012CMDRRA15';
-			document.getElementById("ul2li4tr2td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li4tr2td3").innerText = '150';
-			document.getElementById("ul2li4tr2td4").innerText = '30';
-			document.getElementById("ul2li4tr3td1").innerText = '';
-			document.getElementById("ul2li4tr3td2").innerText = '';
-			document.getElementById("ul2li4tr3td3").innerText = '';
-			document.getElementById("ul2li4tr3td4").innerText = '';
-			document.getElementById("ul2li4tr4td1").innerText = '';
-			document.getElementById("ul2li4tr4td2").innerText = '';
-			document.getElementById("ul2li4tr4td3").innerText = '';
-			document.getElementById("ul2li4tr4td4").innerText = '';
+			document.getElementById("ul2li4tr1td1").innerText = '01CMDRRA12';
+			document.getElementById("ul2li4tr1td2").innerText = 'Carga Ravel 120mm';
+			document.getElementById("ul2li4tr1td3").innerText = '30';
+			
+			document.getElementById("ul2li4tr2td1").innerText = '01CMDRRA15';
+			document.getElementById("ul2li4tr2td2").innerText = 'Carga Ravel 150mm';
+			document.getElementById("ul2li4tr2td3").innerText = '30';
+			
+			document.getElementById("ul2li4tr3td1").innerText = '012CMDRRA12';
+			document.getElementById("ul2li4tr3td2").innerText = '2 Cargas Ravel 120mm';
+			document.getElementById("ul2li4tr3td3").innerText = '30';
+	
+			document.getElementById("ul2li4tr4td1").innerText = '012CMDRRA15';
+			document.getElementById("ul2li4tr4td2").innerText = '2 Cargas Ravel 150mm';
+			document.getElementById("ul2li4tr4td3").innerText = '30';
+			
 			document.getElementById("ul2li4tr5td1").innerText = '';
 			document.getElementById("ul2li4tr5td2").innerText = '';
 			document.getElementById("ul2li4tr5td3").innerText = '';
-			document.getElementById("ul2li4tr5td4").innerText = '';
+			
 			document.getElementById("ul2li4tr6td1").innerText = '';
 			document.getElementById("ul2li4tr6td2").innerText = '';
 			document.getElementById("ul2li4tr6td3").innerText = '';
-			document.getElementById("ul2li4tr6td4").innerText = '';
+		
 			
 		});
 		
