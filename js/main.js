@@ -416,34 +416,67 @@ Version: 1.3.1
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 			
 			document.getElementById("ul1li1tr1td1").innerText ='0064';
+			document.getElementById("ul1li1tr1td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr1td2").innerText = 'Rolo Angorá 60mm ';
+			document.getElementById("ul1li1tr1td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr1td3").innerText = '45';
+            document.getElementById("ul1li1tr1td4").innerText = '60'
 			
 			document.getElementById("ul1li1tr2td1").innerText = '0065';
+			document.getElementById("ul1li1tr2td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr2td2").innerText = 'Rolo Angorá 150mm';
+			document.getElementById("ul1li1tr2td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr2td3").innerText = '45';
+            document.getElementById("ul1li1tr2td4").innerText = '24'
 			
 			document.getElementById("ul1li1tr3td1").innerText = '0066';
+			document.getElementById("ul1li1tr3td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr3td2").innerText = 'Rolo Angorá 180mm';
+			document.getElementById("ul1li1tr3td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr3td3").innerText = '45';
+            document.getElementById("ul1li1tr3td4").innerText = '60'
+            
 			document.getElementById("ul1li1tr4td1").innerText = '0067';
+			document.getElementById("ul1li1tr4td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr4td2").innerText = 'Rolo Angorá 220mm';
+			document.getElementById("ul1li1tr4td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr4td3").innerText = '45';
+            document.getElementById("ul1li1tr4td4").innerText = '55'
+            
 			document.getElementById("ul1li1tr5td1").innerText = '0068';
+			document.getElementById("ul1li1tr5td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td2").innerText = 'Rolo Angorá 250mm';
+			document.getElementById("ul1li1tr5td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr5td3").innerText = '45';
+            document.getElementById("ul1li1tr5td4").innerText = '50'
+            
             document.getElementById("ul1li1tr6td1").innerText = '';
+			document.getElementById("ul1li1tr6td1").style.textAlign = '';
 			document.getElementById("ul1li1tr6td2").innerText = '';
+			document.getElementById("ul1li1tr6td2").style.textAlign = '';
 			document.getElementById("ul1li1tr6td3").innerText = '';
+            document.getElementById("ul1li1tr6td4").innerText = ''
+            
 			document.getElementById("ul1li1tr7td1").innerText = '';
+			document.getElementById("ul1li1tr7td1").style.textAlign = '';
 			document.getElementById("ul1li1tr7td2").innerText = '';
+			document.getElementById("ul1li1tr7td2").style.textAlign = '';
 			document.getElementById("ul1li1tr7td3").innerText = '';
+            document.getElementById("ul1li1tr7td4").innerText = ''
+            
 			document.getElementById("ul1li1tr8td1").innerText = '';
+			document.getElementById("ul1li1tr8td1").style.textAlign = '';
 			document.getElementById("ul1li1tr8td2").innerText = '';
+			document.getElementById("ul1li1tr8td2").style.textAlign = '';
 			document.getElementById("ul1li1tr8td3").innerText = '';
+            document.getElementById("ul1li1tr8td4").innerText = ''
+            
 			document.getElementById("ul1li1tr9td1").innerText = '';
+			document.getElementById("ul1li1tr9td1").style.textAlign = '';
 			document.getElementById("ul1li1tr9td2").innerText = '';
+			document.getElementById("ul1li1tr9td2").style.textAlign = '';
 			document.getElementById("ul1li1tr9td3").innerText = '';
+            document.getElementById("ul1li1tr9td4").innerText = ''
 		});
 		$('#rbCRoloAngora').click(function() {
 			$("#rightImageAngora").attr('src', 'images/18/ravel.JPG');
@@ -461,39 +494,62 @@ Version: 1.3.1
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 			
 			document.getElementById("ul1li1tr1td1").innerText ='0021';
+			document.getElementById("ul1li1tr1td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr1td2").innerText = 'Carga Angorá 60mm';
+			document.getElementById("ul1li1tr1td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr1td3").innerText = '45';
+            document.getElementById("ul1li1tr1td4").innerText = ''
 		
 			document.getElementById("ul1li1tr2td1").innerText = '0022';
+			document.getElementById("ul1li1tr2td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr2td2").innerText = 'Carga Angorá 150mm';
+			document.getElementById("ul1li1tr2td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr2td3").innerText = '45';
+            document.getElementById("ul1li1tr2td4").innerText = ''
 		
 			document.getElementById("ul1li1tr3td1").innerText = '0023';
+			document.getElementById("ul1li1tr3td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr3td2").innerText = 'Carga Angorá 180mm';
+			document.getElementById("ul1li1tr3td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr3td3").innerText = '45';
+            document.getElementById("ul1li1tr3td4").innerText = ''
 
 			document.getElementById("ul1li1tr4td1").innerText = '0024';
+			document.getElementById("ul1li1tr4td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr4td2").innerText = 'Carga Angorá 220mm';
+			document.getElementById("ul1li1tr4td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr4td3").innerText = '45';
+            document.getElementById("ul1li1tr4td4").innerText = ''
 
 			document.getElementById("ul1li1tr5td1").innerText = '0025';
+			document.getElementById("ul1li1tr5td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td2").innerText = 'Carga Angorá 250mm';
+			document.getElementById("ul1li1tr5td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr5td3").innerText = '45';
+            document.getElementById("ul1li1tr5td4").innerText = ''
 
             document.getElementById("ul1li1tr6td1").innerText = '';
+			document.getElementById("ul1li1tr6td1").style.textAlign = '';
 			document.getElementById("ul1li1tr6td2").innerText = '';
+			document.getElementById("ul1li1tr6td2").style.textAlign = '';
 			document.getElementById("ul1li1tr6td3").innerText = '';
-			document.getElementById("ul1li1tr6td4").innerText = '';
+			document.getElementById("ul1li1tr6td4").innerText = '';  
 			document.getElementById("ul1li1tr7td1").innerText = '';
+			document.getElementById("ul1li1tr7td1").style.textAlign = '';
 			document.getElementById("ul1li1tr7td2").innerText = '';
+			document.getElementById("ul1li1tr7td2").style.textAlign = '';
 			document.getElementById("ul1li1tr7td3").innerText = '';
 			document.getElementById("ul1li1tr7td4").innerText = '';
 			document.getElementById("ul1li1tr8td1").innerText = '';
+			document.getElementById("ul1li1tr8td1").style.textAlign = '';
 			document.getElementById("ul1li1tr8td2").innerText = '';
+			document.getElementById("ul1li1tr8td2").style.textAlign = '';
 			document.getElementById("ul1li1tr8td3").innerText = '';
 			document.getElementById("ul1li1tr8td4").innerText = '';
 			document.getElementById("ul1li1tr9td1").innerText = '';
+			document.getElementById("ul1li1tr9td1").style.textAlign = '';
 			document.getElementById("ul1li1tr9td2").innerText = '';
+			document.getElementById("ul1li1tr9td2").style.textAlign = '';
 			document.getElementById("ul1li1tr9td3").innerText = '';
 			document.getElementById("ul1li1tr9td4").innerText = '';
 		});
@@ -515,52 +571,64 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 			document.getElementById("ul1li1tr1td1").innerText = '01RSM2205';
-			
-			document.getElementById("ul1li1tr1td2").innerText = 'Mini Rolo Angorá 60mm';
-			
+			document.getElementById("ul1li1tr1td1").style.textAlign = 'left';
+			document.getElementById("ul1li1tr1td2").innerText = 'Mini Angorá 60mm';
+			document.getElementById("ul1li1tr1td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr1td3").innerText = '16';
-	
+	        document.getElementById("ul1li1tr1td4").innerText = ''
+           
 			document.getElementById("ul1li1tr2td1").innerText = '01MRANGC10';
-			
-			document.getElementById("ul1li1tr2td2").innerText = 'Mini Rolo Angorá 100mm';
-			
+			document.getElementById("ul1li1tr2td1").style.textAlign = 'left';
+			document.getElementById("ul1li1tr2td2").innerText = 'Mini Angorá 100mm';
+			document.getElementById("ul1li1tr2td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr2td3").innerText = '16';
+            document.getElementById("ul1li1tr2td4").innerText = '40'
 
 
 			document.getElementById("ul1li1tr3td1").innerText = '01CMDRA12';
-			
-			document.getElementById("ul1li1tr3td2").innerText = 'Midi Rolo Angorá 120mm';
-			
+			document.getElementById("ul1li1tr3td1").style.textAlign = 'left';
+			document.getElementById("ul1li1tr3td2").innerText = 'Midi Angorá 120mm';
+			document.getElementById("ul1li1tr3td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr3td3").innerText = '30';
+            document.getElementById("ul1li1tr3td4").innerText = '35'
 
 			document.getElementById("ul1li1tr4td1").innerText = '01CMDRA15';
-			
-			document.getElementById("ul1li1tr4td2").innerText = 'Midi Rolo Angorá 150mm';
-			
+			document.getElementById("ul1li1tr4td1").style.textAlign = 'left';
+			document.getElementById("ul1li1tr4td2").innerText = 'Midi Angorá 150mm';
+			document.getElementById("ul1li1tr4td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr4td3").innerText = '30';
+            document.getElementById("ul1li1tr4td4").innerText = ''
 			
 			document.getElementById("ul1li1tr5td1").innerText = '';
+			document.getElementById("ul1li1tr5td1").style.textAlign = '';
 			document.getElementById("ul1li1tr5td2").innerText = '';
+			document.getElementById("ul1li1tr5td2").style.textAlign = '';
 			document.getElementById("ul1li1tr5td3").innerText = '';
+            document.getElementById("ul1li1tr5td4").innerText = ''
 			
             document.getElementById("ul1li1tr6td1").innerText = '';
+			document.getElementById("ul1li1tr6td1").style.textAlign = '';
 			document.getElementById("ul1li1tr6td2").innerText = '';
+			document.getElementById("ul1li1tr6td2").style.textAlign = '';
 			document.getElementById("ul1li1tr6td3").innerText = '';
+            document.getElementById("ul1li1tr6td4").innerText = ''
 			
-            document.getElementById("ul1li1tr6td1").innerText = '';
-			document.getElementById("ul1li1tr6td2").innerText = '';
-			document.getElementById("ul1li1tr6td3").innerText = '';
-
-			document.getElementById("ul1li1tr7td1").innerText = '';
+        	document.getElementById("ul1li1tr7td1").innerText = '';
+			document.getElementById("ul1li1tr7td1").style.textAlign = '';
 			document.getElementById("ul1li1tr7td2").innerText = '';
+			document.getElementById("ul1li1tr7td2").style.textAlign = '';
 			document.getElementById("ul1li1tr7td3").innerText = '';
 
 			document.getElementById("ul1li1tr8td1").innerText = '';
+			document.getElementById("ul1li1tr8td1").style.textAlign = '';
 			document.getElementById("ul1li1tr8td2").innerText = '';
+			document.getElementById("ul1li1tr8td2").style.textAlign = '';
 			document.getElementById("ul1li1tr8td3").innerText = '';
 
 			document.getElementById("ul1li1tr9td1").innerText = '';
+			document.getElementById("ul1li1tr9td1").style.textAlign = '';
 			document.getElementById("ul1li1tr9td2").innerText = '';
+			document.getElementById("ul1li1tr9td2").style.textAlign = '';
 			document.getElementById("ul1li1tr9td3").innerText = '';
 
 			
@@ -583,40 +651,67 @@ Version: 1.3.1
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 
 			document.getElementById("ul1li1tr1td1").innerText = '01CIANG6';
+			document.getElementById("ul1li1tr1td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr1td2").innerText = 'Carga Angorá 60mm';
+			document.getElementById("ul1li1tr1td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr1td3").innerText = '16';
-	
+	        document.getElementById("ul1li1tr1td4").innerText = ''
+            
 			document.getElementById("ul1li1tr2td1").innerText = '01CIANG';
+			document.getElementById("ul1li1tr2td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr2td2").innerText = 'Carga Angorá 100mm';
+			document.getElementById("ul1li1tr2td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr2td3").innerText = '16';
+            document.getElementById("ul1li1tr2td4").innerText = ''
 
 			document.getElementById("ul1li1tr3td1").innerText = '01CIANG16';
+			document.getElementById("ul1li1tr3td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr3td2").innerText = 'Carga Angorá 150mm';
+			document.getElementById("ul1li1tr3td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr3td3").innerText = '16';
+            document.getElementById("ul1li1tr3td4").innerText = ''
 
 			document.getElementById("ul1li1tr4td1").innerText = '012CMRA6';
+			document.getElementById("ul1li1tr4td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr4td2").innerText = 'Pack 2 Cargas Angorá  60mm';
+			document.getElementById("ul1li1tr4td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr4td3").innerText = '16';
+            document.getElementById("ul1li1tr4td4").innerText = ''
 
 			document.getElementById("ul1li1tr5td1").innerText = '012CMRA11';
+			document.getElementById("ul1li1tr5td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td2").innerText = 'Pack 2 Cargas Angorá 100mm';
+			document.getElementById("ul1li1tr5td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td3").innerText = '16';
+            document.getElementById("ul1li1tr5td4").innerText = ''
 	
 			document.getElementById("ul1li1tr6td1").innerText = '012CMRA16';
+			document.getElementById("ul1li1tr6td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr6td2").innerText = 'Pack 2 Cargas Angorá 150mm';
+			document.getElementById("ul1li1tr6td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr6td3").innerText = '16';
+            document.getElementById("ul1li1tr6td4").innerText = ''
 
 			document.getElementById("ul1li1tr7td1").innerText = '01CXANG';
+			document.getElementById("ul1li1tr7td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr7td2").innerText = 'Blister 10 Cargas Angorá 100mm';
+			document.getElementById("ul1li1tr7td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr7td3").innerText = '16';
+            document.getElementById("ul1li1tr7td4").innerText = ''
 
 			document.getElementById("ul1li1tr8td1").innerText = '012CMDRA12';
+			document.getElementById("ul1li1tr8td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr8td2").innerText = 'Pack 2 Cargas Angorá 120mm';
+			document.getElementById("ul1li1tr8td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr8td3").innerText = '30';
+            document.getElementById("ul1li1tr8td4").innerText = ''
 
 			document.getElementById("ul1li1tr9td1").innerText = '012CMDRA15';
+			document.getElementById("ul1li1tr9td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr9td2").innerText = 'Pack 2 Cargas Angorá 150mm';
+			document.getElementById("ul1li1tr9td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr9td3").innerText = '30';
+            document.getElementById("ul1li1tr9td4").innerText = ''
 
 		});
 		
@@ -1815,26 +1910,26 @@ Version: 1.3.1
             document.getElementById('rbCRoloRugo').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRugo').style.color = '#FFF';
-			document.getElementById("ul3li1tr1td1").innerText = '01RR60';
-			document.getElementById("ul3li1tr1td2").innerText = 'Rolo Rugo';
-			document.getElementById("ul3li1tr1td3").innerText = '60';
-			document.getElementById("ul3li1tr1td4").innerText = '45';
-			document.getElementById("ul3li1tr2td1").innerText = '01RR180';
-			document.getElementById("ul3li1tr2td2").innerText = 'Rolo Rugo';
-			document.getElementById("ul3li1tr2td3").innerText = '180';
-			document.getElementById("ul3li1tr2td4").innerText = '45';
-			document.getElementById("ul3li1tr3td1").innerText = '01RR220';
-			document.getElementById("ul3li1tr3td2").innerText = 'Rolo Rugo';
-			document.getElementById("ul3li1tr3td3").innerText = '220';
-			document.getElementById("ul3li1tr3td4").innerText = '45';
-			document.getElementById("ul3li1tr4td1").innerText = '01RR1250';
-			document.getElementById("ul3li1tr4td2").innerText = 'Rolo Rugo';
-			document.getElementById("ul3li1tr4td3").innerText = '250';
-			document.getElementById("ul3li1tr4td4").innerText = '45';
-			document.getElementById("ul3li1tr5td1").innerText = '01RRC';
+			document.getElementById("ul3li1tr1td1").innerText = '0075';
+			document.getElementById("ul3li1tr1td2").innerText = 'Rolo Rugo 60mm';
+			document.getElementById("ul3li1tr1td3").innerText = '75';
+		
+			document.getElementById("ul3li1tr2td1").innerText = '0076';
+			document.getElementById("ul3li1tr2td2").innerText = 'Rolo Rugo 180mm';
+			document.getElementById("ul3li1tr2td3").innerText = '75';
+		
+			document.getElementById("ul3li1tr3td1").innerText = '0077';
+			document.getElementById("ul3li1tr3td2").innerText = 'Rolo Rugo 220mm';
+			document.getElementById("ul3li1tr3td3").innerText = '75';
+		
+			document.getElementById("ul3li1tr4td1").innerText = '0078';
+			document.getElementById("ul3li1tr4td2").innerText = 'Rolo Rugo 250mm';
+			document.getElementById("ul3li1tr4td3").innerText = '75';
+			
+			document.getElementById("ul3li1tr5td1").innerText = '0079';
 			document.getElementById("ul3li1tr5td2").innerText = 'Rolo Rugo Canto';
-			document.getElementById("ul3li1tr5td3").innerText = '';
-			document.getElementById("ul3li1tr5td4").innerText = '45';
+			document.getElementById("ul3li1tr5td3").innerText = '75';
+
 			
 		});
         
@@ -1852,26 +1947,25 @@ Version: 1.3.1
             document.getElementById('rbCRoloRugo').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRugo').style.color = '#FFF';
-			document.getElementById("ul3li1tr1td1").innerText = '01CR60';
-			document.getElementById("ul3li1tr1td2").innerText = 'Carga Rugo';
-			document.getElementById("ul3li1tr1td3").innerText = '60';
-			document.getElementById("ul3li1tr1td4").innerText = '45';
-			document.getElementById("ul3li1tr2td1").innerText = '01CR180';
-			document.getElementById("ul3li1tr2td2").innerText = 'Carga Rugo';
-			document.getElementById("ul3li1tr2td3").innerText = '180';
-			document.getElementById("ul3li1tr2td4").innerText = '45';
-			document.getElementById("ul3li1tr3td1").innerText = '01CR220';
-			document.getElementById("ul3li1tr3td2").innerText = 'Carga Rugo';
-			document.getElementById("ul3li1tr3td3").innerText = '220';
-			document.getElementById("ul3li1tr3td4").innerText = '45';
-			document.getElementById("ul3li1tr4td1").innerText = '01CR250';
-			document.getElementById("ul3li1tr4td2").innerText = 'Carga Rugo';
-			document.getElementById("ul3li1tr4td3").innerText = '250';
-			document.getElementById("ul3li1tr4td4").innerText = '45';
-			document.getElementById("ul3li1tr5td1").innerText = '01CRC';
+			document.getElementById("ul3li1tr1td1").innerText = '0032';
+			document.getElementById("ul3li1tr1td2").innerText = 'Carga Rugo 60mm';
+			document.getElementById("ul3li1tr1td3").innerText = '75';
+			
+			document.getElementById("ul3li1tr2td1").innerText = '0033';
+			document.getElementById("ul3li1tr2td2").innerText = 'Carga Rugo 180mm';
+			document.getElementById("ul3li1tr2td3").innerText = '75';
+			
+			document.getElementById("ul3li1tr3td1").innerText = '0034';
+			document.getElementById("ul3li1tr3td2").innerText = 'Carga Rugo 220mm';
+			document.getElementById("ul3li1tr3td3").innerText = '75';
+		
+			document.getElementById("ul3li1tr4td1").innerText = '0035';
+			document.getElementById("ul3li1tr4td2").innerText = 'Carga Rugo 250mm';
+			document.getElementById("ul3li1tr4td3").innerText = '75';
+		
+			document.getElementById("ul3li1tr5td1").innerText = '0036';
 			document.getElementById("ul3li1tr5td2").innerText = 'Carga Rugo Canto';
-			document.getElementById("ul3li1tr5td3").innerText = '';
-			document.getElementById("ul3li1tr5td4").innerText = '45';
+			document.getElementById("ul3li1tr5td3").innerText = '75';
 			
 		});
 
@@ -1891,25 +1985,25 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRugo').style.color = '#FFF';
 			document.getElementById("ul3li1tr1td1").innerText = '01MRR11';
-			document.getElementById("ul3li1tr1td2").innerText = 'Mini Rolo';
-			document.getElementById("ul3li1tr1td3").innerText = '110';
-			document.getElementById("ul3li1tr1td4").innerText = '16';
+			document.getElementById("ul3li1tr1td2").innerText = 'Mini Rolo Rugo 110mm';
+			document.getElementById("ul3li1tr1td3").innerText = '16';
+			
 			document.getElementById("ul3li1tr2td1").innerText = '';
 			document.getElementById("ul3li1tr2td2").innerText = '';
 			document.getElementById("ul3li1tr2td3").innerText = '';
-			document.getElementById("ul3li1tr2td4").innerText = '';
+		
 			document.getElementById("ul3li1tr3td1").innerText = '';
 			document.getElementById("ul3li1tr3td2").innerText = '';
 			document.getElementById("ul3li1tr3td3").innerText = '';
-			document.getElementById("ul3li1tr3td4").innerText = '';
+	
 			document.getElementById("ul3li1tr4td1").innerText = '';
 			document.getElementById("ul3li1tr4td2").innerText = '';
 			document.getElementById("ul3li1tr4td3").innerText = '';
-			document.getElementById("ul3li1tr4td4").innerText = '';
+	
             document.getElementById("ul3li1tr5td1").innerText = '';
 			document.getElementById("ul3li1tr5td2").innerText = '';
 			document.getElementById("ul3li1tr5td3").innerText = '';
-			document.getElementById("ul3li1tr5td4").innerText = '';
+		
 			
 		});
         
@@ -1927,25 +2021,25 @@ Version: 1.3.1
             document.getElementById('rbCRoloRugo').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
 			document.getElementById("ul3li1tr1td1").innerText = '01CIR';
-			document.getElementById("ul3li1tr1td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul3li1tr1td3").innerText = '110';
-			document.getElementById("ul3li1tr1td4").innerText = '16';
+			document.getElementById("ul3li1tr1td2").innerText = 'Carga Rugo 110mm';
+			document.getElementById("ul3li1tr1td3").innerText = '16';
+		
 			document.getElementById("ul3li1tr2td1").innerText = '012CMRR11';
-			document.getElementById("ul3li1tr2td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul3li1tr2td3").innerText = '110';
-			document.getElementById("ul3li1tr2td4").innerText = '16';
+			document.getElementById("ul3li1tr2td2").innerText = 'Pack 2 Cargas Rugo 110mm';
+			document.getElementById("ul3li1tr2td3").innerText = '16';
+			
 			document.getElementById("ul3li1tr3td1").innerText = '01CXR';
-			document.getElementById("ul3li1tr3td2").innerText = 'Blister 10 unidades';
-			document.getElementById("ul3li1tr3td3").innerText = '110';
-			document.getElementById("ul3li1tr3td4").innerText = '16';
+			document.getElementById("ul3li1tr3td2").innerText = 'Blister 10 Cargas Rugo 110mm';
+			document.getElementById("ul3li1tr3td3").innerText = '16';
+	
 			document.getElementById("ul3li1tr4td1").innerText = '';
 			document.getElementById("ul3li1tr4td2").innerText = '';
 			document.getElementById("ul3li1tr4td3").innerText = '';
-			document.getElementById("ul3li1tr4td4").innerText = '';
+
             document.getElementById("ul3li1tr5td1").innerText = '';
 			document.getElementById("ul3li1tr5td2").innerText = '';
 			document.getElementById("ul3li1tr5td3").innerText = '';
-			document.getElementById("ul3li1tr5td4").innerText = '';
+
 			
 		});
 	
@@ -1971,18 +2065,18 @@ Version: 1.3.1
             document.getElementById('rbCRoloSuper').style.color = '#FFF';
 			//document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
             //document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
-			document.getElementById("ul3li2tr1td1").innerText = '01RS180';
-			document.getElementById("ul3li2tr1td2").innerText = 'Rolo Super';
-			document.getElementById("ul3li2tr1td3").innerText = '180';
-			document.getElementById("ul3li2tr1td4").innerText = '45';
-			document.getElementById("ul3li2tr2td1").innerText = '01RS220';
-			document.getElementById("ul3li2tr2td2").innerText = 'Rolo Super';
-			document.getElementById("ul3li2tr2td3").innerText = '220';
-			document.getElementById("ul3li2tr2td4").innerText = '45';
-			document.getElementById("ul3li2tr3td1").innerText = '01RS250';
-			document.getElementById("ul3li2tr3td2").innerText = 'Rolo Super';
-			document.getElementById("ul3li2tr3td3").innerText = '250';
-			document.getElementById("ul3li2tr3td4").innerText = '45';
+			document.getElementById("ul3li2tr1td1").innerText = '0049';
+			document.getElementById("ul3li2tr1td2").innerText = 'Rolo Super 180mm';
+			document.getElementById("ul3li2tr1td3").innerText = '45';
+			
+			document.getElementById("ul3li2tr2td1").innerText = '0050';
+			document.getElementById("ul3li2tr2td2").innerText = 'Rolo Super 220mm';
+			document.getElementById("ul3li2tr2td3").innerText = '45';
+		
+			document.getElementById("ul3li2tr3td1").innerText = '0051';
+			document.getElementById("ul3li2tr3td2").innerText = 'Rolo Super 250mm';
+			document.getElementById("ul3li2tr3td3").innerText = '45';
+			
 			
 		});
         
@@ -2001,18 +2095,18 @@ Version: 1.3.1
             document.getElementById('rbCRoloSuper').style.color = '#FFF';
 			//document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
             //document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
-			document.getElementById("ul3li2tr1td1").innerText = '01CS180';
-			document.getElementById("ul3li2tr1td2").innerText = 'Carga Super';
-			document.getElementById("ul3li2tr1td3").innerText = '180';
-			document.getElementById("ul3li2tr1td4").innerText = '45';
-			document.getElementById("ul3li2tr2td1").innerText = '01CS220';
-			document.getElementById("ul3li2tr2td2").innerText = 'Carga Super';
-			document.getElementById("ul3li2tr2td3").innerText = '220';
-			document.getElementById("ul3li2tr2td4").innerText = '45';
-			document.getElementById("ul3li2tr3td1").innerText = '01CS250';
-			document.getElementById("ul3li2tr3td2").innerText = 'Carga Super';
-			document.getElementById("ul3li2tr3td3").innerText = '250';
-			document.getElementById("ul3li2tr3td4").innerText = '45';
+			document.getElementById("ul3li2tr1td1").innerText = '0006';
+			document.getElementById("ul3li2tr1td2").innerText = 'Carga Super 180mm';
+			document.getElementById("ul3li2tr1td3").innerText = '45';
+			
+			document.getElementById("ul3li2tr2td1").innerText = '0007';
+			document.getElementById("ul3li2tr2td2").innerText = 'Carga Super 220mm';
+			document.getElementById("ul3li2tr2td3").innerText = '45';
+			
+			document.getElementById("ul3li2tr3td1").innerText = '0008';
+			document.getElementById("ul3li2tr3td2").innerText = 'Carga Super 250mm';
+			document.getElementById("ul3li2tr3td3").innerText = '45';
+		
 			
 		});
 
