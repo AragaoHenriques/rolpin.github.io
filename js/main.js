@@ -1093,15 +1093,15 @@ Version: 1.3.1
 			document.getElementById('rbRoloCromado').style.color = '#FFF';
 			document.getElementById('rbCRoloCromado').style.color = '#FFF';
 			
-			document.getElementById("ul1li4tr1td1").innerText = '01CPC180';
+			document.getElementById("ul1li4tr1td1").innerText = '0012';
 			document.getElementById("ul1li4tr1td2").innerText = 'Carga Cromado 180mm';
 			document.getElementById("ul1li4tr1td3").innerText = '45';
 	
-			document.getElementById("ul1li4tr2td1").innerText = '01CPC220';
+			document.getElementById("ul1li4tr2td1").innerText = '0013';
 			document.getElementById("ul1li4tr2td2").innerText = 'Carga Cromado 220mm';
 			document.getElementById("ul1li4tr2td3").innerText = '45';
 
-			document.getElementById("ul1li4tr3td1").innerText = '01CPC250';
+			document.getElementById("ul1li4tr3td1").innerText = '0014';
 			document.getElementById("ul1li4tr3td2").innerText = 'Carga Cromado 250mm';
 			document.getElementById("ul1li4tr3td3").innerText = '45';
 		
@@ -1270,38 +1270,37 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloEspuma').style.color = '#FFF';
 			document.getElementById("ul2li1tr1td1").innerText = '01MRE6';
-			document.getElementById("ul2li1tr1td2").innerText = 'Mini Rolo';
-			document.getElementById("ul2li1tr1td3").innerText = '60';
-			document.getElementById("ul2li1tr1td4").innerText = '16';
+			document.getElementById("ul2li1tr1td2").innerText = 'Mini Rolo Espuma 60mm';
+			document.getElementById("ul2li1tr1td3").innerText = '16';
+		
 			document.getElementById("ul2li1tr2td1").innerText = '01MRE';
-			document.getElementById("ul2li1tr2td2").innerText = 'Mini Rolo';
-			document.getElementById("ul2li1tr2td3").innerText = '110';
-			document.getElementById("ul2li1tr2td4").innerText = '16';
+			document.getElementById("ul2li1tr2td2").innerText = 'Mini Rolo Espuma 110mm';
+			document.getElementById("ul2li1tr2td3").innerText = '16';
+		
             document.getElementById("ul2li1tr3td1").innerText = '';
 			document.getElementById("ul2li1tr3td2").innerText = '';
 			document.getElementById("ul2li1tr3td3").innerText = '';
-			document.getElementById("ul2li1tr3td4").innerText = '';
+	
 			document.getElementById("ul2li1tr4td1").innerText = '';
 			document.getElementById("ul2li1tr4td2").innerText = '';
 			document.getElementById("ul2li1tr4td3").innerText = '';
-			document.getElementById("ul2li1tr4td4").innerText = '';
+
 			document.getElementById("ul2li1tr5td1").innerText = '';
 			document.getElementById("ul2li1tr5td2").innerText = '';
 			document.getElementById("ul2li1tr5td3").innerText = '';
-			document.getElementById("ul2li1tr5td4").innerText = '';
+	
 			document.getElementById("ul2li1tr6td1").innerText = '';
 			document.getElementById("ul2li1tr6td2").innerText = '';
 			document.getElementById("ul2li1tr6td3").innerText = '';
-			document.getElementById("ul2li1tr6td4").innerText = '';
+	
 			document.getElementById("ul2li1tr7td1").innerText = '';
 			document.getElementById("ul2li1tr7td2").innerText = '';
 			document.getElementById("ul2li1tr7td3").innerText = '';
-			document.getElementById("ul2li1tr7td4").innerText = '';
+
 			document.getElementById("ul2li1tr8td1").innerText = '';
 			document.getElementById("ul2li1tr8td2").innerText = '';
 			document.getElementById("ul2li1tr8td3").innerText = '';
-			document.getElementById("ul2li1tr8td4").innerText = '';
-			
+	
 		});
         
         
@@ -1320,37 +1319,37 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloEspuma').style.color = '#FFF';
 			document.getElementById("ul2li1tr1td1").innerText = '01CE5';
-			document.getElementById("ul2li1tr1td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li1tr1td3").innerText = '60';
-			document.getElementById("ul2li1tr1td4").innerText = '16';
+			document.getElementById("ul2li1tr1td2").innerText = 'Carga Espuma 50mm';
+			document.getElementById("ul2li1tr1td3").innerText = '16';
+			
 			document.getElementById("ul2li1tr2td1").innerText = '01CE11';
-			document.getElementById("ul2li1tr2td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li1tr2td3").innerText = '110';
-			document.getElementById("ul2li1tr2td4").innerText = '16';
+			document.getElementById("ul2li1tr2td2").innerText = 'Carga Espuma 110mm';
+			document.getElementById("ul2li1tr2td3").innerText = '16';
+		
 			document.getElementById("ul2li1tr3td1").innerText = '01CE16';
-			document.getElementById("ul2li1tr3td2").innerText = 'Carga Mini Rolo';
-			document.getElementById("ul2li1tr3td3").innerText = '150';
-			document.getElementById("ul2li1tr3td4").innerText = '16';
+			document.getElementById("ul2li1tr3td2").innerText = 'Carga Espuma 160mm';
+			document.getElementById("ul2li1tr3td3").innerText = '16';
+			
 			document.getElementById("ul2li1tr4td1").innerText = '012CMRE6';
-			document.getElementById("ul2li1tr4td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul2li1tr4td3").innerText = '60';
-			document.getElementById("ul2li1tr4td4").innerText = '16';
+			document.getElementById("ul2li1tr4td2").innerText = 'Pack 2 Cargas Espuma 50mm';
+			document.getElementById("ul2li1tr4td3").innerText = '16';
+		
 			document.getElementById("ul2li1tr5td1").innerText = '012CMRE11';
-			document.getElementById("ul2li1tr5td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul2li1tr5td3").innerText = '110';
-			document.getElementById("ul2li1tr5td4").innerText = '16';
+			document.getElementById("ul2li1tr5td2").innerText = 'Pack 2 Cargas Espuma 110mm';
+			document.getElementById("ul2li1tr5td3").innerText = '16';
+	
 			document.getElementById("ul2li1tr6td1").innerText = '012CMRE15';
-			document.getElementById("ul2li1tr6td2").innerText = 'Pack 2 unidades';
-			document.getElementById("ul2li1tr6td3").innerText = '150';
-			document.getElementById("ul2li1tr6td4").innerText = '16';
+			document.getElementById("ul2li1tr6td2").innerText = 'Pack 2 Cargas Espuma 160';
+			document.getElementById("ul2li1tr6td3").innerText = '16';
+			
 			document.getElementById("ul2li1tr7td1").innerText = '01CXE';
-			document.getElementById("ul2li1tr7td2").innerText = 'Blister 10 unidades';
-			document.getElementById("ul2li1tr7td3").innerText = '110';
-			document.getElementById("ul2li1tr7td4").innerText = '16';
+			document.getElementById("ul2li1tr7td2").innerText = 'Blister 10 Cargas Espuma 110mm';
+			document.getElementById("ul2li1tr7td3").innerText = '16';
+			
 			document.getElementById("ul2li1tr8td1").innerText = '01CXER';
-			document.getElementById("ul2li1tr8td2").innerText = 'Blister 10 unidades (Topo Redondo)';
-			document.getElementById("ul2li1tr8td3").innerText = '110';
-			document.getElementById("ul2li1tr8td4").innerText = '16';
+			document.getElementById("ul2li1tr8td2").innerText = 'Blister 10 Cargas Espuma 110mm (Topo Redondo)';
+			document.getElementById("ul2li1tr8td3").innerText = '16';
+		
 			
 		});
 		
