@@ -2752,9 +2752,13 @@ nav.vertical > ul > li > a:hover {
 	left:0%;
 	border-color: #31b0d5;
 	border-style: solid;
+    background-color: gainsboro;
 }
 
-
+#rightTitle{
+    
+    color:darkslategrey;
+}
 .downDiv {
 	position: absolute;
 	width: 50%;
@@ -2803,6 +2807,9 @@ width: 100%;
 	
 }
 
+.produto_title{
+    background-color: gainsboro;
+}
 
 
 .buttonTypeRolo{
