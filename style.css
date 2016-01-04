@@ -2437,8 +2437,9 @@ body.mobile #video_background {
 }
 
 .pA4{
-    font-weight: bold;
-    text-decoration: underline;
+    
+    font-size:20px;
+    
 }
 
 .animatedPage0 { 
@@ -2640,7 +2641,7 @@ body.mobile #video_background {
 	bottom: 0;
 	left: 0;
 	background: #545454;
-	z-index: 99999;
+	z-index: 999;
 	opacity:0;
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in;
@@ -2657,10 +2658,10 @@ body.mobile #video_background {
 
 
 .modalDialog > div {
-	width: 70%;
-	height: 70%;
+	width: 75%;
+	height: 75%;
 	position: relative;
-	margin: 10% auto;
+	margin: 6% auto;
     /*padding: 5px 20px 13px 20px;*/
 	/*border-radius: 10px;*/
 	background: #545454;
@@ -2861,8 +2862,11 @@ width: 100%;
 .styleC{
 	width: 100%;
 	height: 100%;
-	padding-left: 5%;
+	padding-left: 4%;
 	padding-top: 3%;
+    top:10%;
+    
+    position:absolute;
 	
 }
 .img-list{
@@ -2904,7 +2908,8 @@ ul.img-list li {
     -ms-transform:scale(1.5); /* IE 9 */
     -o-transform:scale(1.5); /* Opera */
      transform:scale(1.5);
-    z-index: 999;
+    z-index: 998;
+    position: relative;
 	
 }
 
@@ -2922,11 +2927,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 190px;
+  height: 147px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 240px;
+  width: 231px;
   opacity: 1;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;

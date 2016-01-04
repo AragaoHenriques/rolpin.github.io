@@ -415,89 +415,87 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 			
+            document.getElementById("ul1li1tr1").style.display = 'table-row';
 			document.getElementById("ul1li1tr1td1").innerText ='0064';
-			document.getElementById("ul1li1tr1td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr1td2").innerText = 'Rolo Angorá 60 mm ';
-			document.getElementById("ul1li1tr1td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr1td3").innerText = '45';
             document.getElementById("ul1li1tr1td4").innerText = '60'
 			
+            document.getElementById("ul1li1tr2").style.display = 'table-row';
 			document.getElementById("ul1li1tr2td1").innerText = '0258';
-			document.getElementById("ul1li1tr2td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr2td2").innerText = 'Rolo Angorá 120 mm';
-			document.getElementById("ul1li1tr2td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr2td3").innerText = '45';
             document.getElementById("ul1li1tr2td4").innerText = '30'
 			
+            document.getElementById("ul1li1tr3").style.display = 'table-row';
 			document.getElementById("ul1li1tr3td1").innerText = '0065';
-			document.getElementById("ul1li1tr3td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr3td2").innerText = 'Rolo Angorá 150 mm';
-			document.getElementById("ul1li1tr3td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr3td3").innerText = '45';
             document.getElementById("ul1li1tr3td4").innerText = '24'
             
+            document.getElementById("ul1li1tr4").style.display = 'table-row';
 			document.getElementById("ul1li1tr4td1").innerText = '0066';
-			document.getElementById("ul1li1tr4td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr4td2").innerText = 'Rolo Angorá 180 mm';
-			document.getElementById("ul1li1tr4td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr4td3").innerText = '45';
             document.getElementById("ul1li1tr4td4").innerText = '60'
             
+            document.getElementById("ul1li1tr5").style.display = 'table-row';
 			document.getElementById("ul1li1tr5td1").innerText = '0067';
-			document.getElementById("ul1li1tr5td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td2").innerText = 'Rolo Angorá 220 mm';
-			document.getElementById("ul1li1tr5td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr5td3").innerText = '45';
             document.getElementById("ul1li1tr5td4").innerText = '55'
             
+            document.getElementById("ul1li1tr6").style.display = 'table-row';
             document.getElementById("ul1li1tr6td1").innerText = '0068';
-			document.getElementById("ul1li1tr6td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr6td2").innerText = 'Rolo Angorá 250 mm';
-			document.getElementById("ul1li1tr6td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr6td3").innerText = '45';
-            document.getElementById("ul1li1tr6td4").innerText = '50'
+            document.getElementById("ul1li1tr6td4").innerText = '50';
             
-			document.getElementById("ul1li1tr7td1").innerText = '';
-			document.getElementById("ul1li1tr7td1").style.textAlign = '';
+			
+            document.getElementById("ul1li1tr7").style.display = 'none';
+            document.getElementById("ul1li1tr7td1").innerText = '';
 			document.getElementById("ul1li1tr7td2").innerText = '';
-			document.getElementById("ul1li1tr7td2").style.textAlign = '';
 			document.getElementById("ul1li1tr7td3").innerText = '';
-            document.getElementById("ul1li1tr7td4").innerText = ''
+            document.getElementById("ul1li1tr7td4").innerText = '';
             
+            
+            document.getElementById("ul1li1tr8").style.display = 'none';
 			document.getElementById("ul1li1tr8td1").innerText = '';
-			document.getElementById("ul1li1tr8td1").style.textAlign = '';
 			document.getElementById("ul1li1tr8td2").innerText = '';
-			document.getElementById("ul1li1tr8td2").style.textAlign = '';
 			document.getElementById("ul1li1tr8td3").innerText = '';
-            document.getElementById("ul1li1tr8td4").innerText = ''
+            document.getElementById("ul1li1tr8td4").innerText = '';
             
+            document.getElementById("ul1li1tr9").style.display = 'none';
 			document.getElementById("ul1li1tr9td1").innerText = '';
-			document.getElementById("ul1li1tr9td1").style.textAlign = '';
 			document.getElementById("ul1li1tr9td2").innerText = '';
-			document.getElementById("ul1li1tr9td2").style.textAlign = '';
 			document.getElementById("ul1li1tr9td3").innerText = '';
             document.getElementById("ul1li1tr9td4").innerText = '';
             
-             document.getElementById("ul1li1tr10td1").innerText = '';
+            document.getElementById("ul1li1tr10").style.display = 'none';
+            document.getElementById("ul1li1tr10td1").innerText = '';
 			document.getElementById("ul1li1tr10td2").innerText = '';
 			document.getElementById("ul1li1tr10td3").innerText = '';
             document.getElementById("ul1li1tr10td4").innerText = '';
             
+            document.getElementById("ul1li1tr11").style.display = 'none';
             document.getElementById("ul1li1tr11td1").innerText = '';
 			document.getElementById("ul1li1tr11td2").innerText = '';
 			document.getElementById("ul1li1tr11td3").innerText = '';
             document.getElementById("ul1li1tr11td4").innerText = '';
             
+            document.getElementById("ul1li1tr12").style.display = 'none';
             document.getElementById("ul1li1tr12td1").innerText = '';
 			document.getElementById("ul1li1tr12td2").innerText = '';
 			document.getElementById("ul1li1tr12td3").innerText = '';
             document.getElementById("ul1li1tr12td4").innerText = '';
             
+            document.getElementById("ul1li1tr13").style.display = 'none';
             document.getElementById("ul1li1tr13td1").innerText = '';
 			document.getElementById("ul1li1tr13td2").innerText = '';
 			document.getElementById("ul1li1tr13td3").innerText = '';
             document.getElementById("ul1li1tr13td4").innerText = '';
             
+            document.getElementById("ul1li1tr14").style.display = 'none';
             document.getElementById("ul1li1tr14td1").innerText = '';
 			document.getElementById("ul1li1tr14td2").innerText = '';
 			document.getElementById("ul1li1tr14td3").innerText = '';
@@ -518,89 +516,85 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 			
+            document.getElementById("ul1li1tr1").style.display = 'table-row';
 			document.getElementById("ul1li1tr1td1").innerText ='0021';
-			document.getElementById("ul1li1tr1td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr1td2").innerText = 'Carga Angorá 60 mm';
-			document.getElementById("ul1li1tr1td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr1td3").innerText = '45';
-            document.getElementById("ul1li1tr1td4").innerText = ''
+            document.getElementById("ul1li1tr1td4").innerText = '';
 		
+            document.getElementById("ul1li1tr2").style.display = 'table-row';
 			document.getElementById("ul1li1tr2td1").innerText = '0259';
-			document.getElementById("ul1li1tr2td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr2td2").innerText = 'Carga Angorá 120 mm';
-			document.getElementById("ul1li1tr2td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr2td3").innerText = '45';
-            document.getElementById("ul1li1tr2td4").innerText = ''
+            document.getElementById("ul1li1tr2td4").innerText = '';
 		
+            document.getElementById("ul1li1tr3").style.display = 'table-row';
 			document.getElementById("ul1li1tr3td1").innerText = '0022';
-			document.getElementById("ul1li1tr3td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr3td2").innerText = 'Carga Angorá 150 mm';
-			document.getElementById("ul1li1tr3td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr3td3").innerText = '45';
-            document.getElementById("ul1li1tr3td4").innerText = ''
+            document.getElementById("ul1li1tr3td4").innerText = '';
 
+            document.getElementById("ul1li1tr4").style.display = 'table-row';
 			document.getElementById("ul1li1tr4td1").innerText = '0023';
-			document.getElementById("ul1li1tr4td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr4td2").innerText = 'Carga Angorá 180 mm';
-			document.getElementById("ul1li1tr4td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr4td3").innerText = '45';
-            document.getElementById("ul1li1tr4td4").innerText = ''
+            document.getElementById("ul1li1tr4td4").innerText = '';
 
+            document.getElementById("ul1li1tr5").style.display = 'table-row';
 			document.getElementById("ul1li1tr5td1").innerText = '0024';
-			document.getElementById("ul1li1tr5td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td2").innerText = 'Carga Angorá 220 mm';
-			document.getElementById("ul1li1tr5td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr5td3").innerText = '45';
-            document.getElementById("ul1li1tr5td4").innerText = ''
+            document.getElementById("ul1li1tr5td4").innerText = '';
 
+            document.getElementById("ul1li1tr6").style.display = 'table-row';
             document.getElementById("ul1li1tr6td1").innerText = '0025';
-			document.getElementById("ul1li1tr6td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr6td2").innerText = 'Carga Angorá 250 mm';
-			document.getElementById("ul1li1tr6td2").style.textAlign = 'center';
 			document.getElementById("ul1li1tr6td3").innerText = '45';
 			document.getElementById("ul1li1tr6td4").innerText = '';  
 			
+            document.getElementById("ul1li1tr7").style.display = 'none';
 			document.getElementById("ul1li1tr7td1").innerText = '';
-			document.getElementById("ul1li1tr7td1").style.textAlign = '';
 			document.getElementById("ul1li1tr7td2").innerText = '';
-			document.getElementById("ul1li1tr7td2").style.textAlign = '';
 			document.getElementById("ul1li1tr7td3").innerText = '';
 			document.getElementById("ul1li1tr7td4").innerText = '';
 			
+            document.getElementById("ul1li1tr8").style.display = 'none';
 			document.getElementById("ul1li1tr8td1").innerText = '';
-			document.getElementById("ul1li1tr8td1").style.textAlign = '';
 			document.getElementById("ul1li1tr8td2").innerText = '';
-			document.getElementById("ul1li1tr8td2").style.textAlign = '';
 			document.getElementById("ul1li1tr8td3").innerText = '';
 			document.getElementById("ul1li1tr8td4").innerText = '';
 			
+            document.getElementById("ul1li1tr9").style.display = 'none';
 			document.getElementById("ul1li1tr9td1").innerText = '';
-			document.getElementById("ul1li1tr9td1").style.textAlign = '';
 			document.getElementById("ul1li1tr9td2").innerText = '';
-			document.getElementById("ul1li1tr9td2").style.textAlign = '';
 			document.getElementById("ul1li1tr9td3").innerText = '';
 			document.getElementById("ul1li1tr9td4").innerText = '';
             
-             document.getElementById("ul1li1tr10td1").innerText = '';
+            document.getElementById("ul1li1tr10").style.display = 'none';
+            document.getElementById("ul1li1tr10td1").innerText = '';
 			document.getElementById("ul1li1tr10td2").innerText = '';
 			document.getElementById("ul1li1tr10td3").innerText = '';
             document.getElementById("ul1li1tr10td4").innerText = '';
             
+            document.getElementById("ul1li1tr11").style.display = 'none';
             document.getElementById("ul1li1tr11td1").innerText = '';
 			document.getElementById("ul1li1tr11td2").innerText = '';
 			document.getElementById("ul1li1tr11td3").innerText = '';
             document.getElementById("ul1li1tr11td4").innerText = '';
             
+            document.getElementById("ul1li1tr12").style.display = 'none';
             document.getElementById("ul1li1tr12td1").innerText = '';
 			document.getElementById("ul1li1tr12td2").innerText = '';
 			document.getElementById("ul1li1tr12td3").innerText = '';
             document.getElementById("ul1li1tr12td4").innerText = '';
             
+            document.getElementById("ul1li1tr13").style.display = 'none';
             document.getElementById("ul1li1tr13td1").innerText = '';
 			document.getElementById("ul1li1tr13td2").innerText = '';
 			document.getElementById("ul1li1tr13td3").innerText = '';
             document.getElementById("ul1li1tr13td4").innerText = '';
             
+            document.getElementById("ul1li1tr14").style.display = 'none';
             document.getElementById("ul1li1tr14td1").innerText = '';
 			document.getElementById("ul1li1tr14td2").innerText = '';
 			document.getElementById("ul1li1tr14td3").innerText = '';
@@ -624,90 +618,85 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
             
+            document.getElementById("ul1li1tr1").style.display = 'table-row';
 			document.getElementById("ul1li1tr1td1").innerText = '0173';
-			document.getElementById("ul1li1tr1td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr1td2").innerText = 'Mini Angorá 60 mm';
-			document.getElementById("ul1li1tr1td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr1td3").innerText = '16';
 	        document.getElementById("ul1li1tr1td4").innerText = '';
            
+            document.getElementById("ul1li1tr2").style.display = 'table-row';
 			document.getElementById("ul1li1tr2td1").innerText = '0174';
-			document.getElementById("ul1li1tr2td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr2td2").innerText = 'Mini Angorá 100 mm';
-			document.getElementById("ul1li1tr2td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr2td3").innerText = '16';
             document.getElementById("ul1li1tr2td4").innerText = '40';
 
+            document.getElementById("ul1li1tr3").style.display = 'table-row';
 			document.getElementById("ul1li1tr3td1").innerText = '0175';
-			document.getElementById("ul1li1tr3td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr3td2").innerText = 'Mini Angorá 150 mm';
-			document.getElementById("ul1li1tr3td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr3td3").innerText = '16';
             document.getElementById("ul1li1tr3td4").innerText = '';
 
+            document.getElementById("ul1li1tr4").style.display = 'table-row';
 			document.getElementById("ul1li1tr4td1").innerText = '0253';
-			document.getElementById("ul1li1tr4td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr4td2").innerText = 'Midi Angorá 120 mm';
-			document.getElementById("ul1li1tr4td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr4td3").innerText = '30';
             document.getElementById("ul1li1tr4td4").innerText = '35';
 			
+            document.getElementById("ul1li1tr5").style.display = 'table-row';
 			document.getElementById("ul1li1tr5td1").innerText = '0254';
-			document.getElementById("ul1li1tr5td1").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td2").innerText = 'Midi Angorá 150 mm';
-			document.getElementById("ul1li1tr5td2").style.textAlign = 'left';
 			document.getElementById("ul1li1tr5td3").innerText = '30';
             document.getElementById("ul1li1tr5td4").innerText = '';
 			
+            document.getElementById("ul1li1tr6").style.display = 'none';
             document.getElementById("ul1li1tr6td1").innerText = '';
-			document.getElementById("ul1li1tr6td1").style.textAlign = '';
 			document.getElementById("ul1li1tr6td2").innerText = '';
-			document.getElementById("ul1li1tr6td2").style.textAlign = '';
 			document.getElementById("ul1li1tr6td3").innerText = '';
             document.getElementById("ul1li1tr6td4").innerText = '';
 			
+            document.getElementById("ul1li1tr7").style.display = 'none';
         	document.getElementById("ul1li1tr7td1").innerText = '';
-			document.getElementById("ul1li1tr7td1").style.textAlign = '';
 			document.getElementById("ul1li1tr7td2").innerText = '';
-			document.getElementById("ul1li1tr7td2").style.textAlign = '';
 			document.getElementById("ul1li1tr7td3").innerText = '';
 			document.getElementById("ul1li1tr7td4").innerText = '';
 
+            document.getElementById("ul1li1tr8").style.display = 'none';
 			document.getElementById("ul1li1tr8td1").innerText = '';
-			document.getElementById("ul1li1tr8td1").style.textAlign = '';
 			document.getElementById("ul1li1tr8td2").innerText = '';
-			document.getElementById("ul1li1tr8td2").style.textAlign = '';
 			document.getElementById("ul1li1tr8td3").innerText = '';
 			document.getElementById("ul1li1tr8td4").innerText = '';
 
+            document.getElementById("ul1li1tr9").style.display = 'none';
 			document.getElementById("ul1li1tr9td1").innerText = '';
-			document.getElementById("ul1li1tr9td1").style.textAlign = '';
 			document.getElementById("ul1li1tr9td2").innerText = '';
-			document.getElementById("ul1li1tr9td2").style.textAlign = '';
 			document.getElementById("ul1li1tr9td3").innerText = '';
 			document.getElementById("ul1li1tr9td4").innerText = '';
             
-            
+            document.getElementById("ul1li1tr10").style.display = 'none';
             document.getElementById("ul1li1tr10td1").innerText = '';
 			document.getElementById("ul1li1tr10td2").innerText = '';
 			document.getElementById("ul1li1tr10td3").innerText = '';
             document.getElementById("ul1li1tr10td4").innerText = '';
             
+            document.getElementById("ul1li1tr11").style.display = 'none';
             document.getElementById("ul1li1tr11td1").innerText = '';
 			document.getElementById("ul1li1tr11td2").innerText = '';
 			document.getElementById("ul1li1tr11td3").innerText = '';
             document.getElementById("ul1li1tr11td4").innerText = '';
             
+            document.getElementById("ul1li1tr12").style.display = 'none';
             document.getElementById("ul1li1tr12td1").innerText = '';
 			document.getElementById("ul1li1tr12td2").innerText = '';
 			document.getElementById("ul1li1tr12td3").innerText = '';
             document.getElementById("ul1li1tr12td4").innerText = '';
             
+            document.getElementById("ul1li1tr13").style.display = 'none';
             document.getElementById("ul1li1tr13td1").innerText = '';
 			document.getElementById("ul1li1tr13td2").innerText = '';
 			document.getElementById("ul1li1tr13td3").innerText = '';
             document.getElementById("ul1li1tr13td4").innerText = '';
             
+            document.getElementById("ul1li1tr14").style.display = 'none';
             document.getElementById("ul1li1tr14td1").innerText = '';
 			document.getElementById("ul1li1tr14td2").innerText = '';
 			document.getElementById("ul1li1tr14td3").innerText = '';
@@ -732,71 +721,85 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
 
+            document.getElementById("ul1li1tr1").style.display = 'table-row';
 			document.getElementById("ul1li1tr1td1").innerText = '0088';
 			document.getElementById("ul1li1tr1td2").innerText = 'Carga Angorá 60 mm';
 			document.getElementById("ul1li1tr1td3").innerText = '16';
 	        document.getElementById("ul1li1tr1td4").innerText = '';
             
+            document.getElementById("ul1li1tr2").style.display = 'table-row';
 			document.getElementById("ul1li1tr2td1").innerText = '0089';
 			document.getElementById("ul1li1tr2td2").innerText = 'Carga Angorá 100 mm';
 			document.getElementById("ul1li1tr2td3").innerText = '16';
             document.getElementById("ul1li1tr2td4").innerText = '';
 
+            document.getElementById("ul1li1tr3").style.display = 'table-row';
 			document.getElementById("ul1li1tr3td1").innerText = '0255';
 			document.getElementById("ul1li1tr3td2").innerText = 'Carga Angorá 150 mm';
             document.getElementById("ul1li1tr3td3").innerText = '16';
             document.getElementById("ul1li1tr3td4").innerText = '';
 
+            document.getElementById("ul1li1tr4").style.display = 'table-row';
 			document.getElementById("ul1li1tr4td1").innerText = '0177';
 			document.getElementById("ul1li1tr4td2").innerText = 'Pack 2 Cargas Angorá  60 mm';
 			document.getElementById("ul1li1tr4td3").innerText = '16';
             document.getElementById("ul1li1tr4td4").innerText = '';
 
+            document.getElementById("ul1li1tr5").style.display = 'table-row';
 			document.getElementById("ul1li1tr5td1").innerText = '0091';
 			document.getElementById("ul1li1tr5td2").innerText = 'Pack 2 Cargas Angorá 100 mm';
 			document.getElementById("ul1li1tr5td3").innerText = '16';
             document.getElementById("ul1li1tr5td4").innerText = '';
 	
+            document.getElementById("ul1li1tr6").style.display = 'table-row';
 			document.getElementById("ul1li1tr6td1").innerText = '0179';
 			document.getElementById("ul1li1tr6td2").innerText = 'Pack 2 Cargas Angorá 150 mm';
 			document.getElementById("ul1li1tr6td3").innerText = '16'; 
             document.getElementById("ul1li1tr6td4").innerText = '';
 
+            document.getElementById("ul1li1tr7").style.display = 'table-row';
 			document.getElementById("ul1li1tr7td1").innerText = '0256';
 			document.getElementById("ul1li1tr7td2").innerText = 'Blister 16 Cargas Angorá 60 mm';
 			document.getElementById("ul1li1tr7td3").innerText = '16';
             document.getElementById("ul1li1tr7td4").innerText = '';
             
+            document.getElementById("ul1li1tr8").style.display = 'table-row';
             document.getElementById("ul1li1tr8td1").innerText = '0090';
 			document.getElementById("ul1li1tr8td2").innerText = 'Blister 10 Cargas Angorá 100 mm';
 			document.getElementById("ul1li1tr8td3").innerText = '16';
             document.getElementById("ul1li1tr8td4").innerText = '36 Blisters';
 
+            document.getElementById("ul1li1tr9").style.display = 'table-row';
 			document.getElementById("ul1li1tr9td1").innerText = '0201';
 			document.getElementById("ul1li1tr9td2").innerText = 'Carga Angorá 120 mm';
 			document.getElementById("ul1li1tr9td3").innerText = '30';
             document.getElementById("ul1li1tr9td4").innerText = '';
 
+            document.getElementById("ul1li1tr10").style.display = 'table-row';
 			document.getElementById("ul1li1tr10td1").innerText = '0202';
 			document.getElementById("ul1li1tr10td2").innerText = 'Carga Angora 150 mm';
 			document.getElementById("ul1li1tr10td3").innerText = '30';
             document.getElementById("ul1li1tr10td4").innerText = '';
 
+            document.getElementById("ul1li1tr11").style.display = 'table-row';
             document.getElementById("ul1li1tr11td1").innerText = '0205';
 			document.getElementById("ul1li1tr11td2").innerText = 'Pack 2 Cargas Angora 120 mm';
 			document.getElementById("ul1li1tr11td3").innerText = '30';
             document.getElementById("ul1li1tr11td4").innerText = '';
             
+            document.getElementById("ul1li1tr12").style.display = 'table-row';
             document.getElementById("ul1li1tr12td1").innerText = '0206';
 			document.getElementById("ul1li1tr12td2").innerText = 'Pack 2 Cargas Angora 150 mm';
 			document.getElementById("ul1li1tr12td3").innerText = '30';
             document.getElementById("ul1li1tr12td4").innerText = '';
             
+            document.getElementById("ul1li1tr13").style.display = 'table-row';
             document.getElementById("ul1li1tr13td1").innerText = '0203';
 			document.getElementById("ul1li1tr13td2").innerText = 'Blister 10 Cargas Angora 120 mm';
 			document.getElementById("ul1li1tr13td3").innerText = '30';
             document.getElementById("ul1li1tr13td4").innerText = '';
             
+            document.getElementById("ul1li1tr14").style.display = 'table-row';
             document.getElementById("ul1li1tr14td1").innerText = '0204';
 			document.getElementById("ul1li1tr14td2").innerText = 'Blister 6 Cargas Angora 150 mm';
 			document.getElementById("ul1li1tr14td3").innerText = '30';
