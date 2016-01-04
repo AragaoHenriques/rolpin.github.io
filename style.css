@@ -2756,7 +2756,8 @@ nav.vertical > ul > li > a:hover {
 }
 
 #rightTitle{
-    
+    text-align: left;
+    padding-left: 2%;
     color:darkslategrey;
 }
 .downDiv {
