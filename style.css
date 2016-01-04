@@ -2436,6 +2436,11 @@ body.mobile #video_background {
     line-height: 50px;
 }
 
+.pA4{
+    font-style: italic;
+    text-decoration: underline;
+}
+
 .animatedPage0 { 
     -webkit-animation-duration: 4s; 
     animation-duration: 4s; 
