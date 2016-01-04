@@ -2420,6 +2420,22 @@ body.mobile #video_background {
 }
 
 
+.pA{
+    line-height: 1px;
+}
+
+.pA1{
+    line-height: 15px;
+}
+
+.pA2{
+    line-height: 15px;
+}
+
+.pA3{
+    line-height: 50px;
+}
+
 .animatedPage0 { 
     -webkit-animation-duration: 4s; 
     animation-duration: 4s; 
@@ -2826,6 +2842,11 @@ width: 100%;
 	color: rgb(201,89,40);
 }
 
+
+.leftDesc{
+	text-align: left;
+	padding-left: 2%;
+}
 .produto_resumo{
 	padding-top: 5%;
 }
