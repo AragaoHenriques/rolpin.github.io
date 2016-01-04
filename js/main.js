@@ -401,7 +401,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloAngora').click(function() {
-			$("#rightImageAngora").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageAngora").attr('src', 'images/MenuRolos/angora.jpg');
 			document.getElementById('rbRoloAngora').style.fontSize = '1.0em';
 			document.getElementById('rbCRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloAngora').style.fontSize = '0.8em';
@@ -502,7 +502,7 @@ Version: 1.3.1
             document.getElementById("ul1li1tr14td4").innerText = '';
 		});
 		$('#rbCRoloAngora').click(function() {
-			$("#rightImageAngora").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageAngora").attr('src', 'images/MenuRolos/angora.jpg');
 			document.getElementById('rbRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbCRoloAngora').style.fontSize = '1.0em';
 			document.getElementById('rbMiniRoloAngora').style.fontSize = '0.8em';
@@ -604,7 +604,7 @@ Version: 1.3.1
 
 							   
 		$('#rbMiniRoloAngora').click(function() {
-			$("#rightImageAngora").attr('src', 'images/18/angora.JPG');
+			$("#rightImageAngora").attr('src', 'images/MenuRolos/angora.jpg');
 			document.getElementById('rbRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbCRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloAngora').style.fontSize = '1.0em';
@@ -707,7 +707,7 @@ Version: 1.3.1
 		
 		
 		$('#rbCMiniRoloAngora').click(function() {
-			$("#rightImageAngora").attr('src', 'images/18/angora.JPG');
+			$("#rightImageAngora").attr('src', 'images/MenuRolos/angora.jpg');
 			document.getElementById('rbRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbCRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloAngora').style.fontSize = '0.8em';
