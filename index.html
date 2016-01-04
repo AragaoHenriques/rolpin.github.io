@@ -58,8 +58,8 @@
 	
 	</head>
 	<!--<body class="image-background">-->
-		<body onload="init();"> 
-	
+		<!--<body onload="init();"> -->
+	<body>
 		<!-- START PRELOADER -->
 		<div id="preloader">
 			<div id="loading-animation">&nbsp;</div>
@@ -102,6 +102,7 @@
                     <!--<img id="roloImgPagZero" src="./images/RoloBcg.png" class="animatedPage0 fadeOutDownPage0"/>-->
                     
                 </div>
+				<div id="shadow" class="shadow"></div>
 				<!-- START CONTAINER -->
                 <div id="myDiv" class="myDiv" >
                         
@@ -154,6 +155,7 @@
                                 </li>
                             </ul>
                         </ul>
+						
                     </div>
                     
                 </div>
@@ -222,14 +224,21 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 								</div>
 								<div id="slidyDiv">
 								<div id="slidy-container">
-								<figure id="slidy">
+								<!--<figure id="slidy">
 									<img src="images/companyPhoto.jpg" alt data-caption="Antelope Canyon, Arizona" />
 									<img src="images/Slider/bg1.jpg" alt data-caption="Maquina" />
 									<img src="images/Slider/bg2.jpg" alt data-caption="Maquina" />
 									<img src="images/Slider/bg3.jpg" alt data-caption="Maquina" />
 									<img src="images/Slider/bg4.jpg" alt data-caption="Maquina" />
 									<img src="images/Slider/bg5.jpg" alt data-caption="Maquina" />
-								</figure>
+								</figure>-->
+								<ul id="sb-slider" class="sb-slider">
+										<li><img src="images/Slider/bg1.jpg" alt="image1" /></li>
+										<li><img src="images/Slider/bg2.jpg" alt="image2" /></li>
+										<li><img src="images/Slider/bg3.jpg" alt="image3" /></li>
+										<li><img src="images/Slider/bg4.jpg" alt="image4" /></li>
+										<li><img src="images/Slider/bg5.jpg" alt="image5" /></li>
+								</ul>	
 							</div>	
 									</div>
 							</div><!-- END SLIDE CONTENT-->
@@ -248,17 +257,18 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
                     				<img id="roloImgPagOne" src="./images/RoloBcg.png" class="animatedPage1 fadeOutDownPage1" />
 				</div>-->
 				<!-- START CONTAINER -->
-				<div class="container">
-					<div class="row">
-						<div class="col-md-10 col-md-offset-1">
+				<!--<div class="container">
+					<div class="row">-->
+						<div class="styleC">
+						<!--<div class="col-md-10 col-md-offset-1">-->
                             <section id="container">
-								<div class="col span_1_of_3">
+								<div class="col span_1_of_4">
                                     
 								<ul id="stage" class="img-list">
 									<li>
 										
 											<a id="openModelAngoraImg" href="#openModalAngora" class="imgMenu">
-												<img src="images/MenuRolos/angora.jpg"  width="200" height="125"/>
+												<img src="images/MenuRolos/angora.jpg" width="240px" height="190px"  />
 												<span class="text-content"><span>Angora</span>
 											</a>
 										
@@ -290,7 +300,6 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 														<input type="button" id="rbCRoloAngora" value="Carga Rolo" class="buttonTypeRolo">
   														<input type="button" id="rbMiniRoloAngora" value="Mini Rolo" class="buttonTypeRolo">  
 														<input type="button" id="rbCMiniRoloAngora" value="Carga Mini" class="buttonTypeRolo">
-  														
 													</div>
 													<div id="tableData" class="tableData">
 													<table class="features-table">
@@ -388,7 +397,7 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 									<li>
 										
 											<a id="openModelAntigotaImg" href="#openModalAntigota" class="imgMenu">
-												<img src="images/MenuRolos/antigota.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/antigota.jpg" width="240px" height="190px" />
 												<span class="text-content"><span>Antigota</span>
 												
 											</a>
@@ -519,7 +528,7 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 									<li>
 										
 										<a id="openModelAntigotaVImg" href="#openModalAntigotaV" class="imgMenu">
-												<img src="images/MenuRolos/antigotaVerde.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/antigotaVerde.jpg"  width="240px" height="190px"/>
 												<span class="text-content"><span>Antigota Verde</span>
 												
 											</a>
@@ -610,10 +619,14 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 											</div>
 										
 									</li>
+										</ul>
+								</div>
+								<div class="col span_1_of_4">
+								<ul id="stage2" class="img-list">
 										<li>
 										
 											<a id="openModelCromadoImg" href="#openModalCromado" class="imgMenu">
-												<img src="images/MenuRolos/cromado.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/cromado.jpg"  width="240px" height="190px"/>
 												<span class="text-content"><span>Cromado</span>
 												
 											</a>
@@ -716,15 +729,12 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 											</div>
 										
 									</li>	
-								</ul>
-								</div>
-								<div class="col span_1_of_3">
-								<ul id="stage1" class="img-list">
+								
 									<li>
 										
 											<a id="openModelEspumaImg" href="#openModalEspuma" class="imgMenu">
 
-												<img src="images/MenuRolos/espuma.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/espuma.jpg" width="240px" height="190px" />
 												<span class="text-content"><span>Espuma</span>
 												
 											</a>
@@ -835,7 +845,7 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 									</li>		
 									<li>
 										<a id="openModelJuniorImg" href="#openModalJunior" class="imgMenu">
-												<img src="images/MenuRolos/junior.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/junior.jpg"  width="240px" height="190px"/>
 												<span class="text-content"><span>Junior</span>
 												
 											</a>
@@ -943,11 +953,15 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 												</div>
 											</div>
 										
-									</li>		
+									</li>	
+									</ul>
+								</div>
+								<div class="col span_1_of_4">
+								<ul id="stage3" class="img-list">
 									<li>
 										
 											<a id="openModelMicrofibraImg" href="#openModalMicrofibra" class="imgMenu">
-												<img src="images/MenuRolos/microfibra.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/microfibra.jpg" width="240px" height="190px"/>
 												<span class="text-content"><span>Microfibra</span>
 
 												
@@ -1094,7 +1108,7 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 										<li>
 										
 											<a id="openModelRavelImg" href="#openModalRavel" class="imgMenu">
-												<img src="images/MenuRolos/ravel.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/ravel.jpg" width="240px" height="190px" />
 												<span class="text-content"><span>Ravel</span>
 												
 											</a>
@@ -1238,14 +1252,10 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 											</div>
 										
 									</li>	
-								</ul>
-								</div>
-								<div class="col span_1_of_3">
-								<ul id="stage2" class="img-list">
 									<li>
 										
 											<a id="openModelRugoImg" href="#openModalRugo" class="imgMenu">
-												<img src="images/MenuRolos/rugo.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/rugo.jpg" width="240px" height="190px" />
 												<span class="text-content"><span>Rugo</span>
 												
 											</a>
@@ -1346,11 +1356,15 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 										
 											
 										
-									</li>		
+									</li>	
+										</ul>
+								</div>
+								<div class="col span_1_of_4">
+								<ul id="stage4" class="img-list">
 										<li>
 										
 											<a id="openModelSuperImg" href="#openModalSuper" class="imgMenu">
-												<img src="images/MenuRolos/super.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/super.jpg" width="240px" height="190px" />
 												<span class="text-content"><span>Super</span>
 												
 											</a>
@@ -1453,7 +1467,7 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 											<li>
 										
 											<a id="openModelMerinoImg" href="#openModalMerino" class="imgMenu">
-												<img src="images/MenuRolos/merino.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/merino.jpg" width="240px" height="190px" />
 												<span class="text-content"><span>Merino</span>
 												
 											</a>
@@ -1552,7 +1566,7 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 												<li>
 										
 											<a id="openModelAcessoriosImg" href="#openModalAcessorios" class="imgMenu">
-												<img src="images/MenuRolos/acessorios.jpg" width="200" height="125" />
+												<img src="images/MenuRolos/acessorios.jpg" width="240px" height="190px" />
 												<span class="text-content"><span>Acessorios</span>
 												
 											</a>
@@ -1581,8 +1595,14 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 												
 													<div id="rInnerRigthDiv" class="rInnerRigthDiv">
 													<div class="buttonSelectedDiv">
-  														<input type="button" id="rbMiniRoloAcessorios" value="MiniRolo" class="buttonTypeRolo">  
-  														<input type="button" id="rbRoloAcessorios" value="Rolo" class="buttonTypeRolo">
+  														<input type="button" id="accArmacoes" value="Armações" class="buttonTypeRolo">  
+														<input type="button" id="accTabuleiros" value="Tabuleiros" class="buttonTypeRolo">  
+  														<input type="button" id="accBetumadeira" value="Betumadeira" class="buttonTypeRolo">  
+														<input type="button" id="accBalde" value="Balde" class="buttonTypeRolo">  
+														<input type="button" id="accGrelha" value="Grelha" class="buttonTypeRolo">  
+														<input type="button" id="accCoberturas" value="Coberturas" class="buttonTypeRolo">  
+														<input type="button" id="accCoberturas1" value="Coberturas1" class="buttonTypeRolo">  
+														<input type="button" id="accCoberturas2" value="Coberturas2" class="buttonTypeRolo">  
 													</div>
 													<div id="tableData" class="tableData">
 													<table class="features-table">
@@ -1649,14 +1669,334 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
 								</ul>
                             
 								</div>
+								<div class="col span_1_of_4">
+                                    
+								<ul id="stage5" class="img-list">
+									<li>
+										
+											<a id="openModelXImg" href="#openModalAngora" class="imgMenu">
+												<img src="images/MenuRolos/angora.jpg" width="240px" height="190px" />
+												<span class="text-content"><span>X</span>
+											</a>
+										
+											<div id="openModalX" class="modalDialog">
+												<div class="mainDiv">
+												<a id="close" href="#close" title="Close" class="close">X</a>
+												<div id="upDiv" class="upDiv">
+													
+														<img id="rightImageX" src="images/18/angora.JPG" width="100%" height="100%" />
+												</div>
+												<div id="downDiv" class="downDiv">
+												     <div id="lInnerLeftDiv" class="lInnerLeftDiv">
+													
+														<div class="produto_content">
+															<div class="produto_title">
+																<h2 id="rightTitle">Angora</h2>
+															</div>
+															<div class="produto_resumo">
+																					   <span id="rightDesc">Descrição:</span><span> Lã pura com 4,5mm de altura. </span>
+																										   <p></p>
+																<span id="rightDesc">Aplicação:</span><span> Indicado para a aplicação de esmaltes e vernizes em superfícies lisas. </span>
+															</div>
+														</div>
+													</div>
+												
+													<div id="rInnerRigthDiv" class="rInnerRigthDiv">
+													<div class="buttonSelectedDiv">
+														<input type="button" id="rbRolox" value="Rolo" class="buttonTypeRolo">
+														<input type="button" id="rbCRolox" value="Carga Rolo" class="buttonTypeRolo">
+  														<input type="button" id="rbMiniRolox" value="Mini Rolo" class="buttonTypeRolo">  
+														<input type="button" id="rbCMiniRolox" value="Carga Mini" class="buttonTypeRolo">
+  														
+													</div>
+													<div id="tableData" class="tableData">
+													<table class="features-table">
+															<thead>
+																<tr>
+																	<td style="text-align:left;">Código</td>
+																	<td style="text-align:center;">Descrição</td>
+																	<td> Ø (mm)</td>			 
+																	<td style="text-align:center;">Uni./Emb.</td>
+																</tr>
+															</thead>					
+															<tbody>
+																<tr>
+																	<td id="ul1li1tr1td1"></td>
+																	<td id="ul1li1tr1td2"></td>
+																	<td id="ul1li1tr1td3"></td>
+																 	<td id="ul1li1tr1td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li1tr2td1"></td>
+																	<td id="ul1li1tr2td2"></td>
+																	<td id="ul1li1tr2td3"></td>
+																	<td id="ul1li1tr2td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li1tr3td1"></td>
+																	<td id="ul1li1tr3td2"></td>
+																	<td id="ul1li1tr3td3"></td>
+																    <td id="ul1li1tr3td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li1tr4td1"></td>
+																	<td id="ul1li1tr4td2"></td>
+																	<td id="ul1li1tr4td3"></td>
+																    <td id="ul1li1tr4td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li1tr5td1"></td>
+																	<td id="ul1li1tr5td2"></td>
+																	<td id="ul1li1tr5td3"></td>
+														            <td id="ul1li1tr5td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li1tr6td1"></td>
+																	<td id="ul1li1tr6td2"></td>
+																	<td id="ul1li1tr6td3"></td>
+													                <td id="ul1li1tr6td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li1tr7td1"></td>
+																	<td id="ul1li1tr7td2"></td>
+																	<td id="ul1li1tr7td3"></td>
+												                    <td id="ul1li1tr7td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li1tr8td1"></td>
+																	<td id="ul1li1tr8td2"></td>
+																	<td id="ul1li1tr8td3"></td>
+															        <td id="ul1li1tr8td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li1tr9td1"></td>
+																	<td id="ul1li1tr9td2"></td>
+																	<td id="ul1li1tr9td3"></td>
+                                                                    <td id="ul1li1tr9td4"></td>
+																</tr>
+															</tbody>
+													</table>
+														</div>
+													</div>
+												</div>
+												</div>
+											</div>
+										
+									</li>		
+									<li>
+										
+											<a id="openModelYImg" href="#openModalY" class="imgMenu">
+												<img src="images/MenuRolos/antigota.jpg" width="240px" height="190px" />
+												<span class="text-content"><span>Y</span>
+												
+											</a>
+										
+											<div id="openModalY" class="modalDialog">
+												<div class="mainDiv">
+												<a id="close" href="#close" title="Close" class="close">X</a>
+												<div id="upDiv" class="upDiv">
+													
+														<img id="rightImageY" src="images/18/angora.JPG" width="100%" height="100%" />
+												</div>
+												<div id="downDiv" class="downDiv">
+												     <div id="lInnerLeftDiv" class="lInnerLeftDiv">
+													
+														<div class="produto_content">
+															<div class="produto_title">
+																<h2 id="rightTitle">Antigota</h2>
+															</div>
+															<div class="produto_resumo">
+																					   <span id="rightDesc">Descrição:</span><span> Tecido Polamida com 12mm de altura, fundo banco e risca amarela.</span>
+																										   <p></p>
+																<span id="rightDesc">Aplicação:</span><span> Indicado para a aplicação de tintas aquosas em paredes e tetos lisos. </span>
+															</div>
+														</div>
+													</div>
+												
+													<div id="rInnerRigthDiv" class="rInnerRigthDiv">
+													<div class="buttonSelectedDiv">
+                                                        <input type="button" id="rbRoloY" value="Rolo" class="buttonTypeRolo">
+                                                        <input type="button" id="rbCRoloY" value="Carga Rolo" class="buttonTypeRolo">
+  														<input type="button" id="rbMiniRoloY" value="Mini Rolo" class="buttonTypeRolo">  
+  														<input type="button" id="rbCMiniRoloY" value="Carga Mini" class="buttonTypeRolo">  
+  														
+													</div>
+													<div id="tableData" class="tableData">
+													<table class="features-table">
+															<thead>
+																<tr>
+																	<td>Código</td>
+																	<td>Descrição</td>
+																	<td> Ø (mm)</td>
+																	<td>Uni./Emb.</td>
+																</tr>
+															</thead>					
+															<tbody>
+																<tr>
+																	<td id="ul1li2tr1td1"></td>
+																	<td id="ul1li2tr1td2"></td>
+																	<td id="ul1li2tr1td3"></td>
+																	<td id="ul1li2tr1td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li2tr2td1"></td>
+																	<td id="ul1li2tr2td2"></td>
+																	<td id="ul1li2tr2td3"></td>
+																	<td id="ul1li2tr2td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li2tr3td1"></td>
+																	<td id="ul1li2tr3td2"></td>
+																	<td id="ul1li2tr3td3"></td>
+																	<td id="ul1li2tr3td4"></td>
+															
+																</tr>
+																<tr>
+																	<td id="ul1li2tr4td1"></td>
+																	<td id="ul1li2tr4td2"></td>
+																	<td id="ul1li2tr4td3"></td>
+																	<td id="ul1li2tr4td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li2tr5td1"></td>
+																	<td id="ul1li2tr5td2"></td>
+																	<td id="ul1li2tr5td3"></td>
+																	<td id="ul1li2tr5td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li2tr6td1"></td>
+																	<td id="ul1li2tr6td2"></td>
+																	<td id="ul1li2tr6td3"></td>
+																	<td id="ul1li2tr6td4"></td>
+																
+																</tr>
+																<tr>
+																	<td id="ul1li2tr7td1"></td>
+																	<td id="ul1li2tr7td2"></td>
+																	<td id="ul1li2tr7td3"></td>
+																	<td id="ul1li2tr7td4"></td>
+																</tr>
+                                                                <tr>
+																	<td id="ul1li2tr8td1"></td>
+																	<td id="ul1li2tr8td2"></td>
+																	<td id="ul1li2tr8td3"></td>
+																	<td id="ul1li2tr8td4"></td>
+															
+																</tr>
+															</tbody>
+													</table>
+														</div>
+													</div>
+												</div>
+												</div>
+											</div>
+										
+									</li>		
+									<li>
+										
+										<a id="openModelVImg" href="#openModalV" class="imgMenu">
+												<img src="images/MenuRolos/antigotaVerde.jpg" width="240px" height="190px" />
+												<span class="text-content"><span>Antigota Verde</span>
+												
+											</a>
+										
+											<div id="openModalV" class="modalDialog">
+												<div class="mainDiv">
+												<a id="close" href="#close" title="Close" class="close">X</a>
+												<div id="upDiv" class="upDiv">
+													
+														<img id="rightImageV" src="images/18/angora.JPG" width="100%" height="100%" />
+												</div>
+												<div id="downDiv" class="downDiv">
+												     <div id="lInnerLeftDiv" class="lInnerLeftDiv">
+													
+														<div class="produto_content">
+															<div class="produto_title">
+																<h2 id="rightTitle">V</h2>
+															</div>
+															<div class="produto_resumo">
+																					   <span id="rightDesc">Descrição:</span><span> Tecido poliamida com 12mm de altura, fundo branco e riscas amarela e verde.</span>
+																										   <p></p>
+																<span id="rightDesc">Aplicação:</span><span> Indicado para a aplicação de tintas aquosas em paredes e tetos lisos. </span>
+															</div>
+														</div>
+													</div>
+												
+													<div id="rInnerRigthDiv" class="rInnerRigthDiv">
+													<div class="buttonSelectedDiv">
+                                                        <input type="button" id="rbRoloV" value="Rolo" class="buttonTypeRolo">
+                                                        <input type="button" id="rbCRoloV" value="Carga Rolo" class="buttonTypeRolo">
+  														<!--<input type="button" id="rbMiniRoloAntigotaV" value="Mini Rolo" class="buttonTypeRolo">  
+                                                        <input type="button" id="rbCMiniRoloAntigotaV" value="Carga Mini" class="buttonTypeRolo">-->  
+  														
+													</div>
+													<div id="tableData" class="tableData">
+													<table class="features-table">
+															<thead>
+																<tr>
+																	<td>Código</td>
+																	<td>Descrição</td>	 
+																	<td> &Oslash (mm)</td>
+																	<td>Uni./Emb.</td>
+																</tr>
+															</thead>					
+															<tbody>
+																<tr>
+																	<td id="ul1li3tr1td1"></td>
+																	<td id="ul1li3tr1td2"></td>
+																	<td id="ul1li3tr1td3"></td>
+																	<td id="ul1li3tr1td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li3tr2td1"></td>
+																	<td id="ul1li3tr2td2"></td>
+																	<td id="ul1li3tr2td3"></td>
+																	<td id="ul1li3tr2td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li3tr3td1"></td>
+																	<td id="ul1li3tr3td2"></td>
+																	<td id="ul1li3tr3td3"></td>
+																    <td id="ul1li3tr3td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li3tr4td1"></td>
+																	<td id="ul1li3tr4td2"></td>
+																	<td id="ul1li3tr4td3"></td>
+																	<td id="ul1li3tr4td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li3tr5td1"></td>
+																	<td id="ul1li3tr5td2"></td>
+																	<td id="ul1li3tr5td3"></td>
+																	<td id="ul1li3tr5td4"></td>
+																</tr>
+																<tr>
+																	<td id="ul1li3tr6td1"></td>
+																	<td id="ul1li3tr6td2"></td>
+																	<td id="ul1li3tr6td3"></td>
+																	<td id="ul1li3tr6td4"></td>
+																</tr>
+															</tbody>
+													</table>
+														</div>
+													</div>
+												</div>
+												</div>
+											</div>
+										
+									</li>
+										</ul>
+								
+								
 						</section>
 						</div>
-					</div><!-- END ROW -->
-				</div><!-- END CONTAINER -->
+				<!--	</div>
+				</div>-->
 				<!-- OVERLAY -->
-				<div class="overlay">
+				<!--<div class="overlay">
 					<div class="gradient-overlay background-blue-dark opacity-20"></div>
-				</div>
+				</div>-->
 			</div>
 			
 			<!-- FEATURES SECTION -->
@@ -1791,10 +2131,10 @@ garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
       		}
       		google.maps.event.addDomListener(window, 'load', initialize);
 		</script>
-		<script type="text/javascript" src="js/cssslidy.js"></script>
+		<!--<script type="text/javascript" src="js/cssslidy.js"></script>
                 <script type="text/javascript" src="js/teste.js"></script>
-		<script>cssSlidy();</script>
-<script>
+		<script>cssSlidy();</script>-->
+<!--<script>
 var canvas, stage, exportRoot;
 
 function init() {
@@ -1825,7 +2165,7 @@ function handleComplete(evt) {
 	createjs.Ticker.setFPS(lib.properties.fps);
 	createjs.Ticker.addEventListener("tick", stage);
 }
-</script>
+</script>-->
        <!--         <script type="text/javascript">
     $(document).ready(function(){
       $('.initSlider').slick({
@@ -1844,11 +2184,11 @@ function handleComplete(evt) {
       });
     });
   </script>-->
-                <!--<script type="text/javascript">
+  <script type="text/javascript">
     $(document).ready(function(){
       $('#sb-slider').slicebox();
     });   
-          </script>-->
+				</script>
 
 
 <script type="text/javascript">
@@ -1861,7 +2201,7 @@ function handleComplete(evt) {
 					autoScale:"yes",
 					carouselWidth:800,
 					carouselHeight:650,
-					skinPath:"load/skin_modern_warm",
+					skinPath:"load/minimal_classic_skin",
 									
 					//main settings
 					backgroundColor:"",
