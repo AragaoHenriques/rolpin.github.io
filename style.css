@@ -2420,6 +2420,29 @@ body.mobile #video_background {
 }
 
 
+.pA{
+    line-height: 1px;
+    font-size:1.5em;
+}
+
+.pA1{
+    line-height: 15px;
+}
+
+.pA2{
+    line-height: 15px;
+}
+
+.pA3{
+    line-height: 50px;
+}
+
+.pA4{
+    
+    font-size:20px;
+    
+}
+
 .animatedPage0 { 
     -webkit-animation-duration: 4s; 
     animation-duration: 4s; 
@@ -2619,7 +2642,7 @@ body.mobile #video_background {
 	bottom: 0;
 	left: 0;
 	background: #545454;
-	z-index: 99999;
+	z-index: 999;
 	opacity:0;
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in;
@@ -2636,10 +2659,10 @@ body.mobile #video_background {
 
 
 .modalDialog > div {
-	width: 70%;
-	height: 70%;
+	width: 75%;
+	height: 75%;
 	position: relative;
-	margin: 10% auto;
+	margin: 6% auto;
     /*padding: 5px 20px 13px 20px;*/
 	/*border-radius: 10px;*/
 	background: #545454;
@@ -2729,9 +2752,14 @@ nav.vertical > ul > li > a:hover {
 	left:0%;
 	border-color: #31b0d5;
 	border-style: solid;
+    background-color: gainsboro;
 }
 
-
+#rightTitle{
+    text-align: left;
+    padding-left: 2%;
+    color:darkslategrey;
+}
 .downDiv {
 	position: absolute;
 	width: 50%;
@@ -2752,7 +2780,7 @@ nav.vertical > ul > li > a:hover {
 .lInnerLeftDiv{
 	position:absolute;
 	width: 100%;
-	height: 50%;
+	height: 30%;
 	top:0%;
     text-align: left;
 	padding-left: 2%;
@@ -2760,9 +2788,9 @@ nav.vertical > ul > li > a:hover {
 
 .rInnerRigthDiv{
 	position:absolute;
-	height: 50%;
+	height: 70%;
 	width: 100%;
-	top:45%;
+	top:30%;
 	text-align: left;
 }
 
@@ -2776,13 +2804,13 @@ width: 100%;
 
 .tableData{
 width: 100%;
-	height: 88%;
-	top:12%;
-	
-	
+	height: 80%;
 	
 }
 
+.produto_title{
+    background-color: gainsboro;
+}
 
 
 .buttonTypeRolo{
@@ -2827,6 +2855,11 @@ width: 100%;
 	color: rgb(201,89,40);
 }
 
+
+.leftDesc{
+	text-align: left;
+	padding-left: 2%;
+}
 .produto_resumo{
 	padding-top: 5%;
 }
@@ -2835,8 +2868,11 @@ width: 100%;
 .styleC{
 	width: 100%;
 	height: 100%;
-	padding-left: 5%;
+	padding-left: 4%;
 	padding-top: 3%;
+    top:10%;
+    
+    position:absolute;
 	
 }
 .img-list{
@@ -2878,7 +2914,8 @@ ul.img-list li {
     -ms-transform:scale(1.5); /* IE 9 */
     -o-transform:scale(1.5); /* Opera */
      transform:scale(1.5);
-    z-index: 999;
+    z-index: 998;
+    position: relative;
 	
 }
 
@@ -2896,11 +2933,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 190px;
+  height: 147px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 240px;
+  width: 231px;
   opacity: 1;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
