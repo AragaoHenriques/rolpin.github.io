@@ -2615,7 +2615,7 @@ body.mobile #video_background {
 }
 
 .span_1_of_4 {
-	width: 19%;
+	width: 25%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -2750,7 +2750,7 @@ nav.vertical > ul > li > a:hover {
 #rightTitle{
     text-align: left;
     padding-left: 2%;
-    color:darkslategrey;
+    color:white;
 }
 .downDiv {
 	position: absolute;
@@ -2800,28 +2800,17 @@ width: 100%;
 	
 }
 
-.produto_title{
-    background-color: gainsboro;
-}
 
 
 .buttonTypeRolo{
 	
 	width: 23%;
-    /*background: rgba(214,214,214,1);
-	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(214,214,214,1)), color-stop(0%, rgba(196,196,196,1)), color-stop(1%, rgba(207,207,207,1)), color-stop(100%, rgba(240,240,240,1)));
-	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
-	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
-	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
-	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#f0f0f0', GradientType=1 );*/
     border-bottom: solid 2px rgb(201,89,40);
 	background-color: transparent;
 	color:#fff;
-    /*-moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-    border-radius: 0px;*/
+    /*-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 100%;*/
 	vertical-align: middle;
 	text-align:center;
 	
@@ -2842,6 +2831,7 @@ width: 100%;
 
 
 #rightDesc{
+    float:left;
 	text-align: left;
 	padding-left: 2%;
 	color: rgb(201,89,40);
@@ -2849,6 +2839,7 @@ width: 100%;
 
 
 .leftDesc{
+    float:left;
 	text-align: left;
 	padding-left: 2%;
 }
@@ -2925,11 +2916,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 147px;
+  height: 140px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 231px;
+  width: 220px;
   opacity: 1;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
