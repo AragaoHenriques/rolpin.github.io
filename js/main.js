@@ -815,7 +815,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloAntigota').click(function() {
-			$("#rightImageAntigota").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageAntigota").attr('src', 'images/antigota/rolo_500_375.jpg');
 			document.getElementById('rbRoloAntigota').style.fontSize = '1.0em';
 			document.getElementById('rbCRoloAntigota').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloAntigota').style.fontSize = '0.8em';
@@ -903,7 +903,7 @@ Version: 1.3.1
 		});
         
         $('#rbCRoloAntigota').click(function() {
-			$("#rightImageAntigota").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageAntigota").attr('src', 'images/antigota/carga_500_375.jpg');
 			document.getElementById('rbRoloAntigota').style.fontSize = '0.8em';
 			document.getElementById('rbCRoloAntigota').style.fontSize = '1.0em';
 			document.getElementById('rbMiniRoloAntigota').style.fontSize = '0.8em';
@@ -992,7 +992,7 @@ Version: 1.3.1
 
 							   
 		$('#rbMiniRoloAntigota').click(function() {
-			$("#rightImageAntigota").attr('src', 'images/18/Antigota.JPG');
+			$("#rightImageAntigota").attr('src', 'images/antigota/mini_500_375.jpg');
 			document.getElementById('rbRoloAntigota').style.fontSize = '0.8em';
 			document.getElementById('rbCRoloAntigota').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloAntigota').style.fontSize = '1.0em';
@@ -1081,7 +1081,7 @@ Version: 1.3.1
         
         
         $('#rbCMiniRoloAntigota').click(function() {
-			$("#rightImageAntigota").attr('src', 'images/18/Antigota.JPG');
+			$("#rightImageAntigota").attr('src', 'images/antigota/cargaMini_500_375.jpg');
 			document.getElementById('rbRoloAntigota').style.fontSize = '0.8em';
 			document.getElementById('rbCRoloAntigota').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloAntigota').style.fontSize = '0.8em';
@@ -1178,7 +1178,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloAntigotaV').click(function() {
-			$("#rightImageAntigotaV").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageAntigotaV").attr('src', 'images/antigotaV/rolo_500_375.jpg');
 			document.getElementById('rbRoloAntigotaV').style.fontSize = '1.0em';
 			document.getElementById('rbCRoloAntigotaV').style.fontSize = '0.8em';
 			document.getElementById('rbRoloAntigotaV').style.fontWeight = 'bold';
@@ -1218,7 +1218,7 @@ Version: 1.3.1
 		});
         
         $('#rbCRoloAntigotaV').click(function() {
-			$("#rightImageAntigotaV").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageAntigotaV").attr('src', 'images/antigotaV/carga_500_375.jpg');
 			document.getElementById('rbRoloAntigotaV').style.fontSize = '0.8em';
 			document.getElementById('rbCRoloAntigotaV').style.fontSize = '1.0em';
 			document.getElementById('rbRoloAntigotaV').style.fontWeight = 'normal';
@@ -1346,7 +1346,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloCromado').click(function() {
-			$("#rightImageCromado").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageCromado").attr('src', 'images/cromado/rolo_500_375.jpg');
 			document.getElementById('rbRoloCromado').style.fontSize = '1.0em';
 			document.getElementById('rbCRoloCromado').style.fontSize = '0.8em';
 			document.getElementById('rbRoloCromado').style.fontWeight = 'bold';
@@ -1372,7 +1372,7 @@ Version: 1.3.1
 		});
         
         $('#rbCRoloCromado').click(function() {
-			$("#rightImageCromado").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageCromado").attr('src', 'images/cromado/carga_500_375.jpg');
 			document.getElementById('rbRoloCromado').style.fontSize = '0.8em';
 			document.getElementById('rbCRoloCromado').style.fontSize = '1.0em';
 			document.getElementById('rbRoloCromado').style.fontWeight = 'normal';
@@ -1445,7 +1445,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloEspuma').click(function() {
-			$("#rightImageEspuma").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageEspuma").attr('src', 'images/espuma/rolo_500_375.jpg');
 			document.getElementById('rbRoloEspuma').style.fontSize = '1.0em';
             document.getElementById('rbCRoloEspuma').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloEspuma').style.fontSize = '0.8em';
@@ -1505,7 +1505,7 @@ Version: 1.3.1
 		});
         
         $('#rbCRoloEspuma').click(function() {
-			$("#rightImageEspuma").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageEspuma").attr('src', 'images/espuma/carga_500_375.jpg');
 			document.getElementById('rbRoloEspuma').style.fontSize = '0.8em';
             document.getElementById('rbCRoloEspuma').style.fontSize = '1.0em';
 			document.getElementById('rbMiniRoloEspuma').style.fontSize = '0.8em';
@@ -1568,7 +1568,7 @@ Version: 1.3.1
         
         
 		$('#rbMiniRoloEspuma').click(function() {
-			$("#rightImageEspuma").attr('src', 'images/18/Espuma.JPG');
+			$("#rightImageEspuma").attr('src', 'images/espuma/mini_500_375.jpg');
 			document.getElementById('rbRoloEspuma').style.fontSize = '0.8em';
             document.getElementById('rbCRoloEspuma').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloEspuma').style.fontSize = '1.0em';
@@ -1629,7 +1629,7 @@ Version: 1.3.1
         
         
         $('#rbCMiniRoloEspuma').click(function() {
-			$("#rightImageEspuma").attr('src', 'images/18/Espuma.JPG');
+			$("#rightImageEspuma").attr('src', 'images/espuma/cargaMini_500_375.jpg');
 			document.getElementById('rbRoloEspuma').style.fontSize = '0.8em';
             document.getElementById('rbCRoloEspuma').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloEspuma').style.fontSize = '0.8em';
@@ -1699,7 +1699,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloJunior').click(function() {
-			$("#rightImageJunior").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageJunior").attr('src', 'images/junior/rolo_500_375.jpg');
 			document.getElementById('rbRoloJunior').style.fontSize = '1.0em';
             document.getElementById('rbCRoloJunior').style.fontSize = '0.8em';
 			//document.getElementById('rbMiniRoloJunior').style.fontSize = '0.8em';
@@ -1757,7 +1757,7 @@ Version: 1.3.1
         
         
         $('#rbCRoloJunior').click(function() {
-			$("#rightImageJunior").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageJunior").attr('src', 'images/junior/carga_500_375.jpg');
 			document.getElementById('rbRoloJunior').style.fontSize = '0.8em';
             document.getElementById('rbCRoloJunior').style.fontSize = '1.0em';
 			//document.getElementById('rbMiniRoloJunior').style.fontSize = '0.8em';
@@ -1915,7 +1915,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloMicrofibra').click(function() {
-			$("#rightImageMicrofibra").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageMicrofibra").attr('src', 'images/microfibra/rolo_500_375.jpg');
 			document.getElementById('rbRoloMicrofibra').style.fontSize = '1.0em';
             document.getElementById('rbCRoloMicrofibra').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloMicrofibra').style.fontSize = '0.8em';
@@ -1948,7 +1948,7 @@ Version: 1.3.1
         
         
         $('#rbCRoloMicrofibra').click(function() {
-			$("#rightImageMicrofibra").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageMicrofibra").attr('src', 'images/microfibra/carga_500_375.jpg');
 			document.getElementById('rbRoloMicrofibra').style.fontSize = '0.8em';
             document.getElementById('rbCRoloMicrofibra').style.fontSize = '1.0em';
 			document.getElementById('rbMiniRoloMicrofibra').style.fontSize = '0.8em';
@@ -1982,7 +1982,7 @@ Version: 1.3.1
 
 							   
 		$('#rbMiniRoloMicrofibra').click(function() {
-			$("#rightImageMicrofibra").attr('src', 'images/18/Microfibra.JPG');
+			$("#rightImageMicrofibra").attr('src', 'images/microfibra/mini_500_375.jpg');
 			document.getElementById('rbRoloMicrofibra').style.fontSize = '0.8em';
             document.getElementById('rbCRoloMicrofibra').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloMicrofibra').style.fontSize = '1.0em';
@@ -2069,7 +2069,7 @@ Version: 1.3.1
 		});
         
         $('#rbCMiniRoloMicrofibra').click(function() {
-			$("#rightImageMicrofibra").attr('src', 'images/18/Microfibra.JPG');
+			$("#rightImageMicrofibra").attr('src', 'images/microfibra/cargaMini_500_375.jpg');
 			document.getElementById('rbRoloMicrofibra').style.fontSize = '0.8em';
             document.getElementById('rbCRoloMicrofibra').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloMicrofibra').style.fontSize = '0.8em';
@@ -2163,7 +2163,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloRavel').click(function() {
-			$("#rightImageRavel").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageRavel").attr('src', 'images/ravel/rolo_500_375.jpg');
 			document.getElementById('rbRoloRavel').style.fontSize = '1.0em';
             document.getElementById('rbCRoloRavel').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloRavel').style.fontSize = '0.8em';
@@ -2211,7 +2211,7 @@ Version: 1.3.1
 		});
         
         $('#rbCRoloRavel').click(function() {
-			$("#rightImageRavel").attr('src', 'images/18/ravel.JPG');
+			$("#rightImageRavel").attr('src', 'images/ravel/carga_500_375.jpg');
 			document.getElementById('rbRoloRavel').style.fontSize = '1.0em';
             document.getElementById('rbCRoloRavel').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloRavel').style.fontSize = '0.8em';
@@ -2261,7 +2261,7 @@ Version: 1.3.1
 
 							   
 		$('#rbMiniRoloRavel').click(function() {
-			$("#rightImageRavel").attr('src', 'images/18/Ravel.JPG');
+			$("#rightImageRavel").attr('src', 'images/ravel/mini_500_375.jpg');
 			document.getElementById('rbRoloRavel').style.fontSize = '1.0em';
             document.getElementById('rbCRoloRavel').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloRavel').style.fontSize = '0.8em';
@@ -2347,7 +2347,7 @@ Version: 1.3.1
 		});
         
         $('#rbCMiniRoloRavel').click(function() {
-			$("#rightImageRavel").attr('src', 'images/18/Ravel.JPG');
+			$("#rightImageRavel").attr('src', 'images/ravel/cargaMini_500_375.jpg');
 			document.getElementById('rbRoloRavel').style.fontSize = '1.0em';
             document.getElementById('rbCRoloRavel').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloRavel').style.fontSize = '0.8em';
@@ -2441,7 +2441,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloRugo').click(function() {
-			$("#rightImageRugo").attr('src', 'images/18/Rugo.JPG');
+			$("#rightImageRugo").attr('src', 'images/rugo/rolo_500_375.jpg');
 			document.getElementById('rbRoloRugo').style.fontSize = '1.0em';
             document.getElementById('rbCRoloRugo').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloRugo').style.fontSize = '0.8em';
@@ -2485,7 +2485,7 @@ Version: 1.3.1
 		});
         
         $('#rbCRoloRugo').click(function() {
-			$("#rightImageRugo").attr('src', 'images/18/Rugo.JPG');
+			$("#rightImageRugo").attr('src', 'images/rugo/carga_500_375.jpg');
 			document.getElementById('rbRoloRugo').style.fontSize = '0.8em';
             document.getElementById('rbCRoloRugo').style.fontSize = '1.0em';
 			document.getElementById('rbMiniRoloRugo').style.fontSize = '0.8em';
@@ -2528,7 +2528,7 @@ Version: 1.3.1
 
 							   
 		$('#rbMiniRoloRugo').click(function() {
-			$("#rightImageRugo").attr('src', 'images/18/Rugo.JPG');
+			$("#rightImageRugo").attr('src', 'images/rugo/mini_500_375.jpg');
 			document.getElementById('rbRoloRugo').style.fontSize = '0.8em';
             document.getElementById('rbCRoloRugo').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloRugo').style.fontSize = '1.0em';
@@ -2571,7 +2571,7 @@ Version: 1.3.1
 		});
         
         $('#rbCMiniRoloRugo').click(function() {
-			$("#rightImageRugo").attr('src', 'images/18/Rugo.JPG');
+			$("#rightImageRugo").attr('src', 'images/rugo/cargaMini_500_375.jpg');
 			document.getElementById('rbRoloRugo').style.fontSize = '0.8em';
             document.getElementById('rbCRoloRugo').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloRugo').style.fontSize = '0.8em';
@@ -2621,7 +2621,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloSuper').click(function() {
-			$("#rightImageSuper").attr('src', 'images/18/Super.JPG');
+			$("#rightImageSuper").attr('src', 'images/super/rolo_500_375.jpg');
 			document.getElementById('rbRoloSuper').style.fontSize = '1.0em';
             document.getElementById('rbCRoloSuper').style.fontSize = '0.8em';
 			//document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
@@ -2654,7 +2654,7 @@ Version: 1.3.1
         
         
         $('#rbCRoloSuper').click(function() {
-			$("#rightImageSuper").attr('src', 'images/18/Super.JPG');
+			$("#rightImageSuper").attr('src', 'images/super/carga_500_375.jpg');
 			document.getElementById('rbRoloSuper').style.fontSize = '0.8em';
             document.getElementById('rbCRoloSuper').style.fontSize = '1.0em';
 			//document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
@@ -2786,7 +2786,7 @@ Version: 1.3.1
 		
 		
 		$('#rbRoloMerino').click(function() {
-			$("#rightImageMerino").attr('src', 'images/18/Merino.JPG');
+			$("#rightImageMerino").attr('src', 'images/merino/rolo_500_375.jpg');
 			document.getElementById('rbRoloMerino').style.fontSize = '1.0em';
             document.getElementById('rbCRoloMerino').style.fontSize = '0.8em';
 			//document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
@@ -2834,7 +2834,7 @@ Version: 1.3.1
 
 			
         $('#rbCRoloMerino').click(function() {
-			$("#rightImageMerino").attr('src', 'images/18/Merino.JPG');
+			$("#rightImageMerino").attr('src', 'images/merino/carga_500_375.jpg');
 			document.getElementById('rbRoloMerino').style.fontSize = '0.8em';
             document.getElementById('rbCRoloMerino').style.fontSize = '1.0em';
 			//document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';

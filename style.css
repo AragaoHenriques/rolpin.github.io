@@ -3001,9 +3001,16 @@ span.text-content span {
 }
 
 /*Body*/
+
+/*Body*/
+.features-table tbody tr {
+    
+    line-height: 300px;
+}
+
 .features-table tbody td
 {
-  
+  height: 20px;
   vertical-align: middle;
   font-size: 0.9em; 
   color: #d3d3d3;
