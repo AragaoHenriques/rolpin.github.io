@@ -999,6 +999,58 @@ textarea::-webkit-input-placeholder {
 }
 
 
+
+/*	14.2 Language icons
+	-------------------------------------------------------------- */	
+.language-icons {
+	position: fixed;
+	display: table;
+	margin: 0;
+	width: 63px;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9100;
+}
+
+.language-icons ul  {
+	margin: auto;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+	
+.language-icons li {
+	margin: 0;
+	display: block;
+}
+
+.language-icons li a {
+	display: block;
+	background: transparent;
+	position: relative;
+	width: 63px;
+	height: 63px;
+	text-align: center;
+	line-height: 63px;
+	border-left: 1px solid transparent;
+}
+
+.language-icons li a i {
+	color: #fff;
+	line-height: 70px;
+	font-size: 21px;
+}
+
+.language-icons li a:hover {
+	border-right: 1px solid #fff;
+}
+
+.socials-icons li a:hover i {
+	color: #fff;
+}
+
 /* ==================================================================
 	15.0 Buttons
 ================================================================== */
@@ -2371,8 +2423,8 @@ body.mobile #video_background {
 }
 
 #companyProfileDiv *{
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 1.0em;
+    
     font-family: cursive;
 }
 
@@ -2394,11 +2446,13 @@ body.mobile #video_background {
 	color: rgb(201,89,40);
 	text-align: justify;
 	font-weight: bold;
+    font-size: 1.5em;
 }
 
 
 .companyTagsR{
 	text-align: justify;
+    line-height: 15px;
 }
 .chooseLang{
     width: 35%;
@@ -3074,3 +3128,6 @@ span.text-content span {
   border-bottom: none;
 }
 
+.teste{
+    height: 300px;
+}

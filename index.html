@@ -104,13 +104,12 @@
         <!-- HOME SECTION -->
         <div class="section home active cover-background " id="section0">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-md-offset-1">
-                        <div class="chooseLang">
-                            <!--<img id="roloImgPagZero" src="./images/RoloBcg.png" class="animatedPage0 fadeOutDownPage0"/>-->
-
-                        </div>
-                        <div id="shadow" class="shadow"></div>
+                <div class="row teste">
+                    <div class="col-md-6">
+                        <img src="images/intro.jpg"  />
+                    </div>
+                    <div class="col-md-6">
+                    <div id="shadow" class="shadow"></div>
                         <!-- START CONTAINER -->
                         <div id="myDiv" class="myDiv">
 
@@ -168,6 +167,16 @@
 
                         </div>
                     </div>
+               
+                    <div class="col-md-12">
+                    <p class="companyTagsR">
+                                    <span class="companyTags">Missão:</span><span>  Fornecer os melhores e mais atuais produtos do setor no mercado nacional e internacional.</span></p>
+                                <p class="companyTagsR">
+                                    <span class="companyTags">Visão:</span><span>  Expandir continuamente o volume de negócios com vista na contínua conquista do mercado nacional e dos mercados de exportação.</span></p>
+                                <p class="companyTagsR">
+                                    <span class="companyTags">Objetivo:</span><span>  Fazer chegar aos nossos clientes produtos de elevada qualidade, adaptados às suas necessidades e sempre ao preço mais competitivo.</span></p>    
+                    </div>
+                    
                 </div>
             </div>
             <!--<div class="container">
@@ -198,7 +207,7 @@
             <!-- START CONTAINER -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-md-offset-1">
+                    <div class="col-md-12">
                         <!-- START SECTION HEADER -->
                         <!--<div class="section-header">
 								
@@ -212,23 +221,16 @@
                         <!-- START SLIDE CONTENT-->
 
                         <div class="slide-content animated section1Div" data-animation="fadeInUp" data-animation-delay="400">
-
-                            <div id="companyProfileDiv">
+                                <div class="row">
+                            <div id="companyProfileDiv" class="col-md-6">
                                 <p id="companyProfile">Com 20 anos de experiência e 2000 m2 de instalações equipadas com a tecnologia mais vanguardista a nível nacional, a ROLPIN foi já considerada PME líder por 3 anos consecutivos e PME excelência em 2014, sendo a empresa número 1 do setor.</p>
                                 <p id="companyProfile">
                                     Entre o fim dos anos 80 e o início dos anos 90, da produção artesanal de garagem dos fundadores, começava a surgir um negócio familiar na área da indústria de rolos de pintura e acessórios destinados à construção civil. Muito trabalho e dedicação, que de resto são princípios pelos quais a empresa se pauta, proporcionaram a expansão do modesto armazém inicial de 300 m2. </p>
                                 <p id="companyProfile">
                                     Atualmente, sediada na zona industrial de Gulpilhares e com uma capacidade de produção superior a 2 milhões de unidades anuais, oferece uma ampla gama de produtos, garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
-                                <p class="companyTagsR">
-                                    <span class="companyTags">Missão:</span><span>  Fornecer os melhores e mais atuais produtos do setor no mercado nacional e internacional.</span></p>
-                                <p></p>
-                                <p class="companyTagsR">
-                                    <span class="companyTags">Visão:</span><span>  Expandir continuamente o volume de negócios com vista na contínua conquista do mercado nacional e dos mercados de exportação.</span></p>
-                                <p></p>
-                                <p class="companyTagsR">
-                                    <span class="companyTags">Objetivo:</span><span>  Fazer chegar aos nossos clientes produtos de elevada qualidade, adaptados às suas necessidades e sempre ao preço mais competitivo.</span></p>
+                                
                             </div>
-                            <div id="slidyDiv">
+                            <div id="slidyDiv" class="col-md-6">
                                 <div id="slidy-container">
                                     <!--<figure id="slidy">
 									<img src="images/companyPhoto.jpg" alt data-caption="Antelope Canyon, Arizona" />
@@ -249,6 +251,7 @@
                                 </div>
                             </div>
                         </div>
+                            </div>
                         <!-- END SLIDE CONTENT-->
                     </div>
                 </div>
@@ -1670,7 +1673,7 @@
             <!--<div class="overlay">
 					<div class="gradient-overlay background-blue-dark opacity-20"></div>
 				</div>-->
-        </div>
+        
     </div>
     <!-- FEATURES SECTION -->
     <div class="section cover-background" id="section3">
@@ -1762,11 +1765,24 @@
 				<li class="onstart animated" data-animation="fadeInRightBig" data-animation-delay="1550"><a href="#"><i class="ion-social-dribbble-outline"></i></a></li>
 			</ul> 
 		</nav>
+        
+        
+        <nav class="language-icons">
+			<ul>
+				<li class="onstart animated" data-animation="fadeInRightBig" data-animation-delay="800"><a href="#"><img src="images/Flags/pt.ico" width="50%" height="50%" alt="Potuguês"/></a></li>
+				<li class="onstart animated" data-animation="fadeInRightBig" data-animation-delay="950"><a href="#"><img src="images/Flags/en.ico" width="50%" height="50%" alt="English"/></a></li>
+				<li class="onstart animated" data-animation="fadeInRightBig" data-animation-delay="1100"><a href="#"><img src="images/Flags/fr.ico" width="50%" height="50%" alt="Français"/></a></li>
+			</ul> 
+		</nav>
 		<!-- END SOCIAL ICONS -->
 		
 		<!-- START FOOTER -->
 		<footer class="site-footer onstart animated" data-animation="fadeInUp" data-animation-delay="800">
-			<p class="copyright">© 2016 Rolpin </p>
+			<p class="copyright">© 2016 Rolpin 
+            <img src="images/footer/pmeLider.jpg" width="2%" height="5%" />
+            <img src="images/footer/pmeExcelenciaIco.jpg" width="2%" height="5%" />
+            </p>
+            
 		</footer>
 		<!-- END FOOTER -->
 		
@@ -1873,10 +1889,10 @@ function handleComplete(evt) {
 					//required settings
 					carouselHolderDivId:"myDiv",
 					carouselDataListDivId:"carouselData",
-					displayType:"fluidwidth",
+					displayType:"responsive",
 					autoScale:"yes",
-					carouselWidth:1100,
-					carouselHeight:800,
+					carouselWidth:900,
+					carouselHeight:600,
 					skinPath:"load/minimal_classic_skin",
 									
 					//main settings
@@ -1887,12 +1903,12 @@ function handleComplete(evt) {
 					backgroundRepeat:"",
 					carouselStartPosition:"center",
 					carouselTopology:"ring",
-					carouselXRadius:380,
-					carouselYRadius:0,
-					carouselXRotation:10,
-					carouselYOffset:0,
-					showCenterImage:"no",
-					centerImagePath:"load/logo.png",
+					carouselXRadius:500,
+					carouselYRadius:20,
+					carouselXRotation:25,
+					carouselYOffset:80,
+					showCenterImage:"yes",
+					centerImagePath:"images/logoWithbackground.png",
 					centerImageYOffset:0,
 					showDisplay2DAlways:"no",
 					slideshowDelay:2000,
@@ -1910,28 +1926,28 @@ function handleComplete(evt) {
 					fluidWidthZIndex:1000,
 												
 					//thumbnail settings
-					thumbnailWidth:500,
-					thumbnailHeight:350,
+					thumbnailWidth:600,
+					thumbnailHeight:250,
 					thumbnailBorderSize:0,
-					thumbnailMinimumAlpha:0.3,
-					thumbnailBackgroundColor:"#999999",
-					thumbnailBorderColor1:"#fcfdfd",
-					thumbnailBorderColor2:"#e4e4e4",
+					thumbnailMinimumAlpha:0.8,
+					thumbnailBackgroundColor:"#404040",
+					thumbnailBorderColor1:"#fff",
+					thumbnailBorderColor2:"#fff",
 					transparentImages:"yes",
 					maxNumberOfThumbnailsOnMobile:13,
 					showThumbnailsGradient:"yes",
 					showThumbnailsHtmlContent:"yes",
-					textBackgroundColor:"#333333",
+					textBackgroundColor:"#404040",
 					textBackgroundOpacity:.7,
 					showText:"no",
 					showTextBackgroundImage:"yes",
 					showFullTextWithoutHover:"no",
 					showThumbnailBoxShadow:"yes",
-					thumbnailBoxShadowCss:"0px 2px 2px #666666",
+					thumbnailBoxShadowCss:"0px 2px 2px #404040",
 					showReflection:"yes",
 					reflectionHeight:60,
-					reflectionDistance:0,
-					reflectionOpacity:.2,
+					reflectionDistance:10,
+					reflectionOpacity:10,
 												
 					//scrollbar settings
 					showScrollbar:"no",
