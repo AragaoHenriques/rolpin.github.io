@@ -65,7 +65,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: 'Open Sans', sans-serif, cursive;
 	vertical-align: baseline;
 }
 
@@ -2186,6 +2186,10 @@ body.mobile #video_background {
 
 @media(max-width:768px){
 
+    #companyProfileDiv *{
+    font-size: 0.8em;
+}
+    
 	.site-header {
 		padding: 0 15px;
 		height: auto;
@@ -2254,6 +2258,48 @@ body.mobile #video_background {
 	.socials-icons li a:hover {
 		border: 0px;
 	}
+    
+    .language-icons {
+		position: relative;
+		margin: 0;
+		width: 100%;
+		display: block;
+		height: auto;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.language-icons ul  {
+		margin: 15px auto;
+		display: table;
+		overflow: hidden;
+	}
+		
+	.language-icons li {
+		margin: 0;
+		display: block;
+		float: left;
+	}
+
+	.language-icons li a {
+		display: block;
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+		border: 0px;
+	}
+
+	.language-icons li a i {
+		color: #333;
+		line-height: 80px;
+		font-size: 21px;
+	}
+
+	.language-icons li a:hover {
+		border: 0px;
+	}
 	
 	.textslider h1 {
 		font-size: 62px;
@@ -2315,6 +2361,10 @@ body.mobile #video_background {
 
 @media(max-width:640px){
 	
+    #companyProfileDiv *{
+        font-size: 0.9em;
+    }
+    
 	.textslider h1 {
 		font-size: 48px;
 	}
@@ -2340,6 +2390,20 @@ body.mobile #video_background {
 	}
 		
 	.socials-icons li {
+		margin: 0px 10px;
+		display: inline-block;
+		float: none;
+	}
+    
+    .language-icons ul  {
+		margin: 0 auto;
+		text-align: center;
+		display: table;
+		vertical-align: middle;
+		overflow: hidden;
+	}
+		
+	.language-icons li {
 		margin: 0px 10px;
 		display: inline-block;
 		float: none;
@@ -2399,7 +2463,7 @@ body.mobile #video_background {
     width: 15.5%;
 }
 
-#companyProfile{
+.companyProfile{
 	text-align: justify;
 	
 }
@@ -2413,20 +2477,10 @@ body.mobile #video_background {
 	position: relative;	
 	
 }
-#companyProfileDiv{
-	width: 48%;
-	left: 0;
-	top:0;
-	float: left;
-    
-	
-}
 
-#companyProfileDiv *{
-    font-size: 1.0em;
-    
-    font-family: cursive;
-}
+
+
+
 
 #slidyDiv{
 	padding-top: 3%;
@@ -3003,7 +3057,7 @@ span.text-content span {
 .map{
 	
 	
-	width: 50%;
+	width: 100%;
 	left: 0;
 	top:0;
 	height: 400px;
@@ -3012,7 +3066,7 @@ span.text-content span {
 }
 .contacts {
 	float: right;
-	width: 50%;
+	width: 100%;
 	
 
 	text-align: left;

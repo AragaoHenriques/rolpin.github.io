@@ -86,11 +86,11 @@
             <div id="main-nav" class="navbar-collapse collapse">
                 <!-- START NAVIGATION MENU ITEMS -->
                 <ul id="menu" class="nav navbar-nav navbar-right onstart animated" data-animation="fadeInDown" data-animation-delay="800">
-                    <li class="active" data-menuanchor="firstPage"><a href="#firstPage" class="active">Início</a></li>
-                    <li data-menuanchor="secondPage"><a href="#secondPage">Empresa</a></li>
-                    <li data-menuanchor="3rdPage"><a href="#3rdPage">Produtos</a></li>
-                    <li data-menuanchor="4thPage"><a href="#4thPage">Contactos</a></li>
-                    <li data-menuanchor="lastPage"><a href="#lastPage">Sugestões</a></li>
+                    <li  class="active" data-menuanchor="firstPage"><a id="initLabel" href="#firstPage" class="active"></a></li>
+                    <li data-menuanchor="secondPage"><a id="compLabel" href="#secondPage"></a></li>
+                    <li data-menuanchor="3rdPage"><a id="prodLabel" href="#3rdPage"></a></li>
+                    <li data-menuanchor="4thPage"><a id="contLabel"  href="#4thPage"></a></li>
+                    <li data-menuanchor="lastPage"><a id="sugsLabel"  href="#lastPage"></a></li>
                 </ul>
                 <!-- END NAVIGATION MENU ITEMS -->
             </div>
@@ -170,12 +170,12 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                    <p class="companyTagsR">
-                                    <span class="companyTags">Missão:</span><span>  Fornecer os melhores e mais atuais produtos do setor no mercado nacional e internacional.</span></p>
-                                <p class="companyTagsR">
-                                    <span class="companyTags">Visão:</span><span>  Expandir continuamente o volume de negócios com vista na contínua conquista do mercado nacional e dos mercados de exportação.</span></p>
-                                <p class="companyTagsR">
-                                    <span class="companyTags">Objetivo:</span><span>  Fazer chegar aos nossos clientes produtos de elevada qualidade, adaptados às suas necessidades e sempre ao preço mais competitivo.</span></p>    
+                        <p class="companyTagsR">
+                            <span id="missaoLbl" class="companyTags"></span><span id="missaoTextLbl"></span></p>
+                        <p class="companyTagsR">
+                            <span id="visaoLbl" class="companyTags"></span><span id="visaoTextLbl"></span></p>
+                        <p class="companyTagsR">
+                            <span id="objLbl" class="companyTags"></span><span id="objTextLbl"></span></p>    
                     </div>
                     
                 </div>
@@ -208,31 +208,16 @@
             <!-- START CONTAINER -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <!-- START SECTION HEADER -->
-                        <!--<div class="section-header">
-								
-								
-								<h2 class="section-title animated" data-animation="fadeInUp">Sobre nós</h2>
-								<div class="line-separate line-white line-center animated" data-animation="fadeInUp" data-animation-delay="200">
-									
-								</div>
-							</div>-->
-                        <!-- END SECTION HEADER -->
-                        <!-- START SLIDE CONTENT-->
 
-                        <div class="slide-content animated section1Div" data-animation="fadeInUp" data-animation-delay="400">
-                                <div class="row">
+                        <!--<div class="slide-content animated section1Div" data-animation="fadeInUp" data-animation-delay="400">-->
+                          
                             <div id="companyProfileDiv" class="col-md-6">
-                                <p id="companyProfile">Com 20 anos de experiência e 2000 m2 de instalações equipadas com a tecnologia mais vanguardista a nível nacional, a ROLPIN foi já considerada PME líder por 3 anos consecutivos e PME excelência em 2014, sendo a empresa número 1 do setor.</p>
-                                <p id="companyProfile">
-                                    Entre o fim dos anos 80 e o início dos anos 90, da produção artesanal de garagem dos fundadores, começava a surgir um negócio familiar na área da indústria de rolos de pintura e acessórios destinados à construção civil. Muito trabalho e dedicação, que de resto são princípios pelos quais a empresa se pauta, proporcionaram a expansão do modesto armazém inicial de 300 m2. </p>
-                                <p id="companyProfile">
-                                    Atualmente, sediada na zona industrial de Gulpilhares e com uma capacidade de produção superior a 2 milhões de unidades anuais, oferece uma ampla gama de produtos, garantindo a máxima qualidade desde a matéria-prima ao embalamento.</p>
-                                
+                                <p id="companyFirst" class="companyProfile"></p>
+                                <p id="companySecond" class="companyProfile"></p>
+                                <p id="companyThird" class="companyProfile"></p>
                             </div>
-                            <div id="slidyDiv" class="col-md-6">
-                                <div id="slidy-container">
+                            <div class="col-md-6">
+                                
                                     <!--<figure id="slidy">
 									<img src="images/companyPhoto.jpg" alt data-caption="Antelope Canyon, Arizona" />
 									<img src="images/Slider/bg1.jpg" alt data-caption="Maquina" />
@@ -249,16 +234,12 @@
                                         <li><img src="images/Slider/bg5.jpg" alt="image5" /></li>
                                         <li><img src="images/Slider/bg6.jpg" alt="image5" /></li>
                                     </ul>
-                                </div>
+                                
                             </div>
-                        </div>
-                            </div>
-                        <!-- END SLIDE CONTENT-->
-                    </div>
+                      <!--</div>-->
+                      
                 </div>
-                <!-- END ROW -->
             </div>
-            <!-- END CONTAINER -->
             <!-- OVERLAY -->
             <div class="overlay">
                 <div class="gradient-overlay background-blue-dark opacity-20"></div>
@@ -1684,10 +1665,14 @@
         <!-- START CONTAINER -->
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div class="mapOwnerDiv">
                         <div id="map" class="map"></div>
-                        <div id="contacts" class="contacts">
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                <div id="contacts" class="contacts">
                             <h3>Rolpin, Indústria de Rolos de Pintura e Acessórios</h3>
                             <h4>Rua Norton de Matos,nº 1414</h4>
                             <h4>4410-323 Gulpilhares, Vila Nova de Gaia</h4>
@@ -1695,7 +1680,6 @@
                             <h4>Telefone: 256999664</h4>
                             <h4 align: "left">Fax: 256999689</h4>
                         </div>
-                    </div>
                 </div>
             </div>
             <!-- END ROW -->
@@ -1770,9 +1754,9 @@
         
         <nav class="language-icons">
 			<ul>
-				<li class="onstart animated" data-animation="fadeInRightBig" data-animation-delay="800"><a href="#"><img src="images/Flags/pt.ico" width="50%" height="50%" alt="Potuguês"/></a></li>
-				<li class="onstart animated" data-animation="fadeInRightBig" data-animation-delay="950"><a href="#"><img src="images/Flags/en.ico" width="50%" height="50%" alt="English"/></a></li>
-				<li class="onstart animated" data-animation="fadeInRightBig" data-animation-delay="1100"><a href="#"><img src="images/Flags/fr.ico" width="50%" height="50%" alt="Français"/></a></li>
+				<li class="onstart animated" data-animation="fadeInRightBig" data-animation-delay="800"><a href="#"><img src="images/Flags/pt.ico" width="50%" height="50%" alt="Potuguês" id="langPt"/></a></li>
+				<li class="onstart animated" data-animation="fadeInRightBig" data-animation-delay="950"><a href="#"><img src="images/Flags/en.ico" width="50%" height="50%" alt="English" id="langEng"/></a></li>
+				<li class="onstart animated" data-animation="fadeInRightBig" data-animation-delay="1100"><a href="#"><img src="images/Flags/fr.ico" width="50%" height="50%" alt="Français" id="langFr"/></a></li>
 			</ul> 
 		</nav>
 		<!-- END SOCIAL ICONS -->
@@ -1804,6 +1788,7 @@
 		<script type="text/javascript" src="js/mootools-core-1.3.1.js"></script>
 		<script type="text/javascript" src="js/mootools-more-1.3.1.1.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/lang_pt.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
         <script src="http://code.createjs.com/easeljs-0.8.1.min.js"></script>
         <script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>
@@ -1880,7 +1865,50 @@ function handleComplete(evt) {
   <script type="text/javascript">
     $(document).ready(function(){
       $('#sb-slider').slicebox();
+    
+        
+        function removejscssfile(filename, filetype){
+            var targetelement=(filetype=="js")? "script" : (filetype=="css")? "link" : "none" //determine element type to create nodelist from
+            var targetattr=(filetype=="js")? "src" : (filetype=="css")? "href" : "none" //determine corresponding attribute to test for
+            var allsuspects=document.getElementsByTagName(targetelement)
+            for (var i=allsuspects.length; i>=0; i--){ //search backwards within nodelist for matching elements to remove
+            if (allsuspects[i] && allsuspects[i].getAttribute(targetattr)!=null &&  allsuspects[i].getAttribute(targetattr).indexOf(filename)!=-1)
+                allsuspects[i].parentNode.removeChild(allsuspects[i]) //remove element by calling parentNode.removeChild()
+    }
+}    
+        
+        function loadjsfile(filename, filetype){
+            var fileref=document.createElement('script');
+            fileref.setAttribute("type","text/javascript");
+            fileref.setAttribute("src", filename);
+    
+            if (typeof fileref!="undefined")
+                document.getElementsByTagName("head")[0].appendChild(fileref);
+         }
+        
+        $(function () {
+            $("#langEng").click(function () {
+                removejscssfile("lang_pt.js", "js");
+                removejscssfile("lang_fr.js", "js");
+                loadjsfile("js/lang_en.js", "js");
+            });
+            
+            $("#langFr").click(function () {
+                removejscssfile("lang_pt.js", "js");
+                removejscssfile("lang_en.js", "js");
+                loadjsfile("js/lang_fr.js", "js");
+            });
+            
+            $("#langPt").click(function () {
+                removejscssfile("lang_en.js", "js");
+                removejscssfile("lang_fr.js", "js");
+                loadjsfile("js/lang_pt.js", "js");
+            });
+        });    
+        
     });   
+      
+    
 				</script>
 
 
