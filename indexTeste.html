@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+
+<head>
+
+    <title>Rolpin</title>
+
+    <!-- META DATA -->
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Rolpin - Indústria de Rolos de Pintura e Acessórios, Lda">
+    <meta name="keywords" content="Rolpin Rolo Rolos Pintura">
+    <meta name="author" content="Pedro José Aragão Henriques">
+
+
+</head>
+<!--<body class="image-background">-->
+<body onload="initCanvas();"> 
+
+                        <canvas id="teste"  width="400" height="500" style="background-color:#404040"></canvas>   
+
+		
+		
+        <script src="http://code.createjs.com/easeljs-0.8.1.min.js"></script>
+        <script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>
+        <script src="http://code.createjs.com/movieclip-0.8.1.min.js"></script>
+        <script src="http://code.createjs.com/preloadjs-0.6.1.min.js"></script>
+        <script src="js/rolo-xico.js"></script>
+        
+        <script type="text/javascript">
+            
+            var canvas, stage, exportRoot;
+
+            
+                function initCanvas() {
+	               canvas = document.getElementById("teste");
+	               images = images||{};
+	               ss = ss||{};
+                        
+	               var loader = new createjs.LoadQueue(false);
+	               loader.addEventListener("fileload", handleFileLoad);
+	               loader.addEventListener("complete", handleComplete);
+                   loader.loadFile({src:"images/rolo_xico_atlas_.json", type:"spritesheet", id:"rolo_xico_atlas_"}, true);
+	               loader.loadManifest(lib.properties.manifest);
+                }
+
+                function handleFileLoad(evt) {
+	               if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+                }
+
+                function handleComplete(evt) {
+	               var queue = evt.target;
+	               ss["rolo_xico_atlas_"] = queue.getResult("rolo_xico_atlas_");
+	               exportRoot = new lib.roloxico();
+                        
+	               stage = new createjs.Stage(canvas);
+	               stage.addChild(exportRoot);
+	               stage.update();
+
+	               createjs.Ticker.setFPS(lib.properties.fps);
+	               createjs.Ticker.addEventListener("tick", stage);
+                }
+        </script>
+
+		
+	</body>
+</html>
