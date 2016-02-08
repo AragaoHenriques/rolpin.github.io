@@ -206,7 +206,7 @@ p.lead {
 }
 
 a, a > * {
-	color: #2a6496;
+	/*color: #2a6496;*/
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
@@ -2153,6 +2153,16 @@ body.mobile #video_background {
 	21.0 Responsive
 ================================================================== */
 
+@media(max-height:700px){
+    
+    .imgSlick{
+        width: 80%;
+        float: right;
+        
+    }
+
+}
+
 @media(max-width:991px){
 	
 	h1 {
@@ -2539,7 +2549,10 @@ body.mobile #video_background {
 
 .pA4{
     
-    font-size:20px;
+    font-size:18px;
+    font-weight: bolder;
+    
+    
     
 }
 
@@ -2914,25 +2927,20 @@ width: 100%;
 	
 	width: 23%;
     border-bottom: solid 2px rgb(201,89,40);
+    border-right: solid 2px rgb(201,89,40);
 	background-color: transparent;
 	color:#fff;
-    /*-moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 100%;*/
-	vertical-align: middle;
-	text-align:center;
+    -moz-border-radius: 0%;
+    -webkit-border-radius: 0%;
+    border-radius: 0%;
+	vertical-align: left;
+	text-align:left;
 	
 }
 
 .buttonTypeRolo:hover {
 	background: rgba(214,214,214,1);
-	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(214,214,214,1)), color-stop(0%, rgba(196,196,196,1)), color-stop(1%, rgba(207,207,207,1)), color-stop(100%, rgba(240,240,240,1)));
-	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
-	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
-	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
-	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(196,196,196,1) 0%, rgba(207,207,207,1) 1%, rgba(240,240,240,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#f0f0f0', GradientType=1 );
+	color:#000;
 }
 
 
@@ -2942,6 +2950,8 @@ width: 100%;
     float:left;
 	text-align: left;
 	padding-left: 2%;
+    font-size: 1.2em;
+    font-weight: normal;
 	color: rgb(201,89,40);
 }
 
@@ -3182,3 +3192,11 @@ span.text-content span {
   border-bottom: none;
 }
 
+
+.canvasFlash{
+    background-color:#404040;
+    position:absolute;
+    top:0;
+    left:10px;
+    z-index: 30000;
+}

@@ -33,6 +33,7 @@
     <link rel="stylesheet" type="text/css" href="Slicebox/css/slicebox.css" />
     <link rel="stylesheet" type="text/css" href="load/skin_modern_silver.css" />
     <link rel="stylesheet" type="text/css" href="load/html_content.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylesMenuRolo.css" />
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -103,81 +104,24 @@
 
         <!-- HOME SECTION -->
         <div class="section home active cover-background" id="section0">
-            
+               
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <canvas id="canvas"  width="400" height="500" style="background-color:#404040"></canvas>   
-                    </div>
-                    <div class="col-md-6">
-                    <div id="shadow" class="shadow"></div>
-                        <!-- START CONTAINER -->
-                        <div id="myDiv" class="myDiv">
-
-                            <div id="carouselData" style="display: none;">
-
-                                <ul data-cat="Category one">
-                                    <ul>
-                                        <li data-type="none"></li>
-                                        <li data-thumbnail-path="images/MenuRolos/angora.jpg"></li>
-                                        <li data-html-content="">
-                                            <div class="thumb1Div">
-                                                <p class="thumb1P"> </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li data-type="none"></li>
-                                        <li data-thumbnail-path="images/MenuRolos/antigota.jpg"></li>
-                                        <li data-html-content="">
-                                            <div class="thumb2Div">
-                                                <p class="thumb2P"> </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li data-type="none"></li>
-                                        <li data-thumbnail-path="images/MenuRolos/junior.jpg"></li>
-                                        <li data-html-content="">
-                                            <div class="thumb3Div">
-                                                <p class="thumb3P"> </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li data-type="none"></li>
-                                        <li data-thumbnail-path="images/MenuRolos/merino.jpg"></li>
-                                        <li data-html-content="">
-                                            <div class="thumb4Div">
-                                                <p class="thumb4P"> </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li data-type="none"></li>
-                                        <li data-thumbnail-path="images/MenuRolos/ravel.jpg"></li>
-                                        <li data-html-content="">
-                                            <div class="thumb5Div">
-                                                <p class="thumb5P"> </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </ul>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+                
+            <canvas id="canvas"  width="400" height="500" class="canvasFlash" ></canvas>
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="companyTagsR">
+                        <div class="mySlick">
+                            <div class="imgSlick"><img src="images/Slick/bg2.jpg" class="imgSlick"/></div>
+                            <div class="imgSlick"><img src="images/Slick/bg2.jpg" class="imgSlick"/></div>
+                            <div class="imgSlick"><img src="images/Slick/bg2.jpg" class="imgSlick"/></div>
+                        </div>
+                        <!--<p class="companyTagsR">
                             <span id="missaoLbl" class="companyTags"></span><span id="missaoTextLbl"></span></p>
                         <p class="companyTagsR">
                             <span id="visaoLbl" class="companyTags"></span><span id="visaoTextLbl"></span></p>
                         <p class="companyTagsR">
                             <span id="objLbl" class="companyTags"></span><span id="objTextLbl"></span></p>    
-                    </div>
+                    </div>-->
                     
                 </div>
             </div>
@@ -200,7 +144,7 @@
 					<div class="gradient-overlay background-blue-dark opacity-20"></div>
 				</div>-->
         </div>
-
+        </div>
         <!-- SUBSCRIBE SECTION -->
         <div class="section cover-background" id="section1">
             <!--<div>
@@ -288,14 +232,22 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageAngora" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageAngora" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloAngora" value="Rolo" class="buttonTypeRolo">
+                                                                <!--<input type="button" id="rbRoloAngora" value="Rolo" class="buttonTypeRolo">
                                                                 <input type="button" id="rbCRoloAngora" value="Carga Rolo" class="buttonTypeRolo">
                                                                 <input type="button" id="rbMiniRoloAngora" value="Mini Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCMiniRoloAngora" value="Carga Mini" class="buttonTypeRolo">
+                                                                <input type="button" id="rbCMiniRoloAngora" value="Carga Mini" class="buttonTypeRolo">-->
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li class="activeMenu"><a id="rbRoloAngora"><span>Rolo</span></a></li>
+                                                                        <li><a id="rbCRoloAngora"><span>Carga Rolo</span></a></li>
+                                                                        <li><a id="rbMiniRoloAngora"><span>Mini Rolo</span></a></li>
+                                                                        <li><a id="rbCMiniRoloAngora" ><span>Carga Mini</span></a></li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
@@ -435,7 +387,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageAntigota" src="images/antigota/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageAntigota" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -571,7 +523,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageAntigotaV" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageAntigotaV" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -673,7 +625,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageCromado" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageCromado" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -746,7 +698,7 @@
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> Espuma Poliéster | <span class="pA4">Cor</span> Cru </span>
+                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc">Espuma Poliéster | <span class="pA4">Cor</span> Branca </span>
                                                                 </div>
                                                                 <div class="row">
                                                                     <span id="rightDesc">Aplicação:</span><span class="leftDesc"> Tintas e esmaltes aquosos em muros, fachadas e paredes (interiores e exteriores). </span>
@@ -756,7 +708,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageEspuma" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageEspuma" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -873,7 +825,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageJunior" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageJunior" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -991,7 +943,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageMicrofibra" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageMicrofibra" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -1143,7 +1095,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageRavel" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageRavel" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -1294,7 +1246,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageRugo" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageRugo" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -1393,7 +1345,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageSuper" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageSuper" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -1475,7 +1427,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageMerino" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageMerino" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -1562,7 +1514,7 @@
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-sm-6">
-                                                            <img id="rightImageAcessorios" src="images/angora/500_375.jpg" width="100%" height="100%" />
+                                                            <img id="rightImageAcessorios" src="" width="100%" height="100%" />
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
@@ -1764,9 +1716,11 @@
 		
 		<!-- START FOOTER -->
 		<footer class="site-footer onstart animated" data-animation="fadeInUp" data-animation-delay="800">
-			<p class="copyright">© 2016 Rolpin 
+			<p class="copyright"><span>© 2016 Rolpin</span>
+            <span style="verticalAlign:middle;">
             <img src="images/footer/pmelider.png" width="2%" height="5%" />
-            <img src="images/footer/pmeExcelenciaIco.jpg" width="2%" height="5%" />
+            <img src="images/footer/pmeExcelencia.png" width="2%" height="5%" />
+            </span>
             </p>
             
 		</footer>
@@ -1903,128 +1857,14 @@ function handleComplete(evt) {
 
 
 <script type="text/javascript">
-			FWDU3DCarUtils.onReady(function(){
-				var carousel = new FWDUltimate3DCarousel({
-					//required settings
-					carouselHolderDivId:"myDiv",
-					carouselDataListDivId:"carouselData",
-					displayType:"responsive",
-					autoScale:"yes",
-					carouselWidth:900,
-					carouselHeight:500,
-					skinPath:"load/minimal_classic_skin",
-									
-					//main settings
-					backgroundColor:"",
-					backgroundImagePath:"",
-					thumbnailsBackgroundImagePath:"",
-					scrollbarBackgroundImagePath:"",
-					backgroundRepeat:"",
-					carouselStartPosition:"center",
-					carouselTopology:"ring",
-					carouselXRadius:500,
-					carouselYRadius:20,
-					carouselXRotation:25,
-					carouselYOffset:100,
-					showCenterImage:"no",
-					centerImagePath:"images/logoWithbackground.png",
-					centerImageYOffset:0,
-					showDisplay2DAlways:"no",
-					slideshowDelay:2000,
-					autoplay:"yes",
-					showPrevButton:"no",
-					showNextButton:"no",
-					showSlideshowButton:"no",
-					disableNextAndPrevButtonsOnMobile:"no",
-					controlsMaxWidth:940,
-					controlsHeight:29,
-					controlsPosition:"bottom",
-					slideshowTimerColor:"#777777",
-					rightClickContextMenu:"developer",
-					addKeyboardSupport:"yes",
-					fluidWidthZIndex:1000,
-												
-					//thumbnail settings
-					thumbnailWidth:600,
-					thumbnailHeight:250,
-					thumbnailBorderSize:0,
-					thumbnailMinimumAlpha:0.8,
-					thumbnailBackgroundColor:"#404040",
-					thumbnailBorderColor1:"#fff",
-					thumbnailBorderColor2:"#fff",
-					transparentImages:"yes",
-					maxNumberOfThumbnailsOnMobile:13,
-					showThumbnailsGradient:"yes",
-					showThumbnailsHtmlContent:"yes",
-					textBackgroundColor:"#404040",
-					textBackgroundOpacity:.7,
-					showText:"no",
-					showTextBackgroundImage:"yes",
-					showFullTextWithoutHover:"no",
-					showThumbnailBoxShadow:"yes",
-					thumbnailBoxShadowCss:"0px 2px 2px #404040",
-					showReflection:"yes",
-					reflectionHeight:60,
-					reflectionDistance:10,
-					reflectionOpacity:10,
-												
-					//scrollbar settings
-					showScrollbar:"no",
-					disableScrollbarOnMobile:"yes",
-					enableMouseWheelScroll:"yes",
-					scrollbarHandlerWidth:300,
-					scrollbarTextColorNormal:"#777777",
-					scrollbarTextColorSelected:"#000000",
-												
-					//combobox settings
-					showComboBox:"no",
-					startAtCategory:1,
-					selectLabel:"SELECT CATEGORIES",
-					allCategoriesLabel:"All Categories",
-					showAllCategories:"no",
-					comboBoxPosition:"topright",
-					selectorBackgroundNormalColor1:"#FFFFFF",
-					selectorBackgroundNormalColor2:"#FFFFFF",
-					selectorBackgroundSelectedColor1:"#bab8b4",
-					selectorBackgroundSelectedColor2:"#a09e9a",
-					selectorTextNormalColor:"#8b8b8b",
-					selectorTextSelectedColor:"#FFFFFF",
-					buttonBackgroundNormalColor1:"#FFFFFF",
-					buttonBackgroundNormalColor2:"#FFFFFF",
-					buttonBackgroundSelectedColor1:"#bab8b4",
-					buttonBackgroundSelectedColor2:"#bab8b4",
-					buttonTextNormalColor:"#8b8b8b",
-					buttonTextSelectedColor:"#FFFFFF",
-					comboBoxShadowColor:"#999999",
-					comboBoxHorizontalMargins:12,
-					comboBoxVerticalMargins:12,
-					comboBoxCornerRadius:0,
-												
-					//lightbox settings
-					addLightBoxKeyboardSupport:"yes",
-					showLightBoxNextAndPrevButtons:"yes",
-					showLightBoxZoomButton:"yes",
-					showLightBoxInfoButton:"yes",
-					showLighBoxSlideShowButton:"yes",
-					showLightBoxInfoWindowByDefault:"no",
-					slideShowAutoPlay:"no",
-					lightBoxVideoAutoPlay:"no",
-					lightBoxVideoWidth:640,
-					lightBoxVideoHeight:480,
-					lightBoxIframeWidth:800,
-					lightBoxIframeHeight:600,
-					lightBoxBackgroundColor:"#000000",
-					lightBoxInfoWindowBackgroundColor:"#FFFFFF",
-					lightBoxItemBorderColor1:"#fcfdfd",
-					lightBoxItemBorderColor2:"#e4FFe4",
-					lightBoxItemBackgroundColor:"#333333",
-					lightBoxMainBackgroundOpacity:.8,
-					lightBoxInfoWindowBackgroundOpacity:.9,
-					lightBoxBorderSize:0,
-					lightBoxBorderRadius:0,
-					lightBoxSlideShowDelay:4000
-				});	
-			});
+	
+    $('.mySlick').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+    });
 		</script>
 		
 	</body>

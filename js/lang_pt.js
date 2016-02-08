@@ -21,12 +21,12 @@ Version: 1.3.1
         document.getElementById('contLabel').innerHTML = "Contactos";
         document.getElementById('sugsLabel').innerHTML = "Sugestões";
         
-        document.getElementById('missaoLbl').innerHTML = "Missão:";
+        /*document.getElementById('missaoLbl').innerHTML = "Missão:";
         document.getElementById('missaoTextLbl').innerHTML = "Fornecer os melhores e mais atuais produtos do setor no mercado nacional e internacional.";
         document.getElementById('visaoLbl').innerHTML = "Visão:";
         document.getElementById('visaoTextLbl').innerHTML = " Expandir continuamente o volume de negócios com vista na contínua conquista do mercado nacional e dos mercados de exportação.";
         document.getElementById('objLbl').innerHTML = "Objectivo:";
-        document.getElementById('objTextLbl').innerHTML = " Fazer chegar aos nossos clientes produtos de elevada qualidade, adaptados às suas necessidades e sempre ao preço mais competitivo.";
+        document.getElementById('objTextLbl').innerHTML = " Fazer chegar aos nossos clientes produtos de elevada qualidade, adaptados às suas necessidades e sempre ao preço mais competitivo.";*/
         
         document.getElementById('companyFirst').innerHTML = "Com 20 anos de experiência e 2000 m2 de instalações equipadas com a tecnologia mais vanguardista a nível nacional, a ROLPIN foi já considerada PME líder por 3 anos consecutivos e PME excelência em 2014, sendo a empresa número 1 do setor.";
         document.getElementById('companySecond').innerHTML = "Entre o fim dos anos 80 e o início dos anos 90, da produção artesanal de garagem dos fundadores, começava a surgir um negócio familiar na área da indústria de rolos de pintura e acessórios destinados à construção civil. Muito trabalho e dedicação, que de resto são princípios pelos quais a empresa se pauta, proporcionaram a expansão do modesto armazém inicial de 300 m2.";
@@ -143,7 +143,9 @@ Version: 1.3.1
 		$('#rbCRoloAngora').click(function() {
 			$("#rightImageAngora").attr('src', 'images/angora/carga_500_375.jpg');
 			document.getElementById('rbRoloAngora').style.fontSize = '0.8em';
+            document.getElementById('rbRoloAngora').className="";
 			document.getElementById('rbCRoloAngora').style.fontSize = '1.0em';
+            document.getElementById('rbRoloAngora').className="activeMenu";
 			document.getElementById('rbMiniRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbCMiniRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbRoloAngora').style.fontWeight = 'normal';
