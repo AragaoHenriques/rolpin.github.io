@@ -81,7 +81,7 @@
                 </button>
                 <a class="navbar-brand">
                     <!-- LOGO -->
-                    <img src="images/logoWithbackground.png" alt="" width="250px" height="80px" />
+                    <img src="images/logoWithbackground.png" alt="" width="200px" height="65px" />
                 </a>
             </div>
             <div id="main-nav" class="navbar-collapse collapse">
@@ -107,7 +107,7 @@
                
             <div class="container">
                 
-            <canvas id="canvas"  width="400" height="500" class="canvasFlash" ></canvas>
+            <canvas id="canvas"  width="450" height="600" class="canvasFlash" ></canvas>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="mySlick">
@@ -208,7 +208,7 @@
 
                                         <a id="openModelAngoraImg" href="#openModalAngora" class="imgMenu">
                                             <img src="images/MenuRolos/angora.jpg" />
-                                            <span class="text-content"><span>Angorá</span></span>
+                                            <span class="text-content"><span id="angoraTitle"></span></span>
                                         </a>
 
                                         <div id="openModalAngora" class="modalDialog">
@@ -217,15 +217,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Angorá</h2>
+                                                            <h2 id="rightTitleAng" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> 100% Lã pura | <span class="pA4">Altura</span> 4,5 mm | <span class="pA4">Cor</span> Cru </span>
+                                                                    <span class="rightDesc" id="descr"></span><span class="leftDesc"> <span class="pA4" id="spTecido"></span> <span id="tecDescAng"></span> | <span class="pA4" id="spAltura"></span> <span id="altDescAng"></span> | <span class="pA4" id="spCor"></span> <span id="corDescAng"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc"> Esmaltes e vernizes sintéticos em superfícies lisas, como madeiras e metais. </span>
+                                                                    <span class="rightDesc" id="spApp"></span><span class="leftDesc" id="spAppDescAng">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -236,16 +236,12 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <!--<input type="button" id="rbRoloAngora" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloAngora" value="Carga Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbMiniRoloAngora" value="Mini Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCMiniRoloAngora" value="Carga Mini" class="buttonTypeRolo">-->
                                                                 <div id="cssmenu">
                                                                     <ul>
-                                                                        <li class="activeMenu"><a id="rbRoloAngora"><span>Rolo</span></a></li>
-                                                                        <li><a id="rbCRoloAngora"><span>Carga Rolo</span></a></li>
-                                                                        <li><a id="rbMiniRoloAngora"><span>Mini Rolo</span></a></li>
-                                                                        <li><a id="rbCMiniRoloAngora" ><span>Carga Mini</span></a></li>
+                                                                        <li id="ul1li1m1" class="activeMenu"><a id="rbRoloAngora"><span id="spRoloR"></span></a></li>
+                                                                        <li id="ul1li1m2"><a id="rbCRoloAngora"><span id="spRoloC"></span></a></li>
+                                                                        <li id="ul1li1m3"><a id="rbMiniRoloAngora"><span id="spRoloM"></span></a></li>
+                                                                        <li id="ul1li1m4"><a id="rbCMiniRoloAngora" ><span id="spRoloCM"></span></a></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -253,10 +249,10 @@
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" id="tableCod"></td>
+                                                                            <td style="text-align:center;" id="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" id="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>

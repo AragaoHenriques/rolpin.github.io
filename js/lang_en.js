@@ -21,12 +21,12 @@ Version: 1.3.1
         document.getElementById('contLabel').innerHTML = "Contacts";
         document.getElementById('sugsLabel').innerHTML = "Suggestion";
         
-        document.getElementById('missaoLbl').innerHTML = "Mission:";
+        /*document.getElementById('missaoLbl').innerHTML = "Mission:";
         document.getElementById('missaoTextLbl').innerHTML = " Provide the best and latest industry products in the domestic and international markets.";
         document.getElementById('visaoLbl').innerHTML = "Vision:";
         document.getElementById('visaoTextLbl').innerHTML = " Continuously expand the volume of business aimed at continuous achievement from domestic and export markets.";
         document.getElementById('objLbl').innerHTML = "Goal:";
-        document.getElementById('objTextLbl').innerHTML = " To convey to our customers high quality products, tailored to your needs and always at the most competitive price.";
+        document.getElementById('objTextLbl').innerHTML = " To convey to our customers high quality products, tailored to your needs and always at the most competitive price.";*/
         
         document.getElementById('companyFirst').innerHTML = "With 20 years of experience and 2000 m2 of facilities equipped with the most cutting-edge technology at national level, the ROLPIN has been considered an SME leader for 3 consecutive years and SMEs excellence in 2014, and the company number one in the industry.";
         document.getElementById('companySecond').innerHTML = "Between the late 80s and early 90s, the craftsmanship garage of the founders, began to emerge a family business in the area of paint rollers and accessories industry for civil construction. Hard work and dedication which, moreover, are principles by which the company is guided, provided the expansion of the modest initial warehouse 300 m2.";

@@ -32,6 +32,32 @@ Version: 1.3.1
         document.getElementById('companySecond').innerHTML = "Entre o fim dos anos 80 e o início dos anos 90, da produção artesanal de garagem dos fundadores, começava a surgir um negócio familiar na área da indústria de rolos de pintura e acessórios destinados à construção civil. Muito trabalho e dedicação, que de resto são princípios pelos quais a empresa se pauta, proporcionaram a expansão do modesto armazém inicial de 300 m2.";
         document.getElementById('companyThird').innerHTML = "Atualmente, sediada na zona industrial de Gulpilhares e com uma capacidade de produção superior a 2 milhões de unidades anuais, oferece uma ampla gama de produtos, garantindo a máxima qualidade desde a matéria-prima ao embalamento." ;
         
+		document.getElementById('angoraTitle').innerHTML = "Angorá";
+		document.getElementById('rightTitleAng').innerHTML = "Angorá";
+		
+		document.getElementById('descr').innerHTML = "Descrição:";
+		document.getElementById('spTecido').innerHTML = "Tecido";
+		document.getElementById('tecDescAng').innerHTML = "100% Lã pura";
+		document.getElementById('spAltura').innerHTML = "Altura";
+		document.getElementById('altDescAng').innerHTML = " 4,5 mm ";
+		document.getElementById('spCor').innerHTML = "Cor";
+		document.getElementById('corDescAng').innerHTML = "Cru";
+		document.getElementById('spApp').innerHTML = "Aplicação:";
+		document.getElementById('spAppDescAng').innerHTML = "Esmaltes e vernizes sintéticos em superfícies lisas, como madeiras e metais.";
+		document.getElementById('spRoloR').innerHTML = "Rolo";
+		document.getElementById('spRoloC').innerHTML = "Carga Rolo";
+		document.getElementById('spRoloM').innerHTML = "Mini Rolo";
+		document.getElementById('spRoloCM').innerHTML = "Carga Mini";
+		document.getElementById('tableCod').innerHTML = "Código";
+		document.getElementById('tableDesc').innerHTML = "Descrição";
+		document.getElementById('tableUnit').innerHTML = "Uni./Emb.";
+		/*document.getElementById('').innerHTML = "";
+		document.getElementById('').innerHTML = "";
+		document.getElementById('').innerHTML = "";
+		document.getElementById('').innerHTML = "";
+		document.getElementById('').innerHTML = "";
+		document.getElementById('').innerHTML = "";*/
+		
         
         //Menu 18
 		$('#openModelAngoraImg').click(function() {
@@ -53,6 +79,11 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
+            document.getElementById('ul1li1m1').className = "activeMenu";
+            document.getElementById('ul1li1m2').className = "";
+            document.getElementById('ul1li1m3').className = "";
+            document.getElementById('ul1li1m4').className = "";
+            
 			
             document.getElementById("ul1li1tr1").style.display = 'table-row';
 			document.getElementById("ul1li1tr1td1").innerText ='0064';
@@ -143,9 +174,7 @@ Version: 1.3.1
 		$('#rbCRoloAngora').click(function() {
 			$("#rightImageAngora").attr('src', 'images/angora/carga_500_375.jpg');
 			document.getElementById('rbRoloAngora').style.fontSize = '0.8em';
-            document.getElementById('rbRoloAngora').className="";
 			document.getElementById('rbCRoloAngora').style.fontSize = '1.0em';
-            document.getElementById('rbRoloAngora').className="activeMenu";
 			document.getElementById('rbMiniRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbCMiniRoloAngora').style.fontSize = '0.8em';
 			document.getElementById('rbRoloAngora').style.fontWeight = 'normal';
@@ -156,6 +185,10 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
+            document.getElementById('ul1li1m1').className = "";
+            document.getElementById('ul1li1m2').className = "activeMenu";
+            document.getElementById('ul1li1m3').className = "";
+            document.getElementById('ul1li1m4').className = "";
 			
             document.getElementById("ul1li1tr1").style.display = 'table-row';
 			document.getElementById("ul1li1tr1td1").innerText ='0021';
@@ -258,6 +291,10 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
+            document.getElementById('ul1li1m1').className = "";
+            document.getElementById('ul1li1m2').className = "";
+            document.getElementById('ul1li1m3').className = "activeMenu";
+            document.getElementById('ul1li1m4').className = "";
             
             document.getElementById("ul1li1tr1").style.display = 'table-row';
 			document.getElementById("ul1li1tr1td1").innerText = '0173';
@@ -361,6 +398,10 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCRoloAngora').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAngora').style.color = '#FFF';
+            document.getElementById('ul1li1m1').className = "";
+            document.getElementById('ul1li1m2').className = "";
+            document.getElementById('ul1li1m3').className = "";
+            document.getElementById('ul1li1m4').className = "activeMenu";
 
             document.getElementById("ul1li1tr1").style.display = 'table-row';
 			document.getElementById("ul1li1tr1td1").innerText = '0088';

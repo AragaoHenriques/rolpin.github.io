@@ -22,18 +22,20 @@ Version: 1.3.1
         document.getElementById('sugsLabel').innerHTML = "Suggestions";
         
         
-        document.getElementById('missaoLbl').innerHTML = "Mission:";
+        /*document.getElementById('missaoLbl').innerHTML = "Mission:";
         document.getElementById('missaoTextLbl').innerHTML = " Fournir les meilleurs et les derniers produits de l'industrie dans les marchés nationaux et internationaux.";
         document.getElementById('visaoLbl').innerHTML = "Voir:";
         document.getElementById('visaoTextLbl').innerHTML = " Élargir continuellement le volume d'affaires visant à la réalisation continue des marchés intérieurs et d'exportation.";
         document.getElementById('objLbl').innerHTML = "Objectif:";
-        document.getElementById('objTextLbl').innerHTML = " Pour transmettre à nos clients des produits de haute qualité, adapté à vos besoins et toujours au prix le plus compétitif.";
+        document.getElementById('objTextLbl').innerHTML = " Pour transmettre à nos clients des produits de haute qualité, adapté à vos besoins et toujours au prix le plus compétitif.";*/
 		
 		
 		document.getElementById('companyFirst').innerHTML = "Avec 20 ans d'expérience et 2000 m2 d'installations équipées de la technologie la plus avant-gardiste au niveau national, l'ROLPIN a été considéré comme un chef de file des PME pour 3 ans et PME consécutifs excellence en 2014, et l'entreprise numéro un dans l'industrie.";
         document.getElementById('companySecond').innerHTML = "Entre la fin des années 80 et au début des années 90, le garage de l'artisanat des fondateurs, a commencé à émerger une entreprise familiale dans le domaine de rouleaux à peinture et accessoires pour l'industrie de la construction civile. Le travail acharné et le dévouement qui, d'ailleurs, sont des principes par lesquels la société est guidé, à condition de l'expansion de l'entrepôt initial modeste 300 m2.";
         document.getElementById('companyThird').innerHTML = "Avec 20 ans d'expérience et 2000 m2 d'installations équipées de la dernière technologie de pointe au niveau national, l'ROLPIN a été considéré comme un chef de file des PME pour 3 ans et PME consécutifs excellence en 2014, et l'entreprise numéro un dans l'industrie." ;
 
+		
+		
         //END DOCUMENT.READY FUNCTION
 	});
 	

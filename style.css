@@ -2868,7 +2868,11 @@ nav.vertical > ul > li > a:hover {
     background-color: gainsboro;
 }
 
-#rightTitle{
+.nothing{
+    
+    
+}
+.rightTitle{
     text-align: left;
     padding-left: 2%;
     color:white;
@@ -2946,7 +2950,7 @@ width: 100%;
 
 
 
-#rightDesc{
+.rightDesc{
     float:left;
 	text-align: left;
 	padding-left: 2%;
