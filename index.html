@@ -107,7 +107,7 @@
                
             <div class="container">
                 
-            <canvas id="canvas"  width="450" height="600" class="canvasFlash" ></canvas>
+            <!--<canvas id="canvas"  width="450" height="600" class="canvasFlash" ></canvas>-->
                 <div class="row">
                     <div class="col-md-12">
                         <div class="mySlick">
@@ -222,10 +222,10 @@
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span class="rightDesc" id="descr"></span><span class="leftDesc"> <span class="pA4" id="spTecido"></span> <span id="tecDescAng"></span> | <span class="pA4" id="spAltura"></span> <span id="altDescAng"></span> | <span class="pA4" id="spCor"></span> <span id="corDescAng"> </span> </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescAng"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescAng"></span> | <span class="pA4" name="spCor"></span> <span id="corDescAng"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span class="rightDesc" id="spApp"></span><span class="leftDesc" id="spAppDescAng">  </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescAng">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -238,10 +238,10 @@
                                                             <div class="col-sm-12">
                                                                 <div id="cssmenu">
                                                                     <ul>
-                                                                        <li id="ul1li1m1" class="activeMenu"><a id="rbRoloAngora"><span id="spRoloR"></span></a></li>
-                                                                        <li id="ul1li1m2"><a id="rbCRoloAngora"><span id="spRoloC"></span></a></li>
-                                                                        <li id="ul1li1m3"><a id="rbMiniRoloAngora"><span id="spRoloM"></span></a></li>
-                                                                        <li id="ul1li1m4"><a id="rbCMiniRoloAngora" ><span id="spRoloCM"></span></a></li>
+                                                                        <li id="ul1li1m1"><a id="rbRoloAngora"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul1li1m2"><a id="rbCRoloAngora"><span name="spRoloC"></span></a></li>
+                                                                        <li id="ul1li1m3"><a id="rbMiniRoloAngora"><span name="spRoloM"></span></a></li>
+                                                                        <li id="ul1li1m4"><a id="rbCMiniRoloAngora" ><span name="spRoloCM"></span></a></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -249,10 +249,10 @@
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;" id="tableCod"></td>
-                                                                            <td style="text-align:center;" id="tableDesc"></td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;" id="tableUnit"></td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -358,8 +358,7 @@
 
                                         <a id="openModelAntigotaImg" href="#openModalAntigota" class="imgMenu">
                                             <img src="images/MenuRolos/antigota.jpg" />
-                                            <span class="text-content"><span>Antigota</span></span>
-
+                                            <span class="text-content"><span id="antigotaTitle"></span></span>
                                         </a>
 
                                         <div id="openModalAntigota" class="modalDialog">
@@ -368,15 +367,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Antigota</h2>
+                                                            <h2 id="rightTitleAnt" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> 100% Polamida | <span class="pA4">Altura</span> 12 mm | <span class="pA4">Cor</span> Branca e risca amarela. </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescAnt"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescAnt"></span> | <span class="pA4" name="spCor"></span> <span id="corDescAnt"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc"> Tintas plásticas lisas aquosas em paredes e tetos lisos (interiores). </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescAnt">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -387,19 +386,23 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloAntigota" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloAntigota" value="Carga Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbMiniRoloAntigota" value="Mini Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCMiniRoloAntigota" value="Carga Mini" class="buttonTypeRolo">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul1li2m1"><a id="rbRoloAntigota"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul1li2m2"><a id="rbCRoloAntigota"><span name="spRoloC"></span></a></li>
+                                                                        <li id="ul1li2m3"><a id="rbMiniRoloAntigota"><span name="spRoloM"></span></a></li>
+                                                                        <li id="ul1li2m4"><a id="rbCMiniRoloAntigota" ><span name="spRoloCM"></span></a></li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -494,8 +497,7 @@
 
                                         <a id="openModelAntigotaVImg" href="#openModalAntigotaV" class="imgMenu">
                                             <img src="images/MenuRolos/antigotaVerde.jpg" />
-                                            <span class="text-content"><span>Antigota Verde</span></span>
-
+                                           <span class="text-content"><span id="antigotaVTitle"></span></span>
                                         </a>
 
                                         <div id="openModalAntigotaV" class="modalDialog">
@@ -504,15 +506,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Antigota Verde</h2>
+                                                            <h2 id="rightTitleAntV" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> 100% poliamida | <span class="pA4">Altura</span> 12 mm | <span class="pA4">Cor</span> Branca e dupla risca amarela/verde </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescAntV"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescAntV"></span> | <span class="pA4" name="spCor"></span> <span id="corDescAntV"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc"> Tintas plásticas lisas em paredes e tetos lisos (interiores). </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescAntV">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -523,17 +525,22 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloAntigotaV" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloAntigotaV" value="Carga Rolo" class="buttonTypeRolo">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul1li3m1"><a id="rbRoloAntigotaV"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul1li3m2"><a id="rbCRoloAntigotaV"><span name="spRoloC"></span></a></li>
+                                
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -596,8 +603,7 @@
 
                                         <a id="openModelCromadoImg" href="#openModalCromado" class="imgMenu">
                                             <img src="images/MenuRolos/cromado.jpg" />
-                                            <span class="text-content"><span>Cromado</span></span>
-
+                                            <span class="text-content"><span id="cromadoTitle"></span></span>
                                         </a>
 
                                         <div id="openModalCromado" class="modalDialog">
@@ -606,15 +612,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Cromado</h2>
+                                                            <h2 id="rightTitleCro" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> 100% Poliéster | <span class="pA4">Altura</span> 24 mm | <span class="pA4">Cor</span> Branca </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescCro"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescCro"></span> | <span class="pA4" name="spCor"></span> <span id="corDescCro"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc"> Tintas plásticas lisas ou areadas em fachadas e muros. </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescCro">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -625,17 +631,22 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloCromado" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloCromado" value="Carga Rolo" class="buttonTypeRolo">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul1li4m1" class="activeMenu"><a id="rbRoloCromado"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul1li4m2"><a id="rbCRoloCromado"><span name="spRoloC"></span></a></li>
+                                                                       
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -679,8 +690,7 @@
                                         <a id="openModelEspumaImg" href="#openModalEspuma" class="imgMenu">
 
                                             <img src="images/MenuRolos/espuma.jpg" />
-                                            <span class="text-content"><span>Espuma</span></span>
-
+                                            <span class="text-content"><span id="espumaTitle"></span></span>
                                         </a>
 
                                         <div id="openModalEspuma" class="modalDialog">
@@ -689,15 +699,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Espuma</h2>
+                                                            <h2 id="rightTitleEsp" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc">Espuma Poliéster | <span class="pA4">Cor</span> Branca </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescEsp"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescEsp"></span> | <span class="pA4" name="spCor"></span> <span id="corDescEsp"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc"> Tintas e esmaltes aquosos em muros, fachadas e paredes (interiores e exteriores). </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescEsp">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -708,19 +718,23 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloEspuma" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloEspuma" value="Carga Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbMiniRoloEspuma" value="Mini Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCMiniRoloEspuma" value="Carga Mini" class="buttonTypeRolo">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul2li1m1"><a id="rbRoloEspuma"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul2li1m2"><a id="rbCRoloEspuma"><span name="spRoloC"></span></a></li>
+                                                                        <li id="ul2li1m3"><a id="rbMiniRoloEspuma"><span name="spRoloM"></span></a></li>
+                                                                        <li id="ul2li1m4"><a id="rbCMiniRoloEspuma" ><span name="spRoloCM"></span></a></li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -796,8 +810,7 @@
 
                                         <a id="openModelJuniorImg" href="#openModalJunior" class="imgMenu">
                                             <img src="images/MenuRolos/junior.jpg" />
-                                            <span class="text-content"><span>Junior</span></span>
-
+                                           <span class="text-content"><span id="juniorTitle"></span></span>
                                         </a>
 
                                         <div id="openModalJunior" class="modalDialog">
@@ -806,15 +819,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Junior</h2>
+                                                            <h2 id="rightTitleJun" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> 100% Poliéster | <span class="pA4">Altura</span> 14 mm | <span class="pA4">Cor</span> Branca </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescJun"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescJun"></span> | <span class="pA4" name="spCor"></span> <span id="corDescJun"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc">Tintas aquosas em paredes lisas. </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescJun">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -825,17 +838,23 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloJunior" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloJunior" value="Carga Rolo" class="buttonTypeRolo">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul2li2m1" ><a id="rbRoloJunior"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul2li2m2"><a id="rbCRoloJunior"><span name="spRoloC"></span></a></li>
+                                                                        <li id="ul2li2m3"><a id="rbMiniRoloJunior"><span name="spRoloM"></span></a></li>
+                                                                        <li id="ul2li2m4"><a id="rbCMiniRoloJunior" ><span name="spRoloCM"></span></a></li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -915,7 +934,7 @@
 
                                         <a id="openModelMicrofibraImg" href="#openModalMicrofibra" class="imgMenu">
                                             <img src="images/MenuRolos/microfibra.jpg" />
-                                            <span class="text-content"><span>Microfibra</span></span>
+                                            <span class="text-content"><span id="microfibraTitle"></span></span>
                                         </a>
 
                                         <div id="openModalMicrofibra" class="modalDialog">
@@ -924,15 +943,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Microfibra</h2>
+                                                            <h2 id="rightTitleMic" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> 100% Poliamida | <span class="pA4">Altura</span> 10 mm | <span class="pA4">Cor</span> Branca e dupla risca castanha </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescMic"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescMic"></span> | <span class="pA4" name="spCor"></span> <span id="corDescMic"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc"> Tintas aquosas em paredes e tetos lisos. </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescMic">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -943,19 +962,23 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloMicrofibra" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloMicrofibra" value="Carga Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbMiniRoloMicrofibra" value="Mini Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCMiniRoloMicrofibra" value="Carga Mini" class="buttonTypeRolo">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul2li3m1"><a id="rbRoloMicrofibra"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul2li3m2"><a id="rbCRoloMicrofibra"><span name="spRoloC"></span></a></li>
+                                                                        <li id="ul2li3m3"><a id="rbMiniRoloMicrofibra"><span name="spRoloM"></span></a></li>
+                                                                        <li id="ul2li3m4"><a id="rbCMiniRoloMicrofibra" ><span name="spRoloCM"></span></a></li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -1066,8 +1089,7 @@
 
                                         <a id="openModelRavelImg" href="#openModalRavel" class="imgMenu">
                                             <img src="images/MenuRolos/ravel.jpg" />
-                                            <span class="text-content"><span>Ravel</span></span>
-
+                                            <span class="text-content"><span id="ravelTitle"></span></span>
                                         </a>
 
                                         <div id="openModalRavel" class="modalDialog">
@@ -1076,15 +1098,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Ravel</h2>
+                                                            <h2 id="rightTitleRav" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> 100% Poliamida | <span class="pA4">Altura</span> 18 mm | <span class="pA4">Cor</span> Verde </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescRav"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescRav"></span> | <span class="pA4" name="spCor"></span> <span id="corDescRav"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc">  Tintas plásticas lisas ou areadas em fachadas e muros. </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescRav">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1095,19 +1117,23 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloRavel" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloRavel" value="Carga Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbMiniRoloRavel" value="Mini Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCMiniRoloRavel" value="Carga Mini" class="buttonTypeRolo">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul2li4m1"><a id="rbRoloRavel"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul2li4m2"><a id="rbCRoloRavel"><span name="spRoloC"></span></a></li>
+                                                                        <li id="ul2li4m3"><a id="rbMiniRoloRavel"><span name="spRoloM"></span></a></li>
+                                                                        <li id="ul2li4m4"><a id="rbCMiniRoloRavel" ><span name="spRoloCM"></span></a></li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -1217,8 +1243,7 @@
 
                                         <a id="openModelRugoImg" href="#openModalRugo" class="imgMenu">
                                             <img src="images/MenuRolos/rugo.jpg" />
-                                            <span class="text-content"><span>Rugo</span></span>
-
+                                            <span class="text-content"><span id="rugoTitle"></span></span>
                                         </a>
 
                                         <div id="openModalRugo" class="modalDialog">
@@ -1227,15 +1252,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Rugo</h2>
+                                                            <h2 id="rightTitleRug" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> Espuma Poliéster | <span class="pA4">Cor</span> Amarela </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescRug"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescRug"></span> | <span class="pA4" name="spCor"></span> <span id="corDescRug"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc"> Esmaltes e vernizes sintéticos em superfícies lisas, como madeiras e metais. </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescRug">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1246,19 +1271,23 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloRugo" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloRugo" value="Carga Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbMiniRoloRugo" value="Mini Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCMiniRoloRugo" value="Carga Mini" class="buttonTypeRolo">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul3li1m1"><a id="rbRoloRugo"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul3li1m2"><a id="rbCRoloRugo"><span name="spRoloC"></span></a></li>
+                                                                        <li id="ul3li1m3"><a id="rbMiniRoloRugo"><span name="spRoloM"></span></a></li>
+                                                                        <li id="ul3li1m4"><a id="rbCMiniRoloRugo" ><span name="spRoloCM"></span></a></li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -1317,7 +1346,7 @@
 
                                         <a id="openModelSuperImg" href="#openModalSuper" class="imgMenu">
                                             <img src="images/MenuRolos/super.jpg" />
-                                            <span class="text-content"><span>Super</span></span>
+                                            <span class="text-content"><span id="superTitle"></span></span>
                                         </a>
 
                                         <div id="openModalSuper" class="modalDialog">
@@ -1326,15 +1355,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Super</h2>
+                                                            <h2 id="rightTitleSup" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> 100% Poliéster | <span class="pA4">Altura</span> 16 mm | <span class="pA4">Cor</span> Amarela </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescSup"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescSup"></span> | <span class="pA4" name="spCor"></span> <span id="corDescSup"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc"> Tintas aquosas em superfícies areadas, rugosas e lisas. </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescSup">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1345,17 +1374,22 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloSuper" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloSuper" value="Carga Rolo" class="buttonTypeRolo">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul3li2m1"><a id="rbRoloSuper"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul3li2m2"><a id="rbCRoloSuper"><span name="spRoloC"></span></a></li>
+                                                                        
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -1398,8 +1432,7 @@
 
                                         <a id="openModelMerinoImg" href="#openModalMerino" class="imgMenu">
                                             <img src="images/MenuRolos/merino.jpg" />
-                                            <span class="text-content"><span>Merino</span></span>
-
+                                           <span class="text-content"><span id="merinoTitle"></span></span>
                                         </a>
 
                                         <div id="openModalMerino" class="modalDialog">
@@ -1408,15 +1441,15 @@
                                                     <a id="close" href="#close" title="Close" class="close">X</a>
                                                     <div class="row">
                                                         <div class="col-sm-3">
-                                                            <h2 id="rightTitle">Merino</h2>
+                                                            <h2 id="rightTitleMer" class="rightTitle"></h2>
                                                         </div>
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Descrição:</span><span class="leftDesc"> <span class="pA4">Tecido</span> 100% Lã pura de merino | <span class="pA4">Altura</span> 25 mm | <span class="pA4">Cor</span> Branca </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescMer"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescMer"></span> | <span class="pA4" name="spCor"></span> <span id="corDescMer"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <span id="rightDesc">Aplicação:</span><span class="leftDesc"> Tintas plásticas lisas ou areadas em fachadas e muros. </span>
+                                                                    <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescMer">  </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1427,17 +1460,23 @@
                                                         </div>
                                                         <div id="tableData" class="col-sm-6">
                                                             <div class="col-sm-12">
-                                                                <input type="button" id="rbRoloMerino" value="Rolo" class="buttonTypeRolo">
-                                                                <input type="button" id="rbCRoloMerino" value="Carga Rolo" class="buttonTypeRolo">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul3li3m1"><a id="rbRoloMerino"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul3li3m2"><a id="rbCRoloMerino"><span name="spRoloC"></span></a></li>
+                                                                        <li id="ul3li3m3"><a id="rbMiniRoloMerino"><span name="spRoloM"></span></a></li>
+                                                                        <li id="ul3li3m4"><a id="rbCMiniRoloMerino" ><span name="spRoloCM"></span></a></li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                             <div class="col-sm-12 tableData">
                                                                 <table class="features-table">
                                                                     <thead>
                                                                         <tr>
-                                                                            <td style="text-align:left;">Código</td>
-                                                                            <td style="text-align:center;">Descrição</td>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td style="text-align:center;" name="tableDesc"></td>
                                                                             <td> Ø (mm)</td>
-                                                                            <td style="text-align:center;">Uni./Emb.</td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
                                                                         </tr>
                                                                     </thead>
                                                                     <tbody>
@@ -1495,7 +1534,7 @@
 
                                         <a id="openModelAcessoriosImg" href="#openModalAcessorios" class="imgMenu">
                                             <img src="images/MenuRolos/acessorios.jpg" />
-                                            <span class="text-content"><span>Acessorios</span></span>
+                                            <span class="text-content"><span>Acessórios</span></span>
 
                                         </a>
 
@@ -1859,7 +1898,9 @@ function handleComplete(evt) {
         infinite: true,
         speed: 300,
         slidesToShow: 1,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        autoplay: true,
+                autoplaySpeed: 3000
     });
 		</script>
 		

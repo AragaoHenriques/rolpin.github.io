@@ -2156,8 +2156,37 @@ body.mobile #video_background {
 @media(max-height:700px){
     
     .imgSlick{
-        width: 80%;
-        float: right;
+        width: 65%;
+        float:none;
+        height: 100%;
+        padding-left: 0%;
+        padding-top: 0%;
+        
+    }
+
+}
+
+@media(max-height:900px){
+    
+    .imgSlick{
+        width: 75%;
+        float:none;
+        height: 100%;
+        padding-left: 0%;
+        padding-top: 0%;
+        
+    }
+
+}
+
+@media(max-height:1100px){
+    
+    .imgSlick{
+        width: 85%;
+        float:none;
+        height: 100%;
+        padding-left: 10%;
+        padding-top: 0%;
         
     }
 
@@ -2801,9 +2830,11 @@ body.mobile #video_background {
 	-moz-box-shadow: 1px 1px 3px #000;
 	-webkit-box-shadow: 1px 1px 3px #000;
 	box-shadow: 1px 1px 3px #000;
+    border:solid 1px #ecb;
+    z-index:10000;
 }
 
-.close:hover { background: rgb(201,89,40); opacity:0.5; }
+.close:hover {  opacity:0.5; }
 
 
 nav.vertical {

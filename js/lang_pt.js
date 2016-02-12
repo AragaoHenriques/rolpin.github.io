@@ -32,25 +32,264 @@ Version: 1.3.1
         document.getElementById('companySecond').innerHTML = "Entre o fim dos anos 80 e o início dos anos 90, da produção artesanal de garagem dos fundadores, começava a surgir um negócio familiar na área da indústria de rolos de pintura e acessórios destinados à construção civil. Muito trabalho e dedicação, que de resto são princípios pelos quais a empresa se pauta, proporcionaram a expansão do modesto armazém inicial de 300 m2.";
         document.getElementById('companyThird').innerHTML = "Atualmente, sediada na zona industrial de Gulpilhares e com uma capacidade de produção superior a 2 milhões de unidades anuais, oferece uma ampla gama de produtos, garantindo a máxima qualidade desde a matéria-prima ao embalamento." ;
         
-		document.getElementById('angoraTitle').innerHTML = "Angorá";
-		document.getElementById('rightTitleAng').innerHTML = "Angorá";
 		
-		document.getElementById('descr').innerHTML = "Descrição:";
-		document.getElementById('spTecido').innerHTML = "Tecido";
-		document.getElementById('tecDescAng').innerHTML = "100% Lã pura";
-		document.getElementById('spAltura').innerHTML = "Altura";
-		document.getElementById('altDescAng').innerHTML = " 4,5 mm ";
-		document.getElementById('spCor').innerHTML = "Cor";
-		document.getElementById('corDescAng').innerHTML = "Cru";
-		document.getElementById('spApp').innerHTML = "Aplicação:";
-		document.getElementById('spAppDescAng').innerHTML = "Esmaltes e vernizes sintéticos em superfícies lisas, como madeiras e metais.";
-		document.getElementById('spRoloR').innerHTML = "Rolo";
-		document.getElementById('spRoloC').innerHTML = "Carga Rolo";
-		document.getElementById('spRoloM').innerHTML = "Mini Rolo";
-		document.getElementById('spRoloCM').innerHTML = "Carga Mini";
-		document.getElementById('tableCod').innerHTML = "Código";
-		document.getElementById('tableDesc').innerHTML = "Descrição";
-		document.getElementById('tableUnit').innerHTML = "Uni./Emb.";
+		
+		document.getElementsByName('descr')[0].innerHTML = "Descrição:";
+        document.getElementsByName('descr')[1].innerHTML = "Descrição:";
+        document.getElementsByName('descr')[2].innerHTML = "Descrição:";
+        document.getElementsByName('descr')[3].innerHTML = "Descrição:";
+        document.getElementsByName('descr')[4].innerHTML = "Descrição:";
+        document.getElementsByName('descr')[5].innerHTML = "Descrição:";
+        document.getElementsByName('descr')[6].innerHTML = "Descrição:";
+        document.getElementsByName('descr')[7].innerHTML = "Descrição:";
+        document.getElementsByName('descr')[8].innerHTML = "Descrição:";
+        document.getElementsByName('descr')[9].innerHTML = "Descrição:";
+        document.getElementsByName('descr')[10].innerHTML = "Descrição:";
+        //document.getElementsByName('descr')[11].innerHTML = "Descrição:";
+        
+        
+		document.getElementsByName('spTecido')[0].innerHTML = "Tecido";
+        document.getElementsByName('spTecido')[1].innerHTML = "Tecido";
+        document.getElementsByName('spTecido')[2].innerHTML = "Tecido";
+        document.getElementsByName('spTecido')[3].innerHTML = "Tecido";
+        document.getElementsByName('spTecido')[4].innerHTML = "Tecido";
+        document.getElementsByName('spTecido')[5].innerHTML = "Tecido";
+        document.getElementsByName('spTecido')[6].innerHTML = "Tecido";
+        document.getElementsByName('spTecido')[7].innerHTML = "Tecido";
+        document.getElementsByName('spTecido')[8].innerHTML = "Tecido";
+        document.getElementsByName('spTecido')[9].innerHTML = "Tecido";
+        document.getElementsByName('spTecido')[10].innerHTML = "Tecido";
+        //document.getElementsByName('spTecido')[11].innerHTML = "Tecido";
+		
+		document.getElementsByName('spAltura')[0].innerHTML = "Altura";
+        document.getElementsByName('spAltura')[1].innerHTML = "Altura";
+        document.getElementsByName('spAltura')[2].innerHTML = "Altura";
+        document.getElementsByName('spAltura')[3].innerHTML = "Altura";
+        document.getElementsByName('spAltura')[4].innerHTML = "Altura";
+        document.getElementsByName('spAltura')[5].innerHTML = "Altura";
+        document.getElementsByName('spAltura')[6].innerHTML = "Altura";
+        document.getElementsByName('spAltura')[7].innerHTML = "Altura";
+        document.getElementsByName('spAltura')[8].innerHTML = "Altura";
+        document.getElementsByName('spAltura')[9].innerHTML = "Altura";
+        document.getElementsByName('spAltura')[10].innerHTML = "Altura";
+        //document.getElementsByName('spAltura')[11].innerHTML = "Altura";
+        
+		
+		document.getElementsByName('spCor')[0].innerHTML = "Cor";
+        document.getElementsByName('spCor')[1].innerHTML = "Cor";
+        document.getElementsByName('spCor')[2].innerHTML = "Cor";
+        document.getElementsByName('spCor')[3].innerHTML = "Cor";
+        document.getElementsByName('spCor')[4].innerHTML = "Cor";
+        document.getElementsByName('spCor')[5].innerHTML = "Cor";
+        document.getElementsByName('spCor')[6].innerHTML = "Cor";
+        document.getElementsByName('spCor')[7].innerHTML = "Cor";
+        document.getElementsByName('spCor')[8].innerHTML = "Cor";
+        document.getElementsByName('spCor')[9].innerHTML = "Cor";
+        document.getElementsByName('spCor')[10].innerHTML = "Cor";
+        //document.getElementsByName('spCor')[11].innerHTML = "Cor";
+		
+		document.getElementsByName('spApp')[0].innerHTML = "Aplicação:";
+        document.getElementsByName('spApp')[1].innerHTML = "Aplicação:";
+        document.getElementsByName('spApp')[2].innerHTML = "Aplicação:";
+        document.getElementsByName('spApp')[3].innerHTML = "Aplicação:";
+        document.getElementsByName('spApp')[4].innerHTML = "Aplicação:";
+        document.getElementsByName('spApp')[5].innerHTML = "Aplicação:";
+        document.getElementsByName('spApp')[6].innerHTML = "Aplicação:";
+        document.getElementsByName('spApp')[7].innerHTML = "Aplicação:";
+        document.getElementsByName('spApp')[8].innerHTML = "Aplicação:";
+        document.getElementsByName('spApp')[9].innerHTML = "Aplicação:";
+        document.getElementsByName('spApp')[10].innerHTML = "Aplicação:";
+        //document.getElementsByName('spApp')[11].innerHTML = "Aplicação:";
+		
+		document.getElementsByName('spRoloR')[0].innerHTML = "Rolo";
+        document.getElementsByName('spRoloR')[1].innerHTML = "Rolo";
+        document.getElementsByName('spRoloR')[2].innerHTML = "Rolo";
+        document.getElementsByName('spRoloR')[3].innerHTML = "Rolo";
+        document.getElementsByName('spRoloR')[4].innerHTML = "Rolo";
+        document.getElementsByName('spRoloR')[5].innerHTML = "Rolo";
+        document.getElementsByName('spRoloR')[6].innerHTML = "Rolo";
+        document.getElementsByName('spRoloR')[7].innerHTML = "Rolo";
+        document.getElementsByName('spRoloR')[8].innerHTML = "Rolo";
+        document.getElementsByName('spRoloR')[9].innerHTML = "Rolo";
+        document.getElementsByName('spRoloR')[10].innerHTML = "Rolo";
+        //document.getElementsByName('spRoloR')[11].innerHTML = "Rolo";
+        
+		document.getElementsByName('spRoloC')[0].innerHTML = "Carga Rolo";
+        document.getElementsByName('spRoloC')[1].innerHTML = "Carga Rolo";
+        document.getElementsByName('spRoloC')[2].innerHTML = "Carga Rolo";
+        document.getElementsByName('spRoloC')[3].innerHTML = "Carga Rolo";
+        document.getElementsByName('spRoloC')[4].innerHTML = "Carga Rolo";
+        document.getElementsByName('spRoloC')[5].innerHTML = "Carga Rolo";
+        document.getElementsByName('spRoloC')[6].innerHTML = "Carga Rolo";
+        document.getElementsByName('spRoloC')[7].innerHTML = "Carga Rolo";
+        document.getElementsByName('spRoloC')[8].innerHTML = "Carga Rolo";
+        document.getElementsByName('spRoloC')[9].innerHTML = "Carga Rolo";
+        document.getElementsByName('spRoloC')[10].innerHTML = "Carga Rolo";
+        //document.getElementsByName('spRoloC')[11].innerHTML = "Carga Rolo";
+        
+		document.getElementsByName('spRoloM')[0].innerHTML = "Mini Rolo";
+        document.getElementsByName('spRoloM')[1].innerHTML = "Mini Rolo";
+        document.getElementsByName('spRoloM')[2].innerHTML = "Mini Rolo";
+        document.getElementsByName('spRoloM')[3].innerHTML = "Mini Rolo";
+        document.getElementsByName('spRoloM')[4].innerHTML = "Mini Rolo";
+        document.getElementsByName('spRoloM')[5].innerHTML = "Mini Rolo";
+        document.getElementsByName('spRoloM')[6].innerHTML = "Mini Rolo";
+        document.getElementsByName('spRoloM')[7].innerHTML = "Mini Rolo";
+        //document.getElementsByName('spRoloM')[8].innerHTML = "Mini Rolo";
+        //document.getElementsByName('spRoloM')[9].innerHTML = "Mini Rolo";
+        //document.getElementsByName('spRoloM')[10].innerHTML = "Mini Rolo";
+        //document.getElementsByName('spRoloM')[11].innerHTML = "Mini Rolo";
+        
+		document.getElementsByName('spRoloCM')[0].innerHTML = "Carga Mini";
+        document.getElementsByName('spRoloCM')[1].innerHTML = "Carga Mini";
+        document.getElementsByName('spRoloCM')[2].innerHTML = "Carga Mini";
+        document.getElementsByName('spRoloCM')[3].innerHTML = "Carga Mini";
+        document.getElementsByName('spRoloCM')[4].innerHTML = "Carga Mini";
+        document.getElementsByName('spRoloCM')[5].innerHTML = "Carga Mini";
+        document.getElementsByName('spRoloCM')[6].innerHTML = "Carga Mini";
+        document.getElementsByName('spRoloCM')[7].innerHTML = "Carga Mini";
+        //document.getElementsByName('spRoloCM')[8].innerHTML = "Carga Mini";
+        //document.getElementsByName('spRoloCM')[9].innerHTML = "Carga Mini";
+        //document.getElementsByName('spRoloCM')[10].innerHTML = "Carga Mini";
+        //document.getElementsByName('spRoloCM')[11].innerHTML = "Carga Mini";
+        
+		document.getElementsByName('tableCod')[0].innerHTML = "Código";
+        document.getElementsByName('tableCod')[1].innerHTML = "Código";
+        document.getElementsByName('tableCod')[2].innerHTML = "Código";
+        document.getElementsByName('tableCod')[3].innerHTML = "Código";
+        document.getElementsByName('tableCod')[4].innerHTML = "Código";
+        document.getElementsByName('tableCod')[5].innerHTML = "Código";
+        document.getElementsByName('tableCod')[6].innerHTML = "Código";
+        document.getElementsByName('tableCod')[7].innerHTML = "Código";
+        document.getElementsByName('tableCod')[8].innerHTML = "Código";
+        document.getElementsByName('tableCod')[9].innerHTML = "Código";
+        document.getElementsByName('tableCod')[10].innerHTML = "Código";
+        //document.getElementsByName('tableCod')[11].innerHTML = "Código";
+        
+        
+		document.getElementsByName('tableDesc')[0].innerHTML = "Descrição";
+        document.getElementsByName('tableDesc')[1].innerHTML = "Descrição";
+        document.getElementsByName('tableDesc')[2].innerHTML = "Descrição";
+        document.getElementsByName('tableDesc')[3].innerHTML = "Descrição";
+        document.getElementsByName('tableDesc')[4].innerHTML = "Descrição";
+        document.getElementsByName('tableDesc')[5].innerHTML = "Descrição";
+        document.getElementsByName('tableDesc')[6].innerHTML = "Descrição";
+        document.getElementsByName('tableDesc')[7].innerHTML = "Descrição";
+        document.getElementsByName('tableDesc')[8].innerHTML = "Descrição";
+        document.getElementsByName('tableDesc')[9].innerHTML = "Descrição";
+        document.getElementsByName('tableDesc')[10].innerHTML = "Descrição";
+        //document.getElementsByName('tableDesc')[11].innerHTML = "Descrição";
+        
+		document.getElementsByName('tableUnit')[0].innerHTML = "Uni./Emb.";
+        document.getElementsByName('tableUnit')[1].innerHTML = "Uni./Emb.";
+        document.getElementsByName('tableUnit')[2].innerHTML = "Uni./Emb.";
+        document.getElementsByName('tableUnit')[3].innerHTML = "Uni./Emb.";
+        document.getElementsByName('tableUnit')[4].innerHTML = "Uni./Emb.";
+        document.getElementsByName('tableUnit')[5].innerHTML = "Uni./Emb.";
+        document.getElementsByName('tableUnit')[6].innerHTML = "Uni./Emb.";
+        document.getElementsByName('tableUnit')[7].innerHTML = "Uni./Emb.";
+        document.getElementsByName('tableUnit')[8].innerHTML = "Uni./Emb.";
+        document.getElementsByName('tableUnit')[9].innerHTML = "Uni./Emb.";
+        document.getElementsByName('tableUnit')[10].innerHTML = "Uni./Emb.";
+        //document.getElementsByName('tableUnit')[11].innerHTML = "Uni./Emb.";
+        
+        document.getElementById('angoraTitle').innerHTML = "Angorá";
+        document.getElementById('rightTitleAng').innerHTML = "Angorá";
+        
+        document.getElementById('tecDescAng').innerHTML = "100% Lã pura";
+        document.getElementById('altDescAng').innerHTML = " 4,5 mm ";
+        document.getElementById('corDescAng').innerHTML = "Cru";
+        document.getElementById('spAppDescAng').innerHTML = "Esmaltes e vernizes sintéticos em superfícies lisas, como madeiras e metais.";
+        
+        
+        document.getElementById('antigotaTitle').innerHTML = "Antigota";
+		document.getElementById('rightTitleAnt').innerHTML = "Antigota";
+        
+        document.getElementById('tecDescAnt').innerHTML = "100% Polamida";
+        document.getElementById('altDescAnt').innerHTML = " 12 mm ";
+        document.getElementById('corDescAnt').innerHTML = "Branca e risca amarela.";
+        document.getElementById('spAppDescAnt').innerHTML = "Tintas plásticas lisas aquosas em paredes e tetos lisos (interiores).";
+        
+        document.getElementById('antigotaVTitle').innerHTML = "Antigota Verde";
+		document.getElementById('rightTitleAntV').innerHTML = "Antigota Verde";
+        
+        document.getElementById('tecDescAntV').innerHTML = "100% poliamida";
+        document.getElementById('altDescAntV').innerHTML = " 12 mm ";
+        document.getElementById('corDescAntV').innerHTML = "Branca e dupla risca amarela/verde";
+        document.getElementById('spAppDescAntV').innerHTML = "Tintas plásticas lisas em paredes e tetos lisos (interiores).";
+        
+		
+        
+        document.getElementById('cromadoTitle').innerHTML = "Cromado";
+		document.getElementById('rightTitleCro').innerHTML = "Cromado";
+        
+        document.getElementById('tecDescCro').innerHTML = "100% Poliéster";
+        document.getElementById('altDescCro').innerHTML = " 24 mm ";
+        document.getElementById('corDescCro').innerHTML = "Branca";
+        document.getElementById('spAppDescCro').innerHTML = "Tintas plásticas lisas ou areadas em fachadas e muros.";
+        
+        document.getElementById('espumaTitle').innerHTML = "Espuma";
+		document.getElementById('rightTitleEsp').innerHTML = "Espuma";
+        
+        document.getElementById('tecDescEsp').innerHTML = "Espuma Poliéster";
+        document.getElementById('altDescEsp').innerHTML = " 4,5 mm ";
+        document.getElementById('corDescEsp').innerHTML = "Branca";
+        document.getElementById('spAppDescEsp').innerHTML = "Tintas e esmaltes aquosos em muros, fachadas e paredes (interiores e exteriores).";
+        
+        document.getElementById('juniorTitle').innerHTML = "Júnior";
+		document.getElementById('rightTitleJun').innerHTML = "Júnior";
+        
+        document.getElementById('tecDescJun').innerHTML = "100% Poliéster";
+        document.getElementById('altDescJun').innerHTML = " 14 mm ";
+        document.getElementById('corDescJun').innerHTML = "Branca";
+        document.getElementById('spAppDescJun').innerHTML = "Tintas aquosas em paredes lisas.";
+        
+        document.getElementById('microfibraTitle').innerHTML = "Microfibra";
+		document.getElementById('rightTitleMic').innerHTML = "Micofibra";
+        
+        document.getElementById('tecDescMic').innerHTML = "100% Poliamida";
+        document.getElementById('altDescMic').innerHTML = " 10 mm ";
+        document.getElementById('corDescMic').innerHTML = "Branca e dupla risca castanha";
+        document.getElementById('spAppDescMic').innerHTML = " Tintas aquosas em paredes e tetos lisos.";
+        
+        
+
+        
+        document.getElementById('ravelTitle').innerHTML = "Ravel";
+		document.getElementById('rightTitleRav').innerHTML = "Ravel";
+        
+        document.getElementById('tecDescRav').innerHTML = "100% Poliamida";
+        document.getElementById('altDescRav').innerHTML = " 18 mm ";
+        document.getElementById('corDescRav').innerHTML = "Verde";
+        document.getElementById('spAppDescRav').innerHTML = "Tintas plásticas lisas ou areadas em fachadas e muros.";
+        
+        
+        document.getElementById('rugoTitle').innerHTML = "Rugo";
+		document.getElementById('rightTitleRug').innerHTML = "Rugo";
+        
+        document.getElementById('tecDescRug').innerHTML = "Espuma Poliéster";
+        document.getElementById('altDescRug').innerHTML = "";
+        document.getElementById('corDescRug').innerHTML = "Amarela";
+        document.getElementById('spAppDescRug').innerHTML = "Esmaltes e vernizes sintéticos em superfícies lisas, como madeiras e metais.";
+        
+        
+        document.getElementById('superTitle').innerHTML = "Super";
+		document.getElementById('rightTitleSup').innerHTML = "Super";
+        
+        document.getElementById('tecDescSup').innerHTML = "100% Poliéster";
+        document.getElementById('altDescSup').innerHTML = " 16 mm ";
+        document.getElementById('corDescSup').innerHTML = "Amarela";
+        document.getElementById('spAppDescSup').innerHTML = "Tintas aquosas em superfícies areadas, rugosas e lisas.";
+        
+        
+        
+        document.getElementById('merinoTitle').innerHTML = "Merino";
+		document.getElementById('rightTitleMer').innerHTML = "Merino";
+        
+        document.getElementById('tecDescMer').innerHTML = " 100% Lã pura de merino";
+        document.getElementById('altDescMer').innerHTML = " 25 mm ";
+        document.getElementById('corDescMer').innerHTML = "Branca";
+        document.getElementById('spAppDescMer').innerHTML = "Tintas plásticas lisas ou areadas em fachadas e muros.";
 		/*document.getElementById('').innerHTML = "";
 		document.getElementById('').innerHTML = "";
 		document.getElementById('').innerHTML = "";
@@ -63,6 +302,8 @@ Version: 1.3.1
 		$('#openModelAngoraImg').click(function() {
 			document.getElementById("rbRoloAngora").click();
 		});
+        
+        
 		
 		
 		$('#rbRoloAngora').click(function() {
@@ -510,6 +751,10 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAntigota').style.color = '#FFF';
 			document.getElementById('rbMiniRoloAntigota').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAntigota').style.color = '#FFF';
+            document.getElementById('ul1li2m1').className = "activeMenu";
+            document.getElementById('ul1li2m2').className = "";
+            document.getElementById('ul1li2m3').className = "";
+            document.getElementById('ul1li2m4').className = "";
             
             document.getElementById("ul1li2tr1").style.display = 'table-row';
 			document.getElementById("ul1li2tr1td1").innerText = '0058';
@@ -598,6 +843,10 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAntigota').style.color = '#FFF';
 			document.getElementById('rbMiniRoloAntigota').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAntigota').style.color = '#FFF';
+            document.getElementById('ul1li2m1').className = "";
+            document.getElementById('ul1li2m2').className = "activeMenu";
+            document.getElementById('ul1li2m3').className = "";
+            document.getElementById('ul1li2m4').className = "";
             
             document.getElementById("ul1li2tr1").style.display = 'table-row';
 			document.getElementById("ul1li2tr1td1").innerText = '0015';
@@ -687,6 +936,10 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAntigota').style.color = '#FFF';
 			document.getElementById('rbMiniRoloAntigota').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAntigota').style.color = '#FFF';
+            document.getElementById('ul1li2m1').className = "";
+            document.getElementById('ul1li2m2').className = "";
+            document.getElementById('ul1li2m3').className = "activeMenu";
+            document.getElementById('ul1li2m4').className = "";
             
             document.getElementById("ul1li2tr1").style.display = 'table-row';
 			document.getElementById("ul1li2tr1td1").innerText = '0180';
@@ -776,6 +1029,10 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAntigota').style.color = '#FFF';
 			document.getElementById('rbMiniRoloAntigota').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloAntigota').style.color = '#FFF';
+            document.getElementById('ul1li2m1').className = "";
+            document.getElementById('ul1li2m2').className = "";
+            document.getElementById('ul1li2m3').className = "";
+            document.getElementById('ul1li2m4').className = "activeMenu";
             
             document.getElementById("ul1li2tr1").style.display = 'table-row';
 			document.getElementById("ul1li2tr1td1").innerText = '0092';
@@ -867,6 +1124,10 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAntigotaV').style.fontWeight = 'normal';
 			document.getElementById('rbRoloAntigotaV').style.color = '#FFF';
 			document.getElementById('rbCRoloAntigotaV').style.color = '#FFF';
+            document.getElementById('ul1li3m1').className = "activeMenu";
+            document.getElementById('ul1li3m2').className = "";
+            
+            
 			document.getElementById("ul1li3tr1td1").innerText = '0061';
 			document.getElementById("ul1li3tr1td2").innerText = 'Rolo Antigota Verde 180 mm';
 			document.getElementById("ul1li3tr1td3").innerText = '45';
@@ -907,6 +1168,10 @@ Version: 1.3.1
 			document.getElementById('rbCRoloAntigotaV').style.fontWeight = 'bold';
 			document.getElementById('rbRoloAntigotaV').style.color = '#FFF';
 			document.getElementById('rbCRoloAntigotaV').style.color = '#FFF';
+            document.getElementById('ul1li3m1').className = "";
+            document.getElementById('ul1li3m2').className = "activeMenu";
+            
+            
 			document.getElementById("ul1li3tr1td1").innerText = '0018';
 			document.getElementById("ul1li3tr1td2").innerText = 'Carga Antigota Verde 180 mm';
 			document.getElementById("ul1li3tr1td3").innerText = '45';
@@ -1035,6 +1300,9 @@ Version: 1.3.1
 			document.getElementById('rbCRoloCromado').style.fontWeight = 'normal';
 			document.getElementById('rbRoloCromado').style.color = '#FFF';
 			document.getElementById('rbCRoloCromado').style.color = '#FFF';
+            document.getElementById('ul1li4m1').className = "activeMenu";
+            document.getElementById('ul1li4m2').className = "";
+            
 			
 			document.getElementById("ul1li4tr1td1").innerText = '0055';
 			document.getElementById("ul1li4tr1td2").innerText = 'Rolo Cromado 180 mm';
@@ -1061,6 +1329,9 @@ Version: 1.3.1
 			document.getElementById('rbCRoloCromado').style.fontWeight = 'bold';
 			document.getElementById('rbRoloCromado').style.color = '#FFF';
 			document.getElementById('rbCRoloCromado').style.color = '#FFF';
+            document.getElementById('ul1li4m1').className = "";
+            document.getElementById('ul1li4m2').className = "activeMenu";
+            
 			
 			document.getElementById("ul1li4tr1td1").innerText = '0012';
 			document.getElementById("ul1li4tr1td2").innerText = 'Carga Cromado 180 mm';
@@ -1140,6 +1411,11 @@ Version: 1.3.1
             document.getElementById('rbCRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbMiniRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloEspuma').style.color = '#FFF';
+            document.getElementById('ul2li1m1').className = "activeMenu";
+            document.getElementById('ul2li1m2').className = "";
+            document.getElementById('ul2li1m3').className = "";
+            document.getElementById('ul2li1m4').className = "";
+            
 			document.getElementById("ul2li1tr1td1").innerText = '0080';
 			document.getElementById("ul2li1tr1td2").innerText = 'Rolo Espuma Canto';
 			document.getElementById("ul2li1tr1td3").innerText = '75';
@@ -1200,6 +1476,11 @@ Version: 1.3.1
             document.getElementById('rbCRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbMiniRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloEspuma').style.color = '#FFF';
+            document.getElementById('ul2li1m1').className = "";
+            document.getElementById('ul2li1m2').className = "activeMenu";
+            document.getElementById('ul2li1m3').className = "";
+            document.getElementById('ul2li1m4').className = "";
+            
 			document.getElementById("ul2li1tr1td1").innerText = '0037';
 			document.getElementById("ul2li1tr1td2").innerText = 'Carga Espuma Canto';
 			document.getElementById("ul2li1tr1td3").innerText = '75';
@@ -1263,6 +1544,11 @@ Version: 1.3.1
             document.getElementById('rbCRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbMiniRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloEspuma').style.color = '#FFF';
+            document.getElementById('ul2li1m1').className = "";
+            document.getElementById('ul2li1m2').className = "";
+            document.getElementById('ul2li1m3').className = "activeMenu";
+            document.getElementById('ul2li1m4').className = "";
+            
 			document.getElementById("ul2li1tr1td1").innerText = '0244';
 			document.getElementById("ul2li1tr1td2").innerText = 'Mini Rolo Espuma 60 mm';
 			document.getElementById("ul2li1tr1td3").innerText = '16';
@@ -1324,6 +1610,10 @@ Version: 1.3.1
             document.getElementById('rbCRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbMiniRoloEspuma').style.color = '#FFF';
 			document.getElementById('rbCMiniRoloEspuma').style.color = '#FFF';
+            document.getElementById('ul2li1m1').className = "";
+            document.getElementById('ul2li1m2').className = "";
+            document.getElementById('ul2li1m3').className = "";
+            document.getElementById('ul2li1m4').className = "activeMenu";
             
 			document.getElementById("ul2li1tr1td1").innerText = '0096';
 			document.getElementById("ul2li1tr1td2").innerText = 'Carga Espuma 60 mm';
@@ -1384,16 +1674,20 @@ Version: 1.3.1
 			$("#rightImageJunior").attr('src', 'images/junior/rolo_500_375.jpg');
 			document.getElementById('rbRoloJunior').style.fontSize = '1.0em';
             document.getElementById('rbCRoloJunior').style.fontSize = '0.8em';
-			//document.getElementById('rbMiniRoloJunior').style.fontSize = '0.8em';
-            //document.getElementById('rbCMiniRoloJunior').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloJunior').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloJunior').style.fontSize = '0.8em';
 			document.getElementById('rbRoloJunior').style.fontWeight = 'bold';
             document.getElementById('rbCRoloJunior').style.fontWeight = 'normal';
-			//document.getElementById('rbMiniRoloJunior').style.fontWeight = 'normal';
-            //document.getElementById('rbCMiniRoloJunior').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloJunior').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloJunior').style.fontWeight = 'normal';
 			document.getElementById('rbRoloJunior').style.color = '#FFF';
             document.getElementById('rbCRoloJunior').style.color = '#FFF';
-			//document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
-            //document.getElementById('rbCMiniRoloJunior').style.color = '#FFF';
+			document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloJunior').style.color = '#FFF';
+            document.getElementById('ul2li2m1').className = "activeMenu";
+            document.getElementById('ul2li2m2').className = "";
+            document.getElementById('ul2li2m3').className = "";
+            document.getElementById('ul2li2m4').className = "";
 			
 			document.getElementById("ul2li2tr1td1").innerText = '0044';
 			document.getElementById("ul2li2tr1td2").innerText = 'Rolo Júnior  60 mm';
@@ -1442,16 +1736,21 @@ Version: 1.3.1
 			$("#rightImageJunior").attr('src', 'images/junior/carga_500_375.jpg');
 			document.getElementById('rbRoloJunior').style.fontSize = '0.8em';
             document.getElementById('rbCRoloJunior').style.fontSize = '1.0em';
-			//document.getElementById('rbMiniRoloJunior').style.fontSize = '0.8em';
-            //document.getElementById('rbCMiniRoloJunior').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloJunior').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloJunior').style.fontSize = '0.8em';
 			document.getElementById('rbRoloJunior').style.fontWeight = 'normal';
             document.getElementById('rbCRoloJunior').style.fontWeight = 'bold';
-			//document.getElementById('rbMiniRoloJunior').style.fontWeight = 'normal';
-            //document.getElementById('rbCMiniRoloJunior').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloJunior').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloJunior').style.fontWeight = 'normal';
 			document.getElementById('rbRoloJunior').style.color = '#FFF';
             document.getElementById('rbCRoloJunior').style.color = '#FFF';
-			//document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
-            //document.getElementById('rbCMiniRoloJunior').style.color = '#FFF';
+			document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloJunior').style.color = '#FFF';
+            document.getElementById('ul2li2m1').className = "";
+            document.getElementById('ul2li2m2').className = "activeMenu";
+            document.getElementById('ul2li2m3').className = "";
+            document.getElementById('ul2li2m4').className = "";
+            
 			document.getElementById("ul2li2tr1td1").innerText = '0001';
 			document.getElementById("ul2li2tr1td2").innerText = 'Carga Júnior  60 mm';
 			document.getElementById("ul2li2tr1td3").innerText = '45';
@@ -1497,8 +1796,8 @@ Version: 1.3.1
 		});
 
 							   
-		/*$('#rbMiniRoloJunior').click(function() {
-			$("#rightImageJunior").attr('src', 'images/18/Junior.JPG');
+		$('#rbMiniRoloJunior').click(function() {
+			$("#rightImageJunior").attr('src', 'images/junior/mini_500_375.jpg');
 			document.getElementById('rbRoloJunior').style.fontSize = '0.8em';
             document.getElementById('rbCRoloJunior').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloJunior').style.fontSize = '1.0em';
@@ -1511,6 +1810,10 @@ Version: 1.3.1
             document.getElementById('rbCRoloJunior').style.color = '#FFF';
 			document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
             document.getElementById('rbCMiniRoloJunior').style.color = '#FFF';
+            document.getElementById('ul2li2m1').className = "";
+            document.getElementById('ul2li2m2').className = "";
+            document.getElementById('ul2li2m3').className = "activeMenu";
+            document.getElementById('ul2li2m4').className = "";
 			document.getElementById("ul2li2tr1td1").innerText = '';
 			document.getElementById("ul2li2tr1td2").innerText = '';
 			document.getElementById("ul2li2tr1td3").innerText = '';
@@ -1543,7 +1846,7 @@ Version: 1.3.1
 		});
         
         $('#rbCMiniRoloJunior').click(function() {
-			$("#rightImageJunior").attr('src', 'images/18/Junior.JPG');
+			$("#rightImageJunior").attr('src', 'images/junior/cargaMini_500_375.jpg');
 			document.getElementById('rbRoloJunior').style.fontSize = '0.8em';
             document.getElementById('rbCRoloJunior').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloJunior').style.fontSize = '0.8em';
@@ -1556,6 +1859,11 @@ Version: 1.3.1
             document.getElementById('rbCRoloJunior').style.color = '#FFF';
 			document.getElementById('rbMiniRoloJunior').style.color = '#FFF';
             document.getElementById('rbCMiniRoloJunior').style.color = '#FFF';
+            document.getElementById('ul2li2m1').className = "";
+            document.getElementById('ul2li2m2').className = "";
+            document.getElementById('ul2li2m3').className = "";
+            document.getElementById('ul2li2m4').className = "activeMenu";
+            
 			document.getElementById("ul2li2tr1td1").innerText = '';
 			document.getElementById("ul2li2tr1td2").innerText = '';
 			document.getElementById("ul2li2tr1td3").innerText = '';
@@ -1585,7 +1893,7 @@ Version: 1.3.1
 			document.getElementById("ul2li2tr7td3").innerText = '';
 			document.getElementById("ul2li2tr7td4").innerText = '';
 			
-		});*/
+		});
 		
 		
 		
@@ -1610,6 +1918,10 @@ Version: 1.3.1
             document.getElementById('rbCRoloMicrofibra').style.color = '#FFF';
 			document.getElementById('rbMiniRoloMicrofibra').style.color = '#FFF';
             document.getElementById('rbCMiniRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('ul2li3m1').className = "activeMenu";
+            document.getElementById('ul2li3m2').className = "";
+            document.getElementById('ul2li3m3').className = "";
+            document.getElementById('ul2li3m4').className = "";
             
 			document.getElementById("ul2li3tr1td1").innerText = '0081';
 			document.getElementById("ul2li3tr1td2").innerText = 'Rolo Microfibra 180 mm';
@@ -1643,6 +1955,10 @@ Version: 1.3.1
             document.getElementById('rbCRoloMicrofibra').style.color = '#FFF';
 			document.getElementById('rbMiniRoloMicrofibra').style.color = '#FFF';
             document.getElementById('rbCMiniRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('ul2li3m1').className = "";
+            document.getElementById('ul2li3m2').className = "activeMenu";
+            document.getElementById('ul2li3m3').className = "";
+            document.getElementById('ul2li3m4').className = "";
             
 			document.getElementById("ul2li3tr1td1").innerText = '0038';
 			document.getElementById("ul2li3tr1td2").innerText = 'Carga Microfibra 180 mm';
@@ -1677,6 +1993,10 @@ Version: 1.3.1
             document.getElementById('rbCRoloMicrofibra').style.color = '#FFF';
 			document.getElementById('rbMiniRoloMicrofibra').style.color = '#FFF';
             document.getElementById('rbCMiniRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('ul2li3m1').className = "";
+            document.getElementById('ul2li3m2').className = "";
+            document.getElementById('ul2li3m3').className = "activeMenu";
+            document.getElementById('ul2li3m4').className = "";
             
 			document.getElementById("ul2li3tr1td1").innerText = '0187';
 			document.getElementById("ul2li3tr1td2").innerText = 'Mini Microfibra 60 mm';
@@ -1764,6 +2084,12 @@ Version: 1.3.1
             document.getElementById('rbCRoloMicrofibra').style.color = '#FFF';
 			document.getElementById('rbMiniRoloMicrofibra').style.color = '#FFF';
             document.getElementById('rbCMiniRoloMicrofibra').style.color = '#FFF';
+            document.getElementById('ul2li3m1').className = "";
+            document.getElementById('ul2li3m2').className = "";
+            document.getElementById('ul2li3m3').className = "";
+            document.getElementById('ul2li3m4').className = "activeMenu";
+            
+            
 			document.getElementById("ul2li3tr1td1").innerText = '0262';
 			document.getElementById("ul2li3tr1td2").innerText = 'Carga Microfibra 60 mm';
 			document.getElementById("ul2li3tr1td3").innerText = '16';
@@ -1858,6 +2184,12 @@ Version: 1.3.1
             document.getElementById('rbCRoloRavel').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
+            document.getElementById('ul2li4m1').className = "activeMenu";
+            document.getElementById('ul2li4m2').className = "";
+            document.getElementById('ul2li4m3').className = "";
+            document.getElementById('ul2li4m4').className = "";
+            
+            
             
 			document.getElementById("ul2li4tr1td1").innerText = '0072';
 			document.getElementById("ul2li4tr1td2").innerText = 'Rolo Ravel 180 mm';
@@ -1906,6 +2238,11 @@ Version: 1.3.1
             document.getElementById('rbCRoloRavel').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
+            document.getElementById('ul2li4m1').className = "";
+            document.getElementById('ul2li4m2').className = "activeMenu";
+            document.getElementById('ul2li4m3').className = "";
+            document.getElementById('ul2li4m4').className = "";
+            
             
 			document.getElementById("ul2li4tr1td1").innerText = '0029';
 			document.getElementById("ul2li4tr1td2").innerText = 'Carga Ravel 180 mm';
@@ -1956,6 +2293,11 @@ Version: 1.3.1
             document.getElementById('rbCRoloRavel').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
+            document.getElementById('ul2li4m1').className = "";
+            document.getElementById('ul2li4m2').className = "";
+            document.getElementById('ul2li4m3').className = "activeMenu";
+            document.getElementById('ul2li4m4').className = "";
+            
 			document.getElementById("ul2li4tr1td1").innerText = '0265';
 			document.getElementById("ul2li4tr1td2").innerText = 'Mini Ravel 60 mm';
 			document.getElementById("ul2li4tr1td3").innerText = '16';
@@ -2042,6 +2384,11 @@ Version: 1.3.1
             document.getElementById('rbCRoloRavel').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRavel').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRavel').style.color = '#FFF';
+            document.getElementById('ul2li4m1').className = "";
+            document.getElementById('ul2li4m2').className = "";
+            document.getElementById('ul2li4m3').className = "";
+            document.getElementById('ul2li4m4').className = "activeMenu";
+            
             
 			document.getElementById("ul2li4tr1td1").innerText = '0268';
 			document.getElementById("ul2li4tr1td2").innerText = 'Carga Ravel 60 mm';
@@ -2136,6 +2483,12 @@ Version: 1.3.1
             document.getElementById('rbCRoloRugo').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRugo').style.color = '#FFF';
+            document.getElementById('ul3li1m1').className = "activeMenu";
+            document.getElementById('ul3li1m2').className = "";
+            document.getElementById('ul3li1m3').className = "";
+            document.getElementById('ul3li1m4').className = "";
+            
+            
             
 			document.getElementById("ul3li1tr1td1").innerText = '0075';
 			document.getElementById("ul3li1tr1td2").innerText = 'Rolo Rugo 60 mm';
@@ -2180,6 +2533,11 @@ Version: 1.3.1
             document.getElementById('rbCRoloRugo').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRugo').style.color = '#FFF';
+            document.getElementById('ul3li1m1').className = "";
+            document.getElementById('ul3li1m2').className = "activeMenu";
+            document.getElementById('ul3li1m3').className = "";
+            document.getElementById('ul3li1m4').className = "";
+            
             
 			document.getElementById("ul3li1tr1td1").innerText = '0032';
 			document.getElementById("ul3li1tr1td2").innerText = 'Carga Rugo 60 mm';
@@ -2223,6 +2581,11 @@ Version: 1.3.1
             document.getElementById('rbCRoloRugo').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
             document.getElementById('rbCMiniRoloRugo').style.color = '#FFF';
+            document.getElementById('ul3li1m1').className = "";
+            document.getElementById('ul3li1m2').className = "";
+            document.getElementById('ul3li1m3').className = "activeMenu";
+            document.getElementById('ul3li1m4').className = "";
+            
             
 			document.getElementById("ul3li1tr1td1").innerText = '0235';
 			document.getElementById("ul3li1tr1td2").innerText = 'Mini Rugo 110 mm';
@@ -2265,6 +2628,11 @@ Version: 1.3.1
 			document.getElementById('rbRoloRugo').style.color = '#FFF';
             document.getElementById('rbCRoloRugo').style.color = '#FFF';
 			document.getElementById('rbMiniRoloRugo').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloRugo').style.color = '#FFF';
+            document.getElementById('ul3li1m1').className = "";
+            document.getElementById('ul3li1m2').className = "";
+            document.getElementById('ul3li1m3').className = "";
+            document.getElementById('ul3li1m4').className = "activeMenu";
             
 			document.getElementById("ul3li1tr1td1").innerText = '0245';
 			document.getElementById("ul3li1tr1td2").innerText = 'Carga Rugo 110 mm';
@@ -2316,6 +2684,9 @@ Version: 1.3.1
             document.getElementById('rbCRoloSuper').style.color = '#FFF';
 			//document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
             //document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
+            document.getElementById('ul3li2m1').className = "activeMenu";
+            document.getElementById('ul3li2m2').className = "";
+
             
 			document.getElementById("ul3li2tr1td1").innerText = '0049';
 			document.getElementById("ul3li2tr1td2").innerText = 'Rolo Super 180 mm';
@@ -2349,6 +2720,8 @@ Version: 1.3.1
             document.getElementById('rbCRoloSuper').style.color = '#FFF';
 			//document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
             //document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
+            document.getElementById('ul3li2m1').className = "";
+            document.getElementById('ul3li2m2').className = "activeMenu";
             
 			document.getElementById("ul3li2tr1td1").innerText = '0006';
 			document.getElementById("ul3li2tr1td2").innerText = 'Carga Super 180 mm';
@@ -2471,16 +2844,20 @@ Version: 1.3.1
 			$("#rightImageMerino").attr('src', 'images/merino/rolo_500_375.jpg');
 			document.getElementById('rbRoloMerino').style.fontSize = '1.0em';
             document.getElementById('rbCRoloMerino').style.fontSize = '0.8em';
-			//document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
-            //document.getElementById('rbCMiniRoloMerino').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloMerino').style.fontSize = '0.8em';
 			document.getElementById('rbRoloMerino').style.fontWeight = 'bold';
             document.getElementById('rbCRoloMerino').style.fontWeight = 'normal';
-			//document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
-            //document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'normal';
 			document.getElementById('rbRoloMerino').style.color = '#FFF';
             document.getElementById('rbCRoloMerino').style.color = '#FFF';
-			//document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
-            //document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
+			document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
+            document.getElementById('ul3li3m1').className = "activeMenu";
+            document.getElementById('ul3li3m2').className = "";
+            document.getElementById('ul3li3m3').className = "";
+            document.getElementById('ul3li3m4').className = "";
             
 			document.getElementById("ul3li3tr1td1").innerText = '0069';
 			document.getElementById("ul3li3tr1td2").innerText = 'Rolo Merino 180 mm';
@@ -2519,16 +2896,20 @@ Version: 1.3.1
 			$("#rightImageMerino").attr('src', 'images/merino/carga_500_375.jpg');
 			document.getElementById('rbRoloMerino').style.fontSize = '0.8em';
             document.getElementById('rbCRoloMerino').style.fontSize = '1.0em';
-			//document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
-            //document.getElementById('rbCMiniRoloMerino').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloMerino').style.fontSize = '0.8em';
 			document.getElementById('rbRoloMerino').style.fontWeight = 'normal';
             document.getElementById('rbCRoloMerino').style.fontWeight = 'bold';
-			//document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
-            //document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'normal';
 			document.getElementById('rbRoloMerino').style.color = '#FFF';
             document.getElementById('rbCRoloMerino').style.color = '#FFF';
-			//document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
-            //document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
+			document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
+            document.getElementById('ul3li3m1').className = "";
+            document.getElementById('ul3li3m2').className = "activeMenu";
+            document.getElementById('ul3li3m3').className = "";
+            document.getElementById('ul3li3m4').className = "";
             
 			document.getElementById("ul3li3tr1td1").innerText = '0026';
 			document.getElementById("ul3li3tr1td2").innerText = 'Carga Merino 180 mm';
@@ -2562,14 +2943,25 @@ Version: 1.3.1
 			
 		});
         
-		/*$('#rbMiniRoloMerino').click(function() {
-			$("#rightImageMerino").attr('src', 'images/18/Merino.JPG');
-			document.getElementById('rbRoloMerino').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloMerino').style.fontSize = '1.2em';
+		$('#rbMiniRoloMerino').click(function() {
+			$("#rightImageMerino").attr('src', 'images/merino/mini_500_375.jpg');
+			document.getElementById('rbRoloMerino').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloMerino').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloMerino').style.fontSize = '1.0em';
 			document.getElementById('rbRoloMerino').style.fontWeight = 'normal';
-			document.getElementById('rbMiniRoloMerino').style.fontWeight = 'bold';
+            document.getElementById('rbCRoloMerino').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'bold';
 			document.getElementById('rbRoloMerino').style.color = '#FFF';
+            document.getElementById('rbCRoloMerino').style.color = '#FFF';
 			document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
+            
+             document.getElementById('ul3li3m1').className = "";
+            document.getElementById('ul3li3m2').className = "";
+            document.getElementById('ul3li3m3').className = "activeMenu";
+            document.getElementById('ul3li3m4').className = "";
 			document.getElementById("ul3li3tr1td1").innerText = '';
 			document.getElementById("ul3li3tr1td2").innerText = '';
 			document.getElementById("ul3li3tr1td3").innerText = '';
@@ -2599,9 +2991,57 @@ Version: 1.3.1
 			document.getElementById("ul3li3tr7td3").innerText = '';
 			document.getElementById("ul3li3tr7td4").innerText = '';
 			
-		});*/
+		});
 		
-		
+		$('#rbCMiniRoloMerino').click(function() {
+			$("#rightImageMerino").attr('src', 'images/merino/cargaMini_500_375.jpg');
+			document.getElementById('rbRoloMerino').style.fontSize = '0.8em';
+            document.getElementById('rbCRoloMerino').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloMerino').style.fontSize = '1.0em';
+			document.getElementById('rbRoloMerino').style.fontWeight = 'normal';
+            document.getElementById('rbCRoloMerino').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'bold';
+			document.getElementById('rbRoloMerino').style.color = '#FFF';
+            document.getElementById('rbCRoloMerino').style.color = '#FFF';
+			document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
+            
+             document.getElementById('ul3li3m1').className = "";
+            document.getElementById('ul3li3m2').className = "";
+            document.getElementById('ul3li3m3').className = "";
+            document.getElementById('ul3li3m4').className = "activeMenu";
+			document.getElementById("ul3li3tr1td1").innerText = '';
+			document.getElementById("ul3li3tr1td2").innerText = '';
+			document.getElementById("ul3li3tr1td3").innerText = '';
+			document.getElementById("ul3li3tr1td4").innerText = '';
+			document.getElementById("ul3li3tr2td1").innerText = '';
+			document.getElementById("ul3li3tr2td2").innerText = '';
+			document.getElementById("ul3li3tr2td3").innerText = '';
+			document.getElementById("ul3li3tr2td4").innerText = '';
+			document.getElementById("ul3li3tr3td1").innerText = '';
+			document.getElementById("ul3li3tr3td2").innerText = '';
+			document.getElementById("ul3li3tr3td3").innerText = '';
+			document.getElementById("ul3li3tr3td4").innerText = '';
+			document.getElementById("ul3li3tr4td1").innerText = '';
+			document.getElementById("ul3li3tr4td2").innerText = '';
+			document.getElementById("ul3li3tr4td3").innerText = '';
+			document.getElementById("ul3li3tr4td4").innerText = '';
+			document.getElementById("ul3li3tr5td1").innerText = '';
+			document.getElementById("ul3li3tr5td2").innerText = '';
+			document.getElementById("ul3li3tr5td3").innerText = '';
+			document.getElementById("ul3li3tr5td4").innerText = '';
+			document.getElementById("ul3li3tr6td1").innerText = '';
+			document.getElementById("ul3li3tr6td2").innerText = '';
+			document.getElementById("ul3li3tr6td3").innerText = '';
+			document.getElementById("ul3li3tr6td4").innerText = '';
+			document.getElementById("ul3li3tr7td1").innerText = '';
+			document.getElementById("ul3li3tr7td2").innerText = '';
+			document.getElementById("ul3li3tr7td3").innerText = '';
+			document.getElementById("ul3li3tr7td4").innerText = '';
+			
+		});
 		
 		//Menu 18
 		$('#openModelAcessoriosImg').click(function() {
