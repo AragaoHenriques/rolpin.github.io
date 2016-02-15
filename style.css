@@ -3056,31 +3056,25 @@ ul.img-list li {
 
 
 .imgMenu:hover img {
-    -webkit-transform:scale(1.5); /* Safari and Chrome */
-    -moz-transform:scale(1.5); /* Firefox */
-    -ms-transform:scale(1.5); /* IE 9 */
-    -o-transform:scale(1.5); /* Opera */
-     transform:scale(1.5);
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2); 
+    -ms-transform:scale(1.2); 
+    -o-transform:scale(1.2); 
+    transform:scale(1.2);
     z-index: 998;
     position: relative;
     cursor: url(/images/roloPointer.png), auto;
+    
+    
+    
 	
-}
-
-.imgMenu {
-   
-   
-}
-
-.text-content {
-
 }
 
 span.text-content {
   background: rgba(0,0,0,0.5);
   color: white;
   /*cursor: pointer;*/
-cursor: url(/images/roloPointer.png), auto;
+  cursor: url(/images/roloPointer.png), auto;
   display: table;
   height: 140px;
   left: 0;
@@ -3096,6 +3090,7 @@ cursor: url(/images/roloPointer.png), auto;
 ul.img-list li:hover span.text-content {
   opacity: 0;
 }
+
 span.text-content span {
   display: table-cell;
   text-align: center;
