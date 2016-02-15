@@ -290,12 +290,17 @@ Version: 1.3.1
         document.getElementById('altDescMer').innerHTML = " 25 mm ";
         document.getElementById('corDescMer').innerHTML = "White";
         document.getElementById('spAppDescMer').innerHTML = "Water based paints on plasters and facades.";
-		/*document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";*/
+		
+        
+        document.getElementById('accesoriosTitle').innerHTML = "Acessórios";
+		document.getElementById('rightTitleAce').innerHTML = "Acessórios";
+        
+        document.getElementById('accArmacoesN').innerHTML = "Armações";
+		document.getElementById('accTabuleirosN').innerHTML = "Tabuleiros";
+		document.getElementById('accBetumadeiraN').innerHTML = "Betumadeira";
+		document.getElementById('accBaldeN').innerHTML = "Balde";
+		document.getElementById('accGrelhaN').innerHTML = "Grelha";
+		document.getElementById('accCoberturasN').innerHTML = "Coberturas";
         
         
         //Menu 18
@@ -3132,7 +3137,12 @@ Version: 1.3.1
 		});
 		
 		
-		
+		document.getElementById("msgNome").placeholder = "Name";
+        document.getElementById("msgEmail").placeholder = "Email";
+        document.getElementById("msgAssunto").placeholder = "Subject";
+        document.getElementById("msgMensagem").placeholder = "Message";
+        document.getElementById("msgEnviar").innerText = "Send Message";
+        document.getElementById("msgContacto").innerText = "Contact us !!!";
 
         //END DOCUMENT.READY FUNCTION
 	});

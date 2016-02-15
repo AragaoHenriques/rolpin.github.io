@@ -39,6 +39,7 @@
 #cssmenu li a:hover {
   color: #FFFFFF;
   border-bottom: 3px solid #C95928;
+  cursor: url(/images/roloPointer.png), auto;
 }
 #cssmenu li.activeMenu a {
   display: inline;

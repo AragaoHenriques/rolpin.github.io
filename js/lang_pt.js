@@ -290,12 +290,18 @@ Version: 1.3.1
         document.getElementById('altDescMer').innerHTML = " 25 mm ";
         document.getElementById('corDescMer').innerHTML = "Branca";
         document.getElementById('spAppDescMer').innerHTML = "Tintas plásticas lisas ou areadas em fachadas e muros.";
-		/*document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";*/
+		
+        document.getElementById('accesoriosTitle').innerHTML = "Acessórios";
+		document.getElementById('rightTitleAce').innerHTML = "Acessórios";
+        
+        
+        
+        document.getElementById('accArmacoesN').innerHTML = "Armações";
+		document.getElementById('accTabuleirosN').innerHTML = "Tabuleiros";
+		document.getElementById('accBetumadeiraN').innerHTML = "Betumadeira";
+		document.getElementById('accBaldeN').innerHTML = "Balde";
+		document.getElementById('accGrelhaN').innerHTML = "Grelha";
+		document.getElementById('accCoberturasN').innerHTML = "Coberturas";
 		
         
         //Menu 18
@@ -2674,18 +2680,20 @@ Version: 1.3.1
 			$("#rightImageSuper").attr('src', 'images/super/rolo_500_375.jpg');
 			document.getElementById('rbRoloSuper').style.fontSize = '1.0em';
             document.getElementById('rbCRoloSuper').style.fontSize = '0.8em';
-			//document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
-            //document.getElementById('rbCMiniRoloSuper').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloSuper').style.fontSize = '0.8em';
 			document.getElementById('rbRoloSuper').style.fontWeight = 'bold';
             document.getElementById('rbCRoloSuper').style.fontWeight = 'normal';
-			//document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
-            //document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'normal';
 			document.getElementById('rbRoloSuper').style.color = '#FFF';
             document.getElementById('rbCRoloSuper').style.color = '#FFF';
-			//document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
-            //document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
+			document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
             document.getElementById('ul3li2m1').className = "activeMenu";
             document.getElementById('ul3li2m2').className = "";
+            document.getElementById('ul3li2m3').className = "";
+            document.getElementById('ul3li2m4').className = "";
 
             
 			document.getElementById("ul3li2tr1td1").innerText = '0049';
@@ -2710,18 +2718,20 @@ Version: 1.3.1
 			$("#rightImageSuper").attr('src', 'images/super/carga_500_375.jpg');
 			document.getElementById('rbRoloSuper').style.fontSize = '0.8em';
             document.getElementById('rbCRoloSuper').style.fontSize = '1.0em';
-			//document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
-            //document.getElementById('rbCMiniRoloSuper').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
+            document.getElementById('rbCMiniRoloSuper').style.fontSize = '0.8em';
 			document.getElementById('rbRoloSuper').style.fontWeight = 'normal';
             document.getElementById('rbCRoloSuper').style.fontWeight = 'bold';
-			//document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
-            //document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'normal';
 			document.getElementById('rbRoloSuper').style.color = '#FFF';
             document.getElementById('rbCRoloSuper').style.color = '#FFF';
-			//document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
-            //document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
+			document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
+            document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
             document.getElementById('ul3li2m1').className = "";
             document.getElementById('ul3li2m2').className = "activeMenu";
+            document.getElementById('ul3li2m3').className = "";
+            document.getElementById('ul3li2m4').className = "";
             
 			document.getElementById("ul3li2tr1td1").innerText = '0006';
 			document.getElementById("ul3li2tr1td2").innerText = 'Carga Super 180 mm';
@@ -2741,21 +2751,25 @@ Version: 1.3.1
 			
 		});
 
-		/*					   
+							   
 		$('#rbMiniRoloSuper').click(function() {
-			$("#rightImageSuper").attr('src', 'images/18/Super.JPG');
-			document.getElementById('rbRoloSuper').style.fontSize = '1.0em';
+			$("#rightImageSuper").attr('src', 'images/super/mini_500_375.jpg');
+			document.getElementById('rbRoloSuper').style.fontSize = '0.8em';
             document.getElementById('rbCRoloSuper').style.fontSize = '0.8em';
-			document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
+			document.getElementById('rbMiniRoloSuper').style.fontSize = '1.0em';
             document.getElementById('rbCMiniRoloSuper').style.fontSize = '0.8em';
-			document.getElementById('rbRoloSuper').style.fontWeight = 'bold';
+			document.getElementById('rbRoloSuper').style.fontWeight = 'normal';
             document.getElementById('rbCRoloSuper').style.fontWeight = 'normal';
-			document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
+			document.getElementById('rbMiniRoloSuper').style.fontWeight = 'bold';
             document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'normal';
 			document.getElementById('rbRoloSuper').style.color = '#FFF';
             document.getElementById('rbCRoloSuper').style.color = '#FFF';
 			document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
             document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
+            document.getElementById('ul3li2m1').className = "";
+            document.getElementById('ul3li2m2').className = "";
+            document.getElementById('ul3li2m3').className = "activeMenu";
+            document.getElementById('ul3li2m4').className = "";
 			document.getElementById("ul3li2tr1td1").innerText = '';
 			document.getElementById("ul3li2tr1td2").innerText = '';
 			document.getElementById("ul3li2tr1td3").innerText = '';
@@ -2789,19 +2803,23 @@ Version: 1.3.1
 		
         
         $('#rbCMiniRoloSuper').click(function() {
-			$("#rightImageSuper").attr('src', 'images/18/Super.JPG');
-			document.getElementById('rbRoloSuper').style.fontSize = '1.0em';
+			$("#rightImageSuper").attr('src', 'images/super/cargaMini_500_375.jpg');
+			document.getElementById('rbRoloSuper').style.fontSize = '0.8em';
             document.getElementById('rbCRoloSuper').style.fontSize = '0.8em';
 			document.getElementById('rbMiniRoloSuper').style.fontSize = '0.8em';
-            document.getElementById('rbCMiniRoloSuper').style.fontSize = '0.8em';
-			document.getElementById('rbRoloSuper').style.fontWeight = 'bold';
+            document.getElementById('rbCMiniRoloSuper').style.fontSize = '1.0em';
+			document.getElementById('rbRoloSuper').style.fontWeight = 'normal';
             document.getElementById('rbCRoloSuper').style.fontWeight = 'normal';
 			document.getElementById('rbMiniRoloSuper').style.fontWeight = 'normal';
-            document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'normal';
+            document.getElementById('rbCMiniRoloSuper').style.fontWeight = 'bold';
 			document.getElementById('rbRoloSuper').style.color = '#FFF';
             document.getElementById('rbCRoloSuper').style.color = '#FFF';
 			document.getElementById('rbMiniRoloSuper').style.color = '#FFF';
             document.getElementById('rbCMiniRoloSuper').style.color = '#FFF';
+            document.getElementById('ul3li2m1').className = "";
+            document.getElementById('ul3li2m2').className = "";
+            document.getElementById('ul3li2m3').className = "";
+            document.getElementById('ul3li2m4').className = "activeMenu";
 			document.getElementById("ul3li2tr1td1").innerText = '';
 			document.getElementById("ul3li2tr1td2").innerText = '';
 			document.getElementById("ul3li2tr1td3").innerText = '';
@@ -2831,7 +2849,7 @@ Version: 1.3.1
 			document.getElementById("ul3li2tr7td3").innerText = '';
 			document.getElementById("ul3li2tr7td4").innerText = '';
 			
-		});*/
+		});
         
 		
 		//Merino
@@ -2844,20 +2862,20 @@ Version: 1.3.1
 			$("#rightImageMerino").attr('src', 'images/merino/rolo_500_375.jpg');
 			document.getElementById('rbRoloMerino').style.fontSize = '1.0em';
             document.getElementById('rbCRoloMerino').style.fontSize = '0.8em';
-			document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
-            document.getElementById('rbCMiniRoloMerino').style.fontSize = '0.8em';
+			//document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
+            //document.getElementById('rbCMiniRoloMerino').style.fontSize = '0.8em';
 			document.getElementById('rbRoloMerino').style.fontWeight = 'bold';
             document.getElementById('rbCRoloMerino').style.fontWeight = 'normal';
-			document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
-            document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'normal';
+			//document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
+            //document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'normal';
 			document.getElementById('rbRoloMerino').style.color = '#FFF';
             document.getElementById('rbCRoloMerino').style.color = '#FFF';
-			document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
-            document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
+			//document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
+            //document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
             document.getElementById('ul3li3m1').className = "activeMenu";
             document.getElementById('ul3li3m2').className = "";
-            document.getElementById('ul3li3m3').className = "";
-            document.getElementById('ul3li3m4').className = "";
+            //document.getElementById('ul3li3m3').className = "";
+            //document.getElementById('ul3li3m4').className = "";
             
 			document.getElementById("ul3li3tr1td1").innerText = '0069';
 			document.getElementById("ul3li3tr1td2").innerText = 'Rolo Merino 180 mm';
@@ -2896,20 +2914,20 @@ Version: 1.3.1
 			$("#rightImageMerino").attr('src', 'images/merino/carga_500_375.jpg');
 			document.getElementById('rbRoloMerino').style.fontSize = '0.8em';
             document.getElementById('rbCRoloMerino').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
-            document.getElementById('rbCMiniRoloMerino').style.fontSize = '0.8em';
+			//document.getElementById('rbMiniRoloMerino').style.fontSize = '0.8em';
+            //document.getElementById('rbCMiniRoloMerino').style.fontSize = '0.8em';
 			document.getElementById('rbRoloMerino').style.fontWeight = 'normal';
             document.getElementById('rbCRoloMerino').style.fontWeight = 'bold';
-			document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
-            document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'normal';
+			//document.getElementById('rbMiniRoloMerino').style.fontWeight = 'normal';
+            //document.getElementById('rbCMiniRoloMerino').style.fontWeight = 'normal';
 			document.getElementById('rbRoloMerino').style.color = '#FFF';
             document.getElementById('rbCRoloMerino').style.color = '#FFF';
-			document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
-            document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
+			//document.getElementById('rbMiniRoloMerino').style.color = '#FFF';
+            //document.getElementById('rbCMiniRoloMerino').style.color = '#FFF';
             document.getElementById('ul3li3m1').className = "";
             document.getElementById('ul3li3m2').className = "activeMenu";
-            document.getElementById('ul3li3m3').className = "";
-            document.getElementById('ul3li3m4').className = "";
+            //document.getElementById('ul3li3m3').className = "";
+            //document.getElementById('ul3li3m4').className = "";
             
 			document.getElementById("ul3li3tr1td1").innerText = '0026';
 			document.getElementById("ul3li3tr1td2").innerText = 'Carga Merino 180 mm';
@@ -2943,7 +2961,7 @@ Version: 1.3.1
 			
 		});
         
-		$('#rbMiniRoloMerino').click(function() {
+		/*$('#rbMiniRoloMerino').click(function() {
 			$("#rightImageMerino").attr('src', 'images/merino/mini_500_375.jpg');
 			document.getElementById('rbRoloMerino').style.fontSize = '0.8em';
             document.getElementById('rbCRoloMerino').style.fontSize = '0.8em';
@@ -3041,22 +3059,43 @@ Version: 1.3.1
 			document.getElementById("ul3li3tr7td3").innerText = '';
 			document.getElementById("ul3li3tr7td4").innerText = '';
 			
-		});
+		});*/
 		
-		//Menu 18
+        
+        
+		//Acessorios
 		$('#openModelAcessoriosImg').click(function() {
-			document.getElementById("rbMiniRoloAcessorios").click();
+			document.getElementById("accArmacoesN").click();
 		});
 		
 		
-		$('#rbRoloAcessorios').click(function() {
-			$("#rightImageAcessorios").attr('src', 'images/18/Acessorios.JPG');
-			document.getElementById('rbRoloAcessorios').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloAcessorios').style.fontSize = '1.0em';
-			document.getElementById('rbRoloAcessorios').style.fontWeight = 'bold';
-			document.getElementById('rbMiniRoloAcessorios').style.fontWeight = 'normal';
-			document.getElementById('rbRoloAcessorios').style.color = '#FFF';
-			document.getElementById('rbMiniRoloAcessorios').style.color = '#FFF';
+		$('#accArmacoesN').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/armacoes_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '1.0em';
+			document.getElementById('accTabuleiros').style.fontSize = '0.8em';
+            document.getElementById('accBetumadeira').style.fontSize = '0.8em';
+            document.getElementById('accBalde').style.fontSize = '0.8em';
+            document.getElementById('accGrelha').style.fontSize = '0.8em';
+            document.getElementById('accCoberturas').style.fontSize = '0.8em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'bold';
+			document.getElementById('accTabuleiros').style.fontWeight = 'normal';
+            document.getElementById('accBetumadeira').style.fontWeight = 'normal';
+            document.getElementById('accBalde').style.fontWeight = 'normal';
+            document.getElementById('accGrelha').style.fontWeight = 'normal';
+            document.getElementById('accCoberturas').style.fontWeight = 'normal';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accGrelha').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "activeMenu";
+            document.getElementById('ul3li4m2').className = "";
+            document.getElementById('ul3li4m3').className = "";
+            document.getElementById('ul3li4m4').className = "";
+            document.getElementById('ul3li4m5').className = "";
+            document.getElementById('ul3li4m6').className = "";
+            
 			document.getElementById("ul3li4tr1td1").innerText = '';
 			document.getElementById("ul3li4tr1td2").innerText = '';
 			document.getElementById("ul3li4tr1td3").innerText = '';
@@ -3089,14 +3128,33 @@ Version: 1.3.1
 		});
 
 							   
-		$('#rbMiniRoloAcessorios').click(function() {
-			$("#rightImageAcessorios").attr('src', 'images/Menu18/Acessorios.JPG');
-			document.getElementById('rbRoloAcessorios').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloAcessorios').style.fontSize = '1.2em';
-			document.getElementById('rbRoloAcessorios').style.fontWeight = 'normal';
-			document.getElementById('rbMiniRoloAcessorios').style.fontWeight = 'bold';
-			document.getElementById('rbRoloAcessorios').style.color = '#FFF';
-			document.getElementById('rbMiniRoloAcessorios').style.color = '#FFF';
+		$('#accTabuleirosN').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/tabuleiros_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '0.8em';
+			document.getElementById('accTabuleiros').style.fontSize = '1.0em';
+            document.getElementById('accBetumadeira').style.fontSize = '0.8em';
+            document.getElementById('accBalde').style.fontSize = '0.8em';
+            document.getElementById('accGrelha').style.fontSize = '0.8em';
+            document.getElementById('accCoberturas').style.fontSize = '0.8em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'normal';
+			document.getElementById('accTabuleiros').style.fontWeight = 'bold';
+            document.getElementById('accBetumadeira').style.fontWeight = 'normal';
+            document.getElementById('accBalde').style.fontWeight = 'normal';
+            document.getElementById('accGrelha').style.fontWeight = 'normal';
+            document.getElementById('accCoberturas').style.fontWeight = 'normal';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accGrelha').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "";
+            document.getElementById('ul3li4m2').className = "activeMenu";
+            document.getElementById('ul3li4m3').className = "";
+            document.getElementById('ul3li4m4').className = "";
+            document.getElementById('ul3li4m5').className = "";
+            document.getElementById('ul3li4m6').className = "";
+            
 			document.getElementById("ul3li4tr1td1").innerText = '';
 			document.getElementById("ul3li4tr1td2").innerText = '';
 			document.getElementById("ul3li4tr1td3").innerText = '';
@@ -3127,6 +3185,248 @@ Version: 1.3.1
 			document.getElementById("ul3li4tr7td4").innerText = '';
 			
 		});
+        
+        
+        $('#accBetumadeira').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/espatula_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '0.8em';
+			document.getElementById('accTabuleiros').style.fontSize = '0.8em';
+            document.getElementById('accBetumadeira').style.fontSize = '1.0em';
+            document.getElementById('accBalde').style.fontSize = '0.8em';
+            document.getElementById('accGrelha').style.fontSize = '0.8em';
+            document.getElementById('accCoberturas').style.fontSize = '0.8em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'normal';
+			document.getElementById('accTabuleiros').style.fontWeight = 'normal';
+            document.getElementById('accBetumadeira').style.fontWeight = 'bold';
+            document.getElementById('accBalde').style.fontWeight = 'normal';
+            document.getElementById('accGrelha').style.fontWeight = 'normal';
+            document.getElementById('accCoberturas').style.fontWeight = 'normal';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accGrelha').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "";
+            document.getElementById('ul3li4m2').className = "";
+            document.getElementById('ul3li4m3').className = "activeMenu";
+            document.getElementById('ul3li4m4').className = "";
+            document.getElementById('ul3li4m5').className = "";
+            document.getElementById('ul3li4m6').className = "";
+            
+			document.getElementById("ul3li4tr1td1").innerText = '';
+			document.getElementById("ul3li4tr1td2").innerText = '';
+			document.getElementById("ul3li4tr1td3").innerText = '';
+			document.getElementById("ul3li4tr1td4").innerText = '';
+			document.getElementById("ul3li4tr2td1").innerText = '';
+			document.getElementById("ul3li4tr2td2").innerText = '';
+			document.getElementById("ul3li4tr2td3").innerText = '';
+			document.getElementById("ul3li4tr2td4").innerText = '';
+			document.getElementById("ul3li4tr3td1").innerText = '';
+			document.getElementById("ul3li4tr3td2").innerText = '';
+			document.getElementById("ul3li4tr3td3").innerText = '';
+			document.getElementById("ul3li4tr3td4").innerText = '';
+			document.getElementById("ul3li4tr4td1").innerText = '';
+			document.getElementById("ul3li4tr4td2").innerText = '';
+			document.getElementById("ul3li4tr4td3").innerText = '';
+			document.getElementById("ul3li4tr4td4").innerText = '';
+			document.getElementById("ul3li4tr5td1").innerText = '';
+			document.getElementById("ul3li4tr5td2").innerText = '';
+			document.getElementById("ul3li4tr5td3").innerText = '';
+			document.getElementById("ul3li4tr5td4").innerText = '';
+			document.getElementById("ul3li4tr6td1").innerText = '';
+			document.getElementById("ul3li4tr6td2").innerText = '';
+			document.getElementById("ul3li4tr6td3").innerText = '';
+			document.getElementById("ul3li4tr6td4").innerText = '';
+			document.getElementById("ul3li4tr7td1").innerText = '';
+			document.getElementById("ul3li4tr7td2").innerText = '';
+			document.getElementById("ul3li4tr7td3").innerText = '';
+			document.getElementById("ul3li4tr7td4").innerText = '';
+			
+		});
+        
+        $('#accBaldeN').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/balde_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '0.8em';
+			document.getElementById('accTabuleiros').style.fontSize = '0.8em';
+            document.getElementById('accBetumadeira').style.fontSize = '0.8em';
+            document.getElementById('accBalde').style.fontSize = '1.0em';
+            document.getElementById('accGrelha').style.fontSize = '0.8em';
+            document.getElementById('accCoberturas').style.fontSize = '0.8em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'normal';
+			document.getElementById('accTabuleiros').style.fontWeight = 'normal';
+            document.getElementById('accBetumadeira').style.fontWeight = 'normal';
+            document.getElementById('accBalde').style.fontWeight = 'bold';
+            document.getElementById('accGrelha').style.fontWeight = 'normal';
+            document.getElementById('accCoberturas').style.fontWeight = 'normal';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accGrelha').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "";
+            document.getElementById('ul3li4m2').className = "";
+            document.getElementById('ul3li4m3').className = "";
+            document.getElementById('ul3li4m4').className = "activeMenu";
+            document.getElementById('ul3li4m5').className = "";
+            document.getElementById('ul3li4m6').className = "";
+            
+			document.getElementById("ul3li4tr1td1").innerText = '';
+			document.getElementById("ul3li4tr1td2").innerText = '';
+			document.getElementById("ul3li4tr1td3").innerText = '';
+			document.getElementById("ul3li4tr1td4").innerText = '';
+			document.getElementById("ul3li4tr2td1").innerText = '';
+			document.getElementById("ul3li4tr2td2").innerText = '';
+			document.getElementById("ul3li4tr2td3").innerText = '';
+			document.getElementById("ul3li4tr2td4").innerText = '';
+			document.getElementById("ul3li4tr3td1").innerText = '';
+			document.getElementById("ul3li4tr3td2").innerText = '';
+			document.getElementById("ul3li4tr3td3").innerText = '';
+			document.getElementById("ul3li4tr3td4").innerText = '';
+			document.getElementById("ul3li4tr4td1").innerText = '';
+			document.getElementById("ul3li4tr4td2").innerText = '';
+			document.getElementById("ul3li4tr4td3").innerText = '';
+			document.getElementById("ul3li4tr4td4").innerText = '';
+			document.getElementById("ul3li4tr5td1").innerText = '';
+			document.getElementById("ul3li4tr5td2").innerText = '';
+			document.getElementById("ul3li4tr5td3").innerText = '';
+			document.getElementById("ul3li4tr5td4").innerText = '';
+			document.getElementById("ul3li4tr6td1").innerText = '';
+			document.getElementById("ul3li4tr6td2").innerText = '';
+			document.getElementById("ul3li4tr6td3").innerText = '';
+			document.getElementById("ul3li4tr6td4").innerText = '';
+			document.getElementById("ul3li4tr7td1").innerText = '';
+			document.getElementById("ul3li4tr7td2").innerText = '';
+			document.getElementById("ul3li4tr7td3").innerText = '';
+			document.getElementById("ul3li4tr7td4").innerText = '';
+			
+		});
+        
+        $('#accGrelhaN').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/grelha_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '0.8em';
+			document.getElementById('accTabuleiros').style.fontSize = '0.8em';
+            document.getElementById('accBetumadeira').style.fontSize = '0.8em';
+            document.getElementById('accBalde').style.fontSize = '0.8em';
+            document.getElementById('accGrelha').style.fontSize = '1.0em';
+            document.getElementById('accCoberturas').style.fontSize = '0.8em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'normal';
+			document.getElementById('accTabuleiros').style.fontWeight = 'normal';
+            document.getElementById('accBetumadeira').style.fontWeight = 'normal';
+            document.getElementById('accBalde').style.fontWeight = 'normal';
+            document.getElementById('accGrelha').style.fontWeight = 'bold';
+            document.getElementById('accCoberturas').style.fontWeight = 'normal';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accGrelha').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "";
+            document.getElementById('ul3li4m2').className = "";
+            document.getElementById('ul3li4m3').className = "";
+            document.getElementById('ul3li4m4').className = "";
+            document.getElementById('ul3li4m5').className = "activeMenu";
+            document.getElementById('ul3li4m6').className = "";
+            
+			document.getElementById("ul3li4tr1td1").innerText = '';
+			document.getElementById("ul3li4tr1td2").innerText = '';
+			document.getElementById("ul3li4tr1td3").innerText = '';
+			document.getElementById("ul3li4tr1td4").innerText = '';
+			document.getElementById("ul3li4tr2td1").innerText = '';
+			document.getElementById("ul3li4tr2td2").innerText = '';
+			document.getElementById("ul3li4tr2td3").innerText = '';
+			document.getElementById("ul3li4tr2td4").innerText = '';
+			document.getElementById("ul3li4tr3td1").innerText = '';
+			document.getElementById("ul3li4tr3td2").innerText = '';
+			document.getElementById("ul3li4tr3td3").innerText = '';
+			document.getElementById("ul3li4tr3td4").innerText = '';
+			document.getElementById("ul3li4tr4td1").innerText = '';
+			document.getElementById("ul3li4tr4td2").innerText = '';
+			document.getElementById("ul3li4tr4td3").innerText = '';
+			document.getElementById("ul3li4tr4td4").innerText = '';
+			document.getElementById("ul3li4tr5td1").innerText = '';
+			document.getElementById("ul3li4tr5td2").innerText = '';
+			document.getElementById("ul3li4tr5td3").innerText = '';
+			document.getElementById("ul3li4tr5td4").innerText = '';
+			document.getElementById("ul3li4tr6td1").innerText = '';
+			document.getElementById("ul3li4tr6td2").innerText = '';
+			document.getElementById("ul3li4tr6td3").innerText = '';
+			document.getElementById("ul3li4tr6td4").innerText = '';
+			document.getElementById("ul3li4tr7td1").innerText = '';
+			document.getElementById("ul3li4tr7td2").innerText = '';
+			document.getElementById("ul3li4tr7td3").innerText = '';
+			document.getElementById("ul3li4tr7td4").innerText = '';
+			
+		});
+        
+        $('#accCoberturasN').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/cobertura_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '0.8em';
+			document.getElementById('accTabuleiros').style.fontSize = '0.8em';
+            document.getElementById('accBetumadeira').style.fontSize = '0.8em';
+            document.getElementById('accBalde').style.fontSize = '0.8em';
+            document.getElementById('accGrelha').style.fontSize = '0.8em';
+            document.getElementById('accCoberturas').style.fontSize = '1.0em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'normal';
+			document.getElementById('accTabuleiros').style.fontWeight = 'normal';
+            document.getElementById('accBetumadeira').style.fontWeight = 'normal';
+            document.getElementById('accBalde').style.fontWeight = 'normal';
+            document.getElementById('accGrelha').style.fontWeight = 'normal';
+            document.getElementById('accCoberturas').style.fontWeight = 'bold';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accGrelha').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "";
+            document.getElementById('ul3li4m2').className = "";
+            document.getElementById('ul3li4m3').className = "";
+            document.getElementById('ul3li4m4').className = "";
+            document.getElementById('ul3li4m5').className = "";
+            document.getElementById('ul3li4m6').className = "activeMenu";
+            
+			document.getElementById("ul3li4tr1td1").innerText = '';
+			document.getElementById("ul3li4tr1td2").innerText = '';
+			document.getElementById("ul3li4tr1td3").innerText = '';
+			document.getElementById("ul3li4tr1td4").innerText = '';
+			document.getElementById("ul3li4tr2td1").innerText = '';
+			document.getElementById("ul3li4tr2td2").innerText = '';
+			document.getElementById("ul3li4tr2td3").innerText = '';
+			document.getElementById("ul3li4tr2td4").innerText = '';
+			document.getElementById("ul3li4tr3td1").innerText = '';
+			document.getElementById("ul3li4tr3td2").innerText = '';
+			document.getElementById("ul3li4tr3td3").innerText = '';
+			document.getElementById("ul3li4tr3td4").innerText = '';
+			document.getElementById("ul3li4tr4td1").innerText = '';
+			document.getElementById("ul3li4tr4td2").innerText = '';
+			document.getElementById("ul3li4tr4td3").innerText = '';
+			document.getElementById("ul3li4tr4td4").innerText = '';
+			document.getElementById("ul3li4tr5td1").innerText = '';
+			document.getElementById("ul3li4tr5td2").innerText = '';
+			document.getElementById("ul3li4tr5td3").innerText = '';
+			document.getElementById("ul3li4tr5td4").innerText = '';
+			document.getElementById("ul3li4tr6td1").innerText = '';
+			document.getElementById("ul3li4tr6td2").innerText = '';
+			document.getElementById("ul3li4tr6td3").innerText = '';
+			document.getElementById("ul3li4tr6td4").innerText = '';
+			document.getElementById("ul3li4tr7td1").innerText = '';
+			document.getElementById("ul3li4tr7td2").innerText = '';
+			document.getElementById("ul3li4tr7td3").innerText = '';
+			document.getElementById("ul3li4tr7td4").innerText = '';
+			
+		});
+        
+        
+        document.getElementById("msgNome").placeholder = "Nome";
+        document.getElementById("msgEmail").placeholder = "Email";
+        document.getElementById("msgAssunto").placeholder = "Assunto";
+        document.getElementById("msgMensagem").placeholder = "Mensagem";
+        document.getElementById("msgEnviar").innerText = "Enviar Mensagem";
+        document.getElementById("msgContacto").innerText = "Contacte-nos !!!";
+        
 		
         
         

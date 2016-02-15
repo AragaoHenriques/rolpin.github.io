@@ -39,24 +39,165 @@ Version: 1.3.1
         //END DOCUMENT.READY FUNCTION
 	});
 	
-    
-    document.getElementsByName('descr')[1].innerHTML = "Description:";
+     document.getElementsByName('descr')[0].innerHTML = "Description:";
         document.getElementsByName('descr')[1].innerHTML = "Description:";
-		document.getElementById('spTecido').innerHTML = "Tissu";
+        document.getElementsByName('descr')[2].innerHTML = "Description:";
+        document.getElementsByName('descr')[3].innerHTML = "Description:";
+        document.getElementsByName('descr')[4].innerHTML = "Description:";
+        document.getElementsByName('descr')[5].innerHTML = "Description:";
+        document.getElementsByName('descr')[6].innerHTML = "Description:";
+        document.getElementsByName('descr')[7].innerHTML = "Description:";
+        document.getElementsByName('descr')[8].innerHTML = "Description:";
+        document.getElementsByName('descr')[9].innerHTML = "Description:";
+        document.getElementsByName('descr')[10].innerHTML = "Description:";
+        //document.getElementsByName('descr')[11].innerHTML = "Description:";
+        
+        
+		document.getElementsByName('spTecido')[0].innerHTML = "Tissu";
+        document.getElementsByName('spTecido')[1].innerHTML = "Tissu";
+        document.getElementsByName('spTecido')[2].innerHTML = "Tissu";
+        document.getElementsByName('spTecido')[3].innerHTML = "Tissu";
+        document.getElementsByName('spTecido')[4].innerHTML = "Tissu";
+        document.getElementsByName('spTecido')[5].innerHTML = "Tissu";
+        document.getElementsByName('spTecido')[6].innerHTML = "Tissu";
+        document.getElementsByName('spTecido')[7].innerHTML = "Tissu";
+        document.getElementsByName('spTecido')[8].innerHTML = "Tissu";
+        document.getElementsByName('spTecido')[9].innerHTML = "Tissu";
+        document.getElementsByName('spTecido')[10].innerHTML = "Tissu";
+        //document.getElementsByName('spTecido')[11].innerHTML = "Tissu";
 		
-		document.getElementById('spAltura').innerHTML = "Hauteur";
+		document.getElementsByName('spAltura')[0].innerHTML = "Hauteur";
+        document.getElementsByName('spAltura')[1].innerHTML = "Hauteur";
+        document.getElementsByName('spAltura')[2].innerHTML = "Hauteur";
+        document.getElementsByName('spAltura')[3].innerHTML = "Hauteur";
+        document.getElementsByName('spAltura')[4].innerHTML = "Hauteur";
+        document.getElementsByName('spAltura')[5].innerHTML = "Hauteur";
+        document.getElementsByName('spAltura')[6].innerHTML = "Hauteur";
+        document.getElementsByName('spAltura')[7].innerHTML = "Hauteur";
+        document.getElementsByName('spAltura')[8].innerHTML = "Hauteur";
+        document.getElementsByName('spAltura')[9].innerHTML = "Hauteur";
+        document.getElementsByName('spAltura')[10].innerHTML = "Hauteur";
+        //document.getElementsByName('spAltura')[11].innerHTML = "Hauteur";
+        
 		
-		document.getElementById('spCor').innerHTML = "Couleur";
+		document.getElementsByName('spCor')[0].innerHTML = "Couleur";
+        document.getElementsByName('spCor')[1].innerHTML = "Couleur";
+        document.getElementsByName('spCor')[2].innerHTML = "Couleur";
+        document.getElementsByName('spCor')[3].innerHTML = "Couleur";
+        document.getElementsByName('spCor')[4].innerHTML = "Couleur";
+        document.getElementsByName('spCor')[5].innerHTML = "Couleur";
+        document.getElementsByName('spCor')[6].innerHTML = "Couleur";
+        document.getElementsByName('spCor')[7].innerHTML = "Couleur";
+        document.getElementsByName('spCor')[8].innerHTML = "Couleur";
+        document.getElementsByName('spCor')[9].innerHTML = "Couleur";
+        document.getElementsByName('spCor')[10].innerHTML = "Couleur";
+        //document.getElementsByName('spCor')[11].innerHTML = "Couleur";
 		
-		document.getElementById('spApp').innerHTML = "Application:";
+		document.getElementsByName('spApp')[0].innerHTML = "Application:";
+        document.getElementsByName('spApp')[1].innerHTML = "Application:";
+        document.getElementsByName('spApp')[2].innerHTML = "Application:";
+        document.getElementsByName('spApp')[3].innerHTML = "Application:";
+        document.getElementsByName('spApp')[4].innerHTML = "Application:";
+        document.getElementsByName('spApp')[5].innerHTML = "Application:";
+        document.getElementsByName('spApp')[6].innerHTML = "Application:";
+        document.getElementsByName('spApp')[7].innerHTML = "Application:";
+        document.getElementsByName('spApp')[8].innerHTML = "Application:";
+        document.getElementsByName('spApp')[9].innerHTML = "Application:";
+        document.getElementsByName('spApp')[10].innerHTML = "Application:";
+        //document.getElementsByName('spApp')[11].innerHTML = "Application:";
 		
-		document.getElementById('spRoloR').innerHTML = "Roller";
-		document.getElementById('spRoloC').innerHTML = "Refill Roller";
-		document.getElementById('spRoloM').innerHTML = "Mini Roller";
-		document.getElementById('spRoloCM').innerHTML = "Refill Mini";
-		document.getElementById('tableCod').innerHTML = "Code";
-		document.getElementById('tableDesc').innerHTML = "Description";
-		document.getElementById('tableUnit').innerHTML = "U/Pack";
+		document.getElementsByName('spRoloR')[0].innerHTML = "Rouleau";
+        document.getElementsByName('spRoloR')[1].innerHTML = "Rouleau";
+        document.getElementsByName('spRoloR')[2].innerHTML = "Rouleau";
+        document.getElementsByName('spRoloR')[3].innerHTML = "Rouleau";
+        document.getElementsByName('spRoloR')[4].innerHTML = "Rouleau";
+        document.getElementsByName('spRoloR')[5].innerHTML = "Rouleau";
+        document.getElementsByName('spRoloR')[6].innerHTML = "Rouleau";
+        document.getElementsByName('spRoloR')[7].innerHTML = "Rouleau";
+        document.getElementsByName('spRoloR')[8].innerHTML = "Rouleau";
+        document.getElementsByName('spRoloR')[9].innerHTML = "Rouleau";
+        document.getElementsByName('spRoloR')[10].innerHTML = "Rouleau";
+        //document.getElementsByName('spRoloR')[11].innerHTML = "Rouleau";
+        
+		document.getElementsByName('spRoloC')[0].innerHTML = "Refill Rouleau";
+        document.getElementsByName('spRoloC')[1].innerHTML = "Refill Rouleau";
+        document.getElementsByName('spRoloC')[2].innerHTML = "Refill Rouleau";
+        document.getElementsByName('spRoloC')[3].innerHTML = "Refill Rouleau";
+        document.getElementsByName('spRoloC')[4].innerHTML = "Refill Rouleau";
+        document.getElementsByName('spRoloC')[5].innerHTML = "Refill Rouleau";
+        document.getElementsByName('spRoloC')[6].innerHTML = "Refill Rouleau";
+        document.getElementsByName('spRoloC')[7].innerHTML = "Refill Rouleau";
+        document.getElementsByName('spRoloC')[8].innerHTML = "Refill Rouleau";
+        document.getElementsByName('spRoloC')[9].innerHTML = "Refill Rouleau";
+        document.getElementsByName('spRoloC')[10].innerHTML = "Refill Rouleau";
+        //document.getElementsByName('spRoloC')[11].innerHTML = "Refill Rouleau";
+        
+		document.getElementsByName('spRoloM')[0].innerHTML = "Mini Rouleau";
+        document.getElementsByName('spRoloM')[1].innerHTML = "Mini Rouleau";
+        document.getElementsByName('spRoloM')[2].innerHTML = "Mini Rouleau";
+        document.getElementsByName('spRoloM')[3].innerHTML = "Mini Rouleau";
+        document.getElementsByName('spRoloM')[4].innerHTML = "Mini Rouleau";
+        document.getElementsByName('spRoloM')[5].innerHTML = "Mini Rouleau";
+        document.getElementsByName('spRoloM')[6].innerHTML = "Mini Rouleau";
+        document.getElementsByName('spRoloM')[7].innerHTML = "Mini Rouleau";
+        //document.getElementsByName('spRoloM')[8].innerHTML = "Mini Rouleau";
+        //document.getElementsByName('spRoloM')[9].innerHTML = "Mini Rouleau";
+        //document.getElementsByName('spRoloM')[10].innerHTML = "Mini Rouleau";
+        //document.getElementsByName('spRoloM')[11].innerHTML = "Mini Rouleau";
+        
+		document.getElementsByName('spRoloCM')[0].innerHTML = "Refill Mini";
+        document.getElementsByName('spRoloCM')[1].innerHTML = "Refill Mini";
+        document.getElementsByName('spRoloCM')[2].innerHTML = "Refill Mini";
+        document.getElementsByName('spRoloCM')[3].innerHTML = "Refill Mini";
+        document.getElementsByName('spRoloCM')[4].innerHTML = "Refill Mini";
+        document.getElementsByName('spRoloCM')[5].innerHTML = "Refill Mini";
+        document.getElementsByName('spRoloCM')[6].innerHTML = "Refill Mini";
+        document.getElementsByName('spRoloCM')[7].innerHTML = "Refill Mini";
+        //document.getElementsByName('spRoloCM')[8].innerHTML = "Refill Mini";
+        //document.getElementsByName('spRoloCM')[9].innerHTML = "Refill Mini";
+        //document.getElementsByName('spRoloCM')[10].innerHTML = "Refill Mini";
+        //document.getElementsByName('spRoloCM')[11].innerHTML = "Refill Mini";
+        
+		document.getElementsByName('tableCod')[0].innerHTML = "Code";
+        document.getElementsByName('tableCod')[1].innerHTML = "Code";
+        document.getElementsByName('tableCod')[2].innerHTML = "Code";
+        document.getElementsByName('tableCod')[3].innerHTML = "Code";
+        document.getElementsByName('tableCod')[4].innerHTML = "Code";
+        document.getElementsByName('tableCod')[5].innerHTML = "Code";
+        document.getElementsByName('tableCod')[6].innerHTML = "Code";
+        document.getElementsByName('tableCod')[7].innerHTML = "Code";
+        document.getElementsByName('tableCod')[8].innerHTML = "Code";
+        document.getElementsByName('tableCod')[9].innerHTML = "Code";
+        document.getElementsByName('tableCod')[10].innerHTML = "Code";
+        //document.getElementsByName('tableCod')[11].innerHTML = "Code";
+        
+        
+		document.getElementsByName('tableDesc')[0].innerHTML = "Description";
+        document.getElementsByName('tableDesc')[1].innerHTML = "Description";
+        document.getElementsByName('tableDesc')[2].innerHTML = "Description";
+        document.getElementsByName('tableDesc')[3].innerHTML = "Description";
+        document.getElementsByName('tableDesc')[4].innerHTML = "Description";
+        document.getElementsByName('tableDesc')[5].innerHTML = "Description";
+        document.getElementsByName('tableDesc')[6].innerHTML = "Description";
+        document.getElementsByName('tableDesc')[7].innerHTML = "Description";
+        document.getElementsByName('tableDesc')[8].innerHTML = "Description";
+        document.getElementsByName('tableDesc')[9].innerHTML = "Description";
+        document.getElementsByName('tableDesc')[10].innerHTML = "Description";
+        //document.getElementsByName('tableDesc')[11].innerHTML = "Description";
+        
+		document.getElementsByName('tableUnit')[0].innerHTML = "U/Pack";
+        document.getElementsByName('tableUnit')[1].innerHTML = "U/Pack";
+        document.getElementsByName('tableUnit')[2].innerHTML = "U/Pack";
+        document.getElementsByName('tableUnit')[3].innerHTML = "U/Pack";
+        document.getElementsByName('tableUnit')[4].innerHTML = "U/Pack";
+        document.getElementsByName('tableUnit')[5].innerHTML = "U/Pack";
+        document.getElementsByName('tableUnit')[6].innerHTML = "U/Pack";
+        document.getElementsByName('tableUnit')[7].innerHTML = "U/Pack";
+        document.getElementsByName('tableUnit')[8].innerHTML = "U/Pack";
+        document.getElementsByName('tableUnit')[9].innerHTML = "U/Pack";
+        document.getElementsByName('tableUnit')[10].innerHTML = "U/Pack";
+        //document.getElementsByName('tableUnit')[11].innerHTML = "U/Pack";
+    
         
         document.getElementById('angoraTitle').innerHTML = "Angorá";
         document.getElementById('rightTitleAng').innerHTML = "Angorá";
@@ -155,13 +296,17 @@ Version: 1.3.1
         document.getElementById('altDescMer').innerHTML = " 25 mm ";
         document.getElementById('corDescMer').innerHTML = "Blanc";
         document.getElementById('spAppDescMer').innerHTML = "Peinture plastique lisse ou areada sur les façades et les murs.";
-		/*document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";
-		document.getElementById('').innerHTML = "";*/
+	
     
+        document.getElementById('accesoriosTitle').innerHTML = "Acessórios";
+		document.getElementById('rightTitleAce').innerHTML = "Acessórios";
+    
+        document.getElementById('accArmacoesN').innerHTML = "Armações";
+		document.getElementById('accTabuleirosN').innerHTML = "Tabuleiros";
+		document.getElementById('accBetumadeiraN').innerHTML = "Betumadeira";
+		document.getElementById('accBaldeN').innerHTML = "Balde";
+		document.getElementById('accGrelhaN').innerHTML = "Grelha";
+		document.getElementById('accCoberturasN').innerHTML = "Coberturas";
     
 	 //Menu 18
 		$('#openModelAngoraImg').click(function() {
@@ -2995,6 +3140,13 @@ Version: 1.3.1
 			document.getElementById("ul3li4tr7td4").innerText = '';
 			
 		});
+    
+            document.getElementById("msgNome").placeholder = "Nom";
+        document.getElementById("msgEmail").placeholder = "Email";
+        document.getElementById("msgAssunto").placeholder = "Sujet";
+        document.getElementById("msgMensagem").placeholder = "Message";
+        document.getElementById("msgEnviar").innerText = "Envoyer un message";
+        document.getElementById("msgContacto").innerText = "Contactez-nous !!!";
 		
 	
 
