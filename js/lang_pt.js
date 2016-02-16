@@ -3099,57 +3099,57 @@ Version: 1.3.1
 			document.getElementById("ul3li4tr1td1").innerText = '0295';
 			document.getElementById("ul3li4tr1td2").innerText = 'Armação Mini c/ Cabo p/ rolo 50 mm';
 			document.getElementById("ul3li4tr1td3").innerText = '';
-			document.getElementById("ul3li4tr1td4").innerText = '';
+			
 			
 			document.getElementById("ul3li4tr2td1").innerText = '0100';
 			document.getElementById("ul3li4tr2td2").innerText = 'Armação Curta c/ Cabo p/ Rolo 100 mm';
 			document.getElementById("ul3li4tr2td3").innerText = '';
-			document.getElementById("ul3li4tr2td4").innerText = '';
+			
 			
 			document.getElementById("ul3li4tr3td1").innerText = '0101';
 			document.getElementById("ul3li4tr3td2").innerText = 'Armação Longa c/ Cabo p/ Rolo 100 mm';
 			document.getElementById("ul3li4tr3td3").innerText = '';
-			document.getElementById("ul3li4tr3td4").innerText = '';
+			
 			
 			document.getElementById("ul3li4tr4td1").innerText = '0341';
 			document.getElementById("ul3li4tr4td2").innerText = 'Armação c/ Cabo p/ Rolo 60 mm';
 			document.getElementById("ul3li4tr4td3").innerText = '';
-			document.getElementById("ul3li4tr4td4").innerText = '';
+			
 			
 			document.getElementById("ul3li4tr5td1").innerText = '0339';
 			document.getElementById("ul3li4tr5td2").innerText = 'Armação c/ Cabo p/ Rolo 100 mm';
 			document.getElementById("ul3li4tr5td3").innerText = '';
-			document.getElementById("ul3li4tr5td4").innerText = '';
+			
 			
 			document.getElementById("ul3li4tr6td1").innerText = '0282';
 			document.getElementById("ul3li4tr6td2").innerText = 'Armação c/ Cabo p/ Rolo 150 mm';
 			document.getElementById("ul3li4tr6td3").innerText = '';
-			document.getElementById("ul3li4tr6td4").innerText = '';
+			
 			
 			document.getElementById("ul3li4tr7td1").innerText = '0305';
 			document.getElementById("ul3li4tr7td2").innerText = 'Armação c/ Cabo p/ Rolo 180 mm';
 			document.getElementById("ul3li4tr7td3").innerText = '';	
-			document.getElementById("ul3li4tr7td4").innerText = '';
 			
-			document.getElementById("ul3li4tr8td1").innerText = '0297'
+			
+			document.getElementById("ul3li4tr8td1").innerText = '0297';
 			document.getElementById("ul3li4tr8td2").innerText = 'Armação c/ Cabo p/ Rolo 220 mm';
 			document.getElementById("ul3li4tr8td3").innerText = '';
-			document.getElementById("ul3li4tr8td4").innerText = '';
 			
-			document.getElementById("ul3li4tr9td1").innerText = '0300'
+			
+			document.getElementById("ul3li4tr9td1").innerText = '0300';
 			document.getElementById("ul3li4tr9td2").innerText = 'Armação c/ Cabo p/ Rolo 250 mm';
 			document.getElementById("ul3li4tr9td3").innerText = '';
-			document.getElementById("ul3li4tr9td4").innerText = '';
 			
-			document.getElementById("ul3li4tr10td1").innerText = '0296'
+			
+			document.getElementById("ul3li4tr10td1").innerText = '0296';
 			document.getElementById("ul3li4tr10td2").innerText = 'Armação p/ Trincha';
 			document.getElementById("ul3li4tr10td3").innerText = '500';
-			document.getElementById("ul3li4tr10td4").innerText = '';
 			
-			document.getElementById("ul3li4tr11td1").innerText = '0332'
+			
+			document.getElementById("ul3li4tr11td1").innerText = '0332';
 			document.getElementById("ul3li4tr11td2").innerText = 'Cabos p/ Rolos de Pintura';
 			document.getElementById("ul3li4tr11td3").innerText = '250';
-			document.getElementById("ul3li4tr11td4").innerText = '';
+			
 			
 
 			
@@ -3187,35 +3187,51 @@ Version: 1.3.1
 			document.getElementById("ul3li4tr1td1").innerText = '0102';
 			document.getElementById("ul3li4tr1td2").innerText = 'Tabuleiro Mini';
 			document.getElementById("ul3li4tr1td3").innerText = '110';
-			document.getElementById("ul3li4tr1td4").innerText = '';
+			
 			
 			document.getElementById("ul3li4tr2td1").innerText = '0103';
 			document.getElementById("ul3li4tr2td2").innerText = 'Tabuleiro Pequeno';
 			document.getElementById("ul3li4tr2td3").innerText = '20';
-			document.getElementById("ul3li4tr2td4").innerText = '';
+			
 			
 			document.getElementById("ul3li4tr3td1").innerText = '0104';
 			document.getElementById("ul3li4tr3td2").innerText = 'Tabuleiro Grande';
 			document.getElementById("ul3li4tr3td3").innerText = '20';
-			document.getElementById("ul3li4tr3td4").innerText = '';
 			
 			document.getElementById("ul3li4tr4td1").innerText = '0304';
 			document.getElementById("ul3li4tr4td2").innerText = 'Pega p/ Tabuleiros';
 			document.getElementById("ul3li4tr4td3").innerText = '200';
-			document.getElementById("ul3li4tr4td4").innerText = '';
 			
 			document.getElementById("ul3li4tr5td1").innerText = '';
 			document.getElementById("ul3li4tr5td2").innerText = '';
 			document.getElementById("ul3li4tr5td3").innerText = '';
-			document.getElementById("ul3li4tr5td4").innerText = '';
+            
 			document.getElementById("ul3li4tr6td1").innerText = '';
 			document.getElementById("ul3li4tr6td2").innerText = '';
 			document.getElementById("ul3li4tr6td3").innerText = '';
-			document.getElementById("ul3li4tr6td4").innerText = '';
 			document.getElementById("ul3li4tr7td1").innerText = '';
 			document.getElementById("ul3li4tr7td2").innerText = '';
 			document.getElementById("ul3li4tr7td3").innerText = '';
-			document.getElementById("ul3li4tr7td4").innerText = '';
+            
+            
+            document.getElementById("ul3li4tr8td1").innerText = '';
+			document.getElementById("ul3li4tr8td2").innerText = '';
+			document.getElementById("ul3li4tr8td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr9td1").innerText = '';
+			document.getElementById("ul3li4tr9td2").innerText = '';
+			document.getElementById("ul3li4tr9td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr10td1").innerText = '';
+			document.getElementById("ul3li4tr10td2").innerText = '';
+			document.getElementById("ul3li4tr10td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr11td1").innerText = '';
+			document.getElementById("ul3li4tr11td2").innerText = '';
+			document.getElementById("ul3li4tr11td3").innerText = '';
 			
 		});
         
@@ -3250,52 +3266,48 @@ Version: 1.3.1
 			document.getElementById("ul3li4tr1td1").innerText = '0112';
 			document.getElementById("ul3li4tr1td2").innerText = 'Betumadeira em Aço 40 mm';
 			document.getElementById("ul3li4tr1td3").innerText = '12';
-			document.getElementById("ul3li4tr1td4").innerText = '';
 			
 			document.getElementById("ul3li4tr2td1").innerText = '0113';
 			document.getElementById("ul3li4tr2td2").innerText = 'Betumadeira em Aço 50 mm ';
 			document.getElementById("ul3li4tr2td3").innerText = '12';
-			document.getElementById("ul3li4tr2td4").innerText = '';
 			
 			document.getElementById("ul3li4tr3td1").innerText = '0114';
 			document.getElementById("ul3li4tr3td2").innerText = 'Betumadeira em Aço 60 mm';
 			document.getElementById("ul3li4tr3td3").innerText = '12';
-			document.getElementById("ul3li4tr3td4").innerText = '';
 			
 			document.getElementById("ul3li4tr4td1").innerText = '0115';
 			document.getElementById("ul3li4tr4td2").innerText = 'Betumadeira em Aço 80 mm';
 			document.getElementById("ul3li4tr4td3").innerText = '12';
-			document.getElementById("ul3li4tr4td4").innerText = '';
 			
 			document.getElementById("ul3li4tr5td1").innerText = '0116';
 			document.getElementById("ul3li4tr5td2").innerText = 'Betumadeira em Aço 100 mm';
 			document.getElementById("ul3li4tr5td3").innerText = '12';
-			document.getElementById("ul3li4tr5td4").innerText = '';
 			
 			document.getElementById("ul3li4tr6td1").innerText = '0117';
 			document.getElementById("ul3li4tr6td2").innerText = 'Betumadeira edm Aço 120 mm';
 			document.getElementById("ul3li4tr6td3").innerText = '12';
-			document.getElementById("ul3li4tr6td4").innerText = '';
 			
 			document.getElementById("ul3li4tr7td1").innerText = '0118';
 			document.getElementById("ul3li4tr7td2").innerText = 'Betumadeira em Inox 40 mm';
 			document.getElementById("ul3li4tr7td3").innerText = '12';
-			document.getElementById("ul3li4tr7td4").innerText = '';
 			
 			document.getElementById("ul3li4tr8td1").innerText = '0119';
 			document.getElementById("ul3li4tr8td2").innerText = 'Betumadeira em Inox 60 mm';
 			document.getElementById("ul3li4tr8td3").innerText = '12';
-			document.getElementById("ul3li4tr8td4").innerText = '';
 			
 			document.getElementById("ul3li4tr9td1").innerText = '0120';
 			document.getElementById("ul3li4tr9td2").innerText = 'Betumadeira em Inox 80 mm';
 			document.getElementById("ul3li4tr9td3").innerText = '12';
-			document.getElementById("ul3li4tr9td4").innerText = '';
 			
 			document.getElementById("ul3li4tr10td1").innerText = '0121';
 			document.getElementById("ul3li4tr10td2").innerText = 'Betumadeira em Inox 100 mm';
 			document.getElementById("ul3li4tr10td3").innerText = '12';
-			document.getElementById("ul3li4tr20td4").innerText = '';
+
+			
+			
+			document.getElementById("ul3li4tr11td1").innerText = '';
+			document.getElementById("ul3li4tr11td2").innerText = '';
+			document.getElementById("ul3li4tr11td3").innerText = '';
 		});
         
         $('#accBaldeN').click(function() {
@@ -3328,36 +3340,47 @@ Version: 1.3.1
 			document.getElementById("ul3li4tr1td1").innerText = '0302';
 			document.getElementById("ul3li4tr1td2").innerText = 'Balde de Pintura 8 L.';
 			document.getElementById("ul3li4tr1td3").innerText = '';
-			document.getElementById("ul3li4tr1td4").innerText = '';
 			
 			document.getElementById("ul3li4tr2td1").innerText = '0105';
 			document.getElementById("ul3li4tr2td2").innerText = 'Balde de Pintura 12 L.';
 			document.getElementById("ul3li4tr2td3").innerText = '';
-			document.getElementById("ul3li4tr2td4").innerText = '';
 			
 			document.getElementById("ul3li4tr3td1").innerText = '0281';
 			document.getElementById("ul3li4tr3td2").innerText = 'Balde de Pintura 14 L.';
 			document.getElementById("ul3li4tr3td3").innerText = '';
-			document.getElementById("ul3li4tr3td4").innerText = '';
 			
 			document.getElementById("ul3li4tr4td1").innerText = '0334';
 			document.getElementById("ul3li4tr4td2").innerText = 'Balde de Pintura 16 L.';
 			document.getElementById("ul3li4tr4td3").innerText = '';
-			document.getElementById("ul3li4tr4td4").innerText = '';
 			
 			document.getElementById("ul3li4tr5td1").innerText = '0106';
 			document.getElementById("ul3li4tr5td2").innerText = 'Grelha p/ Balde de Pintura';
 			document.getElementById("ul3li4tr5td3").innerText = '';
-			document.getElementById("ul3li4tr5td4").innerText = '';
 			
 			document.getElementById("ul3li4tr6td1").innerText = '';
 			document.getElementById("ul3li4tr6td2").innerText = '';
 			document.getElementById("ul3li4tr6td3").innerText = '';
-			document.getElementById("ul3li4tr6td4").innerText = '';
 			document.getElementById("ul3li4tr7td1").innerText = '';
 			document.getElementById("ul3li4tr7td2").innerText = '';
 			document.getElementById("ul3li4tr7td3").innerText = '';
-			document.getElementById("ul3li4tr7td4").innerText = '';
+            document.getElementById("ul3li4tr8td1").innerText = '';
+			document.getElementById("ul3li4tr8td2").innerText = '';
+			document.getElementById("ul3li4tr8td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr9td1").innerText = '';
+			document.getElementById("ul3li4tr9td2").innerText = '';
+			document.getElementById("ul3li4tr9td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr10td1").innerText = '';
+			document.getElementById("ul3li4tr10td2").innerText = '';
+			document.getElementById("ul3li4tr10td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr11td1").innerText = '';
+			document.getElementById("ul3li4tr11td2").innerText = '';
+			document.getElementById("ul3li4tr11td3").innerText = '';
 			
 		});
         
@@ -3391,31 +3414,42 @@ Version: 1.3.1
 			document.getElementById("ul3li4tr1td1").innerText = '';
 			document.getElementById("ul3li4tr1td2").innerText = '';
 			document.getElementById("ul3li4tr1td3").innerText = '';
-			document.getElementById("ul3li4tr1td4").innerText = '';
 			document.getElementById("ul3li4tr2td1").innerText = '';
 			document.getElementById("ul3li4tr2td2").innerText = '';
 			document.getElementById("ul3li4tr2td3").innerText = '';
-			document.getElementById("ul3li4tr2td4").innerText = '';
 			document.getElementById("ul3li4tr3td1").innerText = '';
 			document.getElementById("ul3li4tr3td2").innerText = '';
 			document.getElementById("ul3li4tr3td3").innerText = '';
-			document.getElementById("ul3li4tr3td4").innerText = '';
 			document.getElementById("ul3li4tr4td1").innerText = '';
 			document.getElementById("ul3li4tr4td2").innerText = '';
 			document.getElementById("ul3li4tr4td3").innerText = '';
-			document.getElementById("ul3li4tr4td4").innerText = '';
 			document.getElementById("ul3li4tr5td1").innerText = '';
 			document.getElementById("ul3li4tr5td2").innerText = '';
 			document.getElementById("ul3li4tr5td3").innerText = '';
-			document.getElementById("ul3li4tr5td4").innerText = '';
 			document.getElementById("ul3li4tr6td1").innerText = '';
 			document.getElementById("ul3li4tr6td2").innerText = '';
 			document.getElementById("ul3li4tr6td3").innerText = '';
-			document.getElementById("ul3li4tr6td4").innerText = '';
 			document.getElementById("ul3li4tr7td1").innerText = '';
 			document.getElementById("ul3li4tr7td2").innerText = '';
 			document.getElementById("ul3li4tr7td3").innerText = '';
-			document.getElementById("ul3li4tr7td4").innerText = '';
+            document.getElementById("ul3li4tr8td1").innerText = '';
+			document.getElementById("ul3li4tr8td2").innerText = '';
+			document.getElementById("ul3li4tr8td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr9td1").innerText = '';
+			document.getElementById("ul3li4tr9td2").innerText = '';
+			document.getElementById("ul3li4tr9td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr10td1").innerText = '';
+			document.getElementById("ul3li4tr10td2").innerText = '';
+			document.getElementById("ul3li4tr10td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr11td1").innerText = '';
+			document.getElementById("ul3li4tr11td2").innerText = '';
+			document.getElementById("ul3li4tr11td3").innerText = '';
 			
 		});
         
@@ -3449,33 +3483,44 @@ Version: 1.3.1
 			document.getElementById("ul3li4tr1td1").innerText = '0109';
 			document.getElementById("ul3li4tr1td2").innerText = 'Cobertura Plástica Fina 5 MY 2 metros';
 			document.getElementById("ul3li4tr1td3").innerText = '20';
-			document.getElementById("ul3li4tr1td4").innerText = '';
 			
 			document.getElementById("ul3li4tr2td1").innerText = '0108';
 			document.getElementById("ul3li4tr2td2").innerText = 'Cobertura Plástica Fina 5 MY 3 metros';
 			document.getElementById("ul3li4tr2td3").innerText = '10';
-			document.getElementById("ul3li4tr2td4").innerText = '';
 			
 			document.getElementById("ul3li4tr3td1").innerText = '';
 			document.getElementById("ul3li4tr3td2").innerText = '';
 			document.getElementById("ul3li4tr3td3").innerText = '';
-			document.getElementById("ul3li4tr3td4").innerText = '';
 			document.getElementById("ul3li4tr4td1").innerText = '';
 			document.getElementById("ul3li4tr4td2").innerText = '';
 			document.getElementById("ul3li4tr4td3").innerText = '';
-			document.getElementById("ul3li4tr4td4").innerText = '';
 			document.getElementById("ul3li4tr5td1").innerText = '';
 			document.getElementById("ul3li4tr5td2").innerText = '';
 			document.getElementById("ul3li4tr5td3").innerText = '';
-			document.getElementById("ul3li4tr5td4").innerText = '';
 			document.getElementById("ul3li4tr6td1").innerText = '';
 			document.getElementById("ul3li4tr6td2").innerText = '';
 			document.getElementById("ul3li4tr6td3").innerText = '';
-			document.getElementById("ul3li4tr6td4").innerText = '';
 			document.getElementById("ul3li4tr7td1").innerText = '';
 			document.getElementById("ul3li4tr7td2").innerText = '';
 			document.getElementById("ul3li4tr7td3").innerText = '';
-			document.getElementById("ul3li4tr7td4").innerText = '';
+            document.getElementById("ul3li4tr8td1").innerText = '';
+			document.getElementById("ul3li4tr8td2").innerText = '';
+			document.getElementById("ul3li4tr8td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr9td1").innerText = '';
+			document.getElementById("ul3li4tr9td2").innerText = '';
+			document.getElementById("ul3li4tr9td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr10td1").innerText = '';
+			document.getElementById("ul3li4tr10td2").innerText = '';
+			document.getElementById("ul3li4tr10td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr11td1").innerText = '';
+			document.getElementById("ul3li4tr11td2").innerText = '';
+			document.getElementById("ul3li4tr11td3").innerText = '';
 			
 		});
         
