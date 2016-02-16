@@ -394,7 +394,6 @@ Version: 1.3.1
 		initContactForm();
 		
 		
-		
 
 //END DOCUMENT.READY FUNCTION
 	});

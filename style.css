@@ -3064,11 +3064,8 @@ ul.img-list li {
     z-index: 998;
     position: relative;
     cursor: url(/images/roloPointer.png), auto;
-    
-    
-    
-	
 }
+
 
 span.text-content {
   background: rgba(0,0,0,0.5);
