@@ -238,7 +238,7 @@ Version: 1.3.1
 		document.getElementById('rightTitleEsp').innerHTML = "Espuma";
         
         document.getElementById('tecDescEsp').innerHTML = "Mousse Polyester";
-        document.getElementById('altDescEsp').innerHTML = " 4,5 mm ";
+        document.getElementById('altDescEsp').innerHTML = " ";
         document.getElementById('corDescEsp').innerHTML = "Blanc";
         document.getElementById('spAppDescEsp').innerHTML = "Peintures aqueuse pour coins.";
         
@@ -298,15 +298,14 @@ Version: 1.3.1
         document.getElementById('spAppDescMer').innerHTML = "Peinture plastique lisse ou areada sur les façades et les murs.";
 	
     
-        document.getElementById('accesoriosTitle').innerHTML = "Acessórios";
-		document.getElementById('rightTitleAce').innerHTML = "Acessórios";
+        document.getElementById('accesoriosTitle').innerHTML = "Accessoires";
+		document.getElementById('rightTitleAce').innerHTML = "Accessoires";
     
-        document.getElementById('accArmacoesN').innerHTML = "Armações";
-		document.getElementById('accTabuleirosN').innerHTML = "Tabuleiros";
-		document.getElementById('accBetumadeiraN').innerHTML = "Betumadeira";
-		document.getElementById('accBaldeN').innerHTML = "Balde";
-		document.getElementById('accGrelhaN').innerHTML = "Grelha";
-		document.getElementById('accCoberturasN').innerHTML = "Coberturas";
+        document.getElementById('accArmacoesN').innerHTML = "Manches pour Rouleaux";
+		document.getElementById('accTabuleirosN').innerHTML = "Bac à Peinture";
+		document.getElementById('accBetumadeiraN').innerHTML = "Couteau de Peintre";
+		document.getElementById('accBaldeN').innerHTML = "Seau à Peinture";
+		document.getElementById('accCoberturasN').innerHTML = "Bâche de Protection";
     
 	 //Menu 18
 		$('#openModelAngoraImg').click(function() {
@@ -2522,7 +2521,7 @@ Version: 1.3.1
 			document.getElementById("ul3li1tr4td4").innerText = '';
 			
 			document.getElementById("ul3li1tr5td1").innerText = '0079';
-			document.getElementById("ul3li1tr5td2").innerText = 'Rouleau Rugo Canto';
+			document.getElementById("ul3li1tr5td2").innerText = 'Rouleau Rugo pour Coins';
 			document.getElementById("ul3li1tr5td3").innerText = '75';
 			document.getElementById("ul3li1tr5td4").innerText = '';
 
@@ -2570,7 +2569,7 @@ Version: 1.3.1
 			document.getElementById("ul3li1tr4td4").innerText = '';
 		
 			document.getElementById("ul3li1tr5td1").innerText = '0036';
-			document.getElementById("ul3li1tr5td2").innerText = 'Recharge Rugo Canto';
+			document.getElementById("ul3li1tr5td2").innerText = 'Recharge Rugo pour Coins';
 			document.getElementById("ul3li1tr5td3").innerText = '75';
 			document.getElementById("ul3li1tr5td4").innerText = '';
 			
@@ -3056,88 +3055,491 @@ Version: 1.3.1
 		
 		
 		
-		//Menu 18
+		//Acessorios
 		$('#openModelAcessoriosImg').click(function() {
-			document.getElementById("rbMiniRoloAcessorios").click();
+			document.getElementById("accArmacoesN").click();
 		});
 		
 		
-		$('#rbRoloAcessorios').click(function() {
-			$("#rightImageAcessorios").attr('src', 'images/18/Acessorios.JPG');
-			document.getElementById('rbRoloAcessorios').style.fontSize = '1.2em';
-			document.getElementById('rbMiniRoloAcessorios').style.fontSize = '1.0em';
-			document.getElementById('rbRoloAcessorios').style.fontWeight = 'bold';
-			document.getElementById('rbMiniRoloAcessorios').style.fontWeight = 'normal';
-			document.getElementById('rbRoloAcessorios').style.color = '#FFF';
-			document.getElementById('rbMiniRoloAcessorios').style.color = '#FFF';
-			document.getElementById("ul3li4tr1td1").innerText = '';
-			document.getElementById("ul3li4tr1td2").innerText = '';
-			document.getElementById("ul3li4tr1td3").innerText = '';
-			document.getElementById("ul3li4tr1td4").innerText = '';
-			document.getElementById("ul3li4tr2td1").innerText = '';
-			document.getElementById("ul3li4tr2td2").innerText = '';
-			document.getElementById("ul3li4tr2td3").innerText = '';
-			document.getElementById("ul3li4tr2td4").innerText = '';
-			document.getElementById("ul3li4tr3td1").innerText = '';
-			document.getElementById("ul3li4tr3td2").innerText = '';
-			document.getElementById("ul3li4tr3td3").innerText = '';
-			document.getElementById("ul3li4tr3td4").innerText = '';
-			document.getElementById("ul3li4tr4td1").innerText = '';
-			document.getElementById("ul3li4tr4td2").innerText = '';
-			document.getElementById("ul3li4tr4td3").innerText = '';
+		$('#accArmacoesN').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/armacoes_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '1.0em';
+			document.getElementById('accTabuleiros').style.fontSize = '0.8em';
+            document.getElementById('accBetumadeira').style.fontSize = '0.8em';
+            document.getElementById('accBalde').style.fontSize = '0.8em';
+            document.getElementById('accCoberturas').style.fontSize = '0.8em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'bold';
+			document.getElementById('accTabuleiros').style.fontWeight = 'normal';
+            document.getElementById('accBetumadeira').style.fontWeight = 'normal';
+            document.getElementById('accBalde').style.fontWeight = 'normal';
+            document.getElementById('accCoberturas').style.fontWeight = 'normal';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "activeMenu";
+            document.getElementById('ul3li4m2').className = "";
+            document.getElementById('ul3li4m3').className = "";
+            document.getElementById('ul3li4m4').className = "";
+            document.getElementById('ul3li4m5').className = "";
+            document.getElementById('ul3li4m6').className = "";
+            
+			document.getElementById("ul3li4tr1td1").innerText = '0295';
+			document.getElementById("ul3li4tr1td2").innerText = 'Manche pour Mini Rouleau';
+			document.getElementById("ul3li4tr1td3").innerText = '50 mm';
+			document.getElementById("ul3li4tr1td4").innerText = ''
+			
+			document.getElementById("ul3li4tr2td1").innerText = '0100';
+			document.getElementById("ul3li4tr2td2").innerText = 'Manche pour Mini Rouleau';
+			document.getElementById("ul3li4tr2td3").innerText = '100 mm';
+			document.getElementById("ul3li4tr2td4").innerText = ''
+			
+			document.getElementById("ul3li4tr3td1").innerText = '0101';
+			document.getElementById("ul3li4tr3td2").innerText = 'Long Manche pour Mini Rouleau';
+			document.getElementById("ul3li4tr3td3").innerText = '100 mm';
+			document.getElementById("ul3li4tr3td4").innerText = ''
+			
+			document.getElementById("ul3li4tr4td1").innerText = '0341';
+			document.getElementById("ul3li4tr4td2").innerText = 'Manche pour Rouleau 60 mm';
+			document.getElementById("ul3li4tr4td3").innerText = '60 mm';
 			document.getElementById("ul3li4tr4td4").innerText = '';
+			
+			document.getElementById("ul3li4tr5td1").innerText = '0339';
+			document.getElementById("ul3li4tr5td2").innerText = 'Manche pour Rouleau';
+			document.getElementById("ul3li4tr5td3").innerText = '100 mm';
+			document.getElementById("ul3li4tr5td4").innerText = '';
+			
+			document.getElementById("ul3li4tr6td1").innerText = '0282';
+			document.getElementById("ul3li4tr6td2").innerText = 'Manche pour Rouleau';
+			document.getElementById("ul3li4tr6td3").innerText = '150 mm';
+			document.getElementById("ul3li4tr6td4").innerText = '';
+			
+			document.getElementById("ul3li4tr7td1").innerText = '0305';
+			document.getElementById("ul3li4tr7td2").innerText = 'Manche pour Rouleau';
+			document.getElementById("ul3li4tr7td3").innerText = '180 mm';	
+			document.getElementById("ul3li4tr7td4").innerText = '';	
+			
+			document.getElementById("ul3li4tr8td1").innerText = '0297';
+			document.getElementById("ul3li4tr8td2").innerText = 'Manche pour Rouleau';
+			document.getElementById("ul3li4tr8td3").innerText = '220 mm';
+			document.getElementById("ul3li4tr8td4").innerText = '';
+			
+			document.getElementById("ul3li4tr9td1").innerText = '0300';
+			document.getElementById("ul3li4tr9td2").innerText = 'Manche pour Rouleau';
+			document.getElementById("ul3li4tr9td3").innerText = '250 mm';
+			document.getElementById("ul3li4tr9td4").innerText = '';	
+			
+			document.getElementById("ul3li4tr10td1").innerText = '0296';
+			document.getElementById("ul3li4tr10td2").innerText = 'Manche pour Brosses';
+			document.getElementById("ul3li4tr10td3").innerText = '';
+			document.getElementById("ul3li4tr10td4").innerText = '500';	
+			
+			document.getElementById("ul3li4tr11td1").innerText = '0332';
+			document.getElementById("ul3li4tr11td2").innerText = 'Câbles pour Rouleaux';
+			document.getElementById("ul3li4tr11td3").innerText = '';
+			document.getElementById("ul3li4tr11td4").innerText = '250';	
+			
+
+			
+			
+		});
+
+							   
+		$('#accTabuleirosN').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/tabuleiros_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '0.8em';
+			document.getElementById('accTabuleiros').style.fontSize = '1.0em';
+            document.getElementById('accBetumadeira').style.fontSize = '0.8em';
+            document.getElementById('accBalde').style.fontSize = '0.8em';
+            document.getElementById('accCoberturas').style.fontSize = '0.8em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'normal';
+			document.getElementById('accTabuleiros').style.fontWeight = 'bold';
+            document.getElementById('accBetumadeira').style.fontWeight = 'normal';
+            document.getElementById('accBalde').style.fontWeight = 'normal';
+            document.getElementById('accCoberturas').style.fontWeight = 'normal';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "";
+            document.getElementById('ul3li4m2').className = "activeMenu";
+            document.getElementById('ul3li4m3').className = "";
+            document.getElementById('ul3li4m4').className = "";
+            document.getElementById('ul3li4m5').className = "";
+            document.getElementById('ul3li4m6').className = "";
+            
+			document.getElementById("ul3li4tr1td1").innerText = '0102';
+			document.getElementById("ul3li4tr1td2").innerText = 'Bac à Peinture';
+			document.getElementById("ul3li4tr1td3").innerText = 'Mini';
+			document.getElementById("ul3li4tr1td4").innerText = '110';
+			
+			document.getElementById("ul3li4tr2td1").innerText = '0103';
+			document.getElementById("ul3li4tr2td2").innerText = 'Bac à Peinture';
+			document.getElementById("ul3li4tr2td3").innerText = 'Médium';
+			document.getElementById("ul3li4tr2td4").innerText = '20';	
+			
+			document.getElementById("ul3li4tr3td1").innerText = '0104';
+			document.getElementById("ul3li4tr3td2").innerText = 'Bac à Peinture';
+			document.getElementById("ul3li4tr3td3").innerText = 'Grand';
+			document.getElementById("ul3li4tr3td4").innerText = '20';
+			
+			document.getElementById("ul3li4tr4td1").innerText = '0304';
+			document.getElementById("ul3li4tr4td2").innerText = 'Anse Métal pour Bac';
+			document.getElementById("ul3li4tr4td3").innerText = 'Pour Toute Mesure';
+			document.getElementById("ul3li4tr4td4").innerText = '200';
+			
 			document.getElementById("ul3li4tr5td1").innerText = '';
 			document.getElementById("ul3li4tr5td2").innerText = '';
 			document.getElementById("ul3li4tr5td3").innerText = '';
-			document.getElementById("ul3li4tr5td4").innerText = '';
+            document.getElementById("ul3li4tr5td4").innerText = '';
 			document.getElementById("ul3li4tr6td1").innerText = '';
 			document.getElementById("ul3li4tr6td2").innerText = '';
 			document.getElementById("ul3li4tr6td3").innerText = '';
 			document.getElementById("ul3li4tr6td4").innerText = '';
+			document.getElementById("ul3li4tr7td1").innerText = '';
+			document.getElementById("ul3li4tr7td2").innerText = '';
+			document.getElementById("ul3li4tr7td3").innerText = '';
+            document.getElementById("ul3li4tr7td4").innerText = '';
+            
+            document.getElementById("ul3li4tr8td1").innerText = '';
+			document.getElementById("ul3li4tr8td2").innerText = '';
+			document.getElementById("ul3li4tr8td3").innerText = '';
+			document.getElementById("ul3li4tr8td4").innerText = '';
+			
+			document.getElementById("ul3li4tr9td1").innerText = '';
+			document.getElementById("ul3li4tr9td2").innerText = '';
+			document.getElementById("ul3li4tr9td3").innerText = '';
+			document.getElementById("ul3li4tr9td4").innerText = '';
+			
+			document.getElementById("ul3li4tr10td1").innerText = '';
+			document.getElementById("ul3li4tr10td2").innerText = '';
+			document.getElementById("ul3li4tr10td3").innerText = '';
+			document.getElementById("ul3li4tr10td4").innerText = '';
+			
+			document.getElementById("ul3li4tr11td1").innerText = '';
+			document.getElementById("ul3li4tr11td2").innerText = '';
+			document.getElementById("ul3li4tr11td3").innerText = '';
+			document.getElementById("ul3li4tr11td4").innerText = '';
+			
+		});
+        
+        
+        $('#accBetumadeiras').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/espatula_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '0.8em';
+			document.getElementById('accTabuleiros').style.fontSize = '0.8em';
+            document.getElementById('accBetumadeira').style.fontSize = '1.0em';
+            document.getElementById('accBalde').style.fontSize = '0.8em';
+            document.getElementById('accGrelha').style.fontSize = '0.8em';
+            document.getElementById('accCoberturas').style.fontSize = '0.8em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'normal';
+			document.getElementById('accTabuleiros').style.fontWeight = 'normal';
+            document.getElementById('accBetumadeira').style.fontWeight = 'bold';
+            document.getElementById('accBalde').style.fontWeight = 'normal';
+            document.getElementById('accGrelha').style.fontWeight = 'normal';
+            document.getElementById('accCoberturas').style.fontWeight = 'normal';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accGrelha').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "";
+            document.getElementById('ul3li4m2').className = "";
+            document.getElementById('ul3li4m3').className = "activeMenu";
+            document.getElementById('ul3li4m4').className = "";
+            document.getElementById('ul3li4m5').className = "";
+            document.getElementById('ul3li4m6').className = "";
+            
+			document.getElementById("ul3li4tr1td1").innerText = '0112';
+			document.getElementById("ul3li4tr1td2").innerText = 'Couteau de Peintre (Acier)';
+			document.getElementById("ul3li4tr1td3").innerText = '40 mm';
+			document.getElementById("ul3li4tr1td4").innerText = '12';
+			
+			document.getElementById("ul3li4tr2td1").innerText = '0113';
+			document.getElementById("ul3li4tr2td2").innerText = 'Couteau de Peintre (Acier) ';
+			document.getElementById("ul3li4tr2td3").innerText = '50 mm';
+			document.getElementById("ul3li4tr2td4").innerText = '12';
+			
+			document.getElementById("ul3li4tr3td1").innerText = '0114';
+			document.getElementById("ul3li4tr3td2").innerText = 'Couteau de Peintre (Acier)';
+			document.getElementById("ul3li4tr3td3").innerText = '60 mm';
+			document.getElementById("ul3li4tr3td4").innerText = '12';
+			
+			document.getElementById("ul3li4tr4td1").innerText = '0115';
+			document.getElementById("ul3li4tr4td2").innerText = 'Couteau de Peintre (Acier)';
+			document.getElementById("ul3li4tr4td3").innerText = '80 mm';
+			document.getElementById("ul3li4tr4td4").innerText = '12';
+			
+			document.getElementById("ul3li4tr5td1").innerText = '0116';
+			document.getElementById("ul3li4tr5td2").innerText = 'Couteau de Peintre (Acier)';
+			document.getElementById("ul3li4tr5td3").innerText = '100 mm';
+			document.getElementById("ul3li4tr5td4").innerText = '12';
+			
+			document.getElementById("ul3li4tr6td1").innerText = '0117';
+			document.getElementById("ul3li4tr6td2").innerText = 'Couteau de Peintre (Acier)';
+			document.getElementById("ul3li4tr6td3").innerText = '120 mm';
+			document.getElementById("ul3li4tr6td4").innerText = '12';
+			
+			document.getElementById("ul3li4tr7td1").innerText = '0118';
+			document.getElementById("ul3li4tr7td2").innerText = 'Couteau de Peintre (Inox)';
+			document.getElementById("ul3li4tr7td3").innerText = '40 mm';
+			document.getElementById("ul3li4tr7td4").innerText = '12';
+			
+			document.getElementById("ul3li4tr8td1").innerText = '0119';
+			document.getElementById("ul3li4tr8td2").innerText = 'Couteau de Peintre (Inox)';
+			document.getElementById("ul3li4tr8td3").innerText = '60 mm';
+			document.getElementById("ul3li4tr8td4").innerText = '12';
+			
+			document.getElementById("ul3li4tr9td1").innerText = '0120';
+			document.getElementById("ul3li4tr9td2").innerText = 'Couteau de Peintre (Inox)';
+			document.getElementById("ul3li4tr9td3").innerText = '80 mm';
+			document.getElementById("ul3li4tr9td4").innerText = '12';
+			
+			document.getElementById("ul3li4tr10td1").innerText = '0121';
+			document.getElementById("ul3li4tr10td2").innerText = 'Couteau de Peintre (Inox)';
+			document.getElementById("ul3li4tr10td3").innerText = '100 mm';
+			document.getElementById("ul3li4tr10td4").innerText = '12';
+						
+			document.getElementById("ul3li4tr11td1").innerText = '';
+			document.getElementById("ul3li4tr11td2").innerText = '';
+			document.getElementById("ul3li4tr11td3").innerText = '';
+			document.getElementById("ul3li4tr11td4").innerText = '';
+		});
+        
+        $('#accBaldeN').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/balde_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '0.8em';
+			document.getElementById('accTabuleiros').style.fontSize = '0.8em';
+            document.getElementById('accBetumadeira').style.fontSize = '0.8em';
+            document.getElementById('accBalde').style.fontSize = '1.0em';
+            document.getElementById('accGrelha').style.fontSize = '0.8em';
+            document.getElementById('accCoberturas').style.fontSize = '0.8em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'normal';
+			document.getElementById('accTabuleiros').style.fontWeight = 'normal';
+            document.getElementById('accBetumadeira').style.fontWeight = 'normal';
+            document.getElementById('accBalde').style.fontWeight = 'bold';
+            document.getElementById('accGrelha').style.fontWeight = 'normal';
+            document.getElementById('accCoberturas').style.fontWeight = 'normal';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accGrelha').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "";
+            document.getElementById('ul3li4m2').className = "";
+            document.getElementById('ul3li4m3').className = "";
+            document.getElementById('ul3li4m4').className = "activeMenu";
+            document.getElementById('ul3li4m5').className = "";
+            document.getElementById('ul3li4m6').className = "";
+            
+			document.getElementById("ul3li4tr1td1").innerText = '0302';
+			document.getElementById("ul3li4tr1td2").innerText = 'Seau à Peinture';
+			document.getElementById("ul3li4tr1td3").innerText = '8 Lts';
+			document.getElementById("ul3li4tr1td4").innerText = '';
+			
+			document.getElementById("ul3li4tr2td1").innerText = '0105';
+			document.getElementById("ul3li4tr2td2").innerText = 'Seau à Peinture';
+			document.getElementById("ul3li4tr2td3").innerText = '12 Lts';
+			document.getElementById("ul3li4tr2td4").innerText = '';
+			
+			document.getElementById("ul3li4tr3td1").innerText = '0281';
+			document.getElementById("ul3li4tr3td2").innerText = 'Seau à Peinture';
+			document.getElementById("ul3li4tr3td3").innerText = '14 Lts';
+			document.getElementById("ul3li4tr3td4").innerText = '';
+
+			document.getElementById("ul3li4tr4td1").innerText = '0334';
+			document.getElementById("ul3li4tr4td2").innerText = 'Seau à Peinture';
+			document.getElementById("ul3li4tr4td3").innerText = '16 Lts';
+			document.getElementById("ul3li4tr4td4").innerText = '';
+			
+			document.getElementById("ul3li4tr5td1").innerText = '0106';
+			document.getElementById("ul3li4tr5td2").innerText = 'Grille pour Seau à Peinture';
+			document.getElementById("ul3li4tr5td3").innerText = '';
+			document.getElementById("ul3li4tr5td4").innerText = '';
+		
+			document.getElementById("ul3li4tr6td1").innerText = '';
+			document.getElementById("ul3li4tr6td2").innerText = '';
+			document.getElementById("ul3li4tr6td3").innerText = '';
+			document.getElementById("ul3li4tr7td1").innerText = '';
+			document.getElementById("ul3li4tr7td2").innerText = '';
+			document.getElementById("ul3li4tr7td3").innerText = '';
+            document.getElementById("ul3li4tr8td1").innerText = '';
+			document.getElementById("ul3li4tr8td2").innerText = '';
+			document.getElementById("ul3li4tr8td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr9td1").innerText = '';
+			document.getElementById("ul3li4tr9td2").innerText = '';
+			document.getElementById("ul3li4tr9td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr10td1").innerText = '';
+			document.getElementById("ul3li4tr10td2").innerText = '';
+			document.getElementById("ul3li4tr10td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr11td1").innerText = '';
+			document.getElementById("ul3li4tr11td2").innerText = '';
+			document.getElementById("ul3li4tr11td3").innerText = '';
+			
+		});
+        
+        $('#accGrelhaN').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/grelha_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '0.8em';
+			document.getElementById('accTabuleiros').style.fontSize = '0.8em';
+            document.getElementById('accBetumadeira').style.fontSize = '0.8em';
+            document.getElementById('accBalde').style.fontSize = '0.8em';
+            document.getElementById('accGrelha').style.fontSize = '1.0em';
+            document.getElementById('accCoberturas').style.fontSize = '0.8em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'normal';
+			document.getElementById('accTabuleiros').style.fontWeight = 'normal';
+            document.getElementById('accBetumadeira').style.fontWeight = 'normal';
+            document.getElementById('accBalde').style.fontWeight = 'normal';
+            document.getElementById('accGrelha').style.fontWeight = 'bold';
+            document.getElementById('accCoberturas').style.fontWeight = 'normal';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accGrelha').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "";
+            document.getElementById('ul3li4m2').className = "";
+            document.getElementById('ul3li4m3').className = "";
+            document.getElementById('ul3li4m4').className = "";
+            document.getElementById('ul3li4m5').className = "activeMenu";
+            document.getElementById('ul3li4m6').className = "";
+            
+			document.getElementById("ul3li4tr1td1").innerText = '';
+			document.getElementById("ul3li4tr1td2").innerText = '';
+			document.getElementById("ul3li4tr1td3").innerText = '';
+			document.getElementById("ul3li4tr2td1").innerText = '';
+			document.getElementById("ul3li4tr2td2").innerText = '';
+			document.getElementById("ul3li4tr2td3").innerText = '';
+			document.getElementById("ul3li4tr3td1").innerText = '';
+			document.getElementById("ul3li4tr3td2").innerText = '';
+			document.getElementById("ul3li4tr3td3").innerText = '';
+			document.getElementById("ul3li4tr4td1").innerText = '';
+			document.getElementById("ul3li4tr4td2").innerText = '';
+			document.getElementById("ul3li4tr4td3").innerText = '';
+			document.getElementById("ul3li4tr5td1").innerText = '';
+			document.getElementById("ul3li4tr5td2").innerText = '';
+			document.getElementById("ul3li4tr5td3").innerText = '';
+			document.getElementById("ul3li4tr6td1").innerText = '';
+			document.getElementById("ul3li4tr6td2").innerText = '';
+			document.getElementById("ul3li4tr6td3").innerText = '';
+			document.getElementById("ul3li4tr7td1").innerText = '';
+			document.getElementById("ul3li4tr7td2").innerText = '';
+			document.getElementById("ul3li4tr7td3").innerText = '';
+            document.getElementById("ul3li4tr8td1").innerText = '';
+			document.getElementById("ul3li4tr8td2").innerText = '';
+			document.getElementById("ul3li4tr8td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr9td1").innerText = '';
+			document.getElementById("ul3li4tr9td2").innerText = '';
+			document.getElementById("ul3li4tr9td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr10td1").innerText = '';
+			document.getElementById("ul3li4tr10td2").innerText = '';
+			document.getElementById("ul3li4tr10td3").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr11td1").innerText = '';
+			document.getElementById("ul3li4tr11td2").innerText = '';
+			document.getElementById("ul3li4tr11td3").innerText = '';
+			
+		});
+        
+        $('#accCoberturasN').click(function() {
+			$("#rightImageAcessorios").attr('src', 'images/acessorios/cobertura_500_375.jpg');
+			document.getElementById('accArmacoesN').style.fontSize = '0.8em';
+			document.getElementById('accTabuleiros').style.fontSize = '0.8em';
+            document.getElementById('accBetumadeira').style.fontSize = '0.8em';
+            document.getElementById('accBalde').style.fontSize = '0.8em';
+            document.getElementById('accGrelha').style.fontSize = '0.8em';
+            document.getElementById('accCoberturas').style.fontSize = '1.0em';
+			document.getElementById('accArmacoesN').style.fontWeight = 'normal';
+			document.getElementById('accTabuleiros').style.fontWeight = 'normal';
+            document.getElementById('accBetumadeira').style.fontWeight = 'normal';
+            document.getElementById('accBalde').style.fontWeight = 'normal';
+            document.getElementById('accGrelha').style.fontWeight = 'normal';
+            document.getElementById('accCoberturas').style.fontWeight = 'bold';
+			document.getElementById('accArmacoesN').style.color = '#FFF';
+			document.getElementById('accTabuleiros').style.color = '#FFF';
+            document.getElementById('accBetumadeira').style.color = '#FFF';
+            document.getElementById('accBalde').style.color = '#FFF';
+            document.getElementById('accGrelha').style.color = '#FFF';
+            document.getElementById('accCoberturas').style.color = '#FFF';
+            document.getElementById('ul3li4m1').className = "";
+            document.getElementById('ul3li4m2').className = "";
+            document.getElementById('ul3li4m3').className = "";
+            document.getElementById('ul3li4m4').className = "";
+            document.getElementById('ul3li4m5').className = "";
+            document.getElementById('ul3li4m6').className = "activeMenu";
+            
+			document.getElementById("ul3li4tr1td1").innerText = '0109';
+			document.getElementById("ul3li4tr1td2").innerText = 'Bâche Plastique Mince 5 MY';
+			document.getElementById("ul3li4tr1td3").innerText = '20 m²';
+			document.getElementById("ul3li4tr1td4").innerText = '20';
+			
+			document.getElementById("ul3li4tr2td1").innerText = '0108';
+			document.getElementById("ul3li4tr2td2").innerText = 'Bâche Plastique Mince 5 MY';
+			document.getElementById("ul3li4tr2td3").innerText = '50 m²';
+			document.getElementById("ul3li4tr2td4").innerText = '10';
+			
+			document.getElementById("ul3li4tr3td1").innerText = '';
+			document.getElementById("ul3li4tr3td2").innerText = '';
+			document.getElementById("ul3li4tr3td3").innerText = '';
+			document.getElementById("ul3li4tr3td4").innerText = '';
+			
+			document.getElementById("ul3li4tr4td1").innerText = '';
+			document.getElementById("ul3li4tr4td2").innerText = '';
+			document.getElementById("ul3li4tr4td3").innerText = '';
+			document.getElementById("ul3li4tr4td4").innerText = '';
+			
+			document.getElementById("ul3li4tr5td1").innerText = '';
+			document.getElementById("ul3li4tr5td2").innerText = '';
+			document.getElementById("ul3li4tr5td3").innerText = '';
+			document.getElementById("ul3li4tr5td4").innerText = '';
+			
+			document.getElementById("ul3li4tr6td1").innerText = '';
+			document.getElementById("ul3li4tr6td2").innerText = '';
+			document.getElementById("ul3li4tr6td3").innerText = '';
+			document.getElementById("ul3li4tr6td4").innerText = '';
+			
 			document.getElementById("ul3li4tr7td1").innerText = '';
 			document.getElementById("ul3li4tr7td2").innerText = '';
 			document.getElementById("ul3li4tr7td3").innerText = '';
 			document.getElementById("ul3li4tr7td4").innerText = '';
 			
-		});
-
-							   
-		$('#rbMiniRoloAcessorios').click(function() {
-			$("#rightImageAcessorios").attr('src', 'images/Menu18/Acessorios.JPG');
-			document.getElementById('rbRoloAcessorios').style.fontSize = '1.0em';
-			document.getElementById('rbMiniRoloAcessorios').style.fontSize = '1.2em';
-			document.getElementById('rbRoloAcessorios').style.fontWeight = 'normal';
-			document.getElementById('rbMiniRoloAcessorios').style.fontWeight = 'bold';
-			document.getElementById('rbRoloAcessorios').style.color = '#FFF';
-			document.getElementById('rbMiniRoloAcessorios').style.color = '#FFF';
-			document.getElementById("ul3li4tr1td1").innerText = '';
-			document.getElementById("ul3li4tr1td2").innerText = '';
-			document.getElementById("ul3li4tr1td3").innerText = '';
-			document.getElementById("ul3li4tr1td4").innerText = '';
-			document.getElementById("ul3li4tr2td1").innerText = '';
-			document.getElementById("ul3li4tr2td2").innerText = '';
-			document.getElementById("ul3li4tr2td3").innerText = '';
-			document.getElementById("ul3li4tr2td4").innerText = '';
-			document.getElementById("ul3li4tr3td1").innerText = '';
-			document.getElementById("ul3li4tr3td2").innerText = '';
-			document.getElementById("ul3li4tr3td3").innerText = '';
-			document.getElementById("ul3li4tr3td4").innerText = '';
-			document.getElementById("ul3li4tr4td1").innerText = '';
-			document.getElementById("ul3li4tr4td2").innerText = '';
-			document.getElementById("ul3li4tr4td3").innerText = '';
-			document.getElementById("ul3li4tr4td4").innerText = '';
-			document.getElementById("ul3li4tr5td1").innerText = '';
-			document.getElementById("ul3li4tr5td2").innerText = '';
-			document.getElementById("ul3li4tr5td3").innerText = '';
-			document.getElementById("ul3li4tr5td4").innerText = '';
-			document.getElementById("ul3li4tr6td1").innerText = '';
-			document.getElementById("ul3li4tr6td2").innerText = '';
-			document.getElementById("ul3li4tr6td3").innerText = '';
-			document.getElementById("ul3li4tr6td4").innerText = '';
-			document.getElementById("ul3li4tr7td1").innerText = '';
-			document.getElementById("ul3li4tr7td2").innerText = '';
-			document.getElementById("ul3li4tr7td3").innerText = '';
-			document.getElementById("ul3li4tr7td4").innerText = '';
+            document.getElementById("ul3li4tr8td1").innerText = '';
+			document.getElementById("ul3li4tr8td2").innerText = '';
+			document.getElementById("ul3li4tr8td3").innerText = '';
+			document.getElementById("ul3li4tr8td4").innerText = '';
+			
+			document.getElementById("ul3li4tr9td1").innerText = '';
+			document.getElementById("ul3li4tr9td2").innerText = '';
+			document.getElementById("ul3li4tr9td3").innerText = '';
+			document.getElementById("ul3li4tr9td4").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr10td1").innerText = '';
+			document.getElementById("ul3li4tr10td2").innerText = '';
+			document.getElementById("ul3li4tr10td3").innerText = '';
+			document.getElementById("ul3li4tr10td4").innerText = '';
+			
+			
+			document.getElementById("ul3li4tr11td1").innerText = '';
+			document.getElementById("ul3li4tr11td2").innerText = '';
+			document.getElementById("ul3li4tr11td3").innerText = '';
+			document.getElementById("ul3li4tr11td4").innerText = '';
 			
 		});
     

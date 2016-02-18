@@ -3178,12 +3178,18 @@ span.text-content span {
 }
 
 
+
 .features-table tbody td:nth-child(3)
 {
   text-align: center;
 }
 
 .features-table td:nth-child(3)
+{
+  text-align: center;
+}
+
+.features-table td:nth-child(4)
 {
   text-align: center;
 }
@@ -3204,17 +3210,24 @@ span.text-content span {
 /*Header*/
 .features-table thead td
 {
-  font-size: 1.1em; 
+  font-size: 1.0em; 
   color: rgb(201,89,40);
   /*-moz-border-radius-topright: 10px;
   -moz-border-radius-topleft: 10px; 
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;*/
   border-bottom: 1px solid #e9e9e9; 
-	text-align: left;
+  text-align: left;
+  padding-bottom: 5px;
+    
 }
 
-
+.features-table thead td:nth-child(2)
+{
+    text-align: left;
+    padding-left: 8px;
+  
+}
 
 /*Footer*/
 .features-table tfoot td
