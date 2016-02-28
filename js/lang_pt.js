@@ -221,7 +221,7 @@ Version: 1.3.1
         
 		
         
-        document.getElementById('cromadoTitle').innerHTML = "Cromado";
+        //document.getElementById('cromadoTitle').innerHTML = "Cromado";
 		document.getElementById('rightTitleCro').innerHTML = "Cromado";
         
         document.getElementById('tecDescCro').innerHTML = "100% Poliéster";
@@ -229,7 +229,7 @@ Version: 1.3.1
         document.getElementById('corDescCro').innerHTML = "Branca";
         document.getElementById('spAppDescCro').innerHTML = "Tintas plásticas lisas ou areadas em fachadas e muros.";
         
-        document.getElementById('espumaTitle').innerHTML = "Espuma";
+        //document.getElementById('espumaTitle').innerHTML = "Espuma";
 		document.getElementById('rightTitleEsp').innerHTML = "Espuma";
         
         document.getElementById('tecDescEsp').innerHTML = "Espuma Poliéster";
@@ -237,7 +237,7 @@ Version: 1.3.1
         document.getElementById('corDescEsp').innerHTML = "Branca";
         document.getElementById('spAppDescEsp').innerHTML = "Tintas e esmaltes aquosos em pequenas superfícies lisas (cantos).";
         
-        document.getElementById('juniorTitle').innerHTML = "Júnior";
+        //document.getElementById('juniorTitle').innerHTML = "Júnior";
 		document.getElementById('rightTitleJun').innerHTML = "Júnior";
         
         document.getElementById('tecDescJun').innerHTML = "100% Poliéster";
@@ -245,7 +245,7 @@ Version: 1.3.1
         document.getElementById('corDescJun').innerHTML = "Branca";
         document.getElementById('spAppDescJun').innerHTML = "Tintas aquosas em paredes lisas. Permite uma boa cobertura e é resistente a solventes.";
         
-        document.getElementById('microfibraTitle').innerHTML = "Microfibra";
+        //document.getElementById('microfibraTitle').innerHTML = "Microfibra";
 		document.getElementById('rightTitleMic').innerHTML = "Micofibra";
         
         document.getElementById('tecDescMic').innerHTML = "100% Poliamida";
@@ -256,7 +256,7 @@ Version: 1.3.1
         
 
         
-        document.getElementById('ravelTitle').innerHTML = "Ravel";
+        //document.getElementById('ravelTitle').innerHTML = "Ravel";
 		document.getElementById('rightTitleRav').innerHTML = "Ravel";
         
         document.getElementById('tecDescRav').innerHTML = "100% Poliamida";
@@ -265,7 +265,7 @@ Version: 1.3.1
         document.getElementById('spAppDescRav').innerHTML = "Tintas aquosas em grandes superfícies lisas ou areadas (fachadas).";
         
         
-        document.getElementById('rugoTitle').innerHTML = "Rugo";
+        //document.getElementById('rugoTitle').innerHTML = "Rugo";
 		document.getElementById('rightTitleRug').innerHTML = "Rugo";
         
         document.getElementById('tecDescRug').innerHTML = "Espuma Poliéster";
@@ -274,7 +274,7 @@ Version: 1.3.1
         document.getElementById('spAppDescRug').innerHTML = "Tintas texturadas ou areadas em fachadas, muros e paredes. Usado para obter efeitos decorativos.";
         
         
-        document.getElementById('superTitle').innerHTML = "Super";
+        //document.getElementById('superTitle').innerHTML = "Super";
 		document.getElementById('rightTitleSup').innerHTML = "Super";
         
         document.getElementById('tecDescSup').innerHTML = "100% Poliéster";
@@ -284,7 +284,7 @@ Version: 1.3.1
         
         
         
-        document.getElementById('merinoTitle').innerHTML = "Merino";
+        //document.getElementById('merinoTitle').innerHTML = "Merino";
 		document.getElementById('rightTitleMer').innerHTML = "Merino";
         
         document.getElementById('tecDescMer').innerHTML = " 100% Lã pura de merino";
@@ -292,7 +292,7 @@ Version: 1.3.1
         document.getElementById('corDescMer').innerHTML = "Branca";
         document.getElementById('spAppDescMer').innerHTML = "Tintas plásticas lisas ou areadas em todo o tipo de superfícies. Excelentes absorção, cobertura e acabamento. É resistente a solventes.";
 		
-        document.getElementById('accesoriosTitle').innerHTML = "Acessórios";
+        //document.getElementById('accesoriosTitle').innerHTML = "Acessórios";
 		document.getElementById('rightTitleAce').innerHTML = "Acessórios";
         
         
@@ -338,90 +338,90 @@ Version: 1.3.1
             
 			
             document.getElementById("ul1li1tr1").style.display = 'table-row';
-			document.getElementById("ul1li1tr1td1").innerText ='0064';
-			document.getElementById("ul1li1tr1td2").innerText = 'Rolo Angorá 60 mm';
-			document.getElementById("ul1li1tr1td3").innerText = '45';
-            document.getElementById("ul1li1tr1td4").innerText = '24'
+			document.getElementById("ul1li1tr1td1").innerHTML ='0064';
+			document.getElementById("ul1li1tr1td2").innerHTML = 'Rolo Angorá 60 mm';
+			document.getElementById("ul1li1tr1td3").innerHTML = '45';
+            document.getElementById("ul1li1tr1td4").innerHTML = '24'
 			
             document.getElementById("ul1li1tr2").style.display = 'table-row';
-			document.getElementById("ul1li1tr2td1").innerText = '0258';
-			document.getElementById("ul1li1tr2td2").innerText = 'Rolo Angorá 120 mm';
-			document.getElementById("ul1li1tr2td3").innerText = '45';
-            document.getElementById("ul1li1tr2td4").innerText = '30'
+			document.getElementById("ul1li1tr2td1").innerHTML = '0258';
+			document.getElementById("ul1li1tr2td2").innerHTML = 'Rolo Angorá 120 mm';
+			document.getElementById("ul1li1tr2td3").innerHTML = '45';
+            document.getElementById("ul1li1tr2td4").innerHTML = '30'
 			
             document.getElementById("ul1li1tr3").style.display = 'table-row';
-			document.getElementById("ul1li1tr3td1").innerText = '0065';
-			document.getElementById("ul1li1tr3td2").innerText = 'Rolo Angorá 150 mm';
-			document.getElementById("ul1li1tr3td3").innerText = '45';
-            document.getElementById("ul1li1tr3td4").innerText = '70'
+			document.getElementById("ul1li1tr3td1").innerHTML = '0065';
+			document.getElementById("ul1li1tr3td2").innerHTML = 'Rolo Angorá 150 mm';
+			document.getElementById("ul1li1tr3td3").innerHTML = '45';
+            document.getElementById("ul1li1tr3td4").innerHTML = '70'
             
             document.getElementById("ul1li1tr4").style.display = 'table-row';
-			document.getElementById("ul1li1tr4td1").innerText = '0066';
-			document.getElementById("ul1li1tr4td2").innerText = 'Rolo Angorá 180 mm';
-			document.getElementById("ul1li1tr4td3").innerText = '45';
-            document.getElementById("ul1li1tr4td4").innerText = '60'
+			document.getElementById("ul1li1tr4td1").innerHTML = '0066';
+			document.getElementById("ul1li1tr4td2").innerHTML = 'Rolo Angorá 180 mm';
+			document.getElementById("ul1li1tr4td3").innerHTML = '45';
+            document.getElementById("ul1li1tr4td4").innerHTML = '60'
             
             document.getElementById("ul1li1tr5").style.display = 'table-row';
-			document.getElementById("ul1li1tr5td1").innerText = '0067';
-			document.getElementById("ul1li1tr5td2").innerText = 'Rolo Angorá 220 mm';
-			document.getElementById("ul1li1tr5td3").innerText = '45';
-            document.getElementById("ul1li1tr5td4").innerText = '55'
+			document.getElementById("ul1li1tr5td1").innerHTML = '0067';
+			document.getElementById("ul1li1tr5td2").innerHTML = 'Rolo Angorá 220 mm';
+			document.getElementById("ul1li1tr5td3").innerHTML = '45';
+            document.getElementById("ul1li1tr5td4").innerHTML = '55'
             
             document.getElementById("ul1li1tr6").style.display = 'table-row';
-            document.getElementById("ul1li1tr6td1").innerText = '0068';
-			document.getElementById("ul1li1tr6td2").innerText = 'Rolo Angorá 250 mm';
-			document.getElementById("ul1li1tr6td3").innerText = '45';
-            document.getElementById("ul1li1tr6td4").innerText = '50';
+            document.getElementById("ul1li1tr6td1").innerHTML = '0068';
+			document.getElementById("ul1li1tr6td2").innerHTML = 'Rolo Angorá 250 mm';
+			document.getElementById("ul1li1tr6td3").innerHTML = '45';
+            document.getElementById("ul1li1tr6td4").innerHTML = '50';
             
 			
             document.getElementById("ul1li1tr7").style.display = 'none';
-            document.getElementById("ul1li1tr7td1").innerText = '';
-			document.getElementById("ul1li1tr7td2").innerText = '';
-			document.getElementById("ul1li1tr7td3").innerText = '';
-            document.getElementById("ul1li1tr7td4").innerText = '';
+            document.getElementById("ul1li1tr7td1").innerHTML = '';
+			document.getElementById("ul1li1tr7td2").innerHTML = '';
+			document.getElementById("ul1li1tr7td3").innerHTML = '';
+            document.getElementById("ul1li1tr7td4").innerHTML = '';
             
             
             document.getElementById("ul1li1tr8").style.display = 'none';
-			document.getElementById("ul1li1tr8td1").innerText = '';
-			document.getElementById("ul1li1tr8td2").innerText = '';
-			document.getElementById("ul1li1tr8td3").innerText = '';
-            document.getElementById("ul1li1tr8td4").innerText = '';
+			document.getElementById("ul1li1tr8td1").innerHTML = '';
+			document.getElementById("ul1li1tr8td2").innerHTML = '';
+			document.getElementById("ul1li1tr8td3").innerHTML = '';
+            document.getElementById("ul1li1tr8td4").innerHTML = '';
             
             document.getElementById("ul1li1tr9").style.display = 'none';
-			document.getElementById("ul1li1tr9td1").innerText = '';
-			document.getElementById("ul1li1tr9td2").innerText = '';
-			document.getElementById("ul1li1tr9td3").innerText = '';
-            document.getElementById("ul1li1tr9td4").innerText = '';
+			document.getElementById("ul1li1tr9td1").innerHTML = '';
+			document.getElementById("ul1li1tr9td2").innerHTML = '';
+			document.getElementById("ul1li1tr9td3").innerHTML = '';
+            document.getElementById("ul1li1tr9td4").innerHTML = '';
             
             document.getElementById("ul1li1tr10").style.display = 'none';
-            document.getElementById("ul1li1tr10td1").innerText = '';
-			document.getElementById("ul1li1tr10td2").innerText = '';
-			document.getElementById("ul1li1tr10td3").innerText = '';
-            document.getElementById("ul1li1tr10td4").innerText = '';
+            document.getElementById("ul1li1tr10td1").innerHTML = '';
+			document.getElementById("ul1li1tr10td2").innerHTML = '';
+			document.getElementById("ul1li1tr10td3").innerHTML = '';
+            document.getElementById("ul1li1tr10td4").innerHTML = '';
             
             document.getElementById("ul1li1tr11").style.display = 'none';
-            document.getElementById("ul1li1tr11td1").innerText = '';
-			document.getElementById("ul1li1tr11td2").innerText = '';
-			document.getElementById("ul1li1tr11td3").innerText = '';
-            document.getElementById("ul1li1tr11td4").innerText = '';
+            document.getElementById("ul1li1tr11td1").innerHTML = '';
+			document.getElementById("ul1li1tr11td2").innerHTML = '';
+			document.getElementById("ul1li1tr11td3").innerHTML = '';
+            document.getElementById("ul1li1tr11td4").innerHTML = '';
             
             document.getElementById("ul1li1tr12").style.display = 'none';
-            document.getElementById("ul1li1tr12td1").innerText = '';
-			document.getElementById("ul1li1tr12td2").innerText = '';
-			document.getElementById("ul1li1tr12td3").innerText = '';
-            document.getElementById("ul1li1tr12td4").innerText = '';
+            document.getElementById("ul1li1tr12td1").innerHTML = '';
+			document.getElementById("ul1li1tr12td2").innerHTML = '';
+			document.getElementById("ul1li1tr12td3").innerHTML = '';
+            document.getElementById("ul1li1tr12td4").innerHTML = '';
             
             document.getElementById("ul1li1tr13").style.display = 'none';
-            document.getElementById("ul1li1tr13td1").innerText = '';
-			document.getElementById("ul1li1tr13td2").innerText = '';
-			document.getElementById("ul1li1tr13td3").innerText = '';
-            document.getElementById("ul1li1tr13td4").innerText = '';
+            document.getElementById("ul1li1tr13td1").innerHTML = '';
+			document.getElementById("ul1li1tr13td2").innerHTML = '';
+			document.getElementById("ul1li1tr13td3").innerHTML = '';
+            document.getElementById("ul1li1tr13td4").innerHTML = '';
             
             document.getElementById("ul1li1tr14").style.display = 'none';
-            document.getElementById("ul1li1tr14td1").innerText = '';
-			document.getElementById("ul1li1tr14td2").innerText = '';
-			document.getElementById("ul1li1tr14td3").innerText = '';
-            document.getElementById("ul1li1tr14td4").innerText = '';
+            document.getElementById("ul1li1tr14td1").innerHTML = '';
+			document.getElementById("ul1li1tr14td2").innerHTML = '';
+			document.getElementById("ul1li1tr14td3").innerHTML = '';
+            document.getElementById("ul1li1tr14td4").innerHTML = '';
 		});
 		$('#rbCRoloAngora').click(function() {
 			$("#rightImageAngora").attr('src', 'images/angora/carga_500_375.jpg');
@@ -443,88 +443,88 @@ Version: 1.3.1
             document.getElementById('ul1li1m4').className = "";
 			
             document.getElementById("ul1li1tr1").style.display = 'table-row';
-			document.getElementById("ul1li1tr1td1").innerText ='0021';
-			document.getElementById("ul1li1tr1td2").innerText = 'Carga Angorá 60 mm';
-			document.getElementById("ul1li1tr1td3").innerText = '45';
-            document.getElementById("ul1li1tr1td4").innerText = '250';
+			document.getElementById("ul1li1tr1td1").innerHTML ='0021';
+			document.getElementById("ul1li1tr1td2").innerHTML = 'Carga Angorá 60 mm';
+			document.getElementById("ul1li1tr1td3").innerHTML = '45';
+            document.getElementById("ul1li1tr1td4").innerHTML = '250';
 		
             document.getElementById("ul1li1tr2").style.display = 'table-row';
-			document.getElementById("ul1li1tr2td1").innerText = '0259';
-			document.getElementById("ul1li1tr2td2").innerText = 'Carga Angorá 120 mm';
-			document.getElementById("ul1li1tr2td3").innerText = '45';
-            document.getElementById("ul1li1tr2td4").innerText = '';
+			document.getElementById("ul1li1tr2td1").innerHTML = '0259';
+			document.getElementById("ul1li1tr2td2").innerHTML = 'Carga Angorá 120 mm';
+			document.getElementById("ul1li1tr2td3").innerHTML = '45';
+            document.getElementById("ul1li1tr2td4").innerHTML = '';
 		
             document.getElementById("ul1li1tr3").style.display = 'table-row';
-			document.getElementById("ul1li1tr3td1").innerText = '0022';
-			document.getElementById("ul1li1tr3td2").innerText = 'Carga Angorá 150 mm';
-			document.getElementById("ul1li1tr3td3").innerText = '45';
-            document.getElementById("ul1li1tr3td4").innerText = '';
+			document.getElementById("ul1li1tr3td1").innerHTML = '0022';
+			document.getElementById("ul1li1tr3td2").innerHTML = 'Carga Angorá 150 mm';
+			document.getElementById("ul1li1tr3td3").innerHTML = '45';
+            document.getElementById("ul1li1tr3td4").innerHTML = '';
 
             document.getElementById("ul1li1tr4").style.display = 'table-row';
-			document.getElementById("ul1li1tr4td1").innerText = '0023';
-			document.getElementById("ul1li1tr4td2").innerText = 'Carga Angorá 180 mm';
-			document.getElementById("ul1li1tr4td3").innerText = '45';
-            document.getElementById("ul1li1tr4td4").innerText = '160';
+			document.getElementById("ul1li1tr4td1").innerHTML = '0023';
+			document.getElementById("ul1li1tr4td2").innerHTML = 'Carga Angorá 180 mm';
+			document.getElementById("ul1li1tr4td3").innerHTML = '45';
+            document.getElementById("ul1li1tr4td4").innerHTML = '160';
 
             document.getElementById("ul1li1tr5").style.display = 'table-row';
-			document.getElementById("ul1li1tr5td1").innerText = '0024';
-			document.getElementById("ul1li1tr5td2").innerText = 'Carga Angorá 220 mm';
-			document.getElementById("ul1li1tr5td3").innerText = '45';
-            document.getElementById("ul1li1tr5td4").innerText = '140';
+			document.getElementById("ul1li1tr5td1").innerHTML = '0024';
+			document.getElementById("ul1li1tr5td2").innerHTML = 'Carga Angorá 220 mm';
+			document.getElementById("ul1li1tr5td3").innerHTML = '45';
+            document.getElementById("ul1li1tr5td4").innerHTML = '140';
 
             document.getElementById("ul1li1tr6").style.display = 'table-row';
-            document.getElementById("ul1li1tr6td1").innerText = '0025';
-			document.getElementById("ul1li1tr6td2").innerText = 'Carga Angorá 250 mm';
-			document.getElementById("ul1li1tr6td3").innerText = '45';
-			document.getElementById("ul1li1tr6td4").innerText = '120';	  
+            document.getElementById("ul1li1tr6td1").innerHTML = '0025';
+			document.getElementById("ul1li1tr6td2").innerHTML = 'Carga Angorá 250 mm';
+			document.getElementById("ul1li1tr6td3").innerHTML = '45';
+			document.getElementById("ul1li1tr6td4").innerHTML = '120';	  
 			
             document.getElementById("ul1li1tr7").style.display = 'none';
-			document.getElementById("ul1li1tr7td1").innerText = '';
-			document.getElementById("ul1li1tr7td2").innerText = '';
-			document.getElementById("ul1li1tr7td3").innerText = '';
-			document.getElementById("ul1li1tr7td4").innerText = '';
+			document.getElementById("ul1li1tr7td1").innerHTML = '';
+			document.getElementById("ul1li1tr7td2").innerHTML = '';
+			document.getElementById("ul1li1tr7td3").innerHTML = '';
+			document.getElementById("ul1li1tr7td4").innerHTML = '';
 			
             document.getElementById("ul1li1tr8").style.display = 'none';
-			document.getElementById("ul1li1tr8td1").innerText = '';
-			document.getElementById("ul1li1tr8td2").innerText = '';
-			document.getElementById("ul1li1tr8td3").innerText = '';
-			document.getElementById("ul1li1tr8td4").innerText = '';
+			document.getElementById("ul1li1tr8td1").innerHTML = '';
+			document.getElementById("ul1li1tr8td2").innerHTML = '';
+			document.getElementById("ul1li1tr8td3").innerHTML = '';
+			document.getElementById("ul1li1tr8td4").innerHTML = '';
 			
             document.getElementById("ul1li1tr9").style.display = 'none';
-			document.getElementById("ul1li1tr9td1").innerText = '';
-			document.getElementById("ul1li1tr9td2").innerText = '';
-			document.getElementById("ul1li1tr9td3").innerText = '';
-			document.getElementById("ul1li1tr9td4").innerText = '';
+			document.getElementById("ul1li1tr9td1").innerHTML = '';
+			document.getElementById("ul1li1tr9td2").innerHTML = '';
+			document.getElementById("ul1li1tr9td3").innerHTML = '';
+			document.getElementById("ul1li1tr9td4").innerHTML = '';
             
             document.getElementById("ul1li1tr10").style.display = 'none';
-            document.getElementById("ul1li1tr10td1").innerText = '';
-			document.getElementById("ul1li1tr10td2").innerText = '';
-			document.getElementById("ul1li1tr10td3").innerText = '';
-            document.getElementById("ul1li1tr10td4").innerText = '';
+            document.getElementById("ul1li1tr10td1").innerHTML = '';
+			document.getElementById("ul1li1tr10td2").innerHTML = '';
+			document.getElementById("ul1li1tr10td3").innerHTML = '';
+            document.getElementById("ul1li1tr10td4").innerHTML = '';
             
             document.getElementById("ul1li1tr11").style.display = 'none';
-            document.getElementById("ul1li1tr11td1").innerText = '';
-			document.getElementById("ul1li1tr11td2").innerText = '';
-			document.getElementById("ul1li1tr11td3").innerText = '';
-            document.getElementById("ul1li1tr11td4").innerText = '';
+            document.getElementById("ul1li1tr11td1").innerHTML = '';
+			document.getElementById("ul1li1tr11td2").innerHTML = '';
+			document.getElementById("ul1li1tr11td3").innerHTML = '';
+            document.getElementById("ul1li1tr11td4").innerHTML = '';
             
             document.getElementById("ul1li1tr12").style.display = 'none';
-            document.getElementById("ul1li1tr12td1").innerText = '';
-			document.getElementById("ul1li1tr12td2").innerText = '';
-			document.getElementById("ul1li1tr12td3").innerText = '';
-            document.getElementById("ul1li1tr12td4").innerText = '';
+            document.getElementById("ul1li1tr12td1").innerHTML = '';
+			document.getElementById("ul1li1tr12td2").innerHTML = '';
+			document.getElementById("ul1li1tr12td3").innerHTML = '';
+            document.getElementById("ul1li1tr12td4").innerHTML = '';
             
             document.getElementById("ul1li1tr13").style.display = 'none';
-            document.getElementById("ul1li1tr13td1").innerText = '';
-			document.getElementById("ul1li1tr13td2").innerText = '';
-			document.getElementById("ul1li1tr13td3").innerText = '';
-            document.getElementById("ul1li1tr13td4").innerText = '';
+            document.getElementById("ul1li1tr13td1").innerHTML = '';
+			document.getElementById("ul1li1tr13td2").innerHTML = '';
+			document.getElementById("ul1li1tr13td3").innerHTML = '';
+            document.getElementById("ul1li1tr13td4").innerHTML = '';
             
             document.getElementById("ul1li1tr14").style.display = 'none';
-            document.getElementById("ul1li1tr14td1").innerText = '';
-			document.getElementById("ul1li1tr14td2").innerText = '';
-			document.getElementById("ul1li1tr14td3").innerText = '';
-            document.getElementById("ul1li1tr14td4").innerText = '';
+            document.getElementById("ul1li1tr14td1").innerHTML = '';
+			document.getElementById("ul1li1tr14td2").innerHTML = '';
+			document.getElementById("ul1li1tr14td3").innerHTML = '';
+            document.getElementById("ul1li1tr14td4").innerHTML = '';
 		});
 		
 
@@ -549,88 +549,88 @@ Version: 1.3.1
             document.getElementById('ul1li1m4').className = "";
             
             document.getElementById("ul1li1tr1").style.display = 'table-row';
-			document.getElementById("ul1li1tr1td1").innerText = '0173';
-			document.getElementById("ul1li1tr1td2").innerText = 'Mini Angorá 60 mm';
-			document.getElementById("ul1li1tr1td3").innerText = '16';
-	        document.getElementById("ul1li1tr1td4").innerText = '100';
+			document.getElementById("ul1li1tr1td1").innerHTML = '0173';
+			document.getElementById("ul1li1tr1td2").innerHTML = 'Mini Angorá 60 mm';
+			document.getElementById("ul1li1tr1td3").innerHTML = '16';
+	        document.getElementById("ul1li1tr1td4").innerHTML = '100';
            
             document.getElementById("ul1li1tr2").style.display = 'table-row';
-			document.getElementById("ul1li1tr2td1").innerText = '0174';
-			document.getElementById("ul1li1tr2td2").innerText = 'Mini Angorá 100 mm';
-			document.getElementById("ul1li1tr2td3").innerText = '16';
-            document.getElementById("ul1li1tr2td4").innerText = '80';
+			document.getElementById("ul1li1tr2td1").innerHTML = '0174';
+			document.getElementById("ul1li1tr2td2").innerHTML = 'Mini Angorá 100 mm';
+			document.getElementById("ul1li1tr2td3").innerHTML = '16';
+            document.getElementById("ul1li1tr2td4").innerHTML = '80';
 
             document.getElementById("ul1li1tr3").style.display = 'table-row';
-			document.getElementById("ul1li1tr3td1").innerText = '0175';
-			document.getElementById("ul1li1tr3td2").innerText = 'Mini Angorá 150 mm';
-			document.getElementById("ul1li1tr3td3").innerText = '16';
-            document.getElementById("ul1li1tr3td4").innerText = '';
+			document.getElementById("ul1li1tr3td1").innerHTML = '0175';
+			document.getElementById("ul1li1tr3td2").innerHTML = 'Mini Angorá 150 mm';
+			document.getElementById("ul1li1tr3td3").innerHTML = '16';
+            document.getElementById("ul1li1tr3td4").innerHTML = '';
 
             document.getElementById("ul1li1tr4").style.display = 'table-row';
-			document.getElementById("ul1li1tr4td1").innerText = '0253';
-			document.getElementById("ul1li1tr4td2").innerText = 'Midi Angorá 120 mm';
-			document.getElementById("ul1li1tr4td3").innerText = '30';
-            document.getElementById("ul1li1tr4td4").innerText = '';
+			document.getElementById("ul1li1tr4td1").innerHTML = '0253';
+			document.getElementById("ul1li1tr4td2").innerHTML = 'Midi Angorá 120 mm';
+			document.getElementById("ul1li1tr4td3").innerHTML = '30';
+            document.getElementById("ul1li1tr4td4").innerHTML = '';
 			
             document.getElementById("ul1li1tr5").style.display = 'table-row';
-			document.getElementById("ul1li1tr5td1").innerText = '0254';
-			document.getElementById("ul1li1tr5td2").innerText = 'Midi Angorá 150 mm';
-			document.getElementById("ul1li1tr5td3").innerText = '30';
-            document.getElementById("ul1li1tr5td4").innerText = '';
+			document.getElementById("ul1li1tr5td1").innerHTML = '0254';
+			document.getElementById("ul1li1tr5td2").innerHTML = 'Midi Angorá 150 mm';
+			document.getElementById("ul1li1tr5td3").innerHTML = '30';
+            document.getElementById("ul1li1tr5td4").innerHTML = '';
 			
             document.getElementById("ul1li1tr6").style.display = 'none';
-            document.getElementById("ul1li1tr6td1").innerText = '';
-			document.getElementById("ul1li1tr6td2").innerText = '';
-			document.getElementById("ul1li1tr6td3").innerText = '';
-            document.getElementById("ul1li1tr6td4").innerText = '';
+            document.getElementById("ul1li1tr6td1").innerHTML = '';
+			document.getElementById("ul1li1tr6td2").innerHTML = '';
+			document.getElementById("ul1li1tr6td3").innerHTML = '';
+            document.getElementById("ul1li1tr6td4").innerHTML = '';
 			
             document.getElementById("ul1li1tr7").style.display = 'none';
-        	document.getElementById("ul1li1tr7td1").innerText = '';
-			document.getElementById("ul1li1tr7td2").innerText = '';
-			document.getElementById("ul1li1tr7td3").innerText = '';
-			document.getElementById("ul1li1tr7td4").innerText = '';
+        	document.getElementById("ul1li1tr7td1").innerHTML = '';
+			document.getElementById("ul1li1tr7td2").innerHTML = '';
+			document.getElementById("ul1li1tr7td3").innerHTML = '';
+			document.getElementById("ul1li1tr7td4").innerHTML = '';
 
             document.getElementById("ul1li1tr8").style.display = 'none';
-			document.getElementById("ul1li1tr8td1").innerText = '';
-			document.getElementById("ul1li1tr8td2").innerText = '';
-			document.getElementById("ul1li1tr8td3").innerText = '';
-			document.getElementById("ul1li1tr8td4").innerText = '';
+			document.getElementById("ul1li1tr8td1").innerHTML = '';
+			document.getElementById("ul1li1tr8td2").innerHTML = '';
+			document.getElementById("ul1li1tr8td3").innerHTML = '';
+			document.getElementById("ul1li1tr8td4").innerHTML = '';
 
             document.getElementById("ul1li1tr9").style.display = 'none';
-			document.getElementById("ul1li1tr9td1").innerText = '';
-			document.getElementById("ul1li1tr9td2").innerText = '';
-			document.getElementById("ul1li1tr9td3").innerText = '';
-			document.getElementById("ul1li1tr9td4").innerText = '';
+			document.getElementById("ul1li1tr9td1").innerHTML = '';
+			document.getElementById("ul1li1tr9td2").innerHTML = '';
+			document.getElementById("ul1li1tr9td3").innerHTML = '';
+			document.getElementById("ul1li1tr9td4").innerHTML = '';
             
             document.getElementById("ul1li1tr10").style.display = 'none';
-            document.getElementById("ul1li1tr10td1").innerText = '';
-			document.getElementById("ul1li1tr10td2").innerText = '';
-			document.getElementById("ul1li1tr10td3").innerText = '';
-            document.getElementById("ul1li1tr10td4").innerText = '';
+            document.getElementById("ul1li1tr10td1").innerHTML = '';
+			document.getElementById("ul1li1tr10td2").innerHTML = '';
+			document.getElementById("ul1li1tr10td3").innerHTML = '';
+            document.getElementById("ul1li1tr10td4").innerHTML = '';
             
             document.getElementById("ul1li1tr11").style.display = 'none';
-            document.getElementById("ul1li1tr11td1").innerText = '';
-			document.getElementById("ul1li1tr11td2").innerText = '';
-			document.getElementById("ul1li1tr11td3").innerText = '';
-            document.getElementById("ul1li1tr11td4").innerText = '';
+            document.getElementById("ul1li1tr11td1").innerHTML = '';
+			document.getElementById("ul1li1tr11td2").innerHTML = '';
+			document.getElementById("ul1li1tr11td3").innerHTML = '';
+            document.getElementById("ul1li1tr11td4").innerHTML = '';
             
             document.getElementById("ul1li1tr12").style.display = 'none';
-            document.getElementById("ul1li1tr12td1").innerText = '';
-			document.getElementById("ul1li1tr12td2").innerText = '';
-			document.getElementById("ul1li1tr12td3").innerText = '';
-            document.getElementById("ul1li1tr12td4").innerText = '';
+            document.getElementById("ul1li1tr12td1").innerHTML = '';
+			document.getElementById("ul1li1tr12td2").innerHTML = '';
+			document.getElementById("ul1li1tr12td3").innerHTML = '';
+            document.getElementById("ul1li1tr12td4").innerHTML = '';
             
             document.getElementById("ul1li1tr13").style.display = 'none';
-            document.getElementById("ul1li1tr13td1").innerText = '';
-			document.getElementById("ul1li1tr13td2").innerText = '';
-			document.getElementById("ul1li1tr13td3").innerText = '';
-            document.getElementById("ul1li1tr13td4").innerText = '';
+            document.getElementById("ul1li1tr13td1").innerHTML = '';
+			document.getElementById("ul1li1tr13td2").innerHTML = '';
+			document.getElementById("ul1li1tr13td3").innerHTML = '';
+            document.getElementById("ul1li1tr13td4").innerHTML = '';
             
             document.getElementById("ul1li1tr14").style.display = 'none';
-            document.getElementById("ul1li1tr14td1").innerText = '';
-			document.getElementById("ul1li1tr14td2").innerText = '';
-			document.getElementById("ul1li1tr14td3").innerText = '';
-            document.getElementById("ul1li1tr14td4").innerText = '';
+            document.getElementById("ul1li1tr14td1").innerHTML = '';
+			document.getElementById("ul1li1tr14td2").innerHTML = '';
+			document.getElementById("ul1li1tr14td3").innerHTML = '';
+            document.getElementById("ul1li1tr14td4").innerHTML = '';
             
 			
 		});
@@ -656,88 +656,88 @@ Version: 1.3.1
             document.getElementById('ul1li1m4').className = "activeMenu";
 
             document.getElementById("ul1li1tr1").style.display = 'table-row';
-			document.getElementById("ul1li1tr1td1").innerText = '0088';
-			document.getElementById("ul1li1tr1td2").innerText = 'Carga Angorá 60 mm';
-			document.getElementById("ul1li1tr1td3").innerText = '16';
-	        document.getElementById("ul1li1tr1td4").innerText = '';
+			document.getElementById("ul1li1tr1td1").innerHTML = '0088';
+			document.getElementById("ul1li1tr1td2").innerHTML = 'Carga Angorá 60 mm';
+			document.getElementById("ul1li1tr1td3").innerHTML = '16';
+	        document.getElementById("ul1li1tr1td4").innerHTML = '';
             
             document.getElementById("ul1li1tr2").style.display = 'table-row';
-			document.getElementById("ul1li1tr2td1").innerText = '0089';
-			document.getElementById("ul1li1tr2td2").innerText = 'Carga Angorá 100 mm';
-			document.getElementById("ul1li1tr2td3").innerText = '16';
-            document.getElementById("ul1li1tr2td4").innerText = '400';
+			document.getElementById("ul1li1tr2td1").innerHTML = '0089';
+			document.getElementById("ul1li1tr2td2").innerHTML = 'Carga Angorá 100 mm';
+			document.getElementById("ul1li1tr2td3").innerHTML = '16';
+            document.getElementById("ul1li1tr2td4").innerHTML = '400';
 
             document.getElementById("ul1li1tr3").style.display = 'table-row';
-			document.getElementById("ul1li1tr3td1").innerText = '0255';
-			document.getElementById("ul1li1tr3td2").innerText = 'Carga Angorá 150 mm';
-            document.getElementById("ul1li1tr3td3").innerText = '16';
-            document.getElementById("ul1li1tr3td4").innerText = '';
+			document.getElementById("ul1li1tr3td1").innerHTML = '0255';
+			document.getElementById("ul1li1tr3td2").innerHTML = 'Carga Angorá 150 mm';
+            document.getElementById("ul1li1tr3td3").innerHTML = '16';
+            document.getElementById("ul1li1tr3td4").innerHTML = '';
 
             document.getElementById("ul1li1tr4").style.display = 'table-row';
-			document.getElementById("ul1li1tr4td1").innerText = '0177';
-			document.getElementById("ul1li1tr4td2").innerText = 'Pack 2 Cargas Angorá  60 mm';
-			document.getElementById("ul1li1tr4td3").innerText = '16';
-            document.getElementById("ul1li1tr4td4").innerText = '';
+			document.getElementById("ul1li1tr4td1").innerHTML = '0177';
+			document.getElementById("ul1li1tr4td2").innerHTML = 'Pack 2 Cargas Angorá  60 mm';
+			document.getElementById("ul1li1tr4td3").innerHTML = '16';
+            document.getElementById("ul1li1tr4td4").innerHTML = '';
 
             document.getElementById("ul1li1tr5").style.display = 'table-row';
-			document.getElementById("ul1li1tr5td1").innerText = '0091';
-			document.getElementById("ul1li1tr5td2").innerText = 'Pack 2 Cargas Angorá 100 mm';
-			document.getElementById("ul1li1tr5td3").innerText = '16';
-            document.getElementById("ul1li1tr5td4").innerText = '200X2';
+			document.getElementById("ul1li1tr5td1").innerHTML = '0091';
+			document.getElementById("ul1li1tr5td2").innerHTML = 'Pack 2 Cargas Angorá 100 mm';
+			document.getElementById("ul1li1tr5td3").innerHTML = '16';
+            document.getElementById("ul1li1tr5td4").innerHTML = '200X2';
 	
             document.getElementById("ul1li1tr6").style.display = 'table-row';
-			document.getElementById("ul1li1tr6td1").innerText = '0179';
-			document.getElementById("ul1li1tr6td2").innerText = 'Pack 2 Cargas Angorá 150 mm';
-			document.getElementById("ul1li1tr6td3").innerText = '16'; 
-            document.getElementById("ul1li1tr6td4").innerText = '';
+			document.getElementById("ul1li1tr6td1").innerHTML = '0179';
+			document.getElementById("ul1li1tr6td2").innerHTML = 'Pack 2 Cargas Angorá 150 mm';
+			document.getElementById("ul1li1tr6td3").innerHTML = '16'; 
+            document.getElementById("ul1li1tr6td4").innerHTML = '';
 
             document.getElementById("ul1li1tr7").style.display = 'table-row';
-			document.getElementById("ul1li1tr7td1").innerText = '0256';
-			document.getElementById("ul1li1tr7td2").innerText = 'Blister 16 Cargas Angorá 60 mm';
-			document.getElementById("ul1li1tr7td3").innerText = '16';
-            document.getElementById("ul1li1tr7td4").innerText = '36X16';
+			document.getElementById("ul1li1tr7td1").innerHTML = '0256';
+			document.getElementById("ul1li1tr7td2").innerHTML = 'Blister 16 Cargas Angorá 60 mm';
+			document.getElementById("ul1li1tr7td3").innerHTML = '16';
+            document.getElementById("ul1li1tr7td4").innerHTML = '36X16';
             
             document.getElementById("ul1li1tr8").style.display = 'table-row';
-            document.getElementById("ul1li1tr8td1").innerText = '0090';
-			document.getElementById("ul1li1tr8td2").innerText = 'Blister 10 Cargas Angorá 100 mm';
-			document.getElementById("ul1li1tr8td3").innerText = '16';
-            document.getElementById("ul1li1tr8td4").innerText = '36X10';
+            document.getElementById("ul1li1tr8td1").innerHTML = '0090';
+			document.getElementById("ul1li1tr8td2").innerHTML = 'Blister 10 Cargas Angorá 100 mm';
+			document.getElementById("ul1li1tr8td3").innerHTML = '16';
+            document.getElementById("ul1li1tr8td4").innerHTML = '36X10';
 
             document.getElementById("ul1li1tr9").style.display = 'table-row';
-			document.getElementById("ul1li1tr9td1").innerText = '0201';
-			document.getElementById("ul1li1tr9td2").innerText = 'Carga Angorá 120 mm';
-			document.getElementById("ul1li1tr9td3").innerText = '30';
-            document.getElementById("ul1li1tr9td4").innerText = '';
+			document.getElementById("ul1li1tr9td1").innerHTML = '0201';
+			document.getElementById("ul1li1tr9td2").innerHTML = 'Carga Angorá 120 mm';
+			document.getElementById("ul1li1tr9td3").innerHTML = '30';
+            document.getElementById("ul1li1tr9td4").innerHTML = '';
 
             document.getElementById("ul1li1tr10").style.display = 'table-row';
-			document.getElementById("ul1li1tr10td1").innerText = '0202';
-			document.getElementById("ul1li1tr10td2").innerText = 'Carga Angora 150 mm';
-			document.getElementById("ul1li1tr10td3").innerText = '30';
-            document.getElementById("ul1li1tr10td4").innerText = '';
+			document.getElementById("ul1li1tr10td1").innerHTML = '0202';
+			document.getElementById("ul1li1tr10td2").innerHTML = 'Carga Angora 150 mm';
+			document.getElementById("ul1li1tr10td3").innerHTML = '30';
+            document.getElementById("ul1li1tr10td4").innerHTML = '';
 
             document.getElementById("ul1li1tr11").style.display = 'table-row';
-            document.getElementById("ul1li1tr11td1").innerText = '0205';
-			document.getElementById("ul1li1tr11td2").innerText = 'Pack 2 Cargas Angora 120 mm';
-			document.getElementById("ul1li1tr11td3").innerText = '30';
-            document.getElementById("ul1li1tr11td4").innerText = '';
+            document.getElementById("ul1li1tr11td1").innerHTML = '0205';
+			document.getElementById("ul1li1tr11td2").innerHTML = 'Pack 2 Cargas Angora 120 mm';
+			document.getElementById("ul1li1tr11td3").innerHTML = '30';
+            document.getElementById("ul1li1tr11td4").innerHTML = '';
             
             document.getElementById("ul1li1tr12").style.display = 'table-row';
-            document.getElementById("ul1li1tr12td1").innerText = '0206';
-			document.getElementById("ul1li1tr12td2").innerText = 'Pack 2 Cargas Angora 150 mm';
-			document.getElementById("ul1li1tr12td3").innerText = '30';
-            document.getElementById("ul1li1tr12td4").innerText = '';
+            document.getElementById("ul1li1tr12td1").innerHTML = '0206';
+			document.getElementById("ul1li1tr12td2").innerHTML = 'Pack 2 Cargas Angora 150 mm';
+			document.getElementById("ul1li1tr12td3").innerHTML = '30';
+            document.getElementById("ul1li1tr12td4").innerHTML = '';
             
             document.getElementById("ul1li1tr13").style.display = 'table-row';
-            document.getElementById("ul1li1tr13td1").innerText = '0203';
-			document.getElementById("ul1li1tr13td2").innerText = 'Blister 10 Cargas Angora 120 mm';
-			document.getElementById("ul1li1tr13td3").innerText = '30';
-            document.getElementById("ul1li1tr13td4").innerText = '';
+            document.getElementById("ul1li1tr13td1").innerHTML = '0203';
+			document.getElementById("ul1li1tr13td2").innerHTML = 'Blister 10 Cargas Angora 120 mm';
+			document.getElementById("ul1li1tr13td3").innerHTML = '30';
+            document.getElementById("ul1li1tr13td4").innerHTML = '';
             
             document.getElementById("ul1li1tr14").style.display = 'table-row';
-            document.getElementById("ul1li1tr14td1").innerText = '0204';
-			document.getElementById("ul1li1tr14td2").innerText = 'Blister 6 Cargas Angora 150 mm';
-			document.getElementById("ul1li1tr14td3").innerText = '30';
-            document.getElementById("ul1li1tr14td4").innerText = '';
+            document.getElementById("ul1li1tr14td1").innerHTML = '0204';
+			document.getElementById("ul1li1tr14td2").innerHTML = 'Blister 6 Cargas Angora 150 mm';
+			document.getElementById("ul1li1tr14td3").innerHTML = '30';
+            document.getElementById("ul1li1tr14td4").innerHTML = '';
 		});
 		
 		
@@ -769,79 +769,79 @@ Version: 1.3.1
             
             
             document.getElementById("ul1li2tr1").style.display = 'table-row';
-            document.getElementById("ul1li2tr1td1").innerText = '0299';
-			document.getElementById("ul1li2tr1td2").innerText = 'Rolo Antigota 60 mm';
-			document.getElementById("ul1li2tr1td3").innerText = '45';
-			document.getElementById("ul1li2tr1td4").innerText = '24';
+            document.getElementById("ul1li2tr1td1").innerHTML = '0299';
+			document.getElementById("ul1li2tr1td2").innerHTML = 'Rolo Antigota 60 mm';
+			document.getElementById("ul1li2tr1td3").innerHTML = '45';
+			document.getElementById("ul1li2tr1td4").innerHTML = '24';
 			
             
             document.getElementById("ul1li2tr2").style.display = 'table-row';
-			document.getElementById("ul1li2tr2td1").innerText = '0058';
-			document.getElementById("ul1li2tr2td2").innerText = 'Rolo Antigota 180 mm';
-			document.getElementById("ul1li2tr2td3").innerText = '45';
-			document.getElementById("ul1li2tr2td4").innerText = '60';
+			document.getElementById("ul1li2tr2td1").innerHTML = '0058';
+			document.getElementById("ul1li2tr2td2").innerHTML = 'Rolo Antigota 180 mm';
+			document.getElementById("ul1li2tr2td3").innerHTML = '45';
+			document.getElementById("ul1li2tr2td4").innerHTML = '60';
 
             document.getElementById("ul1li2tr3").style.display = 'table-row';
-			document.getElementById("ul1li2tr3td1").innerText = '0059';
-			document.getElementById("ul1li2tr3td2").innerText = 'Rolo Antigota 220 mm';
-			document.getElementById("ul1li2tr3td3").innerText = '45';
-			document.getElementById("ul1li2tr3td4").innerText = '55';
+			document.getElementById("ul1li2tr3td1").innerHTML = '0059';
+			document.getElementById("ul1li2tr3td2").innerHTML = 'Rolo Antigota 220 mm';
+			document.getElementById("ul1li2tr3td3").innerHTML = '45';
+			document.getElementById("ul1li2tr3td4").innerHTML = '55';
 			
             document.getElementById("ul1li2tr4").style.display = 'table-row';
-			document.getElementById("ul1li2tr4td1").innerText = '0060';
-			document.getElementById("ul1li2tr4td2").innerText = 'Rolo Antigota 250 mm';
-			document.getElementById("ul1li2tr4td3").innerText = '45';
-			document.getElementById("ul1li2tr4td4").innerText = '50';
+			document.getElementById("ul1li2tr4td1").innerHTML = '0060';
+			document.getElementById("ul1li2tr4td2").innerHTML = 'Rolo Antigota 250 mm';
+			document.getElementById("ul1li2tr4td3").innerHTML = '45';
+			document.getElementById("ul1li2tr4td4").innerHTML = '50';
 		
             document.getElementById("ul1li2tr5").style.display = 'table-row';
-			document.getElementById("ul1li2tr5td1").innerText = '0143';
-			document.getElementById("ul1li2tr5td2").innerText = 'Rolo Antigota 180 mm';
-			document.getElementById("ul1li2tr5td3").innerText = '50';
-			document.getElementById("ul1li2tr5td4").innerText = '55';
+			document.getElementById("ul1li2tr5td1").innerHTML = '0143';
+			document.getElementById("ul1li2tr5td2").innerHTML = 'Rolo Antigota 180 mm';
+			document.getElementById("ul1li2tr5td3").innerHTML = '50';
+			document.getElementById("ul1li2tr5td4").innerHTML = '55';
 			
             document.getElementById("ul1li2tr6").style.display = 'table-row';
-			document.getElementById("ul1li2tr6td1").innerText = '0144';
-			document.getElementById("ul1li2tr6td2").innerText = 'Rolo Antigota 220 mm';
-			document.getElementById("ul1li2tr6td3").innerText = '50';
-			document.getElementById("ul1li2tr6td4").innerText = '50';
+			document.getElementById("ul1li2tr6td1").innerHTML = '0144';
+			document.getElementById("ul1li2tr6td2").innerHTML = 'Rolo Antigota 220 mm';
+			document.getElementById("ul1li2tr6td3").innerHTML = '50';
+			document.getElementById("ul1li2tr6td4").innerHTML = '50';
 			
             document.getElementById("ul1li2tr7").style.display = 'table-row';
-			document.getElementById("ul1li2tr7td1").innerText = '0145';
-			document.getElementById("ul1li2tr7td2").innerText = 'Rolo Antigota 250 mm';
-			document.getElementById("ul1li2tr7td3").innerText = '50';
-			document.getElementById("ul1li2tr7td4").innerText = '45';
+			document.getElementById("ul1li2tr7td1").innerHTML = '0145';
+			document.getElementById("ul1li2tr7td2").innerHTML = 'Rolo Antigota 250 mm';
+			document.getElementById("ul1li2tr7td3").innerHTML = '50';
+			document.getElementById("ul1li2tr7td4").innerHTML = '45';
 
             
 			
             document.getElementById("ul1li2tr8").style.display = 'none';
-			document.getElementById("ul1li2tr8td1").innerText = '';
-			document.getElementById("ul1li2tr8td2").innerText = '';
-			document.getElementById("ul1li2tr8td3").innerText = '';
-			document.getElementById("ul1li2tr8td4").innerText = '';
+			document.getElementById("ul1li2tr8td1").innerHTML = '';
+			document.getElementById("ul1li2tr8td2").innerHTML = '';
+			document.getElementById("ul1li2tr8td3").innerHTML = '';
+			document.getElementById("ul1li2tr8td4").innerHTML = '';
             
             document.getElementById("ul1li2tr9").style.display = 'none';
-            document.getElementById("ul1li2tr9td1").innerText = '';
-			document.getElementById("ul1li2tr9td2").innerText = '';
-			document.getElementById("ul1li2tr9td3").innerText = '';
-			document.getElementById("ul1li2tr9td4").innerText = '';
+            document.getElementById("ul1li2tr9td1").innerHTML = '';
+			document.getElementById("ul1li2tr9td2").innerHTML = '';
+			document.getElementById("ul1li2tr9td3").innerHTML = '';
+			document.getElementById("ul1li2tr9td4").innerHTML = '';
 			
             document.getElementById("ul1li2tr10").style.display = 'none';
-			document.getElementById("ul1li2tr10td1").innerText = '';
-			document.getElementById("ul1li2tr10td2").innerText = '';
-			document.getElementById("ul1li2tr10td3").innerText = '';
-			document.getElementById("ul1li2tr10td4").innerText = '';
+			document.getElementById("ul1li2tr10td1").innerHTML = '';
+			document.getElementById("ul1li2tr10td2").innerHTML = '';
+			document.getElementById("ul1li2tr10td3").innerHTML = '';
+			document.getElementById("ul1li2tr10td4").innerHTML = '';
             
             document.getElementById("ul1li2tr11").style.display = 'none';
-            document.getElementById("ul1li2tr11td1").innerText = '';
-			document.getElementById("ul1li2tr11td2").innerText = '';
-			document.getElementById("ul1li2tr11td3").innerText = '';
-			document.getElementById("ul1li2tr11td4").innerText = '';
+            document.getElementById("ul1li2tr11td1").innerHTML = '';
+			document.getElementById("ul1li2tr11td2").innerHTML = '';
+			document.getElementById("ul1li2tr11td3").innerHTML = '';
+			document.getElementById("ul1li2tr11td4").innerHTML = '';
             
             document.getElementById("ul1li2tr12").style.display = 'none';
-            document.getElementById("ul1li2tr12td1").innerText = '';
-			document.getElementById("ul1li2tr12td2").innerText = '';
-			document.getElementById("ul1li2tr12td3").innerText = '';
-			document.getElementById("ul1li2tr12td4").innerText = '';
+            document.getElementById("ul1li2tr12td1").innerHTML = '';
+			document.getElementById("ul1li2tr12td2").innerHTML = '';
+			document.getElementById("ul1li2tr12td3").innerHTML = '';
+			document.getElementById("ul1li2tr12td4").innerHTML = '';
 		});
         
         $('#rbCRoloAntigota').click(function() {
@@ -865,76 +865,76 @@ Version: 1.3.1
             
             
             document.getElementById("ul1li2tr1").style.display = 'table-row';
-            document.getElementById("ul1li2tr1td1").innerText = '0298';
-			document.getElementById("ul1li2tr1td2").innerText = 'Carga Antigota 60 mm';
-			document.getElementById("ul1li2tr1td3").innerText = '45';
-			document.getElementById("ul1li2tr1td4").innerText = '250';
+            document.getElementById("ul1li2tr1td1").innerHTML = '0298';
+			document.getElementById("ul1li2tr1td2").innerHTML = 'Carga Antigota 60 mm';
+			document.getElementById("ul1li2tr1td3").innerHTML = '45';
+			document.getElementById("ul1li2tr1td4").innerHTML = '250';
             
             document.getElementById("ul1li2tr2").style.display = 'table-row';
-			document.getElementById("ul1li2tr2td1").innerText = '0015';
-			document.getElementById("ul1li2tr2td2").innerText = 'Carga Antigota 180 mm';
-			document.getElementById("ul1li2tr2td3").innerText = '45';
-	     	document.getElementById("ul1li2tr2td4").innerText = '140';
+			document.getElementById("ul1li2tr2td1").innerHTML = '0015';
+			document.getElementById("ul1li2tr2td2").innerHTML = 'Carga Antigota 180 mm';
+			document.getElementById("ul1li2tr2td3").innerHTML = '45';
+	     	document.getElementById("ul1li2tr2td4").innerHTML = '140';
 			
             document.getElementById("ul1li2tr3").style.display = 'table-row';
-			document.getElementById("ul1li2tr3td1").innerText = '0016';
-			document.getElementById("ul1li2tr3td2").innerText = 'Carga Antigota 220 mm';
-			document.getElementById("ul1li2tr3td3").innerText = '45';
-		    document.getElementById("ul1li2tr3td4").innerText = '120';
+			document.getElementById("ul1li2tr3td1").innerHTML = '0016';
+			document.getElementById("ul1li2tr3td2").innerHTML = 'Carga Antigota 220 mm';
+			document.getElementById("ul1li2tr3td3").innerHTML = '45';
+		    document.getElementById("ul1li2tr3td4").innerHTML = '120';
 			
             document.getElementById("ul1li2tr4").style.display = 'table-row';
-			document.getElementById("ul1li2tr4td1").innerText = '0017';
-			document.getElementById("ul1li2tr4td2").innerText = 'Carga Antigota 250 mm';
-			document.getElementById("ul1li2tr4td3").innerText = '45';
-			document.getElementById("ul1li2tr4td4").innerText = '100';
+			document.getElementById("ul1li2tr4td1").innerHTML = '0017';
+			document.getElementById("ul1li2tr4td2").innerHTML = 'Carga Antigota 250 mm';
+			document.getElementById("ul1li2tr4td3").innerHTML = '45';
+			document.getElementById("ul1li2tr4td4").innerHTML = '100';
 
             document.getElementById("ul1li2tr5").style.display = 'table-row';
-			document.getElementById("ul1li2tr5td1").innerText = '0125';
-			document.getElementById("ul1li2tr5td2").innerText = 'Carga Antigota 180 mm';
-			document.getElementById("ul1li2tr5td3").innerText = '50';
-			document.getElementById("ul1li2tr5td4").innerText = '100';
+			document.getElementById("ul1li2tr5td1").innerHTML = '0125';
+			document.getElementById("ul1li2tr5td2").innerHTML = 'Carga Antigota 180 mm';
+			document.getElementById("ul1li2tr5td3").innerHTML = '50';
+			document.getElementById("ul1li2tr5td4").innerHTML = '100';
 	
             document.getElementById("ul1li2tr6").style.display = 'table-row';
-			document.getElementById("ul1li2tr6td1").innerText = '0126';
-			document.getElementById("ul1li2tr6td2").innerText = 'Carga Antigota 220 mm';
-			document.getElementById("ul1li2tr6td3").innerText = '50';
-			document.getElementById("ul1li2tr6td4").innerText = '90';
+			document.getElementById("ul1li2tr6td1").innerHTML = '0126';
+			document.getElementById("ul1li2tr6td2").innerHTML = 'Carga Antigota 220 mm';
+			document.getElementById("ul1li2tr6td3").innerHTML = '50';
+			document.getElementById("ul1li2tr6td4").innerHTML = '90';
 	
             document.getElementById("ul1li2tr7").style.display = 'table-row';
-		    document.getElementById("ul1li2tr7td1").innerText = '0127';
-			document.getElementById("ul1li2tr7td2").innerText = 'Carga Antigota 250 mm';
-			document.getElementById("ul1li2tr7td3").innerText = '50';
-			document.getElementById("ul1li2tr7td4").innerText = '70';
+		    document.getElementById("ul1li2tr7td1").innerHTML = '0127';
+			document.getElementById("ul1li2tr7td2").innerHTML = 'Carga Antigota 250 mm';
+			document.getElementById("ul1li2tr7td3").innerHTML = '50';
+			document.getElementById("ul1li2tr7td4").innerHTML = '70';
 	
 			document.getElementById("ul1li2tr8").style.display = 'none';
-			document.getElementById("ul1li2tr8td1").innerText = '';
-			document.getElementById("ul1li2tr8td2").innerText = '';
-			document.getElementById("ul1li2tr8td3").innerText = '';
-			document.getElementById("ul1li2tr8td4").innerText = '';
+			document.getElementById("ul1li2tr8td1").innerHTML = '';
+			document.getElementById("ul1li2tr8td2").innerHTML = '';
+			document.getElementById("ul1li2tr8td3").innerHTML = '';
+			document.getElementById("ul1li2tr8td4").innerHTML = '';
 					
             document.getElementById("ul1li2tr9").style.display = 'none';
-			document.getElementById("ul1li2tr9td1").innerText = '';
-			document.getElementById("ul1li2tr9td2").innerText = '';
-			document.getElementById("ul1li2tr9td3").innerText = '';
-			document.getElementById("ul1li2tr9td4").innerText = '';
+			document.getElementById("ul1li2tr9td1").innerHTML = '';
+			document.getElementById("ul1li2tr9td2").innerHTML = '';
+			document.getElementById("ul1li2tr9td3").innerHTML = '';
+			document.getElementById("ul1li2tr9td4").innerHTML = '';
 			
             document.getElementById("ul1li2tr10").style.display = 'none';
-			document.getElementById("ul1li2tr10td1").innerText = '';
-			document.getElementById("ul1li2tr10td2").innerText = '';
-			document.getElementById("ul1li2tr10td3").innerText = '';
-			document.getElementById("ul1li2tr10td4").innerText = '';
+			document.getElementById("ul1li2tr10td1").innerHTML = '';
+			document.getElementById("ul1li2tr10td2").innerHTML = '';
+			document.getElementById("ul1li2tr10td3").innerHTML = '';
+			document.getElementById("ul1li2tr10td4").innerHTML = '';
             
             document.getElementById("ul1li2tr11").style.display = 'none';
-            document.getElementById("ul1li2tr11td1").innerText = '';
-			document.getElementById("ul1li2tr11td2").innerText = '';
-			document.getElementById("ul1li2tr11td3").innerText = '';
-			document.getElementById("ul1li2tr11td4").innerText = '';
+            document.getElementById("ul1li2tr11td1").innerHTML = '';
+			document.getElementById("ul1li2tr11td2").innerHTML = '';
+			document.getElementById("ul1li2tr11td3").innerHTML = '';
+			document.getElementById("ul1li2tr11td4").innerHTML = '';
             
             document.getElementById("ul1li2tr12").style.display = 'none';
-            document.getElementById("ul1li2tr12td1").innerText = '';
-			document.getElementById("ul1li2tr12td2").innerText = '';
-			document.getElementById("ul1li2tr12td3").innerText = '';
-			document.getElementById("ul1li2tr12td4").innerText = '';
+            document.getElementById("ul1li2tr12td1").innerHTML = '';
+			document.getElementById("ul1li2tr12td2").innerHTML = '';
+			document.getElementById("ul1li2tr12td3").innerHTML = '';
+			document.getElementById("ul1li2tr12td4").innerHTML = '';
 		});
 
 							   
@@ -958,76 +958,76 @@ Version: 1.3.1
             document.getElementById('ul1li2m4').className = "";
             
             document.getElementById("ul1li2tr1").style.display = 'table-row';
-			document.getElementById("ul1li2tr1td1").innerText = '0180';
-			document.getElementById("ul1li2tr1td2").innerText = 'Mini Antigota 60 mm';
-			document.getElementById("ul1li2tr1td3").innerText = '16';
-			document.getElementById("ul1li2tr1td4").innerText = '100';
+			document.getElementById("ul1li2tr1td1").innerHTML = '0180';
+			document.getElementById("ul1li2tr1td2").innerHTML = 'Mini Antigota 60 mm';
+			document.getElementById("ul1li2tr1td3").innerHTML = '16';
+			document.getElementById("ul1li2tr1td4").innerHTML = '100';
 		
             document.getElementById("ul1li2tr2").style.display = 'table-row';
-			document.getElementById("ul1li2tr2td1").innerText = '0181';
-			document.getElementById("ul1li2tr2td2").innerText = 'Mini Antigota 100 mm';
-			document.getElementById("ul1li2tr2td3").innerText = '16';
-			document.getElementById("ul1li2tr2td4").innerText = '80';
+			document.getElementById("ul1li2tr2td1").innerHTML = '0181';
+			document.getElementById("ul1li2tr2td2").innerHTML = 'Mini Antigota 100 mm';
+			document.getElementById("ul1li2tr2td3").innerHTML = '16';
+			document.getElementById("ul1li2tr2td4").innerHTML = '80';
 	
             document.getElementById("ul1li2tr3").style.display = 'table-row';
-			document.getElementById("ul1li2tr3td1").innerText = '0182';
-			document.getElementById("ul1li2tr3td2").innerText = 'Mini Antigota 150 mm';
-			document.getElementById("ul1li2tr3td3").innerText = '16';
-			document.getElementById("ul1li2tr3td4").innerText = '';
+			document.getElementById("ul1li2tr3td1").innerHTML = '0182';
+			document.getElementById("ul1li2tr3td2").innerHTML = 'Mini Antigota 150 mm';
+			document.getElementById("ul1li2tr3td3").innerHTML = '16';
+			document.getElementById("ul1li2tr3td4").innerHTML = '';
 
             document.getElementById("ul1li2tr4").style.display = 'table-row';
-			document.getElementById("ul1li2tr4td1").innerText = '0256';
-			document.getElementById("ul1li2tr4td2").innerText = 'Midi Antigota 120 mm';
-			document.getElementById("ul1li2tr4td3").innerText = '30';
-			document.getElementById("ul1li2tr4td4").innerText = '';
+			document.getElementById("ul1li2tr4td1").innerHTML = '0256';
+			document.getElementById("ul1li2tr4td2").innerHTML = 'Midi Antigota 120 mm';
+			document.getElementById("ul1li2tr4td3").innerHTML = '30';
+			document.getElementById("ul1li2tr4td4").innerHTML = '';
 	
             document.getElementById("ul1li2tr5").style.display = 'table-row';
-            document.getElementById("ul1li2tr5td1").innerText = '0257';
-			document.getElementById("ul1li2tr5td2").innerText = 'Midi Antigota 150 mm';
-			document.getElementById("ul1li2tr5td3").innerText = '30';
-			document.getElementById("ul1li2tr5td4").innerText = '';
+            document.getElementById("ul1li2tr5td1").innerHTML = '0257';
+			document.getElementById("ul1li2tr5td2").innerHTML = 'Midi Antigota 150 mm';
+			document.getElementById("ul1li2tr5td3").innerHTML = '30';
+			document.getElementById("ul1li2tr5td4").innerHTML = '';
 	
             document.getElementById("ul1li2tr6").style.display = 'none';
-			document.getElementById("ul1li2tr6td1").innerText = '';
-			document.getElementById("ul1li2tr6td2").innerText = '';
-			document.getElementById("ul1li2tr6td3").innerText = '';
-			document.getElementById("ul1li2tr6td4").innerText = '';
+			document.getElementById("ul1li2tr6td1").innerHTML = '';
+			document.getElementById("ul1li2tr6td2").innerHTML = '';
+			document.getElementById("ul1li2tr6td3").innerHTML = '';
+			document.getElementById("ul1li2tr6td4").innerHTML = '';
 
             document.getElementById("ul1li2tr7").style.display = 'none';
-			document.getElementById("ul1li2tr7td1").innerText = '';
-			document.getElementById("ul1li2tr7td2").innerText = '';
-			document.getElementById("ul1li2tr7td3").innerText = '';
-			document.getElementById("ul1li2tr7td4").innerText = '';
+			document.getElementById("ul1li2tr7td1").innerHTML = '';
+			document.getElementById("ul1li2tr7td2").innerHTML = '';
+			document.getElementById("ul1li2tr7td3").innerHTML = '';
+			document.getElementById("ul1li2tr7td4").innerHTML = '';
 			
             document.getElementById("ul1li2tr8").style.display = 'none';
-			document.getElementById("ul1li2tr8td1").innerText = '';
-			document.getElementById("ul1li2tr8td2").innerText = '';
-			document.getElementById("ul1li2tr8td3").innerText = '';
-			document.getElementById("ul1li2tr8td4").innerText = '';
+			document.getElementById("ul1li2tr8td1").innerHTML = '';
+			document.getElementById("ul1li2tr8td2").innerHTML = '';
+			document.getElementById("ul1li2tr8td3").innerHTML = '';
+			document.getElementById("ul1li2tr8td4").innerHTML = '';
             
             document.getElementById("ul1li2tr9").style.display = 'none';
-            document.getElementById("ul1li2tr9td1").innerText = '';
-			document.getElementById("ul1li2tr9td2").innerText = '';
-			document.getElementById("ul1li2tr9td3").innerText = '';
-			document.getElementById("ul1li2tr9td4").innerText = '';
+            document.getElementById("ul1li2tr9td1").innerHTML = '';
+			document.getElementById("ul1li2tr9td2").innerHTML = '';
+			document.getElementById("ul1li2tr9td3").innerHTML = '';
+			document.getElementById("ul1li2tr9td4").innerHTML = '';
             
             document.getElementById("ul1li2tr10").style.display = 'none';
-		    document.getElementById("ul1li2tr10td1").innerText = '';
-			document.getElementById("ul1li2tr10td2").innerText = '';
-			document.getElementById("ul1li2tr10td3").innerText = '';
-			document.getElementById("ul1li2tr10td4").innerText = '';
+		    document.getElementById("ul1li2tr10td1").innerHTML = '';
+			document.getElementById("ul1li2tr10td2").innerHTML = '';
+			document.getElementById("ul1li2tr10td3").innerHTML = '';
+			document.getElementById("ul1li2tr10td4").innerHTML = '';
             
             document.getElementById("ul1li2tr11").style.display = 'none';
-            document.getElementById("ul1li2tr11td1").innerText = '';
-			document.getElementById("ul1li2tr11td2").innerText = '';
-			document.getElementById("ul1li2tr11td3").innerText = '';
-			document.getElementById("ul1li2tr11td4").innerText = '';
+            document.getElementById("ul1li2tr11td1").innerHTML = '';
+			document.getElementById("ul1li2tr11td2").innerHTML = '';
+			document.getElementById("ul1li2tr11td3").innerHTML = '';
+			document.getElementById("ul1li2tr11td4").innerHTML = '';
             
             document.getElementById("ul1li2tr12").style.display = 'none';
-            document.getElementById("ul1li2tr12td1").innerText = '';
-			document.getElementById("ul1li2tr12td2").innerText = '';
-			document.getElementById("ul1li2tr12td3").innerText = '';
-			document.getElementById("ul1li2tr12td4").innerText = '';
+            document.getElementById("ul1li2tr12td1").innerHTML = '';
+			document.getElementById("ul1li2tr12td2").innerHTML = '';
+			document.getElementById("ul1li2tr12td3").innerHTML = '';
+			document.getElementById("ul1li2tr12td4").innerHTML = '';
 		});
         
         
@@ -1051,76 +1051,76 @@ Version: 1.3.1
             document.getElementById('ul1li2m4').className = "activeMenu";
             
             document.getElementById("ul1li2tr1").style.display = 'table-row';
-			document.getElementById("ul1li2tr1td1").innerText = '0092';
-			document.getElementById("ul1li2tr1td2").innerText = 'Carga Antigota 60 mm';
-			document.getElementById("ul1li2tr1td3").innerText = '16';
-			document.getElementById("ul1li2tr1td4").innerText = '';
+			document.getElementById("ul1li2tr1td1").innerHTML = '0092';
+			document.getElementById("ul1li2tr1td2").innerHTML = 'Carga Antigota 60 mm';
+			document.getElementById("ul1li2tr1td3").innerHTML = '16';
+			document.getElementById("ul1li2tr1td4").innerHTML = '';
             
             document.getElementById("ul1li2tr2").style.display = 'table-row';
-			document.getElementById("ul1li2tr2td1").innerText = '0093';
-			document.getElementById("ul1li2tr2td2").innerText = 'Carga Antigota 100 mm';
-			document.getElementById("ul1li2tr2td3").innerText = '16';
-			document.getElementById("ul1li2tr2td4").innerText = '350';
+			document.getElementById("ul1li2tr2td1").innerHTML = '0093';
+			document.getElementById("ul1li2tr2td2").innerHTML = 'Carga Antigota 100 mm';
+			document.getElementById("ul1li2tr2td3").innerHTML = '16';
+			document.getElementById("ul1li2tr2td4").innerHTML = '350';
 
             document.getElementById("ul1li2tr3").style.display = 'table-row';
-			document.getElementById("ul1li2tr3td1").innerText = '0184';
-			document.getElementById("ul1li2tr3td2").innerText = 'Pack 2 Cargas Antigota 60 mm';
-			document.getElementById("ul1li2tr3td3").innerText = '16';
-			document.getElementById("ul1li2tr3td4").innerText = '';
+			document.getElementById("ul1li2tr3td1").innerHTML = '0184';
+			document.getElementById("ul1li2tr3td2").innerHTML = 'Pack 2 Cargas Antigota 60 mm';
+			document.getElementById("ul1li2tr3td3").innerHTML = '16';
+			document.getElementById("ul1li2tr3td4").innerHTML = '';
 
             document.getElementById("ul1li2tr4").style.display = 'table-row';
-			document.getElementById("ul1li2tr4td1").innerText = '0095';
-			document.getElementById("ul1li2tr4td2").innerText = 'Pack 2 Cargas Antigota 100 mm';
-			document.getElementById("ul1li2tr4td3").innerText = '16';
-			document.getElementById("ul1li2tr4td4").innerText = '';
+			document.getElementById("ul1li2tr4td1").innerHTML = '0095';
+			document.getElementById("ul1li2tr4td2").innerHTML = 'Pack 2 Cargas Antigota 100 mm';
+			document.getElementById("ul1li2tr4td3").innerHTML = '16';
+			document.getElementById("ul1li2tr4td4").innerHTML = '';
 		
             document.getElementById("ul1li2tr5").style.display = 'table-row';
-			document.getElementById("ul1li2tr5td1").innerText = '0185';
-			document.getElementById("ul1li2tr5td2").innerText = 'Pack 2 Cargas Antigota 150 mm';
-			document.getElementById("ul1li2tr5td3").innerText = '16';
-			document.getElementById("ul1li2tr5td4").innerText = '';
+			document.getElementById("ul1li2tr5td1").innerHTML = '0185';
+			document.getElementById("ul1li2tr5td2").innerHTML = 'Pack 2 Cargas Antigota 150 mm';
+			document.getElementById("ul1li2tr5td3").innerHTML = '16';
+			document.getElementById("ul1li2tr5td4").innerHTML = '';
 			
             document.getElementById("ul1li2tr6").style.display = 'table-row';
-			document.getElementById("ul1li2tr6td1").innerText = '0094';		
-			document.getElementById("ul1li2tr6td2").innerText = 'Blister 10 Cargas Antigota 100 mm';
-			document.getElementById("ul1li2tr6td3").innerText = '16';
-			document.getElementById("ul1li2tr6td4").innerText = '36X10';
+			document.getElementById("ul1li2tr6td1").innerHTML = '0094';		
+			document.getElementById("ul1li2tr6td2").innerHTML = 'Blister 10 Cargas Antigota 100 mm';
+			document.getElementById("ul1li2tr6td3").innerHTML = '16';
+			document.getElementById("ul1li2tr6td4").innerHTML = '36X10';
 		
             document.getElementById("ul1li2tr7").style.display = 'table-row';
-			document.getElementById("ul1li2tr7td1").innerText = '0257';
-			document.getElementById("ul1li2tr7td2").innerText = 'Blister 16 Cargas Antigota 60 mm';
-			document.getElementById("ul1li2tr7td3").innerText = '16';
-			document.getElementById("ul1li2tr7td4").innerText = '36X16';
+			document.getElementById("ul1li2tr7td1").innerHTML = '0257';
+			document.getElementById("ul1li2tr7td2").innerHTML = 'Blister 16 Cargas Antigota 60 mm';
+			document.getElementById("ul1li2tr7td3").innerHTML = '16';
+			document.getElementById("ul1li2tr7td4").innerHTML = '36X16';
 
             document.getElementById("ul1li2tr8").style.display = 'table-row';
-			document.getElementById("ul1li2tr8td1").innerText = '0207';
-			document.getElementById("ul1li2tr8td2").innerText = 'Carga Antigota 120 mm';
-			document.getElementById("ul1li2tr8td3").innerText = '30';
-			document.getElementById("ul1li2tr8td4").innerText = '';
+			document.getElementById("ul1li2tr8td1").innerHTML = '0207';
+			document.getElementById("ul1li2tr8td2").innerHTML = 'Carga Antigota 120 mm';
+			document.getElementById("ul1li2tr8td3").innerHTML = '30';
+			document.getElementById("ul1li2tr8td4").innerHTML = '';
 					
             document.getElementById("ul1li2tr9").style.display = 'table-row';
-            document.getElementById("ul1li2tr9td1").innerText = '0208';
-			document.getElementById("ul1li2tr9td2").innerText = 'Carga Antigota 150 mm';
-			document.getElementById("ul1li2tr9td3").innerText = '30';
-			document.getElementById("ul1li2tr9td4").innerText = '';
+            document.getElementById("ul1li2tr9td1").innerHTML = '0208';
+			document.getElementById("ul1li2tr9td2").innerHTML = 'Carga Antigota 150 mm';
+			document.getElementById("ul1li2tr9td3").innerHTML = '30';
+			document.getElementById("ul1li2tr9td4").innerHTML = '';
             
             document.getElementById("ul1li2tr10").style.display = 'table-row';
-            document.getElementById("ul1li2tr10td1").innerText = '0211';
-			document.getElementById("ul1li2tr10td2").innerText = 'Pack 2 Cargas Antigota 120 mm';
-			document.getElementById("ul1li2tr10td3").innerText = '30';
-			document.getElementById("ul1li2tr10td4").innerText = '';
+            document.getElementById("ul1li2tr10td1").innerHTML = '0211';
+			document.getElementById("ul1li2tr10td2").innerHTML = 'Pack 2 Cargas Antigota 120 mm';
+			document.getElementById("ul1li2tr10td3").innerHTML = '30';
+			document.getElementById("ul1li2tr10td4").innerHTML = '';
             
             document.getElementById("ul1li2tr11").style.display = 'table-row';
-            document.getElementById("ul1li2tr11td1").innerText = '0209';
-			document.getElementById("ul1li2tr11td2").innerText = 'Blister 10 Cargas Antigota 120 mm';
-			document.getElementById("ul1li2tr11td3").innerText = '30';
-			document.getElementById("ul1li2tr11td4").innerText = '';
+            document.getElementById("ul1li2tr11td1").innerHTML = '0209';
+			document.getElementById("ul1li2tr11td2").innerHTML = 'Blister 10 Cargas Antigota 120 mm';
+			document.getElementById("ul1li2tr11td3").innerHTML = '30';
+			document.getElementById("ul1li2tr11td4").innerHTML = '';
             
             document.getElementById("ul1li2tr12").style.display = 'table-row';
-            document.getElementById("ul1li2tr12td1").innerText = '0210';
-			document.getElementById("ul1li2tr12td2").innerText = 'Blister 6 Cargas Antigota 150 mm';
-			document.getElementById("ul1li2tr12td3").innerText = '30';
-			document.getElementById("ul1li2tr12td4").innerText = '';
+            document.getElementById("ul1li2tr12td1").innerHTML = '0210';
+			document.getElementById("ul1li2tr12td2").innerHTML = 'Blister 6 Cargas Antigota 150 mm';
+			document.getElementById("ul1li2tr12td3").innerHTML = '30';
+			document.getElementById("ul1li2tr12td4").innerHTML = '';
 		});
 		
 		
@@ -1144,40 +1144,40 @@ Version: 1.3.1
             document.getElementById('ul1li3m2').className = "";
             
             document.getElementById("ul1li3tr1").style.display = 'table-row';
-			document.getElementById("ul1li3tr1td1").innerText = '0061';
-			document.getElementById("ul1li3tr1td2").innerText = 'Rolo Antigota Verde 180 mm';
-			document.getElementById("ul1li3tr1td3").innerText = '45';
-			document.getElementById("ul1li3tr1td4").innerText = '60';
+			document.getElementById("ul1li3tr1td1").innerHTML = '0061';
+			document.getElementById("ul1li3tr1td2").innerHTML = 'Rolo Antigota Verde 180 mm';
+			document.getElementById("ul1li3tr1td3").innerHTML = '45';
+			document.getElementById("ul1li3tr1td4").innerHTML = '60';
 			
             document.getElementById("ul1li3tr2").style.display = 'table-row';
-			document.getElementById("ul1li3tr2td1").innerText = '0062';
-			document.getElementById("ul1li3tr2td2").innerText = 'Rolo Antigota Verde 220 mm';
-			document.getElementById("ul1li3tr2td3").innerText = '45';
-			document.getElementById("ul1li3tr2td4").innerText = '55';
+			document.getElementById("ul1li3tr2td1").innerHTML = '0062';
+			document.getElementById("ul1li3tr2td2").innerHTML = 'Rolo Antigota Verde 220 mm';
+			document.getElementById("ul1li3tr2td3").innerHTML = '45';
+			document.getElementById("ul1li3tr2td4").innerHTML = '55';
 				
             document.getElementById("ul1li3tr3").style.display = 'table-row';
-			document.getElementById("ul1li3tr3td1").innerText = '0063';
-			document.getElementById("ul1li3tr3td2").innerText = 'Rolo Antigota Verde 250 mm';
-			document.getElementById("ul1li3tr3td3").innerText = '45';
-			document.getElementById("ul1li3tr3td4").innerText = '50';
+			document.getElementById("ul1li3tr3td1").innerHTML = '0063';
+			document.getElementById("ul1li3tr3td2").innerHTML = 'Rolo Antigota Verde 250 mm';
+			document.getElementById("ul1li3tr3td3").innerHTML = '45';
+			document.getElementById("ul1li3tr3td4").innerHTML = '50';
 
             document.getElementById("ul1li3tr4").style.display = 'table-row';
-			document.getElementById("ul1li3tr4td1").innerText = '0146';
-			document.getElementById("ul1li3tr4td2").innerText = 'Rolo Antigota Verde 180 mm';
-			document.getElementById("ul1li3tr4td3").innerText = '50';
-			document.getElementById("ul1li3tr4td4").innerText = '55';
+			document.getElementById("ul1li3tr4td1").innerHTML = '0146';
+			document.getElementById("ul1li3tr4td2").innerHTML = 'Rolo Antigota Verde 180 mm';
+			document.getElementById("ul1li3tr4td3").innerHTML = '50';
+			document.getElementById("ul1li3tr4td4").innerHTML = '55';
 		
             document.getElementById("ul1li3tr5").style.display = 'table-row';
-			document.getElementById("ul1li3tr5td1").innerText = '0147';
-			document.getElementById("ul1li3tr5td2").innerText = 'Rolo Antigota Verde 220 mm';
-			document.getElementById("ul1li3tr5td3").innerText = '50';
-			document.getElementById("ul1li3tr5td4").innerText = '50';
+			document.getElementById("ul1li3tr5td1").innerHTML = '0147';
+			document.getElementById("ul1li3tr5td2").innerHTML = 'Rolo Antigota Verde 220 mm';
+			document.getElementById("ul1li3tr5td3").innerHTML = '50';
+			document.getElementById("ul1li3tr5td4").innerHTML = '50';
 		
             document.getElementById("ul1li3tr6").style.display = 'table-row';
-			document.getElementById("ul1li3tr6td1").innerText = '0148';
-			document.getElementById("ul1li3tr6td2").innerText = 'Rolo Antigota Verde 250 mm';
-			document.getElementById("ul1li3tr6td3").innerText = '50';
-			document.getElementById("ul1li3tr6td4").innerText = '45';
+			document.getElementById("ul1li3tr6td1").innerHTML = '0148';
+			document.getElementById("ul1li3tr6td2").innerHTML = 'Rolo Antigota Verde 250 mm';
+			document.getElementById("ul1li3tr6td3").innerHTML = '50';
+			document.getElementById("ul1li3tr6td4").innerHTML = '45';
 		
             
 		});
@@ -1194,40 +1194,40 @@ Version: 1.3.1
             document.getElementById('ul1li3m2').className = "activeMenu";
             
             document.getElementById("ul1li3tr1").style.display = 'table-row';
-			document.getElementById("ul1li3tr1td1").innerText = '0018';
-			document.getElementById("ul1li3tr1td2").innerText = 'Carga Antigota Verde 180 mm';
-			document.getElementById("ul1li3tr1td3").innerText = '45';
-			document.getElementById("ul1li3tr1td4").innerText = '140';
+			document.getElementById("ul1li3tr1td1").innerHTML = '0018';
+			document.getElementById("ul1li3tr1td2").innerHTML = 'Carga Antigota Verde 180 mm';
+			document.getElementById("ul1li3tr1td3").innerHTML = '45';
+			document.getElementById("ul1li3tr1td4").innerHTML = '140';
 
             document.getElementById("ul1li3tr2").style.display = 'table-row';
-			document.getElementById("ul1li3tr2td1").innerText = '0019';
-			document.getElementById("ul1li3tr2td2").innerText = 'Carga Antigota Verde 220 mm';
-			document.getElementById("ul1li3tr2td3").innerText = '45';
-			document.getElementById("ul1li3tr2td4").innerText = '120';
+			document.getElementById("ul1li3tr2td1").innerHTML = '0019';
+			document.getElementById("ul1li3tr2td2").innerHTML = 'Carga Antigota Verde 220 mm';
+			document.getElementById("ul1li3tr2td3").innerHTML = '45';
+			document.getElementById("ul1li3tr2td4").innerHTML = '120';
 			
             document.getElementById("ul1li3tr3").style.display = 'table-row';
-			document.getElementById("ul1li3tr3td1").innerText = '0020';
-			document.getElementById("ul1li3tr3td2").innerText = 'Carga Antigota Verde 250 mm';
-			document.getElementById("ul1li3tr3td3").innerText = '45';
-			document.getElementById("ul1li3tr3td4").innerText = '100';
+			document.getElementById("ul1li3tr3td1").innerHTML = '0020';
+			document.getElementById("ul1li3tr3td2").innerHTML = 'Carga Antigota Verde 250 mm';
+			document.getElementById("ul1li3tr3td3").innerHTML = '45';
+			document.getElementById("ul1li3tr3td4").innerHTML = '100';
 			
             document.getElementById("ul1li3tr4").style.display = 'table-row';
-			document.getElementById("ul1li3tr4td1").innerText = '0128';
-			document.getElementById("ul1li3tr4td2").innerText = 'Carga Antigota Verde 180 mm';
-			document.getElementById("ul1li3tr4td3").innerText = '50';
-			document.getElementById("ul1li3tr4td4").innerText = '100';
+			document.getElementById("ul1li3tr4td1").innerHTML = '0128';
+			document.getElementById("ul1li3tr4td2").innerHTML = 'Carga Antigota Verde 180 mm';
+			document.getElementById("ul1li3tr4td3").innerHTML = '50';
+			document.getElementById("ul1li3tr4td4").innerHTML = '100';
 			
             document.getElementById("ul1li3tr5").style.display = 'table-row';
-			document.getElementById("ul1li3tr5td1").innerText = '0129';
-			document.getElementById("ul1li3tr5td2").innerText = 'Carga Antigota Verde 220 mm';
-			document.getElementById("ul1li3tr5td3").innerText = '50';
-			document.getElementById("ul1li3tr5td4").innerText = '90';
+			document.getElementById("ul1li3tr5td1").innerHTML = '0129';
+			document.getElementById("ul1li3tr5td2").innerHTML = 'Carga Antigota Verde 220 mm';
+			document.getElementById("ul1li3tr5td3").innerHTML = '50';
+			document.getElementById("ul1li3tr5td4").innerHTML = '90';
 		
             document.getElementById("ul1li3tr6").style.display = 'table-row';
-			document.getElementById("ul1li3tr6td1").innerText = '0130';  
-			document.getElementById("ul1li3tr6td2").innerText = 'Carga Antigota Verde 250 mm';
-			document.getElementById("ul1li3tr6td3").innerText = '50';
-			document.getElementById("ul1li3tr6td4").innerText = '70';
+			document.getElementById("ul1li3tr6td1").innerHTML = '0130';  
+			document.getElementById("ul1li3tr6td2").innerHTML = 'Carga Antigota Verde 250 mm';
+			document.getElementById("ul1li3tr6td3").innerHTML = '50';
+			document.getElementById("ul1li3tr6td4").innerHTML = '70';
 		
 			
 		});
@@ -1241,34 +1241,34 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloAntigotaV').style.fontWeight = 'bold';
 			document.getElementById('rbRoloAntigotaV').style.color = '#FFF';
 			document.getElementById('rbMiniRoloAntigotaV').style.color = '#FFF';
-			document.getElementById("ul1li3tr1td1").innerText = '';
-			document.getElementById("ul1li3tr1td2").innerText = '';
-			document.getElementById("ul1li3tr1td3").innerText = '';
-			document.getElementById("ul1li3tr1td4").innerText = '';
-			document.getElementById("ul1li3tr2td1").innerText = '';
-			document.getElementById("ul1li3tr2td2").innerText = '';
-			document.getElementById("ul1li3tr2td3").innerText = '';
-			document.getElementById("ul1li3tr2td4").innerText = '';
-			document.getElementById("ul1li3tr3td1").innerText = '';
-			document.getElementById("ul1li3tr3td2").innerText = '';
-			document.getElementById("ul1li3tr3td3").innerText = '';
-			document.getElementById("ul1li3tr3td4").innerText = '';
-			document.getElementById("ul1li3tr4td1").innerText = '';
-			document.getElementById("ul1li3tr4td2").innerText = '';
-			document.getElementById("ul1li3tr4td3").innerText = '';
-			document.getElementById("ul1li3tr4td4").innerText = '';
-			document.getElementById("ul1li3tr5td1").innerText = '';
-			document.getElementById("ul1li3tr5td2").innerText = '';
-			document.getElementById("ul1li3tr5td3").innerText = '';
-			document.getElementById("ul1li3tr5td4").innerText = '';
-			document.getElementById("ul1li3tr6td1").innerText = '';
-			document.getElementById("ul1li3tr6td2").innerText = '';
-			document.getElementById("ul1li3tr6td3").innerText = '';
-			document.getElementById("ul1li3tr6td4").innerText = '';
-			document.getElementById("ul1li3tr7td1").innerText = '';
-			document.getElementById("ul1li3tr7td2").innerText = '';
-			document.getElementById("ul1li3tr7td3").innerText = '';
-			document.getElementById("ul1li3tr7td4").innerText = '';
+			document.getElementById("ul1li3tr1td1").innerHTML = '';
+			document.getElementById("ul1li3tr1td2").innerHTML = '';
+			document.getElementById("ul1li3tr1td3").innerHTML = '';
+			document.getElementById("ul1li3tr1td4").innerHTML = '';
+			document.getElementById("ul1li3tr2td1").innerHTML = '';
+			document.getElementById("ul1li3tr2td2").innerHTML = '';
+			document.getElementById("ul1li3tr2td3").innerHTML = '';
+			document.getElementById("ul1li3tr2td4").innerHTML = '';
+			document.getElementById("ul1li3tr3td1").innerHTML = '';
+			document.getElementById("ul1li3tr3td2").innerHTML = '';
+			document.getElementById("ul1li3tr3td3").innerHTML = '';
+			document.getElementById("ul1li3tr3td4").innerHTML = '';
+			document.getElementById("ul1li3tr4td1").innerHTML = '';
+			document.getElementById("ul1li3tr4td2").innerHTML = '';
+			document.getElementById("ul1li3tr4td3").innerHTML = '';
+			document.getElementById("ul1li3tr4td4").innerHTML = '';
+			document.getElementById("ul1li3tr5td1").innerHTML = '';
+			document.getElementById("ul1li3tr5td2").innerHTML = '';
+			document.getElementById("ul1li3tr5td3").innerHTML = '';
+			document.getElementById("ul1li3tr5td4").innerHTML = '';
+			document.getElementById("ul1li3tr6td1").innerHTML = '';
+			document.getElementById("ul1li3tr6td2").innerHTML = '';
+			document.getElementById("ul1li3tr6td3").innerHTML = '';
+			document.getElementById("ul1li3tr6td4").innerHTML = '';
+			document.getElementById("ul1li3tr7td1").innerHTML = '';
+			document.getElementById("ul1li3tr7td2").innerHTML = '';
+			document.getElementById("ul1li3tr7td3").innerHTML = '';
+			document.getElementById("ul1li3tr7td4").innerHTML = '';
 			
 		});
         
@@ -1280,34 +1280,34 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloAntigotaV').style.fontWeight = 'bold';
 			document.getElementById('rbRoloAntigotaV').style.color = '#FFF';
 			document.getElementById('rbMiniRoloAntigotaV').style.color = '#FFF';
-			document.getElementById("ul1li3tr1td1").innerText = '';
-			document.getElementById("ul1li3tr1td2").innerText = '';
-			document.getElementById("ul1li3tr1td3").innerText = '';
-			document.getElementById("ul1li3tr1td4").innerText = '';
-			document.getElementById("ul1li3tr2td1").innerText = '';
-			document.getElementById("ul1li3tr2td2").innerText = '';
-			document.getElementById("ul1li3tr2td3").innerText = '';
-			document.getElementById("ul1li3tr2td4").innerText = '';
-			document.getElementById("ul1li3tr3td1").innerText = '';
-			document.getElementById("ul1li3tr3td2").innerText = '';
-			document.getElementById("ul1li3tr3td3").innerText = '';
-			document.getElementById("ul1li3tr3td4").innerText = '';
-			document.getElementById("ul1li3tr4td1").innerText = '';
-			document.getElementById("ul1li3tr4td2").innerText = '';
-			document.getElementById("ul1li3tr4td3").innerText = '';
-			document.getElementById("ul1li3tr4td4").innerText = '';
-			document.getElementById("ul1li3tr5td1").innerText = '';
-			document.getElementById("ul1li3tr5td2").innerText = '';
-			document.getElementById("ul1li3tr5td3").innerText = '';
-			document.getElementById("ul1li3tr5td4").innerText = '';
-			document.getElementById("ul1li3tr6td1").innerText = '';
-			document.getElementById("ul1li3tr6td2").innerText = '';
-			document.getElementById("ul1li3tr6td3").innerText = '';
-			document.getElementById("ul1li3tr6td4").innerText = '';
-			document.getElementById("ul1li3tr7td1").innerText = '';
-			document.getElementById("ul1li3tr7td2").innerText = '';
-			document.getElementById("ul1li3tr7td3").innerText = '';
-			document.getElementById("ul1li3tr7td4").innerText = '';
+			document.getElementById("ul1li3tr1td1").innerHTML = '';
+			document.getElementById("ul1li3tr1td2").innerHTML = '';
+			document.getElementById("ul1li3tr1td3").innerHTML = '';
+			document.getElementById("ul1li3tr1td4").innerHTML = '';
+			document.getElementById("ul1li3tr2td1").innerHTML = '';
+			document.getElementById("ul1li3tr2td2").innerHTML = '';
+			document.getElementById("ul1li3tr2td3").innerHTML = '';
+			document.getElementById("ul1li3tr2td4").innerHTML = '';
+			document.getElementById("ul1li3tr3td1").innerHTML = '';
+			document.getElementById("ul1li3tr3td2").innerHTML = '';
+			document.getElementById("ul1li3tr3td3").innerHTML = '';
+			document.getElementById("ul1li3tr3td4").innerHTML = '';
+			document.getElementById("ul1li3tr4td1").innerHTML = '';
+			document.getElementById("ul1li3tr4td2").innerHTML = '';
+			document.getElementById("ul1li3tr4td3").innerHTML = '';
+			document.getElementById("ul1li3tr4td4").innerHTML = '';
+			document.getElementById("ul1li3tr5td1").innerHTML = '';
+			document.getElementById("ul1li3tr5td2").innerHTML = '';
+			document.getElementById("ul1li3tr5td3").innerHTML = '';
+			document.getElementById("ul1li3tr5td4").innerHTML = '';
+			document.getElementById("ul1li3tr6td1").innerHTML = '';
+			document.getElementById("ul1li3tr6td2").innerHTML = '';
+			document.getElementById("ul1li3tr6td3").innerHTML = '';
+			document.getElementById("ul1li3tr6td4").innerHTML = '';
+			document.getElementById("ul1li3tr7td1").innerHTML = '';
+			document.getElementById("ul1li3tr7td2").innerHTML = '';
+			document.getElementById("ul1li3tr7td3").innerHTML = '';
+			document.getElementById("ul1li3tr7td4").innerHTML = '';
 			
 		});*/
     
@@ -1331,22 +1331,22 @@ Version: 1.3.1
             document.getElementById('ul1li4m2').className = "";
             
 			document.getElementById("ul1li4tr1").style.display = 'table-row';
-			document.getElementById("ul1li4tr1td1").innerText = '0055';
-			document.getElementById("ul1li4tr1td2").innerText = 'Rolo Cromado 180 mm';
-			document.getElementById("ul1li4tr1td3").innerText = '45';
-			document.getElementById("ul1li4tr1td4").innerText = '55'
+			document.getElementById("ul1li4tr1td1").innerHTML = '0055';
+			document.getElementById("ul1li4tr1td2").innerHTML = 'Rolo Cromado 180 mm';
+			document.getElementById("ul1li4tr1td3").innerHTML = '45';
+			document.getElementById("ul1li4tr1td4").innerHTML = '55'
 			
             document.getElementById("ul1li4tr2").style.display = 'table-row';
-			document.getElementById("ul1li4tr2td1").innerText = '0056';
-			document.getElementById("ul1li4tr2td2").innerText = 'Rolo Cromado 220 mm';
-			document.getElementById("ul1li4tr2td3").innerText = '45';
-			document.getElementById("ul1li4tr2td4").innerText = '50'
+			document.getElementById("ul1li4tr2td1").innerHTML = '0056';
+			document.getElementById("ul1li4tr2td2").innerHTML = 'Rolo Cromado 220 mm';
+			document.getElementById("ul1li4tr2td3").innerHTML = '45';
+			document.getElementById("ul1li4tr2td4").innerHTML = '50'
 	
             document.getElementById("ul1li4tr3").style.display = 'table-row';
-			document.getElementById("ul1li4tr3td1").innerText = '0054';
-			document.getElementById("ul1li4tr3td2").innerText = 'Rolo Cromado 250 mm';
-			document.getElementById("ul1li4tr3td3").innerText = '45';
-			document.getElementById("ul1li4tr3td4").innerText = '45'
+			document.getElementById("ul1li4tr3td1").innerHTML = '0054';
+			document.getElementById("ul1li4tr3td2").innerHTML = 'Rolo Cromado 250 mm';
+			document.getElementById("ul1li4tr3td3").innerHTML = '45';
+			document.getElementById("ul1li4tr3td4").innerHTML = '45'
 			
 		});
         
@@ -1362,22 +1362,22 @@ Version: 1.3.1
             document.getElementById('ul1li4m2').className = "activeMenu";
             
 			document.getElementById("ul1li4tr1").style.display = 'table-row';
-			document.getElementById("ul1li4tr1td1").innerText = '0012';
-			document.getElementById("ul1li4tr1td2").innerText = 'Carga Cromado 180 mm';
-			document.getElementById("ul1li4tr1td3").innerText = '45';
-			document.getElementById("ul1li4tr1td4").innerText = '140'
+			document.getElementById("ul1li4tr1td1").innerHTML = '0012';
+			document.getElementById("ul1li4tr1td2").innerHTML = 'Carga Cromado 180 mm';
+			document.getElementById("ul1li4tr1td3").innerHTML = '45';
+			document.getElementById("ul1li4tr1td4").innerHTML = '140'
 	
             document.getElementById("ul1li4tr2").style.display = 'table-row';
-			document.getElementById("ul1li4tr2td1").innerText = '0013';
-			document.getElementById("ul1li4tr2td2").innerText = 'Carga Cromado 220 mm';
-			document.getElementById("ul1li4tr2td3").innerText = '45';
-			document.getElementById("ul1li4tr2td4").innerText = '120'
+			document.getElementById("ul1li4tr2td1").innerHTML = '0013';
+			document.getElementById("ul1li4tr2td2").innerHTML = 'Carga Cromado 220 mm';
+			document.getElementById("ul1li4tr2td3").innerHTML = '45';
+			document.getElementById("ul1li4tr2td4").innerHTML = '120'
 
             document.getElementById("ul1li4tr3").style.display = 'table-row';
-			document.getElementById("ul1li4tr3td1").innerText = '0014';
-			document.getElementById("ul1li4tr3td2").innerText = 'Carga Cromado 250 mm';
-			document.getElementById("ul1li4tr3td3").innerText = '45';
-			document.getElementById("ul1li4tr3td4").innerText = '100'
+			document.getElementById("ul1li4tr3td1").innerHTML = '0014';
+			document.getElementById("ul1li4tr3td2").innerHTML = 'Carga Cromado 250 mm';
+			document.getElementById("ul1li4tr3td3").innerHTML = '45';
+			document.getElementById("ul1li4tr3td4").innerHTML = '100'
 			
 		});
 
@@ -1390,34 +1390,34 @@ Version: 1.3.1
 			document.getElementById('rbMiniRoloCromado').style.fontWeight = 'bold';
 			document.getElementById('rbRoloCromado').style.color = '#FFF';
 			document.getElementById('rbMiniRoloCromado').style.color = '#FFF';
-			document.getElementById("ul1li4tr1td1").innerText = '';
-			document.getElementById("ul1li4tr1td2").innerText = '';
-			document.getElementById("ul1li4tr1td3").innerText = '';
-			document.getElementById("ul1li4tr1td4").innerText = '';
-			document.getElementById("ul1li4tr2td1").innerText = '';
-			document.getElementById("ul1li4tr2td2").innerText = '';
-			document.getElementById("ul1li4tr2td3").innerText = '';
-			document.getElementById("ul1li4tr2td4").innerText = '';
-			document.getElementById("ul1li4tr3td1").innerText = '';
-			document.getElementById("ul1li4tr3td2").innerText = '';
-			document.getElementById("ul1li4tr3td3").innerText = '';
-			document.getElementById("ul1li4tr3td4").innerText = '';
-			document.getElementById("ul1li4tr4td1").innerText = '';
-			document.getElementById("ul1li4tr4td2").innerText = '';
-			document.getElementById("ul1li4tr4td3").innerText = '';
-			document.getElementById("ul1li4tr4td4").innerText = '';
-			document.getElementById("ul1li4tr5td1").innerText = '';
-			document.getElementById("ul1li4tr5td2").innerText = '';
-			document.getElementById("ul1li4tr5td3").innerText = '';
-			document.getElementById("ul1li4tr5td4").innerText = '';
-			document.getElementById("ul1li4tr6td1").innerText = '';
-			document.getElementById("ul1li4tr6td2").innerText = '';
-			document.getElementById("ul1li4tr6td3").innerText = '';
-			document.getElementById("ul1li4tr6td4").innerText = '';
-			document.getElementById("ul1li4tr7td1").innerText = '';
-			document.getElementById("ul1li4tr7td2").innerText = '';
-			document.getElementById("ul1li4tr7td3").innerText = '';
-			document.getElementById("ul1li4tr7td4").innerText = '';
+			document.getElementById("ul1li4tr1td1").innerHTML = '';
+			document.getElementById("ul1li4tr1td2").innerHTML = '';
+			document.getElementById("ul1li4tr1td3").innerHTML = '';
+			document.getElementById("ul1li4tr1td4").innerHTML = '';
+			document.getElementById("ul1li4tr2td1").innerHTML = '';
+			document.getElementById("ul1li4tr2td2").innerHTML = '';
+			document.getElementById("ul1li4tr2td3").innerHTML = '';
+			document.getElementById("ul1li4tr2td4").innerHTML = '';
+			document.getElementById("ul1li4tr3td1").innerHTML = '';
+			document.getElementById("ul1li4tr3td2").innerHTML = '';
+			document.getElementById("ul1li4tr3td3").innerHTML = '';
+			document.getElementById("ul1li4tr3td4").innerHTML = '';
+			document.getElementById("ul1li4tr4td1").innerHTML = '';
+			document.getElementById("ul1li4tr4td2").innerHTML = '';
+			document.getElementById("ul1li4tr4td3").innerHTML = '';
+			document.getElementById("ul1li4tr4td4").innerHTML = '';
+			document.getElementById("ul1li4tr5td1").innerHTML = '';
+			document.getElementById("ul1li4tr5td2").innerHTML = '';
+			document.getElementById("ul1li4tr5td3").innerHTML = '';
+			document.getElementById("ul1li4tr5td4").innerHTML = '';
+			document.getElementById("ul1li4tr6td1").innerHTML = '';
+			document.getElementById("ul1li4tr6td2").innerHTML = '';
+			document.getElementById("ul1li4tr6td3").innerHTML = '';
+			document.getElementById("ul1li4tr6td4").innerHTML = '';
+			document.getElementById("ul1li4tr7td1").innerHTML = '';
+			document.getElementById("ul1li4tr7td2").innerHTML = '';
+			document.getElementById("ul1li4tr7td3").innerHTML = '';
+			document.getElementById("ul1li4tr7td4").innerHTML = '';
 			
 		});
 		 */
@@ -1448,58 +1448,58 @@ Version: 1.3.1
             document.getElementById('ul2li1m4').className = "";
             
             document.getElementById("ul2li1tr1").style.display = 'table-row';
-			document.getElementById("ul2li1tr1td1").innerText = '0080';
-			document.getElementById("ul2li1tr1td2").innerText = 'Rolo Espuma de Canto';
-			document.getElementById("ul2li1tr1td3").innerText = '120';
-			document.getElementById("ul2li1tr1td4").innerText = '24';
+			document.getElementById("ul2li1tr1td1").innerHTML = '0080';
+			document.getElementById("ul2li1tr1td2").innerHTML = 'Rolo Espuma de Canto';
+			document.getElementById("ul2li1tr1td3").innerHTML = '120';
+			document.getElementById("ul2li1tr1td4").innerHTML = '24';
 			
             document.getElementById("ul2li1tr2").style.display = 'none';
-			document.getElementById("ul2li1tr2td1").innerText = '';
-			document.getElementById("ul2li1tr2td2").innerText = '';
-			document.getElementById("ul2li1tr2td3").innerText = '';
-			document.getElementById("ul2li1tr2td4").innerText = '';
+			document.getElementById("ul2li1tr2td1").innerHTML = '';
+			document.getElementById("ul2li1tr2td2").innerHTML = '';
+			document.getElementById("ul2li1tr2td3").innerHTML = '';
+			document.getElementById("ul2li1tr2td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr3").style.display = 'none';
-			document.getElementById("ul2li1tr3td1").innerText = '';
-			document.getElementById("ul2li1tr3td2").innerText = '';
-			document.getElementById("ul2li1tr3td3").innerText = '';
-			document.getElementById("ul2li1tr3td4").innerText = '';
+			document.getElementById("ul2li1tr3td1").innerHTML = '';
+			document.getElementById("ul2li1tr3td2").innerHTML = '';
+			document.getElementById("ul2li1tr3td3").innerHTML = '';
+			document.getElementById("ul2li1tr3td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr4").style.display = 'none';
-			document.getElementById("ul2li1tr4td1").innerText = '';
-			document.getElementById("ul2li1tr4td2").innerText = '';
-			document.getElementById("ul2li1tr4td3").innerText = '';
-			document.getElementById("ul2li1tr4td4").innerText = '';
+			document.getElementById("ul2li1tr4td1").innerHTML = '';
+			document.getElementById("ul2li1tr4td2").innerHTML = '';
+			document.getElementById("ul2li1tr4td3").innerHTML = '';
+			document.getElementById("ul2li1tr4td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr5").style.display = 'none';
-			document.getElementById("ul2li1tr5td1").innerText = '';
-			document.getElementById("ul2li1tr5td2").innerText = '';
-			document.getElementById("ul2li1tr5td3").innerText = '';
-			document.getElementById("ul2li1tr5td4").innerText = '';
+			document.getElementById("ul2li1tr5td1").innerHTML = '';
+			document.getElementById("ul2li1tr5td2").innerHTML = '';
+			document.getElementById("ul2li1tr5td3").innerHTML = '';
+			document.getElementById("ul2li1tr5td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr6").style.display = 'none';
-			document.getElementById("ul2li1tr6td1").innerText = '';
-			document.getElementById("ul2li1tr6td2").innerText = '';
-			document.getElementById("ul2li1tr6td3").innerText = '';
-			document.getElementById("ul2li1tr6td4").innerText = '';
+			document.getElementById("ul2li1tr6td1").innerHTML = '';
+			document.getElementById("ul2li1tr6td2").innerHTML = '';
+			document.getElementById("ul2li1tr6td3").innerHTML = '';
+			document.getElementById("ul2li1tr6td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr7").style.display = 'none';
-			document.getElementById("ul2li1tr7td1").innerText = '';
-			document.getElementById("ul2li1tr7td2").innerText = '';
-			document.getElementById("ul2li1tr7td3").innerText = '';
-			document.getElementById("ul2li1tr7td4").innerText = '';
+			document.getElementById("ul2li1tr7td1").innerHTML = '';
+			document.getElementById("ul2li1tr7td2").innerHTML = '';
+			document.getElementById("ul2li1tr7td3").innerHTML = '';
+			document.getElementById("ul2li1tr7td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr8").style.display = 'none';
-            document.getElementById("ul2li1tr8td1").innerText = '';
-			document.getElementById("ul2li1tr8td2").innerText = '';
-			document.getElementById("ul2li1tr8td3").innerText = '';
-			document.getElementById("ul2li1tr8td4").innerText = '';
+            document.getElementById("ul2li1tr8td1").innerHTML = '';
+			document.getElementById("ul2li1tr8td2").innerHTML = '';
+			document.getElementById("ul2li1tr8td3").innerHTML = '';
+			document.getElementById("ul2li1tr8td4").innerHTML = '';
             
             document.getElementById("ul2li1tr9").style.display = 'none';
-			document.getElementById("ul2li1tr9td1").innerText = '';
-			document.getElementById("ul2li1tr9td2").innerText = '';
-			document.getElementById("ul2li1tr9td3").innerText = '';
-			document.getElementById("ul2li1tr9td4").innerText = '';
+			document.getElementById("ul2li1tr9td1").innerHTML = '';
+			document.getElementById("ul2li1tr9td2").innerHTML = '';
+			document.getElementById("ul2li1tr9td3").innerHTML = '';
+			document.getElementById("ul2li1tr9td4").innerHTML = '';
 		});
         
         $('#rbCRoloEspuma').click(function() {
@@ -1522,58 +1522,58 @@ Version: 1.3.1
             document.getElementById('ul2li1m4').className = "";
             
             document.getElementById("ul2li1tr1").style.display = 'table-row';
-			document.getElementById("ul2li1tr1td1").innerText = '0037';
-			document.getElementById("ul2li1tr1td2").innerText = 'Carga Espuma de Canto';
-			document.getElementById("ul2li1tr1td3").innerText = '120';
-			document.getElementById("ul2li1tr1td4").innerText = '';
+			document.getElementById("ul2li1tr1td1").innerHTML = '0037';
+			document.getElementById("ul2li1tr1td2").innerHTML = 'Carga Espuma de Canto';
+			document.getElementById("ul2li1tr1td3").innerHTML = '120';
+			document.getElementById("ul2li1tr1td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr2").style.display = 'none';
-			document.getElementById("ul2li1tr2td1").innerText = '';
-			document.getElementById("ul2li1tr2td2").innerText = '';
-			document.getElementById("ul2li1tr2td3").innerText = '';
-			document.getElementById("ul2li1tr2td4").innerText = '';
+			document.getElementById("ul2li1tr2td1").innerHTML = '';
+			document.getElementById("ul2li1tr2td2").innerHTML = '';
+			document.getElementById("ul2li1tr2td3").innerHTML = '';
+			document.getElementById("ul2li1tr2td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr3").style.display = 'none';
-			document.getElementById("ul2li1tr3td1").innerText = '';
-			document.getElementById("ul2li1tr3td2").innerText = '';
-			document.getElementById("ul2li1tr3td3").innerText = '';
-			document.getElementById("ul2li1tr3td4").innerText = '';
+			document.getElementById("ul2li1tr3td1").innerHTML = '';
+			document.getElementById("ul2li1tr3td2").innerHTML = '';
+			document.getElementById("ul2li1tr3td3").innerHTML = '';
+			document.getElementById("ul2li1tr3td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr4").style.display = 'none';
-			document.getElementById("ul2li1tr4td1").innerText = '';
-			document.getElementById("ul2li1tr4td2").innerText = '';
-			document.getElementById("ul2li1tr4td3").innerText = '';
-			document.getElementById("ul2li1tr4td4").innerText = '';
+			document.getElementById("ul2li1tr4td1").innerHTML = '';
+			document.getElementById("ul2li1tr4td2").innerHTML = '';
+			document.getElementById("ul2li1tr4td3").innerHTML = '';
+			document.getElementById("ul2li1tr4td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr5").style.display = 'none';
-			document.getElementById("ul2li1tr5td1").innerText = '';
-			document.getElementById("ul2li1tr5td2").innerText = '';
-			document.getElementById("ul2li1tr5td3").innerText = '';
-			document.getElementById("ul2li1tr5td4").innerText = '';
+			document.getElementById("ul2li1tr5td1").innerHTML = '';
+			document.getElementById("ul2li1tr5td2").innerHTML = '';
+			document.getElementById("ul2li1tr5td3").innerHTML = '';
+			document.getElementById("ul2li1tr5td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr6").style.display = 'none';
-			document.getElementById("ul2li1tr6td1").innerText = '';
-			document.getElementById("ul2li1tr6td2").innerText = '';
-			document.getElementById("ul2li1tr6td3").innerText = '';
-			document.getElementById("ul2li1tr6td4").innerText = '';
+			document.getElementById("ul2li1tr6td1").innerHTML = '';
+			document.getElementById("ul2li1tr6td2").innerHTML = '';
+			document.getElementById("ul2li1tr6td3").innerHTML = '';
+			document.getElementById("ul2li1tr6td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr7").style.display = 'none';
-			document.getElementById("ul2li1tr7td1").innerText = '';
-			document.getElementById("ul2li1tr7td2").innerText = '';
-			document.getElementById("ul2li1tr7td3").innerText = '';
-			document.getElementById("ul2li1tr7td4").innerText = '';
+			document.getElementById("ul2li1tr7td1").innerHTML = '';
+			document.getElementById("ul2li1tr7td2").innerHTML = '';
+			document.getElementById("ul2li1tr7td3").innerHTML = '';
+			document.getElementById("ul2li1tr7td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr8").style.display = 'none';
-            document.getElementById("ul2li1tr8td1").innerText = '';
-			document.getElementById("ul2li1tr8td2").innerText = '';
-			document.getElementById("ul2li1tr8td3").innerText = '';
-			document.getElementById("ul2li1tr8td4").innerText = '';
+            document.getElementById("ul2li1tr8td1").innerHTML = '';
+			document.getElementById("ul2li1tr8td2").innerHTML = '';
+			document.getElementById("ul2li1tr8td3").innerHTML = '';
+			document.getElementById("ul2li1tr8td4").innerHTML = '';
          			
             document.getElementById("ul2li1tr9").style.display = 'none';
-            document.getElementById("ul2li1tr9td1").innerText = '';
-			document.getElementById("ul2li1tr9td2").innerText = '';
-			document.getElementById("ul2li1tr9td3").innerText = '';
-			document.getElementById("ul2li1tr9td4").innerText = '';
+            document.getElementById("ul2li1tr9td1").innerHTML = '';
+			document.getElementById("ul2li1tr9td2").innerHTML = '';
+			document.getElementById("ul2li1tr9td3").innerHTML = '';
+			document.getElementById("ul2li1tr9td4").innerHTML = '';
 
             
 		});
@@ -1600,58 +1600,58 @@ Version: 1.3.1
             document.getElementById('ul2li1m4').className = "";
             
             document.getElementById("ul2li1tr1").style.display = 'table-row';
-			document.getElementById("ul2li1tr1td1").innerText = '0244';
-			document.getElementById("ul2li1tr1td2").innerText = 'Mini Rolo Espuma 60 mm';
-			document.getElementById("ul2li1tr1td3").innerText = '16';
-			document.getElementById("ul2li1tr1td4").innerText = '100';
+			document.getElementById("ul2li1tr1td1").innerHTML = '0244';
+			document.getElementById("ul2li1tr1td2").innerHTML = 'Mini Rolo Espuma 60 mm';
+			document.getElementById("ul2li1tr1td3").innerHTML = '16';
+			document.getElementById("ul2li1tr1td4").innerHTML = '100';
 		
             document.getElementById("ul2li1tr2").style.display = 'table-row';
-			document.getElementById("ul2li1tr2td1").innerText = '0229';
-			document.getElementById("ul2li1tr2td2").innerText = 'Mini Rolo Espuma 110 mm';
-			document.getElementById("ul2li1tr2td3").innerText = '16';
-			document.getElementById("ul2li1tr2td4").innerText = '80';
+			document.getElementById("ul2li1tr2td1").innerHTML = '0229';
+			document.getElementById("ul2li1tr2td2").innerHTML = 'Mini Rolo Espuma 110 mm';
+			document.getElementById("ul2li1tr2td3").innerHTML = '16';
+			document.getElementById("ul2li1tr2td4").innerHTML = '80';
 		
             document.getElementById("ul2li1tr3").style.display = 'table-row';
-            document.getElementById("ul2li1tr3td1").innerText = '0260';
-			document.getElementById("ul2li1tr3td2").innerText = 'Mini Rolo Espuma 150 mm';
-			document.getElementById("ul2li1tr3td3").innerText = '';
-			document.getElementById("ul2li1tr3td4").innerText = '';
+            document.getElementById("ul2li1tr3td1").innerHTML = '0260';
+			document.getElementById("ul2li1tr3td2").innerHTML = 'Mini Rolo Espuma 150 mm';
+			document.getElementById("ul2li1tr3td3").innerHTML = '';
+			document.getElementById("ul2li1tr3td4").innerHTML = '';
 	
             document.getElementById("ul2li1tr4").style.display = 'none';
-			document.getElementById("ul2li1tr4td1").innerText = '';
-			document.getElementById("ul2li1tr4td2").innerText = '';
-			document.getElementById("ul2li1tr4td3").innerText = '';
-			document.getElementById("ul2li1tr4td4").innerText = '';
+			document.getElementById("ul2li1tr4td1").innerHTML = '';
+			document.getElementById("ul2li1tr4td2").innerHTML = '';
+			document.getElementById("ul2li1tr4td3").innerHTML = '';
+			document.getElementById("ul2li1tr4td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr5").style.display = 'none';
-			document.getElementById("ul2li1tr5td1").innerText = '';
-			document.getElementById("ul2li1tr5td2").innerText = '';
-			document.getElementById("ul2li1tr5td3").innerText = '';
-			document.getElementById("ul2li1tr5td4").innerText = '';
+			document.getElementById("ul2li1tr5td1").innerHTML = '';
+			document.getElementById("ul2li1tr5td2").innerHTML = '';
+			document.getElementById("ul2li1tr5td3").innerHTML = '';
+			document.getElementById("ul2li1tr5td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr6").style.display = 'none';
-			document.getElementById("ul2li1tr6td1").innerText = '';
-			document.getElementById("ul2li1tr6td2").innerText = '';
-			document.getElementById("ul2li1tr6td3").innerText = '';
-			document.getElementById("ul2li1tr6td4").innerText = '';
+			document.getElementById("ul2li1tr6td1").innerHTML = '';
+			document.getElementById("ul2li1tr6td2").innerHTML = '';
+			document.getElementById("ul2li1tr6td3").innerHTML = '';
+			document.getElementById("ul2li1tr6td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr7").style.display = 'none';
-			document.getElementById("ul2li1tr7td1").innerText = '';
-			document.getElementById("ul2li1tr7td2").innerText = '';
-			document.getElementById("ul2li1tr7td3").innerText = '';
-			document.getElementById("ul2li1tr7td4").innerText = '';
+			document.getElementById("ul2li1tr7td1").innerHTML = '';
+			document.getElementById("ul2li1tr7td2").innerHTML = '';
+			document.getElementById("ul2li1tr7td3").innerHTML = '';
+			document.getElementById("ul2li1tr7td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr8").style.display = 'none';
-			document.getElementById("ul2li1tr8td1").innerText = '';
-			document.getElementById("ul2li1tr8td2").innerText = '';
-			document.getElementById("ul2li1tr8td3").innerText = '';
-			document.getElementById("ul2li1tr8td4").innerText = '';
+			document.getElementById("ul2li1tr8td1").innerHTML = '';
+			document.getElementById("ul2li1tr8td2").innerHTML = '';
+			document.getElementById("ul2li1tr8td3").innerHTML = '';
+			document.getElementById("ul2li1tr8td4").innerHTML = '';
             
             document.getElementById("ul2li1tr9").style.display = 'none';
-            document.getElementById("ul2li1tr9td1").innerText = '';
-			document.getElementById("ul2li1tr9td2").innerText = '';
-			document.getElementById("ul2li1tr9td3").innerText = '';
-			document.getElementById("ul2li1tr9td4").innerText = '';
+            document.getElementById("ul2li1tr9td1").innerHTML = '';
+			document.getElementById("ul2li1tr9td2").innerHTML = '';
+			document.getElementById("ul2li1tr9td3").innerHTML = '';
+			document.getElementById("ul2li1tr9td4").innerHTML = '';
 		});
         
         
@@ -1675,58 +1675,58 @@ Version: 1.3.1
             document.getElementById('ul2li1m4').className = "activeMenu";
             
             document.getElementById("ul2li1tr1").style.display = 'table-row';
-			document.getElementById("ul2li1tr1td1").innerText = '0096';
-			document.getElementById("ul2li1tr1td2").innerText = 'Carga Espuma 60 mm';
-			document.getElementById("ul2li1tr1td3").innerText = '16';
-			document.getElementById("ul2li1tr1td4").innerText = '';
+			document.getElementById("ul2li1tr1td1").innerHTML = '0096';
+			document.getElementById("ul2li1tr1td2").innerHTML = 'Carga Espuma 60 mm';
+			document.getElementById("ul2li1tr1td3").innerHTML = '16';
+			document.getElementById("ul2li1tr1td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr2").style.display = 'table-row';
-			document.getElementById("ul2li1tr2td1").innerText = '0097';
-			document.getElementById("ul2li1tr2td2").innerText = 'Carga Espuma 110 mm';
-			document.getElementById("ul2li1tr2td3").innerText = '16';
-			document.getElementById("ul2li1tr2td4").innerText = '80';
+			document.getElementById("ul2li1tr2td1").innerHTML = '0097';
+			document.getElementById("ul2li1tr2td2").innerHTML = 'Carga Espuma 110 mm';
+			document.getElementById("ul2li1tr2td3").innerHTML = '16';
+			document.getElementById("ul2li1tr2td4").innerHTML = '80';
 			
             document.getElementById("ul2li1tr3").style.display = 'table-row';
-			document.getElementById("ul2li1tr3td1").innerText = '0098';
-			document.getElementById("ul2li1tr3td2").innerText = 'Carga Espuma 150 mm';
-			document.getElementById("ul2li1tr3td3").innerText = '16';
-			document.getElementById("ul2li1tr3td4").innerText = '';
+			document.getElementById("ul2li1tr3td1").innerHTML = '0098';
+			document.getElementById("ul2li1tr3td2").innerHTML = 'Carga Espuma 150 mm';
+			document.getElementById("ul2li1tr3td3").innerHTML = '16';
+			document.getElementById("ul2li1tr3td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr4").style.display = 'table-row';
-			document.getElementById("ul2li1tr4td1").innerText = '0233';
-			document.getElementById("ul2li1tr4td2").innerText = 'Pack 2 Cargas Espuma 60 mm';
-			document.getElementById("ul2li1tr4td3").innerText = '16';
-			document.getElementById("ul2li1tr4td4").innerText = '50X2';
+			document.getElementById("ul2li1tr4td1").innerHTML = '0233';
+			document.getElementById("ul2li1tr4td2").innerHTML = 'Pack 2 Cargas Espuma 60 mm';
+			document.getElementById("ul2li1tr4td3").innerHTML = '16';
+			document.getElementById("ul2li1tr4td4").innerHTML = '50X2';
 			
             document.getElementById("ul2li1tr5").style.display = 'table-row';
-			document.getElementById("ul2li1tr5td1").innerText = '0232';
-			document.getElementById("ul2li1tr5td2").innerText = 'Pack 2 Cargas Espuma 110 mm';
-			document.getElementById("ul2li1tr5td3").innerText = '16';
-			document.getElementById("ul2li1tr5td4").innerText = '150X2';
+			document.getElementById("ul2li1tr5td1").innerHTML = '0232';
+			document.getElementById("ul2li1tr5td2").innerHTML = 'Pack 2 Cargas Espuma 110 mm';
+			document.getElementById("ul2li1tr5td3").innerHTML = '16';
+			document.getElementById("ul2li1tr5td4").innerHTML = '150X2';
 	
             document.getElementById("ul2li1tr6").style.display = 'table-row';
-			document.getElementById("ul2li1tr6td1").innerText = '0251';
-			document.getElementById("ul2li1tr6td2").innerText = 'Pack 2 Cargas Espuma 150 mm';
-			document.getElementById("ul2li1tr6td3").innerText = '16';
-			document.getElementById("ul2li1tr6td4").innerText = '';
+			document.getElementById("ul2li1tr6td1").innerHTML = '0251';
+			document.getElementById("ul2li1tr6td2").innerHTML = 'Pack 2 Cargas Espuma 150 mm';
+			document.getElementById("ul2li1tr6td3").innerHTML = '16';
+			document.getElementById("ul2li1tr6td4").innerHTML = '';
 			
             document.getElementById("ul2li1tr7").style.display = 'table-row';
-			document.getElementById("ul2li1tr7td1").innerText = '0261';
-			document.getElementById("ul2li1tr7td2").innerText = 'Blister 16 Cargas Espuma 60 mm';
-			document.getElementById("ul2li1tr7td3").innerText = '16';
-			document.getElementById("ul2li1tr7td4").innerText = '25X16';
+			document.getElementById("ul2li1tr7td1").innerHTML = '0261';
+			document.getElementById("ul2li1tr7td2").innerHTML = 'Blister 16 Cargas Espuma 60 mm';
+			document.getElementById("ul2li1tr7td3").innerHTML = '16';
+			document.getElementById("ul2li1tr7td4").innerHTML = '25X16';
 			
             document.getElementById("ul2li1tr8").style.display = 'table-row';
-			document.getElementById("ul2li1tr8td1").innerText = '0231';
-			document.getElementById("ul2li1tr8td2").innerText = 'Blister 10 Cargas Espuma 110 mm';
-			document.getElementById("ul2li1tr8td3").innerText = '16';
-			document.getElementById("ul2li1tr8td4").innerText = '40X10';
+			document.getElementById("ul2li1tr8td1").innerHTML = '0231';
+			document.getElementById("ul2li1tr8td2").innerHTML = 'Blister 10 Cargas Espuma 110 mm';
+			document.getElementById("ul2li1tr8td3").innerHTML = '16';
+			document.getElementById("ul2li1tr8td4").innerHTML = '40X10';
 		
             document.getElementById("ul2li1tr9").style.display = 'table-row';
-            document.getElementById("ul2li1tr9td1").innerText = '0252';
-			document.getElementById("ul2li1tr9td2").innerText = 'Blister 10 Cargas Espuma 110 mm (Topo Redondo)';
-			document.getElementById("ul2li1tr9td3").innerText = '16';
-			document.getElementById("ul2li1tr9td4").innerText = '40X10';
+            document.getElementById("ul2li1tr9td1").innerHTML = '0252';
+			document.getElementById("ul2li1tr9td2").innerHTML = 'Blister 10 Cargas Espuma 110 mm (Topo Redondo)';
+			document.getElementById("ul2li1tr9td3").innerHTML = '16';
+			document.getElementById("ul2li1tr9td4").innerHTML = '40X10';
 			
 		});
 		
@@ -1758,52 +1758,52 @@ Version: 1.3.1
             document.getElementById('ul2li2m4').className = "";
 			
             document.getElementById("ul2li2tr1").style.display = 'table-row';
-			document.getElementById("ul2li2tr1td1").innerText = '0044';
-			document.getElementById("ul2li2tr1td2").innerText = 'Rolo Júnior  60 mm';
-			document.getElementById("ul2li2tr1td3").innerText = '45';
-			document.getElementById("ul2li2tr1td4").innerText = '24'
+			document.getElementById("ul2li2tr1td1").innerHTML = '0044';
+			document.getElementById("ul2li2tr1td2").innerHTML = 'Rolo Júnior  60 mm';
+			document.getElementById("ul2li2tr1td3").innerHTML = '45';
+			document.getElementById("ul2li2tr1td4").innerHTML = '24'
 
             document.getElementById("ul2li2tr2").style.display = 'table-row';
-			document.getElementById("ul2li2tr2td1").innerText = '0045';
-			document.getElementById("ul2li2tr2td2").innerText = 'Rolo Júnior 150 mm';
-			document.getElementById("ul2li2tr2td3").innerText = '45';
-			document.getElementById("ul2li2tr2td4").innerText = '70'
+			document.getElementById("ul2li2tr2td1").innerHTML = '0045';
+			document.getElementById("ul2li2tr2td2").innerHTML = 'Rolo Júnior 150 mm';
+			document.getElementById("ul2li2tr2td3").innerHTML = '45';
+			document.getElementById("ul2li2tr2td4").innerHTML = '70'
 			
             document.getElementById("ul2li2tr3").style.display = 'table-row';
-			document.getElementById("ul2li2tr3td1").innerText = '0046';
-			document.getElementById("ul2li2tr3td2").innerText = 'Rolo Júnior 180 mm';
-			document.getElementById("ul2li2tr3td3").innerText = '45';
-			document.getElementById("ul2li2tr3td4").innerText = '60';
+			document.getElementById("ul2li2tr3td1").innerHTML = '0046';
+			document.getElementById("ul2li2tr3td2").innerHTML = 'Rolo Júnior 180 mm';
+			document.getElementById("ul2li2tr3td3").innerHTML = '45';
+			document.getElementById("ul2li2tr3td4").innerHTML = '60';
 			
             document.getElementById("ul2li2tr4").style.display = 'table-row';
-			document.getElementById("ul2li2tr4td1").innerText = '0047';
-			document.getElementById("ul2li2tr4td2").innerText = 'Rolo Júnior 220 mm';
-			document.getElementById("ul2li2tr4td3").innerText = '45';
-			document.getElementById("ul2li2tr4td4").innerText = '55';
+			document.getElementById("ul2li2tr4td1").innerHTML = '0047';
+			document.getElementById("ul2li2tr4td2").innerHTML = 'Rolo Júnior 220 mm';
+			document.getElementById("ul2li2tr4td3").innerHTML = '45';
+			document.getElementById("ul2li2tr4td4").innerHTML = '55';
 		
             document.getElementById("ul2li2tr5").style.display = 'table-row';
-			document.getElementById("ul2li2tr5td1").innerText = '0048';
-			document.getElementById("ul2li2tr5td2").innerText = 'Rolo Júnior 250 mm';
-			document.getElementById("ul2li2tr5td3").innerText = '45';
-			document.getElementById("ul2li2tr5td4").innerText = '50';
+			document.getElementById("ul2li2tr5td1").innerHTML = '0048';
+			document.getElementById("ul2li2tr5td2").innerHTML = 'Rolo Júnior 250 mm';
+			document.getElementById("ul2li2tr5td3").innerHTML = '45';
+			document.getElementById("ul2li2tr5td4").innerHTML = '50';
 			
             document.getElementById("ul2li2tr6").style.display = 'table-row';
-			document.getElementById("ul2li2tr6td1").innerText = '0140';
-			document.getElementById("ul2li2tr6td2").innerText = 'Rolo Júnior 180 mm';
-			document.getElementById("ul2li2tr6td3").innerText = '50';
-			document.getElementById("ul2li2tr6td4").innerText = '55';
+			document.getElementById("ul2li2tr6td1").innerHTML = '0140';
+			document.getElementById("ul2li2tr6td2").innerHTML = 'Rolo Júnior 180 mm';
+			document.getElementById("ul2li2tr6td3").innerHTML = '50';
+			document.getElementById("ul2li2tr6td4").innerHTML = '55';
 			
             document.getElementById("ul2li2tr7").style.display = 'table-row';
-			document.getElementById("ul2li2tr7td1").innerText = '0141';
-			document.getElementById("ul2li2tr7td2").innerText = 'Rolo Júnior 220 mm';
-			document.getElementById("ul2li2tr7td3").innerText = '50';
-			document.getElementById("ul2li2tr7td4").innerText = '50';
+			document.getElementById("ul2li2tr7td1").innerHTML = '0141';
+			document.getElementById("ul2li2tr7td2").innerHTML = 'Rolo Júnior 220 mm';
+			document.getElementById("ul2li2tr7td3").innerHTML = '50';
+			document.getElementById("ul2li2tr7td4").innerHTML = '50';
 			
             document.getElementById("ul2li2tr8").style.display = 'table-row';
-			document.getElementById("ul2li2tr8td1").innerText = '0142';
-			document.getElementById("ul2li2tr8td2").innerText = 'Rolo Júnior 250 mm';
-			document.getElementById("ul2li2tr8td3").innerText = '50';
-			document.getElementById("ul2li2tr8td4").innerText = '45';
+			document.getElementById("ul2li2tr8td1").innerHTML = '0142';
+			document.getElementById("ul2li2tr8td2").innerHTML = 'Rolo Júnior 250 mm';
+			document.getElementById("ul2li2tr8td3").innerHTML = '50';
+			document.getElementById("ul2li2tr8td4").innerHTML = '45';
 			
 		});
         
@@ -1828,52 +1828,52 @@ Version: 1.3.1
             document.getElementById('ul2li2m4').className = "";
             
             document.getElementById("ul2li2tr1").style.display = 'table-row';
-			document.getElementById("ul2li2tr1td1").innerText = '0001';
-			document.getElementById("ul2li2tr1td2").innerText = 'Carga Júnior  60 mm';
-			document.getElementById("ul2li2tr1td3").innerText = '45';
-			document.getElementById("ul2li2tr1td4").innerText = '250';
+			document.getElementById("ul2li2tr1td1").innerHTML = '0001';
+			document.getElementById("ul2li2tr1td2").innerHTML = 'Carga Júnior  60 mm';
+			document.getElementById("ul2li2tr1td3").innerHTML = '45';
+			document.getElementById("ul2li2tr1td4").innerHTML = '250';
 			
             document.getElementById("ul2li2tr2").style.display = 'table-row';
-			document.getElementById("ul2li2tr2td1").innerText = '0002';
-			document.getElementById("ul2li2tr2td2").innerText = 'Carga Júnior 150 mm';
-			document.getElementById("ul2li2tr2td3").innerText = '45';
-			document.getElementById("ul2li2tr2td4").innerText = '';
+			document.getElementById("ul2li2tr2td1").innerHTML = '0002';
+			document.getElementById("ul2li2tr2td2").innerHTML = 'Carga Júnior 150 mm';
+			document.getElementById("ul2li2tr2td3").innerHTML = '45';
+			document.getElementById("ul2li2tr2td4").innerHTML = '';
 		
             document.getElementById("ul2li2tr3").style.display = 'table-row';
-			document.getElementById("ul2li2tr3td1").innerText = '0003';
-			document.getElementById("ul2li2tr3td2").innerText = 'Carga Júnior 180 mm';
-			document.getElementById("ul2li2tr3td3").innerText = '45';
-			document.getElementById("ul2li2tr3td4").innerText = '140';
+			document.getElementById("ul2li2tr3td1").innerHTML = '0003';
+			document.getElementById("ul2li2tr3td2").innerHTML = 'Carga Júnior 180 mm';
+			document.getElementById("ul2li2tr3td3").innerHTML = '45';
+			document.getElementById("ul2li2tr3td4").innerHTML = '140';
 			
             document.getElementById("ul2li2tr4").style.display = 'table-row';
-			document.getElementById("ul2li2tr4td1").innerText = '0004';
-			document.getElementById("ul2li2tr4td2").innerText = 'Carga Júnior 220 mm';
-			document.getElementById("ul2li2tr4td3").innerText = '45';
-			document.getElementById("ul2li2tr4td4").innerText = '120';
+			document.getElementById("ul2li2tr4td1").innerHTML = '0004';
+			document.getElementById("ul2li2tr4td2").innerHTML = 'Carga Júnior 220 mm';
+			document.getElementById("ul2li2tr4td3").innerHTML = '45';
+			document.getElementById("ul2li2tr4td4").innerHTML = '120';
 			
             document.getElementById("ul2li2tr5").style.display = 'table-row';
-			document.getElementById("ul2li2tr5td1").innerText = '0005';
-			document.getElementById("ul2li2tr5td2").innerText = 'Carga Júnior 250 mm';
-			document.getElementById("ul2li2tr5td3").innerText = '45';
-			document.getElementById("ul2li2tr5td4").innerText = '100';
+			document.getElementById("ul2li2tr5td1").innerHTML = '0005';
+			document.getElementById("ul2li2tr5td2").innerHTML = 'Carga Júnior 250 mm';
+			document.getElementById("ul2li2tr5td3").innerHTML = '45';
+			document.getElementById("ul2li2tr5td4").innerHTML = '100';
 			
             document.getElementById("ul2li2tr6").style.display = 'table-row';
-			document.getElementById("ul2li2tr6td1").innerText = '0122';
-			document.getElementById("ul2li2tr6td2").innerText = 'Carga Júnior 180 mm';
-			document.getElementById("ul2li2tr6td3").innerText = '50';
-			document.getElementById("ul2li2tr6td4").innerText = '100';
+			document.getElementById("ul2li2tr6td1").innerHTML = '0122';
+			document.getElementById("ul2li2tr6td2").innerHTML = 'Carga Júnior 180 mm';
+			document.getElementById("ul2li2tr6td3").innerHTML = '50';
+			document.getElementById("ul2li2tr6td4").innerHTML = '100';
 	
             document.getElementById("ul2li2tr7").style.display = 'table-row';
-			document.getElementById("ul2li2tr7td1").innerText = '0123';
-			document.getElementById("ul2li2tr7td2").innerText = 'Carga Júnior 220 mm';
-			document.getElementById("ul2li2tr7td3").innerText = '50';
-			document.getElementById("ul2li2tr7td4").innerText = '90';
+			document.getElementById("ul2li2tr7td1").innerHTML = '0123';
+			document.getElementById("ul2li2tr7td2").innerHTML = 'Carga Júnior 220 mm';
+			document.getElementById("ul2li2tr7td3").innerHTML = '50';
+			document.getElementById("ul2li2tr7td4").innerHTML = '90';
 	
             document.getElementById("ul2li2tr8").style.display = 'table-row';
-			document.getElementById("ul2li2tr8td1").innerText = '0124';
-			document.getElementById("ul2li2tr8td2").innerText = 'Carga Júnior 250 mm';
-			document.getElementById("ul2li2tr8td3").innerText = '50';
-			document.getElementById("ul2li2tr8td4").innerText = '70';
+			document.getElementById("ul2li2tr8td1").innerHTML = '0124';
+			document.getElementById("ul2li2tr8td2").innerHTML = 'Carga Júnior 250 mm';
+			document.getElementById("ul2li2tr8td3").innerHTML = '50';
+			document.getElementById("ul2li2tr8td4").innerHTML = '70';
 	
             
 			
@@ -1901,52 +1901,52 @@ Version: 1.3.1
             document.getElementById('ul2li2m4').className = "";
             
             document.getElementById("ul2li2tr1").style.display = 'table-row';
-			document.getElementById("ul2li2tr1td1").innerText = 'Mini Rolo Júnior 60 mm';
-			document.getElementById("ul2li2tr1td2").innerText = '0356';
-			document.getElementById("ul2li2tr1td3").innerText = '16';
-			document.getElementById("ul2li2tr1td4").innerText = '100';
+			document.getElementById("ul2li2tr1td1").innerHTML = 'Mini Rolo Júnior 60 mm';
+			document.getElementById("ul2li2tr1td2").innerHTML = '0356';
+			document.getElementById("ul2li2tr1td3").innerHTML = '16';
+			document.getElementById("ul2li2tr1td4").innerHTML = '100';
             
             document.getElementById("ul2li2tr2").style.display = 'table-row';
-			document.getElementById("ul2li2tr2td1").innerText = 'Mini Rolo Júnior 100 mm';
-			document.getElementById("ul2li2tr2td2").innerText = '0249';
-			document.getElementById("ul2li2tr2td3").innerText = '16';
-			document.getElementById("ul2li2tr2td4").innerText = '80';
+			document.getElementById("ul2li2tr2td1").innerHTML = 'Mini Rolo Júnior 100 mm';
+			document.getElementById("ul2li2tr2td2").innerHTML = '0249';
+			document.getElementById("ul2li2tr2td3").innerHTML = '16';
+			document.getElementById("ul2li2tr2td4").innerHTML = '80';
             
             document.getElementById("ul2li2tr3").style.display = 'table-row';
-			document.getElementById("ul2li2tr3td1").innerText = 'Mini Rolo Júnior 150 mm';
-			document.getElementById("ul2li2tr3td2").innerText = '0357';
-			document.getElementById("ul2li2tr3td3").innerText = '16';
-			document.getElementById("ul2li2tr3td4").innerText = '';
+			document.getElementById("ul2li2tr3td1").innerHTML = 'Mini Rolo Júnior 150 mm';
+			document.getElementById("ul2li2tr3td2").innerHTML = '0357';
+			document.getElementById("ul2li2tr3td3").innerHTML = '16';
+			document.getElementById("ul2li2tr3td4").innerHTML = '';
             
             document.getElementById("ul2li2tr4").style.display = 'none';
-			document.getElementById("ul2li2tr4td1").innerText = '';
-			document.getElementById("ul2li2tr4td2").innerText = '';
-			document.getElementById("ul2li2tr4td3").innerText = '';
-			document.getElementById("ul2li2tr4td4").innerText = '';
+			document.getElementById("ul2li2tr4td1").innerHTML = '';
+			document.getElementById("ul2li2tr4td2").innerHTML = '';
+			document.getElementById("ul2li2tr4td3").innerHTML = '';
+			document.getElementById("ul2li2tr4td4").innerHTML = '';
             
             document.getElementById("ul2li2tr5").style.display = 'none';
-			document.getElementById("ul2li2tr5td1").innerText = '';
-			document.getElementById("ul2li2tr5td2").innerText = '';
-			document.getElementById("ul2li2tr5td3").innerText = '';
-			document.getElementById("ul2li2tr5td4").innerText = '';
+			document.getElementById("ul2li2tr5td1").innerHTML = '';
+			document.getElementById("ul2li2tr5td2").innerHTML = '';
+			document.getElementById("ul2li2tr5td3").innerHTML = '';
+			document.getElementById("ul2li2tr5td4").innerHTML = '';
             
             document.getElementById("ul2li2tr6").style.display = 'none';
-			document.getElementById("ul2li2tr6td1").innerText = '';
-			document.getElementById("ul2li2tr6td2").innerText = '';
-			document.getElementById("ul2li2tr6td3").innerText = '';
-			document.getElementById("ul2li2tr6td4").innerText = '';
+			document.getElementById("ul2li2tr6td1").innerHTML = '';
+			document.getElementById("ul2li2tr6td2").innerHTML = '';
+			document.getElementById("ul2li2tr6td3").innerHTML = '';
+			document.getElementById("ul2li2tr6td4").innerHTML = '';
             
             document.getElementById("ul2li2tr7").style.display = 'none';
-			document.getElementById("ul2li2tr7td1").innerText = '';
-			document.getElementById("ul2li2tr7td2").innerText = '';
-			document.getElementById("ul2li2tr7td3").innerText = '';
-			document.getElementById("ul2li2tr7td4").innerText = '';
+			document.getElementById("ul2li2tr7td1").innerHTML = '';
+			document.getElementById("ul2li2tr7td2").innerHTML = '';
+			document.getElementById("ul2li2tr7td3").innerHTML = '';
+			document.getElementById("ul2li2tr7td4").innerHTML = '';
             
             document.getElementById("ul2li2tr8").style.display = 'none';
-			document.getElementById("ul2li2tr8td1").innerText = '';
-			document.getElementById("ul2li2tr8td2").innerText = '';
-			document.getElementById("ul2li2tr8td3").innerText = '';
-			document.getElementById("ul2li2tr8td4").innerText = '';
+			document.getElementById("ul2li2tr8td1").innerHTML = '';
+			document.getElementById("ul2li2tr8td2").innerHTML = '';
+			document.getElementById("ul2li2tr8td3").innerHTML = '';
+			document.getElementById("ul2li2tr8td4").innerHTML = '';
 			
 		});
         
@@ -1970,52 +1970,52 @@ Version: 1.3.1
             document.getElementById('ul2li2m4').className = "activeMenu";
             
             document.getElementById("ul2li2tr1").style.display = 'table-row';
-			document.getElementById("ul2li2tr1td1").innerText = 'Carga Júnior 60 mm';
-			document.getElementById("ul2li2tr1td2").innerText = '0360';
-			document.getElementById("ul2li2tr1td3").innerText = '16';
-			document.getElementById("ul2li2tr1td4").innerText = '';
+			document.getElementById("ul2li2tr1td1").innerHTML = 'Carga Júnior 60 mm';
+			document.getElementById("ul2li2tr1td2").innerHTML = '0360';
+			document.getElementById("ul2li2tr1td3").innerHTML = '16';
+			document.getElementById("ul2li2tr1td4").innerHTML = '';
             
             document.getElementById("ul2li2tr2").style.display = 'table-row';
-			document.getElementById("ul2li2tr2td1").innerText = 'Carga Júnior 100 mm';
-			document.getElementById("ul2li2tr2td2").innerText = '0087';
-			document.getElementById("ul2li2tr2td3").innerText = '16';
-			document.getElementById("ul2li2tr2td4").innerText = '300';
+			document.getElementById("ul2li2tr2td1").innerHTML = 'Carga Júnior 100 mm';
+			document.getElementById("ul2li2tr2td2").innerHTML = '0087';
+			document.getElementById("ul2li2tr2td3").innerHTML = '16';
+			document.getElementById("ul2li2tr2td4").innerHTML = '300';
             
             document.getElementById("ul2li2tr3").style.display = 'table-row';
-			document.getElementById("ul2li2tr3td1").innerText = 'Carga Júnior 150 mm';
-			document.getElementById("ul2li2tr3td2").innerText = '0361';
-			document.getElementById("ul2li2tr3td3").innerText = '16';
-			document.getElementById("ul2li2tr3td4").innerText = '';
+			document.getElementById("ul2li2tr3td1").innerHTML = 'Carga Júnior 150 mm';
+			document.getElementById("ul2li2tr3td2").innerHTML = '0361';
+			document.getElementById("ul2li2tr3td3").innerHTML = '16';
+			document.getElementById("ul2li2tr3td4").innerHTML = '';
             
             document.getElementById("ul2li2tr4").style.display = 'table-row';
-			document.getElementById("ul2li2tr4td1").innerText = 'Pack 2 Cargas Mini Rolo Júnior 60 mm';
-			document.getElementById("ul2li2tr4td2").innerText = '0362';
-			document.getElementById("ul2li2tr4td3").innerText = '16';
-			document.getElementById("ul2li2tr4td4").innerText = '';
+			document.getElementById("ul2li2tr4td1").innerHTML = 'Pack 2 Cargas Mini Rolo Júnior 60 mm';
+			document.getElementById("ul2li2tr4td2").innerHTML = '0362';
+			document.getElementById("ul2li2tr4td3").innerHTML = '16';
+			document.getElementById("ul2li2tr4td4").innerHTML = '';
             
             document.getElementById("ul2li2tr5").style.display = 'table-row';
-			document.getElementById("ul2li2tr5td1").innerText = 'Pack 2 Cargas Mini Rolo Júnior 100 mm';
-			document.getElementById("ul2li2tr5td2").innerText = '0250';
-			document.getElementById("ul2li2tr5td3").innerText = '16';
-			document.getElementById("ul2li2tr5td4").innerText = '175X2';
+			document.getElementById("ul2li2tr5td1").innerHTML = 'Pack 2 Cargas Mini Rolo Júnior 100 mm';
+			document.getElementById("ul2li2tr5td2").innerHTML = '0250';
+			document.getElementById("ul2li2tr5td3").innerHTML = '16';
+			document.getElementById("ul2li2tr5td4").innerHTML = '175X2';
             
             document.getElementById("ul2li2tr6").style.display = 'table-row';
-			document.getElementById("ul2li2tr6td1").innerText = 'Pack 2 Cargas Mini Rolo Júnior 150 mm';
-			document.getElementById("ul2li2tr6td2").innerText = '0363';
-			document.getElementById("ul2li2tr6td3").innerText = '16';
-			document.getElementById("ul2li2tr6td4").innerText = '';
+			document.getElementById("ul2li2tr6td1").innerHTML = 'Pack 2 Cargas Mini Rolo Júnior 150 mm';
+			document.getElementById("ul2li2tr6td2").innerHTML = '0363';
+			document.getElementById("ul2li2tr6td3").innerHTML = '16';
+			document.getElementById("ul2li2tr6td4").innerHTML = '';
             
             document.getElementById("ul2li2tr7").style.display = 'table-row';
-			document.getElementById("ul2li2tr7td1").innerText = 'Blister 16 Cargas Júnior 60 mm';
-			document.getElementById("ul2li2tr7td2").innerText = '0364';
-			document.getElementById("ul2li2tr7td3").innerText = '16';
-			document.getElementById("ul2li2tr7td4").innerText = '36X16';
+			document.getElementById("ul2li2tr7td1").innerHTML = 'Blister 16 Cargas Júnior 60 mm';
+			document.getElementById("ul2li2tr7td2").innerHTML = '0364';
+			document.getElementById("ul2li2tr7td3").innerHTML = '16';
+			document.getElementById("ul2li2tr7td4").innerHTML = '36X16';
             
             document.getElementById("ul2li2tr8").style.display = 'table-row';
-			document.getElementById("ul2li2tr8td1").innerText = 'Blister 10 Cargas Júnior 100 mm';
-			document.getElementById("ul2li2tr8td2").innerText = '0237';
-			document.getElementById("ul2li2tr8td3").innerText = '16';
-			document.getElementById("ul2li2tr8td4").innerText = '36X10';
+			document.getElementById("ul2li2tr8td1").innerHTML = 'Blister 10 Cargas Júnior 100 mm';
+			document.getElementById("ul2li2tr8td2").innerHTML = '0237';
+			document.getElementById("ul2li2tr8td3").innerHTML = '16';
+			document.getElementById("ul2li2tr8td4").innerHTML = '36X10';
 			
 		});
 		
@@ -2049,93 +2049,93 @@ Version: 1.3.1
             
             
             document.getElementById("ul2li3tr1").style.display = 'table-row';
-			document.getElementById("ul2li3tr1td1").innerText = '0081';
-			document.getElementById("ul2li3tr1td2").innerText = 'Rolo Microfibra 180 mm';
-			document.getElementById("ul2li3tr1td3").innerText = '45';
-			document.getElementById("ul2li3tr1td4").innerText = '60';
+			document.getElementById("ul2li3tr1td1").innerHTML = '0081';
+			document.getElementById("ul2li3tr1td2").innerHTML = 'Rolo Microfibra 180 mm';
+			document.getElementById("ul2li3tr1td3").innerHTML = '45';
+			document.getElementById("ul2li3tr1td4").innerHTML = '60';
 			
             
             document.getElementById("ul2li3tr2").style.display = 'table-row';
-			document.getElementById("ul2li3tr2td1").innerText = '0082';
-			document.getElementById("ul2li3tr2td2").innerText = 'Rolo Microfibra 220 mm';
-			document.getElementById("ul2li3tr2td3").innerText = '45';
-			document.getElementById("ul2li3tr2td4").innerText = '55';
+			document.getElementById("ul2li3tr2td1").innerHTML = '0082';
+			document.getElementById("ul2li3tr2td2").innerHTML = 'Rolo Microfibra 220 mm';
+			document.getElementById("ul2li3tr2td3").innerHTML = '45';
+			document.getElementById("ul2li3tr2td4").innerHTML = '55';
 			
             
             document.getElementById("ul2li3tr3").style.display = 'table-row';
-			document.getElementById("ul2li3tr3td1").innerText = '0083';
-			document.getElementById("ul2li3tr3td2").innerText = 'Rolo Microfibra 250 mm';
-			document.getElementById("ul2li3tr3td3").innerText = '45';
-			document.getElementById("ul2li3tr3td4").innerText = '50';
+			document.getElementById("ul2li3tr3td1").innerHTML = '0083';
+			document.getElementById("ul2li3tr3td2").innerHTML = 'Rolo Microfibra 250 mm';
+			document.getElementById("ul2li3tr3td3").innerHTML = '45';
+			document.getElementById("ul2li3tr3td4").innerHTML = '50';
             
             
             document.getElementById("ul2li3tr4").style.display = 'none';
-            document.getElementById("ul2li3tr4td1").innerText = '';
-			document.getElementById("ul2li3tr4td2").innerText = '';
-			document.getElementById("ul2li3tr4td3").innerText = '';
-			document.getElementById("ul2li3tr4td4").innerText = '';	
+            document.getElementById("ul2li3tr4td1").innerHTML = '';
+			document.getElementById("ul2li3tr4td2").innerHTML = '';
+			document.getElementById("ul2li3tr4td3").innerHTML = '';
+			document.getElementById("ul2li3tr4td4").innerHTML = '';	
             
             document.getElementById("ul2li3tr5").style.display = 'none';
-			document.getElementById("ul2li3tr5td1").innerText = '';
-			document.getElementById("ul2li3tr5td2").innerText = '';
-			document.getElementById("ul2li3tr5td3").innerText = '';
-			document.getElementById("ul2li3tr5td4").innerText = '';	
+			document.getElementById("ul2li3tr5td1").innerHTML = '';
+			document.getElementById("ul2li3tr5td2").innerHTML = '';
+			document.getElementById("ul2li3tr5td3").innerHTML = '';
+			document.getElementById("ul2li3tr5td4").innerHTML = '';	
             
             document.getElementById("ul2li3tr6").style.display = 'none';
-            document.getElementById("ul2li3tr6td1").innerText = '';
-			document.getElementById("ul2li3tr6td2").innerText = '';
-			document.getElementById("ul2li3tr6td3").innerText = '';
-			document.getElementById("ul2li3tr6td4").innerText = '';	
+            document.getElementById("ul2li3tr6td1").innerHTML = '';
+			document.getElementById("ul2li3tr6td2").innerHTML = '';
+			document.getElementById("ul2li3tr6td3").innerHTML = '';
+			document.getElementById("ul2li3tr6td4").innerHTML = '';	
             
             
             document.getElementById("ul2li3tr7").style.display = 'none';
-            document.getElementById("ul2li3tr7td1").innerText = '';
-			document.getElementById("ul2li3tr7td2").innerText = '';
-			document.getElementById("ul2li3tr7td3").innerText = '';
-			document.getElementById("ul2li3tr7td4").innerText = '';
+            document.getElementById("ul2li3tr7td1").innerHTML = '';
+			document.getElementById("ul2li3tr7td2").innerHTML = '';
+			document.getElementById("ul2li3tr7td3").innerHTML = '';
+			document.getElementById("ul2li3tr7td4").innerHTML = '';
             
             document.getElementById("ul2li3tr8").style.display = 'none';
-            document.getElementById("ul2li3tr8td1").innerText = '';
-			document.getElementById("ul2li3tr8td2").innerText = '';
-			document.getElementById("ul2li3tr8td3").innerText = '';
-			document.getElementById("ul2li3tr8td4").innerText = '';
+            document.getElementById("ul2li3tr8td1").innerHTML = '';
+			document.getElementById("ul2li3tr8td2").innerHTML = '';
+			document.getElementById("ul2li3tr8td3").innerHTML = '';
+			document.getElementById("ul2li3tr8td4").innerHTML = '';
             
             
             document.getElementById("ul2li3tr9").style.display = 'none';
-            document.getElementById("ul2li3tr9td1").innerText = '';
-			document.getElementById("ul2li3tr9td2").innerText = '';
-			document.getElementById("ul2li3tr9td3").innerText = '';
-			document.getElementById("ul2li3tr9td4").innerText = '';
+            document.getElementById("ul2li3tr9td1").innerHTML = '';
+			document.getElementById("ul2li3tr9td2").innerHTML = '';
+			document.getElementById("ul2li3tr9td3").innerHTML = '';
+			document.getElementById("ul2li3tr9td4").innerHTML = '';
             
             document.getElementById("ul2li3tr10").style.display = 'none';
-            document.getElementById("ul2li3tr10td1").innerText = '';
-			document.getElementById("ul2li3tr10td2").innerText = '';
-			document.getElementById("ul2li3tr10td3").innerText = '';
-			document.getElementById("ul2li3tr10td4").innerText = '';
+            document.getElementById("ul2li3tr10td1").innerHTML = '';
+			document.getElementById("ul2li3tr10td2").innerHTML = '';
+			document.getElementById("ul2li3tr10td3").innerHTML = '';
+			document.getElementById("ul2li3tr10td4").innerHTML = '';
             
             document.getElementById("ul2li3tr11").style.display = 'none';
-            document.getElementById("ul2li3tr11td1").innerText = '';
-			document.getElementById("ul2li3tr11td2").innerText = '';
-			document.getElementById("ul2li3tr11td3").innerText = '';
-			document.getElementById("ul2li3tr11td4").innerText = '';
+            document.getElementById("ul2li3tr11td1").innerHTML = '';
+			document.getElementById("ul2li3tr11td2").innerHTML = '';
+			document.getElementById("ul2li3tr11td3").innerHTML = '';
+			document.getElementById("ul2li3tr11td4").innerHTML = '';
             
             document.getElementById("ul2li3tr12").style.display = 'none';
-            document.getElementById("ul2li3tr12td1").innerText = '';
-			document.getElementById("ul2li3tr12td2").innerText = '';
-			document.getElementById("ul2li3tr12td3").innerText = '';
-			document.getElementById("ul2li3tr12td4").innerText = '';
+            document.getElementById("ul2li3tr12td1").innerHTML = '';
+			document.getElementById("ul2li3tr12td2").innerHTML = '';
+			document.getElementById("ul2li3tr12td3").innerHTML = '';
+			document.getElementById("ul2li3tr12td4").innerHTML = '';
             
             document.getElementById("ul2li3tr13").style.display = 'none';
-            document.getElementById("ul2li3tr13td1").innerText = '';
-			document.getElementById("ul2li3tr13td2").innerText = '';
-			document.getElementById("ul2li3tr13td3").innerText = '';
-			document.getElementById("ul2li3tr13td4").innerText = '';
+            document.getElementById("ul2li3tr13td1").innerHTML = '';
+			document.getElementById("ul2li3tr13td2").innerHTML = '';
+			document.getElementById("ul2li3tr13td3").innerHTML = '';
+			document.getElementById("ul2li3tr13td4").innerHTML = '';
             
             document.getElementById("ul2li3tr14").style.display = 'none';
-            document.getElementById("ul2li3tr14td1").innerText = '';
-			document.getElementById("ul2li3tr14td2").innerText = '';
-			document.getElementById("ul2li3tr14td3").innerText = '';
-			document.getElementById("ul2li3tr14td4").innerText = '';
+            document.getElementById("ul2li3tr14td1").innerHTML = '';
+			document.getElementById("ul2li3tr14td2").innerHTML = '';
+			document.getElementById("ul2li3tr14td3").innerHTML = '';
+			document.getElementById("ul2li3tr14td4").innerHTML = '';
             
 			
 		});
@@ -2161,91 +2161,91 @@ Version: 1.3.1
             document.getElementById('ul2li3m4').className = "";
             
             document.getElementById("ul2li3tr1").style.display = 'table-row';
-			document.getElementById("ul2li3tr1td1").innerText = '0038';
-			document.getElementById("ul2li3tr1td2").innerText = 'Carga Microfibra 180 mm';
-			document.getElementById("ul2li3tr1td3").innerText = '45';
-			document.getElementById("ul2li3tr1td4").innerText = '140';
+			document.getElementById("ul2li3tr1td1").innerHTML = '0038';
+			document.getElementById("ul2li3tr1td2").innerHTML = 'Carga Microfibra 180 mm';
+			document.getElementById("ul2li3tr1td3").innerHTML = '45';
+			document.getElementById("ul2li3tr1td4").innerHTML = '140';
 			
             document.getElementById("ul2li3tr2").style.display = 'table-row';
-			document.getElementById("ul2li3tr2td1").innerText = '0039';
-			document.getElementById("ul2li3tr2td2").innerText = 'Carga Microfibra 220 mm';
-			document.getElementById("ul2li3tr2td3").innerText = '45';
-			document.getElementById("ul2li3tr2td4").innerText = '120';
+			document.getElementById("ul2li3tr2td1").innerHTML = '0039';
+			document.getElementById("ul2li3tr2td2").innerHTML = 'Carga Microfibra 220 mm';
+			document.getElementById("ul2li3tr2td3").innerHTML = '45';
+			document.getElementById("ul2li3tr2td4").innerHTML = '120';
 			
             
             document.getElementById("ul2li3tr3").style.display = 'table-row';
-            document.getElementById("ul2li3tr3td1").innerText = '0040';
-			document.getElementById("ul2li3tr3td2").innerText = 'Carga Microfibra 250 mm';
-			document.getElementById("ul2li3tr3td3").innerText = '45';
-			document.getElementById("ul2li3tr3td4").innerText = '100';
+            document.getElementById("ul2li3tr3td1").innerHTML = '0040';
+			document.getElementById("ul2li3tr3td2").innerHTML = 'Carga Microfibra 250 mm';
+			document.getElementById("ul2li3tr3td3").innerHTML = '45';
+			document.getElementById("ul2li3tr3td4").innerHTML = '100';
             
             ocument.getElementById("ul2li3tr4").style.display = 'none';
-            document.getElementById("ul2li3tr4td1").innerText = '';
-			document.getElementById("ul2li3tr4td2").innerText = '';
-			document.getElementById("ul2li3tr4td3").innerText = '';
-			document.getElementById("ul2li3tr4td4").innerText = '';	
+            document.getElementById("ul2li3tr4td1").innerHTML = '';
+			document.getElementById("ul2li3tr4td2").innerHTML = '';
+			document.getElementById("ul2li3tr4td3").innerHTML = '';
+			document.getElementById("ul2li3tr4td4").innerHTML = '';	
             
             document.getElementById("ul2li3tr5").style.display = 'none';
-			document.getElementById("ul2li3tr5td1").innerText = '';
-			document.getElementById("ul2li3tr5td2").innerText = '';
-			document.getElementById("ul2li3tr5td3").innerText = '';
-			document.getElementById("ul2li3tr5td4").innerText = '';	
+			document.getElementById("ul2li3tr5td1").innerHTML = '';
+			document.getElementById("ul2li3tr5td2").innerHTML = '';
+			document.getElementById("ul2li3tr5td3").innerHTML = '';
+			document.getElementById("ul2li3tr5td4").innerHTML = '';	
             
             document.getElementById("ul2li3tr6").style.display = 'none';
-            document.getElementById("ul2li3tr6td1").innerText = '';
-			document.getElementById("ul2li3tr6td2").innerText = '';
-			document.getElementById("ul2li3tr6td3").innerText = '';
-			document.getElementById("ul2li3tr6td4").innerText = '';	
+            document.getElementById("ul2li3tr6td1").innerHTML = '';
+			document.getElementById("ul2li3tr6td2").innerHTML = '';
+			document.getElementById("ul2li3tr6td3").innerHTML = '';
+			document.getElementById("ul2li3tr6td4").innerHTML = '';	
             
             
             document.getElementById("ul2li3tr7").style.display = 'none';
-            document.getElementById("ul2li3tr7td1").innerText = '';
-			document.getElementById("ul2li3tr7td2").innerText = '';
-			document.getElementById("ul2li3tr7td3").innerText = '';
-			document.getElementById("ul2li3tr7td4").innerText = '';
+            document.getElementById("ul2li3tr7td1").innerHTML = '';
+			document.getElementById("ul2li3tr7td2").innerHTML = '';
+			document.getElementById("ul2li3tr7td3").innerHTML = '';
+			document.getElementById("ul2li3tr7td4").innerHTML = '';
             
             document.getElementById("ul2li3tr8").style.display = 'none';
-            document.getElementById("ul2li3tr8td1").innerText = '';
-			document.getElementById("ul2li3tr8td2").innerText = '';
-			document.getElementById("ul2li3tr8td3").innerText = '';
-			document.getElementById("ul2li3tr8td4").innerText = '';
+            document.getElementById("ul2li3tr8td1").innerHTML = '';
+			document.getElementById("ul2li3tr8td2").innerHTML = '';
+			document.getElementById("ul2li3tr8td3").innerHTML = '';
+			document.getElementById("ul2li3tr8td4").innerHTML = '';
             
             
             document.getElementById("ul2li3tr9").style.display = 'none';
-            document.getElementById("ul2li3tr9td1").innerText = '';
-			document.getElementById("ul2li3tr9td2").innerText = '';
-			document.getElementById("ul2li3tr9td3").innerText = '';
-			document.getElementById("ul2li3tr9td4").innerText = '';
+            document.getElementById("ul2li3tr9td1").innerHTML = '';
+			document.getElementById("ul2li3tr9td2").innerHTML = '';
+			document.getElementById("ul2li3tr9td3").innerHTML = '';
+			document.getElementById("ul2li3tr9td4").innerHTML = '';
             
             document.getElementById("ul2li3tr10").style.display = 'none';
-            document.getElementById("ul2li3tr10td1").innerText = '';
-			document.getElementById("ul2li3tr10td2").innerText = '';
-			document.getElementById("ul2li3tr10td3").innerText = '';
-			document.getElementById("ul2li3tr10td4").innerText = '';
+            document.getElementById("ul2li3tr10td1").innerHTML = '';
+			document.getElementById("ul2li3tr10td2").innerHTML = '';
+			document.getElementById("ul2li3tr10td3").innerHTML = '';
+			document.getElementById("ul2li3tr10td4").innerHTML = '';
             
             document.getElementById("ul2li3tr11").style.display = 'none';
-            document.getElementById("ul2li3tr11td1").innerText = '';
-			document.getElementById("ul2li3tr11td2").innerText = '';
-			document.getElementById("ul2li3tr11td3").innerText = '';
-			document.getElementById("ul2li3tr11td4").innerText = '';
+            document.getElementById("ul2li3tr11td1").innerHTML = '';
+			document.getElementById("ul2li3tr11td2").innerHTML = '';
+			document.getElementById("ul2li3tr11td3").innerHTML = '';
+			document.getElementById("ul2li3tr11td4").innerHTML = '';
             
             document.getElementById("ul2li3tr12").style.display = 'none';
-            document.getElementById("ul2li3tr12td1").innerText = '';
-			document.getElementById("ul2li3tr12td2").innerText = '';
-			document.getElementById("ul2li3tr12td3").innerText = '';
-			document.getElementById("ul2li3tr12td4").innerText = '';
+            document.getElementById("ul2li3tr12td1").innerHTML = '';
+			document.getElementById("ul2li3tr12td2").innerHTML = '';
+			document.getElementById("ul2li3tr12td3").innerHTML = '';
+			document.getElementById("ul2li3tr12td4").innerHTML = '';
             
             document.getElementById("ul2li3tr13").style.display = 'none';
-            document.getElementById("ul2li3tr13td1").innerText = '';
-			document.getElementById("ul2li3tr13td2").innerText = '';
-			document.getElementById("ul2li3tr13td3").innerText = '';
-			document.getElementById("ul2li3tr13td4").innerText = '';
+            document.getElementById("ul2li3tr13td1").innerHTML = '';
+			document.getElementById("ul2li3tr13td2").innerHTML = '';
+			document.getElementById("ul2li3tr13td3").innerHTML = '';
+			document.getElementById("ul2li3tr13td4").innerHTML = '';
             
             document.getElementById("ul2li3tr14").style.display = 'none';
-            document.getElementById("ul2li3tr14td1").innerText = '';
-			document.getElementById("ul2li3tr14td2").innerText = '';
-			document.getElementById("ul2li3tr14td3").innerText = '';
-			document.getElementById("ul2li3tr14td4").innerText = '';
+            document.getElementById("ul2li3tr14td1").innerHTML = '';
+			document.getElementById("ul2li3tr14td2").innerHTML = '';
+			document.getElementById("ul2li3tr14td3").innerHTML = '';
+			document.getElementById("ul2li3tr14td4").innerHTML = '';
 			
 		});
 
@@ -2272,93 +2272,93 @@ Version: 1.3.1
             
             
             document.getElementById("ul2li3tr1").style.display = 'table-row';
-			document.getElementById("ul2li3tr1td1").innerText = '0187';
-			document.getElementById("ul2li3tr1td2").innerText = 'Mini Microfibra 60 mm';
-			document.getElementById("ul2li3tr1td3").innerText = '16';
-			document.getElementById("ul2li3tr1td4").innerText = '100';
+			document.getElementById("ul2li3tr1td1").innerHTML = '0187';
+			document.getElementById("ul2li3tr1td2").innerHTML = 'Mini Microfibra 60 mm';
+			document.getElementById("ul2li3tr1td3").innerHTML = '16';
+			document.getElementById("ul2li3tr1td4").innerHTML = '100';
 			
             
             document.getElementById("ul2li3tr2").style.display = 'table-row';
-			document.getElementById("ul2li3tr2td1").innerText = '0188';
-			document.getElementById("ul2li3tr2td2").innerText = 'Mini Microfibra 100 mm';
-			document.getElementById("ul2li3tr2td3").innerText = '16';
-			document.getElementById("ul2li3tr2td4").innerText = '80';
+			document.getElementById("ul2li3tr2td1").innerHTML = '0188';
+			document.getElementById("ul2li3tr2td2").innerHTML = 'Mini Microfibra 100 mm';
+			document.getElementById("ul2li3tr2td3").innerHTML = '16';
+			document.getElementById("ul2li3tr2td4").innerHTML = '80';
 			
             
             document.getElementById("ul2li3tr3").style.display = 'table-row';
-			document.getElementById("ul2li3tr3td1").innerText = '0189';
-			document.getElementById("ul2li3tr3td2").innerText = 'Mini Microfibra 150 mm ';
-			document.getElementById("ul2li3tr3td3").innerText = '16';
-			document.getElementById("ul2li3tr3td4").innerText = '';	
+			document.getElementById("ul2li3tr3td1").innerHTML = '0189';
+			document.getElementById("ul2li3tr3td2").innerHTML = 'Mini Microfibra 150 mm ';
+			document.getElementById("ul2li3tr3td3").innerHTML = '16';
+			document.getElementById("ul2li3tr3td4").innerHTML = '';	
             
             
             document.getElementById("ul2li3tr4").style.display = 'none';
-            document.getElementById("ul2li3tr4td1").innerText = '';
-			document.getElementById("ul2li3tr4td2").innerText = '';
-			document.getElementById("ul2li3tr4td3").innerText = '';
-			document.getElementById("ul2li3tr4td4").innerText = '';	
+            document.getElementById("ul2li3tr4td1").innerHTML = '';
+			document.getElementById("ul2li3tr4td2").innerHTML = '';
+			document.getElementById("ul2li3tr4td3").innerHTML = '';
+			document.getElementById("ul2li3tr4td4").innerHTML = '';	
             
             document.getElementById("ul2li3tr5").style.display = 'none';
-			document.getElementById("ul2li3tr5td1").innerText = '';
-			document.getElementById("ul2li3tr5td2").innerText = '';
-			document.getElementById("ul2li3tr5td3").innerText = '';
-			document.getElementById("ul2li3tr5td4").innerText = '';	
+			document.getElementById("ul2li3tr5td1").innerHTML = '';
+			document.getElementById("ul2li3tr5td2").innerHTML = '';
+			document.getElementById("ul2li3tr5td3").innerHTML = '';
+			document.getElementById("ul2li3tr5td4").innerHTML = '';	
             
             document.getElementById("ul2li3tr6").style.display = 'none';
-            document.getElementById("ul2li3tr6td1").innerText = '';
-			document.getElementById("ul2li3tr6td2").innerText = '';
-			document.getElementById("ul2li3tr6td3").innerText = '';
-			document.getElementById("ul2li3tr6td4").innerText = '';	
+            document.getElementById("ul2li3tr6td1").innerHTML = '';
+			document.getElementById("ul2li3tr6td2").innerHTML = '';
+			document.getElementById("ul2li3tr6td3").innerHTML = '';
+			document.getElementById("ul2li3tr6td4").innerHTML = '';	
             
             
             document.getElementById("ul2li3tr7").style.display = 'none';
-            document.getElementById("ul2li3tr7td1").innerText = '';
-			document.getElementById("ul2li3tr7td2").innerText = '';
-			document.getElementById("ul2li3tr7td3").innerText = '';
-			document.getElementById("ul2li3tr7td4").innerText = '';
+            document.getElementById("ul2li3tr7td1").innerHTML = '';
+			document.getElementById("ul2li3tr7td2").innerHTML = '';
+			document.getElementById("ul2li3tr7td3").innerHTML = '';
+			document.getElementById("ul2li3tr7td4").innerHTML = '';
             
             document.getElementById("ul2li3tr8").style.display = 'none';
-            document.getElementById("ul2li3tr8td1").innerText = '';
-			document.getElementById("ul2li3tr8td2").innerText = '';
-			document.getElementById("ul2li3tr8td3").innerText = '';
-			document.getElementById("ul2li3tr8td4").innerText = '';
+            document.getElementById("ul2li3tr8td1").innerHTML = '';
+			document.getElementById("ul2li3tr8td2").innerHTML = '';
+			document.getElementById("ul2li3tr8td3").innerHTML = '';
+			document.getElementById("ul2li3tr8td4").innerHTML = '';
             
             
             document.getElementById("ul2li3tr9").style.display = 'none';
-            document.getElementById("ul2li3tr9td1").innerText = '';
-			document.getElementById("ul2li3tr9td2").innerText = '';
-			document.getElementById("ul2li3tr9td3").innerText = '';
-			document.getElementById("ul2li3tr9td4").innerText = '';
+            document.getElementById("ul2li3tr9td1").innerHTML = '';
+			document.getElementById("ul2li3tr9td2").innerHTML = '';
+			document.getElementById("ul2li3tr9td3").innerHTML = '';
+			document.getElementById("ul2li3tr9td4").innerHTML = '';
             
             document.getElementById("ul2li3tr10").style.display = 'none';
-            document.getElementById("ul2li3tr10td1").innerText = '';
-			document.getElementById("ul2li3tr10td2").innerText = '';
-			document.getElementById("ul2li3tr10td3").innerText = '';
-			document.getElementById("ul2li3tr10td4").innerText = '';
+            document.getElementById("ul2li3tr10td1").innerHTML = '';
+			document.getElementById("ul2li3tr10td2").innerHTML = '';
+			document.getElementById("ul2li3tr10td3").innerHTML = '';
+			document.getElementById("ul2li3tr10td4").innerHTML = '';
             
             document.getElementById("ul2li3tr11").style.display = 'none';
-            document.getElementById("ul2li3tr11td1").innerText = '';
-			document.getElementById("ul2li3tr11td2").innerText = '';
-			document.getElementById("ul2li3tr11td3").innerText = '';
-			document.getElementById("ul2li3tr11td4").innerText = '';
+            document.getElementById("ul2li3tr11td1").innerHTML = '';
+			document.getElementById("ul2li3tr11td2").innerHTML = '';
+			document.getElementById("ul2li3tr11td3").innerHTML = '';
+			document.getElementById("ul2li3tr11td4").innerHTML = '';
             
             document.getElementById("ul2li3tr12").style.display = 'none';
-            document.getElementById("ul2li3tr12td1").innerText = '';
-			document.getElementById("ul2li3tr12td2").innerText = '';
-			document.getElementById("ul2li3tr12td3").innerText = '';
-			document.getElementById("ul2li3tr12td4").innerText = '';
+            document.getElementById("ul2li3tr12td1").innerHTML = '';
+			document.getElementById("ul2li3tr12td2").innerHTML = '';
+			document.getElementById("ul2li3tr12td3").innerHTML = '';
+			document.getElementById("ul2li3tr12td4").innerHTML = '';
             
             document.getElementById("ul2li3tr13").style.display = 'none';
-            document.getElementById("ul2li3tr13td1").innerText = '';
-			document.getElementById("ul2li3tr13td2").innerText = '';
-			document.getElementById("ul2li3tr13td3").innerText = '';
-			document.getElementById("ul2li3tr13td4").innerText = '';
+            document.getElementById("ul2li3tr13td1").innerHTML = '';
+			document.getElementById("ul2li3tr13td2").innerHTML = '';
+			document.getElementById("ul2li3tr13td3").innerHTML = '';
+			document.getElementById("ul2li3tr13td4").innerHTML = '';
             
             document.getElementById("ul2li3tr14").style.display = 'none';
-            document.getElementById("ul2li3tr14td1").innerText = '';
-			document.getElementById("ul2li3tr14td2").innerText = '';
-			document.getElementById("ul2li3tr14td3").innerText = '';
-			document.getElementById("ul2li3tr14td4").innerText = '';
+            document.getElementById("ul2li3tr14td1").innerHTML = '';
+			document.getElementById("ul2li3tr14td2").innerHTML = '';
+			document.getElementById("ul2li3tr14td3").innerHTML = '';
+			document.getElementById("ul2li3tr14td4").innerHTML = '';
           
 		});
         
@@ -2383,88 +2383,88 @@ Version: 1.3.1
             
             
             document.getElementById("ul2li3tr1").style.display = 'table-row';
-			document.getElementById("ul2li3tr1td1").innerText = '0262';
-			document.getElementById("ul2li3tr1td2").innerText = 'Carga Microfibra 60 mm';
-			document.getElementById("ul2li3tr1td3").innerText = '16';
-			document.getElementById("ul2li3tr1td4").innerText = '';
+			document.getElementById("ul2li3tr1td1").innerHTML = '0262';
+			document.getElementById("ul2li3tr1td2").innerHTML = 'Carga Microfibra 60 mm';
+			document.getElementById("ul2li3tr1td3").innerHTML = '16';
+			document.getElementById("ul2li3tr1td4").innerHTML = '';
 		
             document.getElementById("ul2li3tr2").style.display = 'table-row';
-			document.getElementById("ul2li3tr2td1").innerText = '0248';
-			document.getElementById("ul2li3tr2td2").innerText = 'Carga Microfibra 100 mm';
-			document.getElementById("ul2li3tr2td3").innerText = '16';
-			document.getElementById("ul2li3tr2td4").innerText = '100';
+			document.getElementById("ul2li3tr2td1").innerHTML = '0248';
+			document.getElementById("ul2li3tr2td2").innerHTML = 'Carga Microfibra 100 mm';
+			document.getElementById("ul2li3tr2td3").innerHTML = '16';
+			document.getElementById("ul2li3tr2td4").innerHTML = '100';
 	
             document.getElementById("ul2li3tr3").style.display = 'table-row';
-			document.getElementById("ul2li3tr3td1").innerText = '0263';
-			document.getElementById("ul2li3tr3td2").innerText = 'Carga Microfibra 150 mm';
-			document.getElementById("ul2li3tr3td3").innerText = '16';
-			document.getElementById("ul2li3tr3td4").innerText = '';
+			document.getElementById("ul2li3tr3td1").innerHTML = '0263';
+			document.getElementById("ul2li3tr3td2").innerHTML = 'Carga Microfibra 150 mm';
+			document.getElementById("ul2li3tr3td3").innerHTML = '16';
+			document.getElementById("ul2li3tr3td4").innerHTML = '';
 		
             document.getElementById("ul2li3tr4").style.display = 'table-row';
-            document.getElementById("ul2li3tr4td1").innerText = '0191';
-			document.getElementById("ul2li3tr4td2").innerText = 'Pack 2 Cargas Microfibra 60 mm';
-			document.getElementById("ul2li3tr4td3").innerText = '16';
-			document.getElementById("ul2li3tr4td4").innerText = '';
+            document.getElementById("ul2li3tr4td1").innerHTML = '0191';
+			document.getElementById("ul2li3tr4td2").innerHTML = 'Pack 2 Cargas Microfibra 60 mm';
+			document.getElementById("ul2li3tr4td3").innerHTML = '16';
+			document.getElementById("ul2li3tr4td4").innerHTML = '';
             
             document.getElementById("ul2li3tr5").style.display = 'table-row';
-            document.getElementById("ul2li3tr5td1").innerText = '0192';
-			document.getElementById("ul2li3tr5td2").innerText = 'Pack 2 Cargas Microfibra 100 mm';
-			document.getElementById("ul2li3tr5td3").innerText = '16';
-			document.getElementById("ul2li3tr5td4").innerText = '150X2';
+            document.getElementById("ul2li3tr5td1").innerHTML = '0192';
+			document.getElementById("ul2li3tr5td2").innerHTML = 'Pack 2 Cargas Microfibra 100 mm';
+			document.getElementById("ul2li3tr5td3").innerHTML = '16';
+			document.getElementById("ul2li3tr5td4").innerHTML = '150X2';
             
             document.getElementById("ul2li3tr6").style.display = 'table-row';
-            document.getElementById("ul2li3tr6td1").innerText = '0193';
-			document.getElementById("ul2li3tr6td2").innerText = 'Pack 2 Cargas Microfibra 150 mm';
-			document.getElementById("ul2li3tr6td3").innerText = '16';
-			document.getElementById("ul2li3tr6td4").innerText = '';
+            document.getElementById("ul2li3tr6td1").innerHTML = '0193';
+			document.getElementById("ul2li3tr6td2").innerHTML = 'Pack 2 Cargas Microfibra 150 mm';
+			document.getElementById("ul2li3tr6td3").innerHTML = '16';
+			document.getElementById("ul2li3tr6td4").innerHTML = '';
             
             document.getElementById("ul2li3tr7").style.display = 'table-row';
-            document.getElementById("ul2li3tr7td1").innerText = '0264';
-			document.getElementById("ul2li3tr7td2").innerText = 'Blister 16 Cargas Microfibra 60 mm';
-			document.getElementById("ul2li3tr7td3").innerText = '16';
-			document.getElementById("ul2li3tr7td4").innerText = '36X16';
+            document.getElementById("ul2li3tr7td1").innerHTML = '0264';
+			document.getElementById("ul2li3tr7td2").innerHTML = 'Blister 16 Cargas Microfibra 60 mm';
+			document.getElementById("ul2li3tr7td3").innerHTML = '16';
+			document.getElementById("ul2li3tr7td4").innerHTML = '36X16';
             
             document.getElementById("ul2li3tr8").style.display = 'table-row';
-            document.getElementById("ul2li3tr8td1").innerText = '0190';
-			document.getElementById("ul2li3tr8td2").innerText = 'Blister 10 Cargas Microfibra 100 mm';
-			document.getElementById("ul2li3tr8td3").innerText = '16';
-			document.getElementById("ul2li3tr8td4").innerText = '36X10';
+            document.getElementById("ul2li3tr8td1").innerHTML = '0190';
+			document.getElementById("ul2li3tr8td2").innerHTML = 'Blister 10 Cargas Microfibra 100 mm';
+			document.getElementById("ul2li3tr8td3").innerHTML = '16';
+			document.getElementById("ul2li3tr8td4").innerHTML = '36X10';
             
             document.getElementById("ul2li3tr9").style.display = 'table-row';
-            document.getElementById("ul2li3tr9td1").innerText = '0213';
-			document.getElementById("ul2li3tr9td2").innerText = 'Carga Microfibra 120 m';
-			document.getElementById("ul2li3tr9td3").innerText = '30';
-			document.getElementById("ul2li3tr9td4").innerText = '';
+            document.getElementById("ul2li3tr9td1").innerHTML = '0213';
+			document.getElementById("ul2li3tr9td2").innerHTML = 'Carga Microfibra 120 m';
+			document.getElementById("ul2li3tr9td3").innerHTML = '30';
+			document.getElementById("ul2li3tr9td4").innerHTML = '';
             
             document.getElementById("ul2li3tr10").style.display = 'table-row';
-            document.getElementById("ul2li3tr10td1").innerText = '0214';
-			document.getElementById("ul2li3tr10td2").innerText = 'Carga Microfibra 150 mm';
-			document.getElementById("ul2li3tr10td3").innerText = '30';
-			document.getElementById("ul2li3tr10td4").innerText = '';
+            document.getElementById("ul2li3tr10td1").innerHTML = '0214';
+			document.getElementById("ul2li3tr10td2").innerHTML = 'Carga Microfibra 150 mm';
+			document.getElementById("ul2li3tr10td3").innerHTML = '30';
+			document.getElementById("ul2li3tr10td4").innerHTML = '';
             
             document.getElementById("ul2li3tr11").style.display = 'table-row';
-            document.getElementById("ul2li3tr11td1").innerText = '0217';
-			document.getElementById("ul2li3tr11td2").innerText = 'Pack 2 Cargas Microfibra 120 mm';
-			document.getElementById("ul2li3tr11td3").innerText = '30';
-			document.getElementById("ul2li3tr11td4").innerText = '';
+            document.getElementById("ul2li3tr11td1").innerHTML = '0217';
+			document.getElementById("ul2li3tr11td2").innerHTML = 'Pack 2 Cargas Microfibra 120 mm';
+			document.getElementById("ul2li3tr11td3").innerHTML = '30';
+			document.getElementById("ul2li3tr11td4").innerHTML = '';
             
             document.getElementById("ul2li3tr12").style.display = 'table-row';
-            document.getElementById("ul2li3tr12td1").innerText = '0218';
-			document.getElementById("ul2li3tr12td2").innerText = 'Pack 2 Cargas Microfibra 150 mm';
-			document.getElementById("ul2li3tr12td3").innerText = '30';
-			document.getElementById("ul2li3tr12td4").innerText = '';
+            document.getElementById("ul2li3tr12td1").innerHTML = '0218';
+			document.getElementById("ul2li3tr12td2").innerHTML = 'Pack 2 Cargas Microfibra 150 mm';
+			document.getElementById("ul2li3tr12td3").innerHTML = '30';
+			document.getElementById("ul2li3tr12td4").innerHTML = '';
             
             document.getElementById("ul2li3tr13").style.display = 'table-row';
-            document.getElementById("ul2li3tr13td1").innerText = '0215';
-			document.getElementById("ul2li3tr13td2").innerText = 'Blister 10 Cargas Microfibra 120 mm';
-			document.getElementById("ul2li3tr13td3").innerText = '30';
-			document.getElementById("ul2li3tr13td4").innerText = '';
+            document.getElementById("ul2li3tr13td1").innerHTML = '0215';
+			document.getElementById("ul2li3tr13td2").innerHTML = 'Blister 10 Cargas Microfibra 120 mm';
+			document.getElementById("ul2li3tr13td3").innerHTML = '30';
+			document.getElementById("ul2li3tr13td4").innerHTML = '';
             
             document.getElementById("ul2li3tr14").style.display = 'table-row';
-            document.getElementById("ul2li3tr14td1").innerText = '0216';
-			document.getElementById("ul2li3tr14td2").innerText = 'Blister 6 Cargas Microfibra 150 mm';
-			document.getElementById("ul2li3tr14td3").innerText = '30';
-			document.getElementById("ul2li3tr14td4").innerText = '';
+            document.getElementById("ul2li3tr14td1").innerHTML = '0216';
+			document.getElementById("ul2li3tr14td2").innerHTML = 'Blister 6 Cargas Microfibra 150 mm';
+			document.getElementById("ul2li3tr14td3").innerHTML = '30';
+			document.getElementById("ul2li3tr14td4").innerHTML = '';
             
 		});
 		
@@ -2497,88 +2497,88 @@ Version: 1.3.1
             
             
             document.getElementById("ul2li4tr1").style.display = 'table-row';
-			document.getElementById("ul2li4tr1td1").innerText = '0072';
-			document.getElementById("ul2li4tr1td2").innerText = 'Rolo Ravel 180 mm';
-			document.getElementById("ul2li4tr1td3").innerText = '45';
-			document.getElementById("ul2li4tr1td4").innerText = '60';
+			document.getElementById("ul2li4tr1td1").innerHTML = '0072';
+			document.getElementById("ul2li4tr1td2").innerHTML = 'Rolo Ravel 180 mm';
+			document.getElementById("ul2li4tr1td3").innerHTML = '45';
+			document.getElementById("ul2li4tr1td4").innerHTML = '60';
 			
             document.getElementById("ul2li4tr2").style.display = 'table-row';
-			document.getElementById("ul2li4tr2td1").innerText = '0073';
-			document.getElementById("ul2li4tr2td2").innerText = 'Rolo Ravel 220 mm';
-			document.getElementById("ul2li4tr2td3").innerText = '45';
-			document.getElementById("ul2li4tr2td4").innerText = '55';
+			document.getElementById("ul2li4tr2td1").innerHTML = '0073';
+			document.getElementById("ul2li4tr2td2").innerHTML = 'Rolo Ravel 220 mm';
+			document.getElementById("ul2li4tr2td3").innerHTML = '45';
+			document.getElementById("ul2li4tr2td4").innerHTML = '55';
 			
             document.getElementById("ul2li4tr3").style.display = 'table-row';
-			document.getElementById("ul2li4tr3td1").innerText = '0074';
-			document.getElementById("ul2li4tr3td2").innerText = 'Rolo Ravel 250 mm';
-			document.getElementById("ul2li4tr3td3").innerText = '45';
-			document.getElementById("ul2li4tr3td4").innerText = '50';
+			document.getElementById("ul2li4tr3td1").innerHTML = '0074';
+			document.getElementById("ul2li4tr3td2").innerHTML = 'Rolo Ravel 250 mm';
+			document.getElementById("ul2li4tr3td3").innerHTML = '45';
+			document.getElementById("ul2li4tr3td4").innerHTML = '50';
 			
             document.getElementById("ul2li4tr4").style.display = 'table-row';
-			document.getElementById("ul2li4tr4td1").innerText = '0152';
-			document.getElementById("ul2li4tr4td2").innerText = 'Rolo Ravel 180 mm';
-			document.getElementById("ul2li4tr4td3").innerText = '50';
-			document.getElementById("ul2li4tr4td4").innerText = '55';
+			document.getElementById("ul2li4tr4td1").innerHTML = '0152';
+			document.getElementById("ul2li4tr4td2").innerHTML = 'Rolo Ravel 180 mm';
+			document.getElementById("ul2li4tr4td3").innerHTML = '50';
+			document.getElementById("ul2li4tr4td4").innerHTML = '55';
 			
             document.getElementById("ul2li4tr5").style.display = 'table-row';
-			document.getElementById("ul2li4tr5td1").innerText = '0153';
-			document.getElementById("ul2li4tr5td2").innerText = 'Rolo Ravel 220 mm';
-			document.getElementById("ul2li4tr5td3").innerText = '50';
-			document.getElementById("ul2li4tr5td4").innerText = '50';
+			document.getElementById("ul2li4tr5td1").innerHTML = '0153';
+			document.getElementById("ul2li4tr5td2").innerHTML = 'Rolo Ravel 220 mm';
+			document.getElementById("ul2li4tr5td3").innerHTML = '50';
+			document.getElementById("ul2li4tr5td4").innerHTML = '50';
 			
             document.getElementById("ul2li4tr6").style.display = 'table-row';
-			document.getElementById("ul2li4tr6td1").innerText = '0154';
-			document.getElementById("ul2li4tr6td2").innerText = 'Rolo Ravel 250 mm';
-			document.getElementById("ul2li4tr6td3").innerText = '50';
-			document.getElementById("ul2li4tr6td4").innerText = '45';
+			document.getElementById("ul2li4tr6td1").innerHTML = '0154';
+			document.getElementById("ul2li4tr6td2").innerHTML = 'Rolo Ravel 250 mm';
+			document.getElementById("ul2li4tr6td3").innerHTML = '50';
+			document.getElementById("ul2li4tr6td4").innerHTML = '45';
             
             document.getElementById("ul2li4tr7").style.display = 'none';
-            document.getElementById("ul2li4tr7td1").innerText = '';
-			document.getElementById("ul2li4tr7td2").innerText = '';
-			document.getElementById("ul2li4tr7td3").innerText = '';
-			document.getElementById("ul2li4tr7td4").innerText = '';
+            document.getElementById("ul2li4tr7td1").innerHTML = '';
+			document.getElementById("ul2li4tr7td2").innerHTML = '';
+			document.getElementById("ul2li4tr7td3").innerHTML = '';
+			document.getElementById("ul2li4tr7td4").innerHTML = '';
 			
             document.getElementById("ul2li4tr8").style.display = 'none';
-            document.getElementById("ul2li4tr8td1").innerText = '';
-			document.getElementById("ul2li4tr8td2").innerText = '';
-			document.getElementById("ul2li4tr8td3").innerText = '';
-			document.getElementById("ul2li4tr8td4").innerText = '';
+            document.getElementById("ul2li4tr8td1").innerHTML = '';
+			document.getElementById("ul2li4tr8td2").innerHTML = '';
+			document.getElementById("ul2li4tr8td3").innerHTML = '';
+			document.getElementById("ul2li4tr8td4").innerHTML = '';
             
             document.getElementById("ul2li4tr9").style.display = 'none';
-            document.getElementById("ul2li4tr9td1").innerText = '';
-			document.getElementById("ul2li4tr9td2").innerText = ''
-			document.getElementById("ul2li4tr9td3").innerText = '';
-			document.getElementById("ul2li4tr9td4").innerText = '';
+            document.getElementById("ul2li4tr9td1").innerHTML = '';
+			document.getElementById("ul2li4tr9td2").innerHTML = ''
+			document.getElementById("ul2li4tr9td3").innerHTML = '';
+			document.getElementById("ul2li4tr9td4").innerHTML = '';
             
             document.getElementById("ul2li4tr10").style.display = 'none';
-            document.getElementById("ul2li4tr10td1").innerText = '';
-			document.getElementById("ul2li4tr10td2").innerText = '';
-			document.getElementById("ul2li4tr10td3").innerText = '';
-			document.getElementById("ul2li4tr10td4").innerText = '';
+            document.getElementById("ul2li4tr10td1").innerHTML = '';
+			document.getElementById("ul2li4tr10td2").innerHTML = '';
+			document.getElementById("ul2li4tr10td3").innerHTML = '';
+			document.getElementById("ul2li4tr10td4").innerHTML = '';
             
             document.getElementById("ul2li4tr11").style.display = 'none';
-            document.getElementById("ul2li4tr11td1").innerText = '';
-			document.getElementById("ul2li4tr11td2").innerText = '';
-			document.getElementById("ul2li4tr11td3").innerText = '';
-			document.getElementById("ul2li4tr11td4").innerText = '';
+            document.getElementById("ul2li4tr11td1").innerHTML = '';
+			document.getElementById("ul2li4tr11td2").innerHTML = '';
+			document.getElementById("ul2li4tr11td3").innerHTML = '';
+			document.getElementById("ul2li4tr11td4").innerHTML = '';
             
             document.getElementById("ul2li4tr12").style.display = 'none';
-            document.getElementById("ul2li4tr12td1").innerText = '';
-			document.getElementById("ul2li4tr12td2").innerText = '';
-			document.getElementById("ul2li4tr12td3").innerText = '';
-			document.getElementById("ul2li4tr12td4").innerText = '';
+            document.getElementById("ul2li4tr12td1").innerHTML = '';
+			document.getElementById("ul2li4tr12td2").innerHTML = '';
+			document.getElementById("ul2li4tr12td3").innerHTML = '';
+			document.getElementById("ul2li4tr12td4").innerHTML = '';
             
             document.getElementById("ul2li4tr13").style.display = 'none';
-            document.getElementById("ul2li4tr13td1").innerText = '';
-			document.getElementById("ul2li4tr13td2").innerText = '';
-			document.getElementById("ul2li4tr13td3").innerText = '';
-			document.getElementById("ul2li4tr13td4").innerText = '';
+            document.getElementById("ul2li4tr13td1").innerHTML = '';
+			document.getElementById("ul2li4tr13td2").innerHTML = '';
+			document.getElementById("ul2li4tr13td3").innerHTML = '';
+			document.getElementById("ul2li4tr13td4").innerHTML = '';
             
             document.getElementById("ul2li4tr14").style.display = 'none';
-            document.getElementById("ul2li4tr14td1").innerText = '';
-			document.getElementById("ul2li4tr14td2").innerText = '';
-			document.getElementById("ul2li4tr14td3").innerText = '';
-			document.getElementById("ul2li4tr14td4").innerText = '';
+            document.getElementById("ul2li4tr14td1").innerHTML = '';
+			document.getElementById("ul2li4tr14td2").innerHTML = '';
+			document.getElementById("ul2li4tr14td3").innerHTML = '';
+			document.getElementById("ul2li4tr14td4").innerHTML = '';
 
             
 			
@@ -2604,88 +2604,88 @@ Version: 1.3.1
             document.getElementById('ul2li4m4').className = "";
             
             document.getElementById("ul2li4tr1").style.display = 'table-row';
-			document.getElementById("ul2li4tr1td1").innerText = '0029';
-			document.getElementById("ul2li4tr1td2").innerText = 'Carga Ravel 180 mm';
-			document.getElementById("ul2li4tr1td3").innerText = '45';
-			document.getElementById("ul2li4tr1td4").innerText = '140';
+			document.getElementById("ul2li4tr1td1").innerHTML = '0029';
+			document.getElementById("ul2li4tr1td2").innerHTML = 'Carga Ravel 180 mm';
+			document.getElementById("ul2li4tr1td3").innerHTML = '45';
+			document.getElementById("ul2li4tr1td4").innerHTML = '140';
 			
             document.getElementById("ul2li4tr2").style.display = 'table-row';
-			document.getElementById("ul2li4tr2td1").innerText = '0030';
-			document.getElementById("ul2li4tr2td2").innerText = 'Carga Ravel 220 mm';
-			document.getElementById("ul2li4tr2td3").innerText = '45';
-			document.getElementById("ul2li4tr2td4").innerText = '120';
+			document.getElementById("ul2li4tr2td1").innerHTML = '0030';
+			document.getElementById("ul2li4tr2td2").innerHTML = 'Carga Ravel 220 mm';
+			document.getElementById("ul2li4tr2td3").innerHTML = '45';
+			document.getElementById("ul2li4tr2td4").innerHTML = '120';
 			
             document.getElementById("ul2li4tr3").style.display = 'table-row';
-			document.getElementById("ul2li4tr3td1").innerText = '0031';
-			document.getElementById("ul2li4tr3td2").innerText = 'Carga Ravel 250 mm';
-			document.getElementById("ul2li4tr3td3").innerText = '45';
-			document.getElementById("ul2li4tr3td4").innerText = '100';
+			document.getElementById("ul2li4tr3td1").innerHTML = '0031';
+			document.getElementById("ul2li4tr3td2").innerHTML = 'Carga Ravel 250 mm';
+			document.getElementById("ul2li4tr3td3").innerHTML = '45';
+			document.getElementById("ul2li4tr3td4").innerHTML = '100';
 			
             document.getElementById("ul2li4tr4").style.display = 'table-row';
-			document.getElementById("ul2li4tr4td1").innerText = '0134';
-			document.getElementById("ul2li4tr4td2").innerText = 'Carga Ravel 180 mm';
-			document.getElementById("ul2li4tr4td3").innerText = '50';
-			document.getElementById("ul2li4tr4td4").innerText = '100';
+			document.getElementById("ul2li4tr4td1").innerHTML = '0134';
+			document.getElementById("ul2li4tr4td2").innerHTML = 'Carga Ravel 180 mm';
+			document.getElementById("ul2li4tr4td3").innerHTML = '50';
+			document.getElementById("ul2li4tr4td4").innerHTML = '100';
 			
             document.getElementById("ul2li4tr5").style.display = 'table-row';
-			document.getElementById("ul2li4tr5td1").innerText = '0135';
-			document.getElementById("ul2li4tr5td2").innerText = 'Carga Ravel 220 mm';
-			document.getElementById("ul2li4tr5td3").innerText = '50';
-			document.getElementById("ul2li4tr5td4").innerText = '90';
+			document.getElementById("ul2li4tr5td1").innerHTML = '0135';
+			document.getElementById("ul2li4tr5td2").innerHTML = 'Carga Ravel 220 mm';
+			document.getElementById("ul2li4tr5td3").innerHTML = '50';
+			document.getElementById("ul2li4tr5td4").innerHTML = '90';
 			
             document.getElementById("ul2li4tr6").style.display = 'table-row';
-			document.getElementById("ul2li4tr6td1").innerText = '0136';
-			document.getElementById("ul2li4tr6td2").innerText = 'Carga Ravel 250 mm';
-			document.getElementById("ul2li4tr6td3").innerText = '50';
-			document.getElementById("ul2li4tr6td4").innerText = '70';
+			document.getElementById("ul2li4tr6td1").innerHTML = '0136';
+			document.getElementById("ul2li4tr6td2").innerHTML = 'Carga Ravel 250 mm';
+			document.getElementById("ul2li4tr6td3").innerHTML = '50';
+			document.getElementById("ul2li4tr6td4").innerHTML = '70';
             
             document.getElementById("ul2li4tr7").style.display = 'none';
-            document.getElementById("ul2li4tr7td1").innerText = '';
-			document.getElementById("ul2li4tr7td2").innerText = '';
-			document.getElementById("ul2li4tr7td3").innerText = '';
-			document.getElementById("ul2li4tr7td4").innerText = '';
+            document.getElementById("ul2li4tr7td1").innerHTML = '';
+			document.getElementById("ul2li4tr7td2").innerHTML = '';
+			document.getElementById("ul2li4tr7td3").innerHTML = '';
+			document.getElementById("ul2li4tr7td4").innerHTML = '';
 			
             document.getElementById("ul2li4tr8").style.display = 'none';
-            document.getElementById("ul2li4tr8td1").innerText = '';
-			document.getElementById("ul2li4tr8td2").innerText = '';
-			document.getElementById("ul2li4tr8td3").innerText = '';
-			document.getElementById("ul2li4tr8td4").innerText = '';
+            document.getElementById("ul2li4tr8td1").innerHTML = '';
+			document.getElementById("ul2li4tr8td2").innerHTML = '';
+			document.getElementById("ul2li4tr8td3").innerHTML = '';
+			document.getElementById("ul2li4tr8td4").innerHTML = '';
             
             document.getElementById("ul2li4tr9").style.display = 'none';
-            document.getElementById("ul2li4tr9td1").innerText = '';
-			document.getElementById("ul2li4tr9td2").innerText = ''
-			document.getElementById("ul2li4tr9td3").innerText = '';
-			document.getElementById("ul2li4tr9td4").innerText = '';
+            document.getElementById("ul2li4tr9td1").innerHTML = '';
+			document.getElementById("ul2li4tr9td2").innerHTML = ''
+			document.getElementById("ul2li4tr9td3").innerHTML = '';
+			document.getElementById("ul2li4tr9td4").innerHTML = '';
             
             document.getElementById("ul2li4tr10").style.display = 'none';
-            document.getElementById("ul2li4tr10td1").innerText = '';
-			document.getElementById("ul2li4tr10td2").innerText = '';
-			document.getElementById("ul2li4tr10td3").innerText = '';
-			document.getElementById("ul2li4tr10td4").innerText = '';
+            document.getElementById("ul2li4tr10td1").innerHTML = '';
+			document.getElementById("ul2li4tr10td2").innerHTML = '';
+			document.getElementById("ul2li4tr10td3").innerHTML = '';
+			document.getElementById("ul2li4tr10td4").innerHTML = '';
             
             document.getElementById("ul2li4tr11").style.display = 'none';
-            document.getElementById("ul2li4tr11td1").innerText = '';
-			document.getElementById("ul2li4tr11td2").innerText = '';
-			document.getElementById("ul2li4tr11td3").innerText = '';
-			document.getElementById("ul2li4tr11td4").innerText = '';
+            document.getElementById("ul2li4tr11td1").innerHTML = '';
+			document.getElementById("ul2li4tr11td2").innerHTML = '';
+			document.getElementById("ul2li4tr11td3").innerHTML = '';
+			document.getElementById("ul2li4tr11td4").innerHTML = '';
             
             document.getElementById("ul2li4tr12").style.display = 'none';
-            document.getElementById("ul2li4tr12td1").innerText = '';
-			document.getElementById("ul2li4tr12td2").innerText = '';
-			document.getElementById("ul2li4tr12td3").innerText = '';
-			document.getElementById("ul2li4tr12td4").innerText = '';
+            document.getElementById("ul2li4tr12td1").innerHTML = '';
+			document.getElementById("ul2li4tr12td2").innerHTML = '';
+			document.getElementById("ul2li4tr12td3").innerHTML = '';
+			document.getElementById("ul2li4tr12td4").innerHTML = '';
             
             document.getElementById("ul2li4tr13").style.display = 'none';
-            document.getElementById("ul2li4tr13td1").innerText = '';
-			document.getElementById("ul2li4tr13td2").innerText = '';
-			document.getElementById("ul2li4tr13td3").innerText = '';
-			document.getElementById("ul2li4tr13td4").innerText = '';
+            document.getElementById("ul2li4tr13td1").innerHTML = '';
+			document.getElementById("ul2li4tr13td2").innerHTML = '';
+			document.getElementById("ul2li4tr13td3").innerHTML = '';
+			document.getElementById("ul2li4tr13td4").innerHTML = '';
             
             document.getElementById("ul2li4tr14").style.display = 'none';
-            document.getElementById("ul2li4tr14td1").innerText = '';
-			document.getElementById("ul2li4tr14td2").innerText = '';
-			document.getElementById("ul2li4tr14td3").innerText = '';
-			document.getElementById("ul2li4tr14td4").innerText = '';
+            document.getElementById("ul2li4tr14td1").innerHTML = '';
+			document.getElementById("ul2li4tr14td2").innerHTML = '';
+			document.getElementById("ul2li4tr14td3").innerHTML = '';
+			document.getElementById("ul2li4tr14td4").innerHTML = '';
 
 			
 		});
@@ -2712,88 +2712,88 @@ Version: 1.3.1
             document.getElementById('ul2li4m4').className = "";
             
             document.getElementById("ul2li4tr1").style.display = 'table-row';
-			document.getElementById("ul2li4tr1td1").innerText = '0265';
-			document.getElementById("ul2li4tr1td2").innerText = 'Mini Ravel 60 mm';
-			document.getElementById("ul2li4tr1td3").innerText = '16';
-			document.getElementById("ul2li4tr1td4").innerText = '100';
+			document.getElementById("ul2li4tr1td1").innerHTML = '0265';
+			document.getElementById("ul2li4tr1td2").innerHTML = 'Mini Ravel 60 mm';
+			document.getElementById("ul2li4tr1td3").innerHTML = '16';
+			document.getElementById("ul2li4tr1td4").innerHTML = '100';
 			
             document.getElementById("ul2li4tr2").style.display = 'table-row';
-			document.getElementById("ul2li4tr2td1").innerText = '0266';
-			document.getElementById("ul2li4tr2td2").innerText = 'Mini Ravel 100 mm';
-			document.getElementById("ul2li4tr2td3").innerText = '16';
-			document.getElementById("ul2li4tr2td4").innerText = '80';
+			document.getElementById("ul2li4tr2td1").innerHTML = '0266';
+			document.getElementById("ul2li4tr2td2").innerHTML = 'Mini Ravel 100 mm';
+			document.getElementById("ul2li4tr2td3").innerHTML = '16';
+			document.getElementById("ul2li4tr2td4").innerHTML = '80';
 	
             document.getElementById("ul2li4tr3").style.display = 'table-row';
-			document.getElementById("ul2li4tr3td1").innerText = '0267';
-			document.getElementById("ul2li4tr3td2").innerText = 'Mini Ravel 150 mm';
-			document.getElementById("ul2li4tr3td3").innerText = '16';
-			document.getElementById("ul2li4tr3td4").innerText = '';
+			document.getElementById("ul2li4tr3td1").innerHTML = '0267';
+			document.getElementById("ul2li4tr3td2").innerHTML = 'Mini Ravel 150 mm';
+			document.getElementById("ul2li4tr3td3").innerHTML = '16';
+			document.getElementById("ul2li4tr3td4").innerHTML = '';
 		
             document.getElementById("ul2li4tr4").style.display = 'none';
-			document.getElementById("ul2li4tr4td1").innerText = '';
-			document.getElementById("ul2li4tr4td2").innerText = '';
-			document.getElementById("ul2li4tr4td3").innerText = '';
-			document.getElementById("ul2li4tr4td4").innerText = '';
+			document.getElementById("ul2li4tr4td1").innerHTML = '';
+			document.getElementById("ul2li4tr4td2").innerHTML = '';
+			document.getElementById("ul2li4tr4td3").innerHTML = '';
+			document.getElementById("ul2li4tr4td4").innerHTML = '';
             
 	        document.getElementById("ul2li4tr5").style.display = 'none';
-			document.getElementById("ul2li4tr5td1").innerText = '';
-			document.getElementById("ul2li4tr5td2").innerText = '';
-			document.getElementById("ul2li4tr5td3").innerText = '';
-			document.getElementById("ul2li4tr5td4").innerText = '';
+			document.getElementById("ul2li4tr5td1").innerHTML = '';
+			document.getElementById("ul2li4tr5td2").innerHTML = '';
+			document.getElementById("ul2li4tr5td3").innerHTML = '';
+			document.getElementById("ul2li4tr5td4").innerHTML = '';
 		
             document.getElementById("ul2li4tr6").style.display = 'none';
-			document.getElementById("ul2li4tr6td1").innerText = '';
-			document.getElementById("ul2li4tr6td2").innerText = '';
-			document.getElementById("ul2li4tr6td3").innerText = '';
-			document.getElementById("ul2li4tr6td4").innerText = '';
+			document.getElementById("ul2li4tr6td1").innerHTML = '';
+			document.getElementById("ul2li4tr6td2").innerHTML = '';
+			document.getElementById("ul2li4tr6td3").innerHTML = '';
+			document.getElementById("ul2li4tr6td4").innerHTML = '';
             
             document.getElementById("ul2li4tr7").style.display = 'none';
-            document.getElementById("ul2li4tr7td1").innerText = '';
-			document.getElementById("ul2li4tr7td2").innerText = '';
-			document.getElementById("ul2li4tr7td3").innerText = '';
-			document.getElementById("ul2li4tr7td4").innerText = '';
+            document.getElementById("ul2li4tr7td1").innerHTML = '';
+			document.getElementById("ul2li4tr7td2").innerHTML = '';
+			document.getElementById("ul2li4tr7td3").innerHTML = '';
+			document.getElementById("ul2li4tr7td4").innerHTML = '';
 			
             document.getElementById("ul2li4tr8").style.display = 'none';
-            document.getElementById("ul2li4tr8td1").innerText = '';
-			document.getElementById("ul2li4tr8td2").innerText = '';
-			document.getElementById("ul2li4tr8td3").innerText = '';
-			document.getElementById("ul2li4tr8td4").innerText = '';
+            document.getElementById("ul2li4tr8td1").innerHTML = '';
+			document.getElementById("ul2li4tr8td2").innerHTML = '';
+			document.getElementById("ul2li4tr8td3").innerHTML = '';
+			document.getElementById("ul2li4tr8td4").innerHTML = '';
             
             document.getElementById("ul2li4tr9").style.display = 'none';
-            document.getElementById("ul2li4tr9td1").innerText = '';
-			document.getElementById("ul2li4tr9td2").innerText = ''
-			document.getElementById("ul2li4tr9td3").innerText = '';
-			document.getElementById("ul2li4tr9td4").innerText = '';
+            document.getElementById("ul2li4tr9td1").innerHTML = '';
+			document.getElementById("ul2li4tr9td2").innerHTML = ''
+			document.getElementById("ul2li4tr9td3").innerHTML = '';
+			document.getElementById("ul2li4tr9td4").innerHTML = '';
             
             document.getElementById("ul2li4tr10").style.display = 'none';
-            document.getElementById("ul2li4tr10td1").innerText = '';
-			document.getElementById("ul2li4tr10td2").innerText = '';
-			document.getElementById("ul2li4tr10td3").innerText = '';
-			document.getElementById("ul2li4tr10td4").innerText = '';
+            document.getElementById("ul2li4tr10td1").innerHTML = '';
+			document.getElementById("ul2li4tr10td2").innerHTML = '';
+			document.getElementById("ul2li4tr10td3").innerHTML = '';
+			document.getElementById("ul2li4tr10td4").innerHTML = '';
             
             document.getElementById("ul2li4tr11").style.display = 'none';
-            document.getElementById("ul2li4tr11td1").innerText = '';
-			document.getElementById("ul2li4tr11td2").innerText = '';
-			document.getElementById("ul2li4tr11td3").innerText = '';
-			document.getElementById("ul2li4tr11td4").innerText = '';
+            document.getElementById("ul2li4tr11td1").innerHTML = '';
+			document.getElementById("ul2li4tr11td2").innerHTML = '';
+			document.getElementById("ul2li4tr11td3").innerHTML = '';
+			document.getElementById("ul2li4tr11td4").innerHTML = '';
             
             document.getElementById("ul2li4tr12").style.display = 'none';
-            document.getElementById("ul2li4tr12td1").innerText = '';
-			document.getElementById("ul2li4tr12td2").innerText = '';
-			document.getElementById("ul2li4tr12td3").innerText = '';
-			document.getElementById("ul2li4tr12td4").innerText = '';
+            document.getElementById("ul2li4tr12td1").innerHTML = '';
+			document.getElementById("ul2li4tr12td2").innerHTML = '';
+			document.getElementById("ul2li4tr12td3").innerHTML = '';
+			document.getElementById("ul2li4tr12td4").innerHTML = '';
             
             document.getElementById("ul2li4tr13").style.display = 'none';
-            document.getElementById("ul2li4tr13td1").innerText = '';
-			document.getElementById("ul2li4tr13td2").innerText = '';
-			document.getElementById("ul2li4tr13td3").innerText = '';
-			document.getElementById("ul2li4tr13td4").innerText = '';
+            document.getElementById("ul2li4tr13td1").innerHTML = '';
+			document.getElementById("ul2li4tr13td2").innerHTML = '';
+			document.getElementById("ul2li4tr13td3").innerHTML = '';
+			document.getElementById("ul2li4tr13td4").innerHTML = '';
             
             document.getElementById("ul2li4tr14").style.display = 'none';
-            document.getElementById("ul2li4tr14td1").innerText = '';
-			document.getElementById("ul2li4tr14td2").innerText = '';
-			document.getElementById("ul2li4tr14td3").innerText = '';
-			document.getElementById("ul2li4tr14td4").innerText = '';
+            document.getElementById("ul2li4tr14td1").innerHTML = '';
+			document.getElementById("ul2li4tr14td2").innerHTML = '';
+			document.getElementById("ul2li4tr14td3").innerHTML = '';
+			document.getElementById("ul2li4tr14td4").innerHTML = '';
 			
 		});
         
@@ -2817,88 +2817,88 @@ Version: 1.3.1
             document.getElementById('ul2li4m4').className = "activeMenu";
             
             document.getElementById("ul2li4tr1").style.display = 'table-row';
-			document.getElementById("ul2li4tr1td1").innerText = '0268';
-			document.getElementById("ul2li4tr1td2").innerText = 'Carga Ravel 60 mm';
-			document.getElementById("ul2li4tr1td3").innerText = '16';
-			document.getElementById("ul2li4tr1td4").innerText = '';
+			document.getElementById("ul2li4tr1td1").innerHTML = '0268';
+			document.getElementById("ul2li4tr1td2").innerHTML = 'Carga Ravel 60 mm';
+			document.getElementById("ul2li4tr1td3").innerHTML = '16';
+			document.getElementById("ul2li4tr1td4").innerHTML = '';
 			
             document.getElementById("ul2li4tr2").style.display = 'table-row';
-			document.getElementById("ul2li4tr2td1").innerText = '0269';
-			document.getElementById("ul2li4tr2td2").innerText = 'Carga Ravel 100 mm';
-			document.getElementById("ul2li4tr2td3").innerText = '16';
-			document.getElementById("ul2li4tr2td4").innerText = '300';
+			document.getElementById("ul2li4tr2td1").innerHTML = '0269';
+			document.getElementById("ul2li4tr2td2").innerHTML = 'Carga Ravel 100 mm';
+			document.getElementById("ul2li4tr2td3").innerHTML = '16';
+			document.getElementById("ul2li4tr2td4").innerHTML = '300';
 			
             document.getElementById("ul2li4tr3").style.display = 'table-row';
-			document.getElementById("ul2li4tr3td1").innerText = '0270';
-			document.getElementById("ul2li4tr3td2").innerText = 'Carga Ravel 150 mm';
-			document.getElementById("ul2li4tr3td3").innerText = '16';
-			document.getElementById("ul2li4tr3td4").innerText = '';
+			document.getElementById("ul2li4tr3td1").innerHTML = '0270';
+			document.getElementById("ul2li4tr3td2").innerHTML = 'Carga Ravel 150 mm';
+			document.getElementById("ul2li4tr3td3").innerHTML = '16';
+			document.getElementById("ul2li4tr3td4").innerHTML = '';
 	
             document.getElementById("ul2li4tr4").style.display = 'table-row';
-			document.getElementById("ul2li4tr4td1").innerText = '0271';
-			document.getElementById("ul2li4tr4td2").innerText = 'Pack 2 Cargas Ravel 60 mm';
-			document.getElementById("ul2li4tr4td3").innerText = '16';
-			document.getElementById("ul2li4tr4td4").innerText = '';
+			document.getElementById("ul2li4tr4td1").innerHTML = '0271';
+			document.getElementById("ul2li4tr4td2").innerHTML = 'Pack 2 Cargas Ravel 60 mm';
+			document.getElementById("ul2li4tr4td3").innerHTML = '16';
+			document.getElementById("ul2li4tr4td4").innerHTML = '';
 			
             document.getElementById("ul2li4tr5").style.display = 'table-row';
-			document.getElementById("ul2li4tr5td1").innerText = '0272';
-			document.getElementById("ul2li4tr5td2").innerText = 'Pack 2 Cargas Ravel 100 mm';
-			document.getElementById("ul2li4tr5td3").innerText = '16';
-			document.getElementById("ul2li4tr5td4").innerText = '150X2';
+			document.getElementById("ul2li4tr5td1").innerHTML = '0272';
+			document.getElementById("ul2li4tr5td2").innerHTML = 'Pack 2 Cargas Ravel 100 mm';
+			document.getElementById("ul2li4tr5td3").innerHTML = '16';
+			document.getElementById("ul2li4tr5td4").innerHTML = '150X2';
 			
             document.getElementById("ul2li4tr6").style.display = 'table-row';
-			document.getElementById("ul2li4tr6td1").innerText = '0273';
-			document.getElementById("ul2li4tr6td2").innerText = 'Pack 2 Cargas Ravel 150 mm';
-			document.getElementById("ul2li4tr6td3").innerText = '16';
-			document.getElementById("ul2li4tr6td4").innerText = '';
+			document.getElementById("ul2li4tr6td1").innerHTML = '0273';
+			document.getElementById("ul2li4tr6td2").innerHTML = 'Pack 2 Cargas Ravel 150 mm';
+			document.getElementById("ul2li4tr6td3").innerHTML = '16';
+			document.getElementById("ul2li4tr6td4").innerHTML = '';
 		
             document.getElementById("ul2li4tr7").style.display = 'table-row';
-            document.getElementById("ul2li4tr7td1").innerText = '0274';
-			document.getElementById("ul2li4tr7td2").innerText = 'Blister 16 Cargas Ravel 60 mm';
-			document.getElementById("ul2li4tr7td3").innerText = '16';
-			document.getElementById("ul2li4tr7td4").innerText = '36X16';
+            document.getElementById("ul2li4tr7td1").innerHTML = '0274';
+			document.getElementById("ul2li4tr7td2").innerHTML = 'Blister 16 Cargas Ravel 60 mm';
+			document.getElementById("ul2li4tr7td3").innerHTML = '16';
+			document.getElementById("ul2li4tr7td4").innerHTML = '36X16';
 			
             document.getElementById("ul2li4tr8").style.display = 'table-row';
-            document.getElementById("ul2li4tr8td1").innerText = '0275';
-			document.getElementById("ul2li4tr8td2").innerText = 'Blister 10 Cargas Ravel 100 mm';
-			document.getElementById("ul2li4tr8td3").innerText = '16';
-			document.getElementById("ul2li4tr8td4").innerText = '36X10';
+            document.getElementById("ul2li4tr8td1").innerHTML = '0275';
+			document.getElementById("ul2li4tr8td2").innerHTML = 'Blister 10 Cargas Ravel 100 mm';
+			document.getElementById("ul2li4tr8td3").innerHTML = '16';
+			document.getElementById("ul2li4tr8td4").innerHTML = '36X10';
             
             document.getElementById("ul2li4tr9").style.display = 'table-row';
-            document.getElementById("ul2li4tr9td1").innerText = '0219';
-			document.getElementById("ul2li4tr9td2").innerText = 'Carga Ravel 120 mm';
-			document.getElementById("ul2li4tr9td3").innerText = '30';
-			document.getElementById("ul2li4tr9td4").innerText = '';
+            document.getElementById("ul2li4tr9td1").innerHTML = '0219';
+			document.getElementById("ul2li4tr9td2").innerHTML = 'Carga Ravel 120 mm';
+			document.getElementById("ul2li4tr9td3").innerHTML = '30';
+			document.getElementById("ul2li4tr9td4").innerHTML = '';
             
             document.getElementById("ul2li4tr10").style.display = 'table-row';
-            document.getElementById("ul2li4tr10td1").innerText = '0220';
-			document.getElementById("ul2li4tr10td2").innerText = 'Carga Ravel 150 mm';
-			document.getElementById("ul2li4tr10td3").innerText = '30';
-			document.getElementById("ul2li4tr10td4").innerText = '';
+            document.getElementById("ul2li4tr10td1").innerHTML = '0220';
+			document.getElementById("ul2li4tr10td2").innerHTML = 'Carga Ravel 150 mm';
+			document.getElementById("ul2li4tr10td3").innerHTML = '30';
+			document.getElementById("ul2li4tr10td4").innerHTML = '';
             
             document.getElementById("ul2li4tr11").style.display = 'table-row';
-            document.getElementById("ul2li4tr11td1").innerText = '0223';
-			document.getElementById("ul2li4tr11td2").innerText = 'Pack 2 Cargas Ravel 120 mm';
-			document.getElementById("ul2li4tr11td3").innerText = '30';
-			document.getElementById("ul2li4tr11td4").innerText = '';
+            document.getElementById("ul2li4tr11td1").innerHTML = '0223';
+			document.getElementById("ul2li4tr11td2").innerHTML = 'Pack 2 Cargas Ravel 120 mm';
+			document.getElementById("ul2li4tr11td3").innerHTML = '30';
+			document.getElementById("ul2li4tr11td4").innerHTML = '';
             
             document.getElementById("ul2li4tr12").style.display = 'table-row';
-            document.getElementById("ul2li4tr12td1").innerText = '0224';
-			document.getElementById("ul2li4tr12td2").innerText = 'Pack 2 Cargas Ravel 150 mm';
-			document.getElementById("ul2li4tr12td3").innerText = '30';
-			document.getElementById("ul2li4tr12td4").innerText = '';
+            document.getElementById("ul2li4tr12td1").innerHTML = '0224';
+			document.getElementById("ul2li4tr12td2").innerHTML = 'Pack 2 Cargas Ravel 150 mm';
+			document.getElementById("ul2li4tr12td3").innerHTML = '30';
+			document.getElementById("ul2li4tr12td4").innerHTML = '';
             
             document.getElementById("ul2li4tr13").style.display = 'table-row';
-            document.getElementById("ul2li4tr13td1").innerText = '0222';
-			document.getElementById("ul2li4tr13td2").innerText = 'Blister 6 Cargas Ravel 120 mm';
-			document.getElementById("ul2li4tr13td3").innerText = '30';
-			document.getElementById("ul2li4tr13td4").innerText = '';
+            document.getElementById("ul2li4tr13td1").innerHTML = '0222';
+			document.getElementById("ul2li4tr13td2").innerHTML = 'Blister 6 Cargas Ravel 120 mm';
+			document.getElementById("ul2li4tr13td3").innerHTML = '30';
+			document.getElementById("ul2li4tr13td4").innerHTML = '';
             
             document.getElementById("ul2li4tr14").style.display = 'table-row';
-            document.getElementById("ul2li4tr14td1").innerText = '0221';
-			document.getElementById("ul2li4tr14td2").innerText = 'Blister 10 Cargas Ravel 150 mm';
-			document.getElementById("ul2li4tr14td3").innerText = '30';
-			document.getElementById("ul2li4tr14td4").innerText = '';
+            document.getElementById("ul2li4tr14td1").innerHTML = '0221';
+			document.getElementById("ul2li4tr14td2").innerHTML = 'Blister 10 Cargas Ravel 150 mm';
+			document.getElementById("ul2li4tr14td3").innerHTML = '30';
+			document.getElementById("ul2li4tr14td4").innerHTML = '';
 		});
 		
 		
@@ -2930,34 +2930,34 @@ Version: 1.3.1
             
             
             document.getElementById("ul3li1tr1").style.display = 'table-row';
-			document.getElementById("ul3li1tr1td1").innerText = '0075';
-			document.getElementById("ul3li1tr1td2").innerText = 'Rolo Rugo 60 mm';
-			document.getElementById("ul3li1tr1td3").innerText = '75';
-			document.getElementById("ul3li1tr1td4").innerText = '24';
+			document.getElementById("ul3li1tr1td1").innerHTML = '0075';
+			document.getElementById("ul3li1tr1td2").innerHTML = 'Rolo Rugo 60 mm';
+			document.getElementById("ul3li1tr1td3").innerHTML = '75';
+			document.getElementById("ul3li1tr1td4").innerHTML = '24';
 			
 		    document.getElementById("ul3li1tr2").style.display = 'table-row';
-			document.getElementById("ul3li1tr2td1").innerText = '0076';
-			document.getElementById("ul3li1tr2td2").innerText = 'Rolo Rugo 180 mm';
-			document.getElementById("ul3li1tr2td3").innerText = '75';
-			document.getElementById("ul3li1tr2td4").innerText = '45';
+			document.getElementById("ul3li1tr2td1").innerHTML = '0076';
+			document.getElementById("ul3li1tr2td2").innerHTML = 'Rolo Rugo 180 mm';
+			document.getElementById("ul3li1tr2td3").innerHTML = '75';
+			document.getElementById("ul3li1tr2td4").innerHTML = '45';
 		
             document.getElementById("ul3li1tr3").style.display = 'table-row';
-			document.getElementById("ul3li1tr3td1").innerText = '0077';
-			document.getElementById("ul3li1tr3td2").innerText = 'Rolo Rugo 220 mm';
-			document.getElementById("ul3li1tr3td3").innerText = '75';
-			document.getElementById("ul3li1tr3td4").innerText = '40';
+			document.getElementById("ul3li1tr3td1").innerHTML = '0077';
+			document.getElementById("ul3li1tr3td2").innerHTML = 'Rolo Rugo 220 mm';
+			document.getElementById("ul3li1tr3td3").innerHTML = '75';
+			document.getElementById("ul3li1tr3td4").innerHTML = '40';
 		
             document.getElementById("ul3li1tr4").style.display = 'table-row';
-			document.getElementById("ul3li1tr4td1").innerText = '0078';
-			document.getElementById("ul3li1tr4td2").innerText = 'Rolo Rugo 250 mm';
-			document.getElementById("ul3li1tr4td3").innerText = '75';
-			document.getElementById("ul3li1tr4td4").innerText = '40';
+			document.getElementById("ul3li1tr4td1").innerHTML = '0078';
+			document.getElementById("ul3li1tr4td2").innerHTML = 'Rolo Rugo 250 mm';
+			document.getElementById("ul3li1tr4td3").innerHTML = '75';
+			document.getElementById("ul3li1tr4td4").innerHTML = '40';
 			
             document.getElementById("ul3li1tr5").style.display = 'table-row';
-			document.getElementById("ul3li1tr5td1").innerText = '0079';
-			document.getElementById("ul3li1tr5td2").innerText = 'Rolo Rugo de Canto';
-			document.getElementById("ul3li1tr5td3").innerText = '120';
-			document.getElementById("ul3li1tr5td4").innerText = '24';
+			document.getElementById("ul3li1tr5td1").innerHTML = '0079';
+			document.getElementById("ul3li1tr5td2").innerHTML = 'Rolo Rugo de Canto';
+			document.getElementById("ul3li1tr5td3").innerHTML = '120';
+			document.getElementById("ul3li1tr5td4").innerHTML = '24';
 
             
 			
@@ -2984,34 +2984,34 @@ Version: 1.3.1
             
             
             document.getElementById("ul3li1tr1").style.display = 'table-row';
-			document.getElementById("ul3li1tr1td1").innerText = '0032';
-			document.getElementById("ul3li1tr1td2").innerText = 'Carga Rugo 60 mm';
-			document.getElementById("ul3li1tr1td3").innerText = '75';
-			document.getElementById("ul3li1tr1td4").innerText = '';
+			document.getElementById("ul3li1tr1td1").innerHTML = '0032';
+			document.getElementById("ul3li1tr1td2").innerHTML = 'Carga Rugo 60 mm';
+			document.getElementById("ul3li1tr1td3").innerHTML = '75';
+			document.getElementById("ul3li1tr1td4").innerHTML = '';
 			
             document.getElementById("ul3li1tr2").style.display = 'table-row';
-			document.getElementById("ul3li1tr2td1").innerText = '0033';
-			document.getElementById("ul3li1tr2td2").innerText = 'Carga Rugo 180 mm';
-			document.getElementById("ul3li1tr2td3").innerText = '75';
-			document.getElementById("ul3li1tr2td4").innerText = '80';
+			document.getElementById("ul3li1tr2td1").innerHTML = '0033';
+			document.getElementById("ul3li1tr2td2").innerHTML = 'Carga Rugo 180 mm';
+			document.getElementById("ul3li1tr2td3").innerHTML = '75';
+			document.getElementById("ul3li1tr2td4").innerHTML = '80';
 			
             document.getElementById("ul3li1tr3").style.display = 'table-row';
-			document.getElementById("ul3li1tr3td1").innerText = '0034';
-			document.getElementById("ul3li1tr3td2").innerText = 'Carga Rugo 220 mm';
-			document.getElementById("ul3li1tr3td3").innerText = '75';
-			document.getElementById("ul3li1tr3td4").innerText = '65';
+			document.getElementById("ul3li1tr3td1").innerHTML = '0034';
+			document.getElementById("ul3li1tr3td2").innerHTML = 'Carga Rugo 220 mm';
+			document.getElementById("ul3li1tr3td3").innerHTML = '75';
+			document.getElementById("ul3li1tr3td4").innerHTML = '65';
 		
             document.getElementById("ul3li1tr4").style.display = 'table-row';
-			document.getElementById("ul3li1tr4td1").innerText = '0035';
-			document.getElementById("ul3li1tr4td2").innerText = 'Carga Rugo 250 mm';
-			document.getElementById("ul3li1tr4td3").innerText = '75';
-			document.getElementById("ul3li1tr4td4").innerText = '60';
+			document.getElementById("ul3li1tr4td1").innerHTML = '0035';
+			document.getElementById("ul3li1tr4td2").innerHTML = 'Carga Rugo 250 mm';
+			document.getElementById("ul3li1tr4td3").innerHTML = '75';
+			document.getElementById("ul3li1tr4td4").innerHTML = '60';
 		
             document.getElementById("ul3li1tr5").style.display = 'table-row';
-			document.getElementById("ul3li1tr5td1").innerText = '0036';
-			document.getElementById("ul3li1tr5td2").innerText = 'Carga Rugo de Canto';
-			document.getElementById("ul3li1tr5td3").innerText = '120';
-			document.getElementById("ul3li1tr5td4").innerText = '';
+			document.getElementById("ul3li1tr5td1").innerHTML = '0036';
+			document.getElementById("ul3li1tr5td2").innerHTML = 'Carga Rugo de Canto';
+			document.getElementById("ul3li1tr5td3").innerHTML = '120';
+			document.getElementById("ul3li1tr5td4").innerHTML = '';
 			
 		});
 
@@ -3036,34 +3036,34 @@ Version: 1.3.1
             document.getElementById('ul3li1m4').className = "";
             
             document.getElementById("ul3li1tr1").style.display = 'table-row';
-			document.getElementById("ul3li1tr1td1").innerText = '0235';
-			document.getElementById("ul3li1tr1td2").innerText = 'Mini Rugo 110 mm';
-			document.getElementById("ul3li1tr1td3").innerText = '16';
-			document.getElementById("ul3li1tr1td4").innerText = '100';
+			document.getElementById("ul3li1tr1td1").innerHTML = '0235';
+			document.getElementById("ul3li1tr1td2").innerHTML = 'Mini Rugo 110 mm';
+			document.getElementById("ul3li1tr1td3").innerHTML = '16';
+			document.getElementById("ul3li1tr1td4").innerHTML = '100';
 			
             document.getElementById("ul3li1tr2").style.display = 'none';
-			document.getElementById("ul3li1tr2td1").innerText = '';
-			document.getElementById("ul3li1tr2td2").innerText = '';
-			document.getElementById("ul3li1tr2td3").innerText = '';
-			document.getElementById("ul3li1tr2td4").innerText = '';
+			document.getElementById("ul3li1tr2td1").innerHTML = '';
+			document.getElementById("ul3li1tr2td2").innerHTML = '';
+			document.getElementById("ul3li1tr2td3").innerHTML = '';
+			document.getElementById("ul3li1tr2td4").innerHTML = '';
 		
             document.getElementById("ul3li1tr3").style.display = 'none';
-			document.getElementById("ul3li1tr3td1").innerText = '';
-			document.getElementById("ul3li1tr3td2").innerText = '';
-			document.getElementById("ul3li1tr3td3").innerText = '';
-			document.getElementById("ul3li1tr3td4").innerText = '';
+			document.getElementById("ul3li1tr3td1").innerHTML = '';
+			document.getElementById("ul3li1tr3td2").innerHTML = '';
+			document.getElementById("ul3li1tr3td3").innerHTML = '';
+			document.getElementById("ul3li1tr3td4").innerHTML = '';
 	
             document.getElementById("ul3li1tr4").style.display = 'none';
-			document.getElementById("ul3li1tr4td1").innerText = '';
-			document.getElementById("ul3li1tr4td2").innerText = '';
-			document.getElementById("ul3li1tr4td3").innerText = '';
-			document.getElementById("ul3li1tr4td4").innerText = '';
+			document.getElementById("ul3li1tr4td1").innerHTML = '';
+			document.getElementById("ul3li1tr4td2").innerHTML = '';
+			document.getElementById("ul3li1tr4td3").innerHTML = '';
+			document.getElementById("ul3li1tr4td4").innerHTML = '';
 	
             document.getElementById("ul3li1tr5").style.display = 'none';
-            document.getElementById("ul3li1tr5td1").innerText = '';
-			document.getElementById("ul3li1tr5td2").innerText = '';
-			document.getElementById("ul3li1tr5td3").innerText = '';
-			document.getElementById("ul3li1tr5td4").innerText = '';
+            document.getElementById("ul3li1tr5td1").innerHTML = '';
+			document.getElementById("ul3li1tr5td2").innerHTML = '';
+			document.getElementById("ul3li1tr5td3").innerHTML = '';
+			document.getElementById("ul3li1tr5td4").innerHTML = '';
 		
 			
 		});
@@ -3088,34 +3088,34 @@ Version: 1.3.1
             document.getElementById('ul3li1m4').className = "activeMenu";
             
             document.getElementById("ul3li1tr1").style.display = 'table-row';
-			document.getElementById("ul3li1tr1td1").innerText = '0245';
-			document.getElementById("ul3li1tr1td2").innerText = 'Carga Rugo 110 mm';
-			document.getElementById("ul3li1tr1td3").innerText = '16';
-			document.getElementById("ul3li1tr1td4").innerText = '100';
+			document.getElementById("ul3li1tr1td1").innerHTML = '0245';
+			document.getElementById("ul3li1tr1td2").innerHTML = 'Carga Rugo 110 mm';
+			document.getElementById("ul3li1tr1td3").innerHTML = '16';
+			document.getElementById("ul3li1tr1td4").innerHTML = '100';
 		
             document.getElementById("ul3li1tr2").style.display = 'table-row';
-			document.getElementById("ul3li1tr2td1").innerText = '0246';
-			document.getElementById("ul3li1tr2td2").innerText = 'Pack 2 Cargas Rugo 110 mm';
-			document.getElementById("ul3li1tr2td3").innerText = '16';
-			document.getElementById("ul3li1tr2td4").innerText = '150X2';
+			document.getElementById("ul3li1tr2td1").innerHTML = '0246';
+			document.getElementById("ul3li1tr2td2").innerHTML = 'Pack 2 Cargas Rugo 110 mm';
+			document.getElementById("ul3li1tr2td3").innerHTML = '16';
+			document.getElementById("ul3li1tr2td4").innerHTML = '150X2';
 			
             document.getElementById("ul3li1tr3").style.display = 'table-row';
-			document.getElementById("ul3li1tr3td1").innerText = '0236';
-			document.getElementById("ul3li1tr3td2").innerText = 'Blister 10 Cargas Rugo 110 mm';
-			document.getElementById("ul3li1tr3td3").innerText = '16'; 
-			document.getElementById("ul3li1tr3td4").innerText = '40X10';
+			document.getElementById("ul3li1tr3td1").innerHTML = '0236';
+			document.getElementById("ul3li1tr3td2").innerHTML = 'Blister 10 Cargas Rugo 110 mm';
+			document.getElementById("ul3li1tr3td3").innerHTML = '16'; 
+			document.getElementById("ul3li1tr3td4").innerHTML = '40X10';
 	
             document.getElementById("ul3li1tr4").style.display = 'none';
-			document.getElementById("ul3li1tr4td1").innerText = '';
-			document.getElementById("ul3li1tr4td2").innerText = '';
-			document.getElementById("ul3li1tr4td3").innerText = '';
-			document.getElementById("ul3li1tr4td4").innerText = '';
+			document.getElementById("ul3li1tr4td1").innerHTML = '';
+			document.getElementById("ul3li1tr4td2").innerHTML = '';
+			document.getElementById("ul3li1tr4td3").innerHTML = '';
+			document.getElementById("ul3li1tr4td4").innerHTML = '';
             
             document.getElementById("ul3li1tr5").style.display = 'none';
-            document.getElementById("ul3li1tr5td1").innerText = '';
-			document.getElementById("ul3li1tr5td2").innerText = '';
-			document.getElementById("ul3li1tr5td3").innerText = '';
-			document.getElementById("ul3li1tr5td4").innerText = '';
+            document.getElementById("ul3li1tr5td1").innerHTML = '';
+			document.getElementById("ul3li1tr5td2").innerHTML = '';
+			document.getElementById("ul3li1tr5td3").innerHTML = '';
+			document.getElementById("ul3li1tr5td4").innerHTML = '';
 
 			
 		});
@@ -3149,46 +3149,46 @@ Version: 1.3.1
 
             
             document.getElementById("ul3li2tr1").style.display = 'table-row';
-			document.getElementById("ul3li2tr1td1").innerText = '0049';
-			document.getElementById("ul3li2tr1td2").innerText = 'Rolo Super 180 mm';
-			document.getElementById("ul3li2tr1td3").innerText = '45';
-			document.getElementById("ul3li2tr1td4").innerText = '60'
+			document.getElementById("ul3li2tr1td1").innerHTML = '0049';
+			document.getElementById("ul3li2tr1td2").innerHTML = 'Rolo Super 180 mm';
+			document.getElementById("ul3li2tr1td3").innerHTML = '45';
+			document.getElementById("ul3li2tr1td4").innerHTML = '60'
             
             document.getElementById("ul3li2tr2").style.display = 'table-row';
-			document.getElementById("ul3li2tr2td1").innerText = '0050';
-			document.getElementById("ul3li2tr2td2").innerText = 'Rolo Super 220 mm';
-			document.getElementById("ul3li2tr2td3").innerText = '45';
-		    document.getElementById("ul3li2tr2td4").innerText = '55';
+			document.getElementById("ul3li2tr2td1").innerHTML = '0050';
+			document.getElementById("ul3li2tr2td2").innerHTML = 'Rolo Super 220 mm';
+			document.getElementById("ul3li2tr2td3").innerHTML = '45';
+		    document.getElementById("ul3li2tr2td4").innerHTML = '55';
             
             document.getElementById("ul3li2tr3").style.display = 'table-row';
-			document.getElementById("ul3li2tr3td1").innerText = '0051';
-			document.getElementById("ul3li2tr3td2").innerText = 'Rolo Super 250 mm';
-			document.getElementById("ul3li2tr3td3").innerText = '45';
-			document.getElementById("ul3li2tr3td4").innerText = '50';
+			document.getElementById("ul3li2tr3td1").innerHTML = '0051';
+			document.getElementById("ul3li2tr3td2").innerHTML = 'Rolo Super 250 mm';
+			document.getElementById("ul3li2tr3td3").innerHTML = '45';
+			document.getElementById("ul3li2tr3td4").innerHTML = '50';
 			
             /*document.getElementById("ul3li2tr4").style.display = 'none';
-			document.getElementById("ul3li2tr4td1").innerText = '';
-			document.getElementById("ul3li2tr4td2").innerText = '';
-			document.getElementById("ul3li2tr4td3").innerText = '';
-			document.getElementById("ul3li2tr4td4").innerText = '';
+			document.getElementById("ul3li2tr4td1").innerHTML = '';
+			document.getElementById("ul3li2tr4td2").innerHTML = '';
+			document.getElementById("ul3li2tr4td3").innerHTML = '';
+			document.getElementById("ul3li2tr4td4").innerHTML = '';
             
             document.getElementById("ul3li2tr5").style.display = 'none';
-			document.getElementById("ul3li2tr5td1").innerText = '';
-			document.getElementById("ul3li2tr5td2").innerText = '';
-			document.getElementById("ul3li2tr5td3").innerText = '';
-			document.getElementById("ul3li2tr5td4").innerText = '';
+			document.getElementById("ul3li2tr5td1").innerHTML = '';
+			document.getElementById("ul3li2tr5td2").innerHTML = '';
+			document.getElementById("ul3li2tr5td3").innerHTML = '';
+			document.getElementById("ul3li2tr5td4").innerHTML = '';
             
             document.getElementById("ul3li2tr6").style.display = 'none';
-			document.getElementById("ul3li2tr6td1").innerText = '';
-			document.getElementById("ul3li2tr6td2").innerText = '';
-			document.getElementById("ul3li2tr6td3").innerText = '';
-			document.getElementById("ul3li2tr6td4").innerText = '';
+			document.getElementById("ul3li2tr6td1").innerHTML = '';
+			document.getElementById("ul3li2tr6td2").innerHTML = '';
+			document.getElementById("ul3li2tr6td3").innerHTML = '';
+			document.getElementById("ul3li2tr6td4").innerHTML = '';
             
             document.getElementById("ul3li2tr7").style.display = 'none';
-			document.getElementById("ul3li2tr7td1").innerText = '';
-			document.getElementById("ul3li2tr7td2").innerText = '';
-			document.getElementById("ul3li2tr7td3").innerText = '';
-			document.getElementById("ul3li2tr7td4").innerText = '';*/
+			document.getElementById("ul3li2tr7td1").innerHTML = '';
+			document.getElementById("ul3li2tr7td2").innerHTML = '';
+			document.getElementById("ul3li2tr7td3").innerHTML = '';
+			document.getElementById("ul3li2tr7td4").innerHTML = '';*/
             
 		});
         
@@ -3213,47 +3213,47 @@ Version: 1.3.1
             document.getElementById('ul3li2m4').className = "";
             
             document.getElementById("ul3li2tr1").style.display = 'table-row';
-			document.getElementById("ul3li2tr1td1").innerText = '0006';
-			document.getElementById("ul3li2tr1td2").innerText = 'Carga Super 180 mm';
-			document.getElementById("ul3li2tr1td3").innerText = '45';
-			document.getElementById("ul3li2tr1td4").innerText = '140';
+			document.getElementById("ul3li2tr1td1").innerHTML = '0006';
+			document.getElementById("ul3li2tr1td2").innerHTML = 'Carga Super 180 mm';
+			document.getElementById("ul3li2tr1td3").innerHTML = '45';
+			document.getElementById("ul3li2tr1td4").innerHTML = '140';
 			
             document.getElementById("ul3li2tr2").style.display = 'table-row';
-			document.getElementById("ul3li2tr2td1").innerText = '0007';
-			document.getElementById("ul3li2tr2td2").innerText = 'Carga Super 220 mm';
-			document.getElementById("ul3li2tr2td3").innerText = '45';
-			document.getElementById("ul3li2tr2td4").innerText = '120';
+			document.getElementById("ul3li2tr2td1").innerHTML = '0007';
+			document.getElementById("ul3li2tr2td2").innerHTML = 'Carga Super 220 mm';
+			document.getElementById("ul3li2tr2td3").innerHTML = '45';
+			document.getElementById("ul3li2tr2td4").innerHTML = '120';
 			
             document.getElementById("ul3li2tr3").style.display = 'table-row';
-			document.getElementById("ul3li2tr3td1").innerText = '0008';
-			document.getElementById("ul3li2tr3td2").innerText = 'Carga Super 250 mm';
-			document.getElementById("ul3li2tr3td3").innerText = '45';
-			document.getElementById("ul3li2tr3td4").innerText = '100';
+			document.getElementById("ul3li2tr3td1").innerHTML = '0008';
+			document.getElementById("ul3li2tr3td2").innerHTML = 'Carga Super 250 mm';
+			document.getElementById("ul3li2tr3td3").innerHTML = '45';
+			document.getElementById("ul3li2tr3td4").innerHTML = '100';
             
 
             /*document.getElementById("ul3li2tr4").style.display = 'none';
-			document.getElementById("ul3li2tr4td1").innerText = '';
-			document.getElementById("ul3li2tr4td2").innerText = '';
-			document.getElementById("ul3li2tr4td3").innerText = '';
-			document.getElementById("ul3li2tr4td4").innerText = '';
+			document.getElementById("ul3li2tr4td1").innerHTML = '';
+			document.getElementById("ul3li2tr4td2").innerHTML = '';
+			document.getElementById("ul3li2tr4td3").innerHTML = '';
+			document.getElementById("ul3li2tr4td4").innerHTML = '';
             
             document.getElementById("ul3li2tr5").style.display = 'none';
-			document.getElementById("ul3li2tr5td1").innerText = '';
-			document.getElementById("ul3li2tr5td2").innerText = '';
-			document.getElementById("ul3li2tr5td3").innerText = '';
-			document.getElementById("ul3li2tr5td4").innerText = '';
+			document.getElementById("ul3li2tr5td1").innerHTML = '';
+			document.getElementById("ul3li2tr5td2").innerHTML = '';
+			document.getElementById("ul3li2tr5td3").innerHTML = '';
+			document.getElementById("ul3li2tr5td4").innerHTML = '';
             
             document.getElementById("ul3li2tr6").style.display = 'none';
-			document.getElementById("ul3li2tr6td1").innerText = '';
-			document.getElementById("ul3li2tr6td2").innerText = '';
-			document.getElementById("ul3li2tr6td3").innerText = '';
-			document.getElementById("ul3li2tr6td4").innerText = '';
+			document.getElementById("ul3li2tr6td1").innerHTML = '';
+			document.getElementById("ul3li2tr6td2").innerHTML = '';
+			document.getElementById("ul3li2tr6td3").innerHTML = '';
+			document.getElementById("ul3li2tr6td4").innerHTML = '';
             
             document.getElementById("ul3li2tr7").style.display = 'none';
-			document.getElementById("ul3li2tr7td1").innerText = '';
-			document.getElementById("ul3li2tr7td2").innerText = '';
-			document.getElementById("ul3li2tr7td3").innerText = '';
-			document.getElementById("ul3li2tr7td4").innerText = '';*/
+			document.getElementById("ul3li2tr7td1").innerHTML = '';
+			document.getElementById("ul3li2tr7td2").innerHTML = '';
+			document.getElementById("ul3li2tr7td3").innerHTML = '';
+			document.getElementById("ul3li2tr7td4").innerHTML = '';*/
 		
 			
 		});
@@ -3279,46 +3279,46 @@ Version: 1.3.1
             document.getElementById('ul3li2m4').className = "";
             
             document.getElementById("ul3li2tr1").style.display = 'table-row';
-			document.getElementById("ul3li2tr1td1").innerText = 'Mini Rolo Super 100 mm';
-			document.getElementById("ul3li2tr1td2").innerText = '0365';
-			document.getElementById("ul3li2tr1td3").innerText = '16';
-			document.getElementById("ul3li2tr1td4").innerText = '100';
+			document.getElementById("ul3li2tr1td1").innerHTML = 'Mini Rolo Super 100 mm';
+			document.getElementById("ul3li2tr1td2").innerHTML = '0365';
+			document.getElementById("ul3li2tr1td3").innerHTML = '16';
+			document.getElementById("ul3li2tr1td4").innerHTML = '100';
             
             document.getElementById("ul3li2tr2").style.display = 'none';
-			document.getElementById("ul3li2tr2td1").innerText = '';
-			document.getElementById("ul3li2tr2td2").innerText = '';
-			document.getElementById("ul3li2tr2td3").innerText = '';
-			document.getElementById("ul3li2tr2td4").innerText = '';
+			document.getElementById("ul3li2tr2td1").innerHTML = '';
+			document.getElementById("ul3li2tr2td2").innerHTML = '';
+			document.getElementById("ul3li2tr2td3").innerHTML = '';
+			document.getElementById("ul3li2tr2td4").innerHTML = '';
             
             document.getElementById("ul3li2tr3").style.display = 'none';
-			document.getElementById("ul3li2tr3td1").innerText = '';
-			document.getElementById("ul3li2tr3td2").innerText = '';
-			document.getElementById("ul3li2tr3td3").innerText = '';
-			document.getElementById("ul3li2tr3td4").innerText = '';
+			document.getElementById("ul3li2tr3td1").innerHTML = '';
+			document.getElementById("ul3li2tr3td2").innerHTML = '';
+			document.getElementById("ul3li2tr3td3").innerHTML = '';
+			document.getElementById("ul3li2tr3td4").innerHTML = '';
             
             /*document.getElementById("ul3li2tr4").style.display = 'none';
-			document.getElementById("ul3li2tr4td1").innerText = '';
-			document.getElementById("ul3li2tr4td2").innerText = '';
-			document.getElementById("ul3li2tr4td3").innerText = '';
-			document.getElementById("ul3li2tr4td4").innerText = '';
+			document.getElementById("ul3li2tr4td1").innerHTML = '';
+			document.getElementById("ul3li2tr4td2").innerHTML = '';
+			document.getElementById("ul3li2tr4td3").innerHTML = '';
+			document.getElementById("ul3li2tr4td4").innerHTML = '';
             
             document.getElementById("ul3li2tr5").style.display = 'none';
-			document.getElementById("ul3li2tr5td1").innerText = '';
-			document.getElementById("ul3li2tr5td2").innerText = '';
-			document.getElementById("ul3li2tr5td3").innerText = '';
-			document.getElementById("ul3li2tr5td4").innerText = '';
+			document.getElementById("ul3li2tr5td1").innerHTML = '';
+			document.getElementById("ul3li2tr5td2").innerHTML = '';
+			document.getElementById("ul3li2tr5td3").innerHTML = '';
+			document.getElementById("ul3li2tr5td4").innerHTML = '';
             
             document.getElementById("ul3li2tr6").style.display = 'none';
-			document.getElementById("ul3li2tr6td1").innerText = '';
-			document.getElementById("ul3li2tr6td2").innerText = '';
-			document.getElementById("ul3li2tr6td3").innerText = '';
-			document.getElementById("ul3li2tr6td4").innerText = '';
+			document.getElementById("ul3li2tr6td1").innerHTML = '';
+			document.getElementById("ul3li2tr6td2").innerHTML = '';
+			document.getElementById("ul3li2tr6td3").innerHTML = '';
+			document.getElementById("ul3li2tr6td4").innerHTML = '';
             
             document.getElementById("ul3li2tr7").style.display = 'none';
-			document.getElementById("ul3li2tr7td1").innerText = '';
-			document.getElementById("ul3li2tr7td2").innerText = '';
-			document.getElementById("ul3li2tr7td3").innerText = '';
-			document.getElementById("ul3li2tr7td4").innerText = '';*/
+			document.getElementById("ul3li2tr7td1").innerHTML = '';
+			document.getElementById("ul3li2tr7td2").innerHTML = '';
+			document.getElementById("ul3li2tr7td3").innerHTML = '';
+			document.getElementById("ul3li2tr7td4").innerHTML = '';*/
 			
 		});
 		
@@ -3343,46 +3343,46 @@ Version: 1.3.1
             document.getElementById('ul3li2m4').className = "activeMenu";
             
             document.getElementById("ul3li2tr1").style.display = 'table-row';
-			document.getElementById("ul3li2tr1td1").innerText = 'Carga Super 100 mm';
-			document.getElementById("ul3li2tr1td2").innerText = '0278';
-			document.getElementById("ul3li2tr1td3").innerText = '16';
-			document.getElementById("ul3li2tr1td4").innerText = '300';
+			document.getElementById("ul3li2tr1td1").innerHTML = 'Carga Super 100 mm';
+			document.getElementById("ul3li2tr1td2").innerHTML = '0278';
+			document.getElementById("ul3li2tr1td3").innerHTML = '16';
+			document.getElementById("ul3li2tr1td4").innerHTML = '300';
             
             document.getElementById("ul3li2tr2").style.display = 'table-row';
-			document.getElementById("ul3li2tr2td1").innerText = 'Pack 2 Cargas Super 100 mm';
-			document.getElementById("ul3li2tr2td2").innerText = '0279';
-			document.getElementById("ul3li2tr2td3").innerText = '16';
-			document.getElementById("ul3li2tr2td4").innerText = '200X2';
+			document.getElementById("ul3li2tr2td1").innerHTML = 'Pack 2 Cargas Super 100 mm';
+			document.getElementById("ul3li2tr2td2").innerHTML = '0279';
+			document.getElementById("ul3li2tr2td3").innerHTML = '16';
+			document.getElementById("ul3li2tr2td4").innerHTML = '200X2';
             
             document.getElementById("ul3li2tr3").style.display = 'table-row';
-			document.getElementById("ul3li2tr3td1").innerText = 'Blister 10 Cargas Super 100 mm';
-			document.getElementById("ul3li2tr3td2").innerText = '0366';
-			document.getElementById("ul3li2tr3td3").innerText = '16';
-			document.getElementById("ul3li2tr3td4").innerText = '40X10';
+			document.getElementById("ul3li2tr3td1").innerHTML = 'Blister 10 Cargas Super 100 mm';
+			document.getElementById("ul3li2tr3td2").innerHTML = '0366';
+			document.getElementById("ul3li2tr3td3").innerHTML = '16';
+			document.getElementById("ul3li2tr3td4").innerHTML = '40X10';
             
             /*document.getElementById("ul3li2tr4").style.display = 'none';
-			document.getElementById("ul3li2tr4td1").innerText = '';
-			document.getElementById("ul3li2tr4td2").innerText = '';
-			document.getElementById("ul3li2tr4td3").innerText = '';
-			document.getElementById("ul3li2tr4td4").innerText = '';
+			document.getElementById("ul3li2tr4td1").innerHTML = '';
+			document.getElementById("ul3li2tr4td2").innerHTML = '';
+			document.getElementById("ul3li2tr4td3").innerHTML = '';
+			document.getElementById("ul3li2tr4td4").innerHTML = '';
             
             document.getElementById("ul3li2tr5").style.display = 'none';
-			document.getElementById("ul3li2tr5td1").innerText = '';
-			document.getElementById("ul3li2tr5td2").innerText = '';
-			document.getElementById("ul3li2tr5td3").innerText = '';
-			document.getElementById("ul3li2tr5td4").innerText = '';
+			document.getElementById("ul3li2tr5td1").innerHTML = '';
+			document.getElementById("ul3li2tr5td2").innerHTML = '';
+			document.getElementById("ul3li2tr5td3").innerHTML = '';
+			document.getElementById("ul3li2tr5td4").innerHTML = '';
             
             document.getElementById("ul3li2tr6").style.display = 'none';
-			document.getElementById("ul3li2tr6td1").innerText = '';
-			document.getElementById("ul3li2tr6td2").innerText = '';
-			document.getElementById("ul3li2tr6td3").innerText = '';
-			document.getElementById("ul3li2tr6td4").innerText = '';
+			document.getElementById("ul3li2tr6td1").innerHTML = '';
+			document.getElementById("ul3li2tr6td2").innerHTML = '';
+			document.getElementById("ul3li2tr6td3").innerHTML = '';
+			document.getElementById("ul3li2tr6td4").innerHTML = '';
             
             document.getElementById("ul3li2tr7").style.display = 'none';
-			document.getElementById("ul3li2tr7td1").innerText = '';
-			document.getElementById("ul3li2tr7td2").innerText = '';
-			document.getElementById("ul3li2tr7td3").innerText = '';
-			document.getElementById("ul3li2tr7td4").innerText = '';*/
+			document.getElementById("ul3li2tr7td1").innerHTML = '';
+			document.getElementById("ul3li2tr7td2").innerHTML = '';
+			document.getElementById("ul3li2tr7td3").innerHTML = '';
+			document.getElementById("ul3li2tr7td4").innerHTML = '';*/
             
             
 			
@@ -3415,41 +3415,41 @@ Version: 1.3.1
             //document.getElementById('ul3li3m4').className = "";
             
             document.getElementById("ul3li3tr1").style.display = 'table-row';
-			document.getElementById("ul3li3tr1td1").innerText = '0069';
-			document.getElementById("ul3li3tr1td2").innerText = 'Rolo Merino 180 mm';
-			document.getElementById("ul3li3tr1td3").innerText = '45';
-			document.getElementById("ul3li3tr1td4").innerText = '55';
+			document.getElementById("ul3li3tr1td1").innerHTML = '0069';
+			document.getElementById("ul3li3tr1td2").innerHTML = 'Rolo Merino 180 mm';
+			document.getElementById("ul3li3tr1td3").innerHTML = '45';
+			document.getElementById("ul3li3tr1td4").innerHTML = '55';
             
             
             document.getElementById("ul3li3tr2").style.display = 'table-row';
-			document.getElementById("ul3li3tr2td1").innerText = '0070';
-			document.getElementById("ul3li3tr2td2").innerText = 'Rolo Merino 220 mm';
-			document.getElementById("ul3li3tr2td3").innerText = '45';
-			document.getElementById("ul3li3tr2td4").innerText = '50';
+			document.getElementById("ul3li3tr2td1").innerHTML = '0070';
+			document.getElementById("ul3li3tr2td2").innerHTML = 'Rolo Merino 220 mm';
+			document.getElementById("ul3li3tr2td3").innerHTML = '45';
+			document.getElementById("ul3li3tr2td4").innerHTML = '50';
             
             document.getElementById("ul3li3tr3").style.display = 'table-row';
-			document.getElementById("ul3li3tr3td1").innerText = '0071';
-			document.getElementById("ul3li3tr3td2").innerText = 'Rolo Merino 250 mm';
-			document.getElementById("ul3li3tr3td3").innerText = '45';
-			document.getElementById("ul3li3tr3td4").innerText = '45';
+			document.getElementById("ul3li3tr3td1").innerHTML = '0071';
+			document.getElementById("ul3li3tr3td2").innerHTML = 'Rolo Merino 250 mm';
+			document.getElementById("ul3li3tr3td3").innerHTML = '45';
+			document.getElementById("ul3li3tr3td4").innerHTML = '45';
             
             document.getElementById("ul3li3tr4").style.display = 'table-row';
-			document.getElementById("ul3li3tr4td1").innerText = '0155';
-			document.getElementById("ul3li3tr4td2").innerText = 'Rolo Merino 180 mm';
-			document.getElementById("ul3li3tr4td3").innerText = '50';
-			document.getElementById("ul3li3tr4td4").innerText = '55';
+			document.getElementById("ul3li3tr4td1").innerHTML = '0155';
+			document.getElementById("ul3li3tr4td2").innerHTML = 'Rolo Merino 180 mm';
+			document.getElementById("ul3li3tr4td3").innerHTML = '50';
+			document.getElementById("ul3li3tr4td4").innerHTML = '55';
             
             document.getElementById("ul3li3tr5").style.display = 'table-row';
-			document.getElementById("ul3li3tr5td1").innerText = '0156';
-			document.getElementById("ul3li3tr5td2").innerText = 'Rolo Merino 220 mm';
-			document.getElementById("ul3li3tr5td3").innerText = '50';
-			document.getElementById("ul3li3tr5td4").innerText = '50';
+			document.getElementById("ul3li3tr5td1").innerHTML = '0156';
+			document.getElementById("ul3li3tr5td2").innerHTML = 'Rolo Merino 220 mm';
+			document.getElementById("ul3li3tr5td3").innerHTML = '50';
+			document.getElementById("ul3li3tr5td4").innerHTML = '50';
             
             document.getElementById("ul3li3tr6").style.display = 'table-row';
-			document.getElementById("ul3li3tr6td1").innerText = '0157';
-			document.getElementById("ul3li3tr6td2").innerText = 'Rolo Merino 250 mm';
-			document.getElementById("ul3li3tr6td3").innerText = '50';
-			document.getElementById("ul3li3tr6td4").innerText = '45';
+			document.getElementById("ul3li3tr6td1").innerHTML = '0157';
+			document.getElementById("ul3li3tr6td2").innerHTML = 'Rolo Merino 250 mm';
+			document.getElementById("ul3li3tr6td3").innerHTML = '50';
+			document.getElementById("ul3li3tr6td4").innerHTML = '45';
 			
 		});
 
@@ -3474,40 +3474,40 @@ Version: 1.3.1
             //document.getElementById('ul3li3m4').className = "";
             
             document.getElementById("ul3li3tr1").style.display = 'table-row';
-			document.getElementById("ul3li3tr1td1").innerText = '0026';
-			document.getElementById("ul3li3tr1td2").innerText = 'Carga Merino 180 mm';
-			document.getElementById("ul3li3tr1td3").innerText = '45';
-			document.getElementById("ul3li3tr1td4").innerText = '140';
+			document.getElementById("ul3li3tr1td1").innerHTML = '0026';
+			document.getElementById("ul3li3tr1td2").innerHTML = 'Carga Merino 180 mm';
+			document.getElementById("ul3li3tr1td3").innerHTML = '45';
+			document.getElementById("ul3li3tr1td4").innerHTML = '140';
             
             document.getElementById("ul3li3tr2").style.display = 'table-row';
-			document.getElementById("ul3li3tr2td1").innerText = '0027';
-			document.getElementById("ul3li3tr2td2").innerText = 'Carga Merino 220 mm';
-			document.getElementById("ul3li3tr2td3").innerText = '45';
-			document.getElementById("ul3li3tr2td4").innerText = '120';
+			document.getElementById("ul3li3tr2td1").innerHTML = '0027';
+			document.getElementById("ul3li3tr2td2").innerHTML = 'Carga Merino 220 mm';
+			document.getElementById("ul3li3tr2td3").innerHTML = '45';
+			document.getElementById("ul3li3tr2td4").innerHTML = '120';
             
             document.getElementById("ul3li3tr3").style.display = 'table-row';
-			document.getElementById("ul3li3tr3td1").innerText = '0028';
-			document.getElementById("ul3li3tr3td2").innerText = 'Carga Merino 250 mm';
-			document.getElementById("ul3li3tr3td3").innerText = '45';
-			document.getElementById("ul3li3tr3td4").innerText = '100';
+			document.getElementById("ul3li3tr3td1").innerHTML = '0028';
+			document.getElementById("ul3li3tr3td2").innerHTML = 'Carga Merino 250 mm';
+			document.getElementById("ul3li3tr3td3").innerHTML = '45';
+			document.getElementById("ul3li3tr3td4").innerHTML = '100';
             
             document.getElementById("ul3li3tr4").style.display = 'table-row';
-			document.getElementById("ul3li3tr4td1").innerText = '0137';
-			document.getElementById("ul3li3tr4td2").innerText = 'Carga Merino 180 mm';
-			document.getElementById("ul3li3tr4td3").innerText = '50';
-			document.getElementById("ul3li3tr4td4").innerText = '100';
+			document.getElementById("ul3li3tr4td1").innerHTML = '0137';
+			document.getElementById("ul3li3tr4td2").innerHTML = 'Carga Merino 180 mm';
+			document.getElementById("ul3li3tr4td3").innerHTML = '50';
+			document.getElementById("ul3li3tr4td4").innerHTML = '100';
             
             document.getElementById("ul3li3tr5").style.display = 'table-row';
-			document.getElementById("ul3li3tr5td1").innerText = '0138';
-			document.getElementById("ul3li3tr5td2").innerText = 'Carga Merino 220 mm';
-			document.getElementById("ul3li3tr5td3").innerText = '50';
-			document.getElementById("ul3li3tr5td4").innerText = '90';
+			document.getElementById("ul3li3tr5td1").innerHTML = '0138';
+			document.getElementById("ul3li3tr5td2").innerHTML = 'Carga Merino 220 mm';
+			document.getElementById("ul3li3tr5td3").innerHTML = '50';
+			document.getElementById("ul3li3tr5td4").innerHTML = '90';
             
             document.getElementById("ul3li3tr6").style.display = 'table-row';
-			document.getElementById("ul3li3tr6td1").innerText = '0139';
-			document.getElementById("ul3li3tr6td2").innerText = 'Carga Merino 250 mm';
-			document.getElementById("ul3li3tr6td3").innerText = '50';
-			document.getElementById("ul3li3tr6td4").innerText = '70';
+			document.getElementById("ul3li3tr6td1").innerHTML = '0139';
+			document.getElementById("ul3li3tr6td2").innerHTML = 'Carga Merino 250 mm';
+			document.getElementById("ul3li3tr6td3").innerHTML = '50';
+			document.getElementById("ul3li3tr6td4").innerHTML = '70';
 			
             
 		});
@@ -3531,34 +3531,34 @@ Version: 1.3.1
             document.getElementById('ul3li3m2').className = "";
             document.getElementById('ul3li3m3').className = "activeMenu";
             document.getElementById('ul3li3m4').className = "";
-			document.getElementById("ul3li3tr1td1").innerText = '';
-			document.getElementById("ul3li3tr1td2").innerText = '';
-			document.getElementById("ul3li3tr1td3").innerText = '';
-			document.getElementById("ul3li3tr1td4").innerText = '';
-			document.getElementById("ul3li3tr2td1").innerText = '';
-			document.getElementById("ul3li3tr2td2").innerText = '';
-			document.getElementById("ul3li3tr2td3").innerText = '';
-			document.getElementById("ul3li3tr2td4").innerText = '';
-			document.getElementById("ul3li3tr3td1").innerText = '';
-			document.getElementById("ul3li3tr3td2").innerText = '';
-			document.getElementById("ul3li3tr3td3").innerText = '';
-			document.getElementById("ul3li3tr3td4").innerText = '';
-			document.getElementById("ul3li3tr4td1").innerText = '';
-			document.getElementById("ul3li3tr4td2").innerText = '';
-			document.getElementById("ul3li3tr4td3").innerText = '';
-			document.getElementById("ul3li3tr4td4").innerText = '';
-			document.getElementById("ul3li3tr5td1").innerText = '';
-			document.getElementById("ul3li3tr5td2").innerText = '';
-			document.getElementById("ul3li3tr5td3").innerText = '';
-			document.getElementById("ul3li3tr5td4").innerText = '';
-			document.getElementById("ul3li3tr6td1").innerText = '';
-			document.getElementById("ul3li3tr6td2").innerText = '';
-			document.getElementById("ul3li3tr6td3").innerText = '';
-			document.getElementById("ul3li3tr6td4").innerText = '';
-			document.getElementById("ul3li3tr7td1").innerText = '';
-			document.getElementById("ul3li3tr7td2").innerText = '';
-			document.getElementById("ul3li3tr7td3").innerText = '';
-			document.getElementById("ul3li3tr7td4").innerText = '';
+			document.getElementById("ul3li3tr1td1").innerHTML = '';
+			document.getElementById("ul3li3tr1td2").innerHTML = '';
+			document.getElementById("ul3li3tr1td3").innerHTML = '';
+			document.getElementById("ul3li3tr1td4").innerHTML = '';
+			document.getElementById("ul3li3tr2td1").innerHTML = '';
+			document.getElementById("ul3li3tr2td2").innerHTML = '';
+			document.getElementById("ul3li3tr2td3").innerHTML = '';
+			document.getElementById("ul3li3tr2td4").innerHTML = '';
+			document.getElementById("ul3li3tr3td1").innerHTML = '';
+			document.getElementById("ul3li3tr3td2").innerHTML = '';
+			document.getElementById("ul3li3tr3td3").innerHTML = '';
+			document.getElementById("ul3li3tr3td4").innerHTML = '';
+			document.getElementById("ul3li3tr4td1").innerHTML = '';
+			document.getElementById("ul3li3tr4td2").innerHTML = '';
+			document.getElementById("ul3li3tr4td3").innerHTML = '';
+			document.getElementById("ul3li3tr4td4").innerHTML = '';
+			document.getElementById("ul3li3tr5td1").innerHTML = '';
+			document.getElementById("ul3li3tr5td2").innerHTML = '';
+			document.getElementById("ul3li3tr5td3").innerHTML = '';
+			document.getElementById("ul3li3tr5td4").innerHTML = '';
+			document.getElementById("ul3li3tr6td1").innerHTML = '';
+			document.getElementById("ul3li3tr6td2").innerHTML = '';
+			document.getElementById("ul3li3tr6td3").innerHTML = '';
+			document.getElementById("ul3li3tr6td4").innerHTML = '';
+			document.getElementById("ul3li3tr7td1").innerHTML = '';
+			document.getElementById("ul3li3tr7td2").innerHTML = '';
+			document.getElementById("ul3li3tr7td3").innerHTML = '';
+			document.getElementById("ul3li3tr7td4").innerHTML = '';
 			
 		});
 		
@@ -3581,34 +3581,34 @@ Version: 1.3.1
             document.getElementById('ul3li3m2').className = "";
             document.getElementById('ul3li3m3').className = "";
             document.getElementById('ul3li3m4').className = "activeMenu";
-			document.getElementById("ul3li3tr1td1").innerText = '';
-			document.getElementById("ul3li3tr1td2").innerText = '';
-			document.getElementById("ul3li3tr1td3").innerText = '';
-			document.getElementById("ul3li3tr1td4").innerText = '';
-			document.getElementById("ul3li3tr2td1").innerText = '';
-			document.getElementById("ul3li3tr2td2").innerText = '';
-			document.getElementById("ul3li3tr2td3").innerText = '';
-			document.getElementById("ul3li3tr2td4").innerText = '';
-			document.getElementById("ul3li3tr3td1").innerText = '';
-			document.getElementById("ul3li3tr3td2").innerText = '';
-			document.getElementById("ul3li3tr3td3").innerText = '';
-			document.getElementById("ul3li3tr3td4").innerText = '';
-			document.getElementById("ul3li3tr4td1").innerText = '';
-			document.getElementById("ul3li3tr4td2").innerText = '';
-			document.getElementById("ul3li3tr4td3").innerText = '';
-			document.getElementById("ul3li3tr4td4").innerText = '';
-			document.getElementById("ul3li3tr5td1").innerText = '';
-			document.getElementById("ul3li3tr5td2").innerText = '';
-			document.getElementById("ul3li3tr5td3").innerText = '';
-			document.getElementById("ul3li3tr5td4").innerText = '';
-			document.getElementById("ul3li3tr6td1").innerText = '';
-			document.getElementById("ul3li3tr6td2").innerText = '';
-			document.getElementById("ul3li3tr6td3").innerText = '';
-			document.getElementById("ul3li3tr6td4").innerText = '';
-			document.getElementById("ul3li3tr7td1").innerText = '';
-			document.getElementById("ul3li3tr7td2").innerText = '';
-			document.getElementById("ul3li3tr7td3").innerText = '';
-			document.getElementById("ul3li3tr7td4").innerText = '';
+			document.getElementById("ul3li3tr1td1").innerHTML = '';
+			document.getElementById("ul3li3tr1td2").innerHTML = '';
+			document.getElementById("ul3li3tr1td3").innerHTML = '';
+			document.getElementById("ul3li3tr1td4").innerHTML = '';
+			document.getElementById("ul3li3tr2td1").innerHTML = '';
+			document.getElementById("ul3li3tr2td2").innerHTML = '';
+			document.getElementById("ul3li3tr2td3").innerHTML = '';
+			document.getElementById("ul3li3tr2td4").innerHTML = '';
+			document.getElementById("ul3li3tr3td1").innerHTML = '';
+			document.getElementById("ul3li3tr3td2").innerHTML = '';
+			document.getElementById("ul3li3tr3td3").innerHTML = '';
+			document.getElementById("ul3li3tr3td4").innerHTML = '';
+			document.getElementById("ul3li3tr4td1").innerHTML = '';
+			document.getElementById("ul3li3tr4td2").innerHTML = '';
+			document.getElementById("ul3li3tr4td3").innerHTML = '';
+			document.getElementById("ul3li3tr4td4").innerHTML = '';
+			document.getElementById("ul3li3tr5td1").innerHTML = '';
+			document.getElementById("ul3li3tr5td2").innerHTML = '';
+			document.getElementById("ul3li3tr5td3").innerHTML = '';
+			document.getElementById("ul3li3tr5td4").innerHTML = '';
+			document.getElementById("ul3li3tr6td1").innerHTML = '';
+			document.getElementById("ul3li3tr6td2").innerHTML = '';
+			document.getElementById("ul3li3tr6td3").innerHTML = '';
+			document.getElementById("ul3li3tr6td4").innerHTML = '';
+			document.getElementById("ul3li3tr7td1").innerHTML = '';
+			document.getElementById("ul3li3tr7td2").innerHTML = '';
+			document.getElementById("ul3li3tr7td3").innerHTML = '';
+			document.getElementById("ul3li3tr7td4").innerHTML = '';
 			
 		});*/
 		
@@ -3644,70 +3644,70 @@ Version: 1.3.1
             document.getElementById('ul3li4m6').className = "";
             
             document.getElementById("ul3li4tr1").style.display = 'table-row';
-			document.getElementById("ul3li4tr1td1").innerText = '0295';
-			document.getElementById("ul3li4tr1td2").innerText = 'Armação Mini c/ Cabo p/ Mini Rolo';
-			document.getElementById("ul3li4tr1td3").innerText = '50 mm';
-			document.getElementById("ul3li4tr1td4").innerText = '';
+			document.getElementById("ul3li4tr1td1").innerHTML = '0295';
+			document.getElementById("ul3li4tr1td2").innerHTML = 'Armação Mini c/ Cabo p/ Mini Rolo';
+			document.getElementById("ul3li4tr1td3").innerHTML = '50 mm';
+			document.getElementById("ul3li4tr1td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr2").style.display = 'table-row';
-			document.getElementById("ul3li4tr2td1").innerText = '0100';
-			document.getElementById("ul3li4tr2td2").innerText = 'Armação Curta c/ Cabo p/ Mini Rolo';
-			document.getElementById("ul3li4tr2td3").innerText = '100 mm';
-			document.getElementById("ul3li4tr2td4").innerText = '';
+			document.getElementById("ul3li4tr2td1").innerHTML = '0100';
+			document.getElementById("ul3li4tr2td2").innerHTML = 'Armação Curta c/ Cabo p/ Mini Rolo';
+			document.getElementById("ul3li4tr2td3").innerHTML = '100 mm';
+			document.getElementById("ul3li4tr2td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr3").style.display = 'table-row';
-			document.getElementById("ul3li4tr3td1").innerText = '0101';
-			document.getElementById("ul3li4tr3td2").innerText = 'Armação Longa c/ Cabo p/ Mini Rolo';
-			document.getElementById("ul3li4tr3td3").innerText = '100 mm';
-			document.getElementById("ul3li4tr3td4").innerText = '';
+			document.getElementById("ul3li4tr3td1").innerHTML = '0101';
+			document.getElementById("ul3li4tr3td2").innerHTML = 'Armação Longa c/ Cabo p/ Mini Rolo';
+			document.getElementById("ul3li4tr3td3").innerHTML = '100 mm';
+			document.getElementById("ul3li4tr3td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr4").style.display = 'table-row';
-			document.getElementById("ul3li4tr4td1").innerText = '0341';
-			document.getElementById("ul3li4tr4td2").innerText = 'Armação c/ Cabo p/ Rolo';
-			document.getElementById("ul3li4tr4td3").innerText = '60 mm';
-			document.getElementById("ul3li4tr4td4").innerText = '';
+			document.getElementById("ul3li4tr4td1").innerHTML = '0341';
+			document.getElementById("ul3li4tr4td2").innerHTML = 'Armação c/ Cabo p/ Rolo';
+			document.getElementById("ul3li4tr4td3").innerHTML = '60 mm';
+			document.getElementById("ul3li4tr4td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr5").style.display = 'table-row';
-			document.getElementById("ul3li4tr5td1").innerText = '0339';
-			document.getElementById("ul3li4tr5td2").innerText = 'Armação c/ Cabo p/ Rolo';
-			document.getElementById("ul3li4tr5td3").innerText = '100 mm';
-			document.getElementById("ul3li4tr5td4").innerText = '';
+			document.getElementById("ul3li4tr5td1").innerHTML = '0339';
+			document.getElementById("ul3li4tr5td2").innerHTML = 'Armação c/ Cabo p/ Rolo';
+			document.getElementById("ul3li4tr5td3").innerHTML = '100 mm';
+			document.getElementById("ul3li4tr5td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr6").style.display = 'table-row';
-			document.getElementById("ul3li4tr6td1").innerText = '0282';
-			document.getElementById("ul3li4tr6td2").innerText = 'Armação c/ Cabo p/ Rolo';
-			document.getElementById("ul3li4tr6td3").innerText = '150 mm';
-			document.getElementById("ul3li4tr6td4").innerText = '';
+			document.getElementById("ul3li4tr6td1").innerHTML = '0282';
+			document.getElementById("ul3li4tr6td2").innerHTML = 'Armação c/ Cabo p/ Rolo';
+			document.getElementById("ul3li4tr6td3").innerHTML = '150 mm';
+			document.getElementById("ul3li4tr6td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr7").style.display = 'table-row';
-			document.getElementById("ul3li4tr7td1").innerText = '0305';
-			document.getElementById("ul3li4tr7td2").innerText = 'Armação c/ Cabo p/ Rolo';
-			document.getElementById("ul3li4tr7td3").innerText = '180 mm';	
-			document.getElementById("ul3li4tr7td4").innerText = '';	
+			document.getElementById("ul3li4tr7td1").innerHTML = '0305';
+			document.getElementById("ul3li4tr7td2").innerHTML = 'Armação c/ Cabo p/ Rolo';
+			document.getElementById("ul3li4tr7td3").innerHTML = '180 mm';	
+			document.getElementById("ul3li4tr7td4").innerHTML = '';	
 			
 			document.getElementById("ul3li4tr8").style.display = 'table-row';
-			document.getElementById("ul3li4tr8td1").innerText = '0297';
-			document.getElementById("ul3li4tr8td2").innerText = 'Armação c/ Cabo p/ Rolo';
-			document.getElementById("ul3li4tr8td3").innerText = '220 mm';
-			document.getElementById("ul3li4tr8td4").innerText = '';
+			document.getElementById("ul3li4tr8td1").innerHTML = '0297';
+			document.getElementById("ul3li4tr8td2").innerHTML = 'Armação c/ Cabo p/ Rolo';
+			document.getElementById("ul3li4tr8td3").innerHTML = '220 mm';
+			document.getElementById("ul3li4tr8td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr9").style.display = 'table-row';
-			document.getElementById("ul3li4tr9td1").innerText = '0300';
-			document.getElementById("ul3li4tr9td2").innerText = 'Armação c/ Cabo p/ Rolo';
-			document.getElementById("ul3li4tr9td3").innerText = '250 mm';
-			document.getElementById("ul3li4tr9td4").innerText = '';
+			document.getElementById("ul3li4tr9td1").innerHTML = '0300';
+			document.getElementById("ul3li4tr9td2").innerHTML = 'Armação c/ Cabo p/ Rolo';
+			document.getElementById("ul3li4tr9td3").innerHTML = '250 mm';
+			document.getElementById("ul3li4tr9td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr10").style.display = 'table-row';
-			document.getElementById("ul3li4tr10td1").innerText = '0296';
-			document.getElementById("ul3li4tr10td2").innerText = 'Armação p/ Trincha';
-			document.getElementById("ul3li4tr10td3").innerText = '';
-			document.getElementById("ul3li4tr10td4").innerText = '500';
+			document.getElementById("ul3li4tr10td1").innerHTML = '0296';
+			document.getElementById("ul3li4tr10td2").innerHTML = 'Armação p/ Trincha';
+			document.getElementById("ul3li4tr10td3").innerHTML = '';
+			document.getElementById("ul3li4tr10td4").innerHTML = '500';
 			
 			document.getElementById("ul3li4tr11").style.display = 'table-row';
-			document.getElementById("ul3li4tr11td1").innerText = '0332';
-			document.getElementById("ul3li4tr11td2").innerText = 'Cabos p/ Rolos de Pintura';
-			document.getElementById("ul3li4tr11td3").innerText = '';
-			document.getElementById("ul3li4tr11td4").innerText = '250';
+			document.getElementById("ul3li4tr11td1").innerHTML = '0332';
+			document.getElementById("ul3li4tr11td2").innerHTML = 'Cabos p/ Rolos de Pintura';
+			document.getElementById("ul3li4tr11td3").innerHTML = '';
+			document.getElementById("ul3li4tr11td4").innerHTML = '250';
 			
 			
 
@@ -3740,70 +3740,70 @@ Version: 1.3.1
             document.getElementById('ul3li4m6').className = "";
             
             document.getElementById("ul3li4tr1").style.display = 'table-row';
-			document.getElementById("ul3li4tr1td1").innerText = '0102';
-			document.getElementById("ul3li4tr1td2").innerText = 'Tabuleiro de Pintura';
-			document.getElementById("ul3li4tr1td3").innerText = 'Mini';
-			document.getElementById("ul3li4tr1td4").innerText = '110';
+			document.getElementById("ul3li4tr1td1").innerHTML = '0102';
+			document.getElementById("ul3li4tr1td2").innerHTML = 'Tabuleiro de Pintura';
+			document.getElementById("ul3li4tr1td3").innerHTML = 'Mini';
+			document.getElementById("ul3li4tr1td4").innerHTML = '110';
 			
 			document.getElementById("ul3li4tr2").style.display = 'table-row';
-			document.getElementById("ul3li4tr2td1").innerText = '0103';
-			document.getElementById("ul3li4tr2td2").innerText = 'Tabuleiro de Pintura';
-			document.getElementById("ul3li4tr2td3").innerText = 'Pequeno';
-			document.getElementById("ul3li4tr2td4").innerText = '20';
+			document.getElementById("ul3li4tr2td1").innerHTML = '0103';
+			document.getElementById("ul3li4tr2td2").innerHTML = 'Tabuleiro de Pintura';
+			document.getElementById("ul3li4tr2td3").innerHTML = 'Pequeno';
+			document.getElementById("ul3li4tr2td4").innerHTML = '20';
 			
 			document.getElementById("ul3li4tr3").style.display = 'table-row';
-			document.getElementById("ul3li4tr3td1").innerText = '0104';
-			document.getElementById("ul3li4tr3td2").innerText = 'Tabuleiro de Pintura';
-			document.getElementById("ul3li4tr3td3").innerText = 'Grande';
-			document.getElementById("ul3li4tr3td4").innerText = '20';
+			document.getElementById("ul3li4tr3td1").innerHTML = '0104';
+			document.getElementById("ul3li4tr3td2").innerHTML = 'Tabuleiro de Pintura';
+			document.getElementById("ul3li4tr3td3").innerHTML = 'Grande';
+			document.getElementById("ul3li4tr3td4").innerHTML = '20';
 			
             document.getElementById("ul3li4tr4").style.display = 'table-row';
-			document.getElementById("ul3li4tr4td1").innerText = '0304';
-			document.getElementById("ul3li4tr4td2").innerText = 'Pega p/ Tabuleiros';
-			document.getElementById("ul3li4tr4td3").innerText = '';
-			document.getElementById("ul3li4tr4td4").innerText = '200';
+			document.getElementById("ul3li4tr4td1").innerHTML = '0304';
+			document.getElementById("ul3li4tr4td2").innerHTML = 'Pega p/ Tabuleiros';
+			document.getElementById("ul3li4tr4td3").innerHTML = '';
+			document.getElementById("ul3li4tr4td4").innerHTML = '200';
 			
             document.getElementById("ul3li4tr5").style.display = 'none';
-			document.getElementById("ul3li4tr5td1").innerText = '';
-			document.getElementById("ul3li4tr5td2").innerText = '';
-			document.getElementById("ul3li4tr5td3").innerText = '';
-			document.getElementById("ul3li4tr5td4").innerText = '';
+			document.getElementById("ul3li4tr5td1").innerHTML = '';
+			document.getElementById("ul3li4tr5td2").innerHTML = '';
+			document.getElementById("ul3li4tr5td3").innerHTML = '';
+			document.getElementById("ul3li4tr5td4").innerHTML = '';
             
             document.getElementById("ul3li4tr6").style.display = 'none';
-			document.getElementById("ul3li4tr6td1").innerText = '';
-			document.getElementById("ul3li4tr6td2").innerText = '';
-			document.getElementById("ul3li4tr6td3").innerText = '';
-			document.getElementById("ul3li4tr6td4").innerText = '';
+			document.getElementById("ul3li4tr6td1").innerHTML = '';
+			document.getElementById("ul3li4tr6td2").innerHTML = '';
+			document.getElementById("ul3li4tr6td3").innerHTML = '';
+			document.getElementById("ul3li4tr6td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr7").style.display = 'none';
-			document.getElementById("ul3li4tr7td1").innerText = '';
-			document.getElementById("ul3li4tr7td2").innerText = '';
-			document.getElementById("ul3li4tr7td3").innerText = '';
-			document.getElementById("ul3li4tr7td4").innerText = '';
+			document.getElementById("ul3li4tr7td1").innerHTML = '';
+			document.getElementById("ul3li4tr7td2").innerHTML = '';
+			document.getElementById("ul3li4tr7td3").innerHTML = '';
+			document.getElementById("ul3li4tr7td4").innerHTML = '';
             
             document.getElementById("ul3li4tr8").style.display = 'none';
-            document.getElementById("ul3li4tr8td1").innerText = '';
-			document.getElementById("ul3li4tr8td2").innerText = '';
-			document.getElementById("ul3li4tr8td3").innerText = '';
-			document.getElementById("ul3li4tr8td4").innerText = '';
+            document.getElementById("ul3li4tr8td1").innerHTML = '';
+			document.getElementById("ul3li4tr8td2").innerHTML = '';
+			document.getElementById("ul3li4tr8td3").innerHTML = '';
+			document.getElementById("ul3li4tr8td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr9").style.display = 'none';
-			document.getElementById("ul3li4tr9td1").innerText = '';
-			document.getElementById("ul3li4tr9td2").innerText = '';
-			document.getElementById("ul3li4tr9td3").innerText = '';
-			document.getElementById("ul3li4tr9td4").innerText = '';
+			document.getElementById("ul3li4tr9td1").innerHTML = '';
+			document.getElementById("ul3li4tr9td2").innerHTML = '';
+			document.getElementById("ul3li4tr9td3").innerHTML = '';
+			document.getElementById("ul3li4tr9td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr10").style.display = 'none';
-			document.getElementById("ul3li4tr10td1").innerText = '';
-			document.getElementById("ul3li4tr10td2").innerText = '';
-			document.getElementById("ul3li4tr10td3").innerText = '';
-			document.getElementById("ul3li4tr10td4").innerText = '';
+			document.getElementById("ul3li4tr10td1").innerHTML = '';
+			document.getElementById("ul3li4tr10td2").innerHTML = '';
+			document.getElementById("ul3li4tr10td3").innerHTML = '';
+			document.getElementById("ul3li4tr10td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr11").style.display = 'none';
-			document.getElementById("ul3li4tr11td1").innerText = '';
-			document.getElementById("ul3li4tr11td2").innerText = '';
-			document.getElementById("ul3li4tr11td3").innerText = '';
-			document.getElementById("ul3li4tr11td4").innerText = '';
+			document.getElementById("ul3li4tr11td1").innerHTML = '';
+			document.getElementById("ul3li4tr11td2").innerHTML = '';
+			document.getElementById("ul3li4tr11td3").innerHTML = '';
+			document.getElementById("ul3li4tr11td4").innerHTML = '';
 			
 		});
         
@@ -3832,70 +3832,70 @@ Version: 1.3.1
             document.getElementById('ul3li4m6').className = "";
             
             document.getElementById("ul3li4tr1").style.display = 'table-row';
-			document.getElementById("ul3li4tr1td1").innerText = '0112';
-			document.getElementById("ul3li4tr1td2").innerText = 'Betumadeira em Aço';
-			document.getElementById("ul3li4tr1td3").innerText = '40 mm';
-			document.getElementById("ul3li4tr1td4").innerText = '12';
+			document.getElementById("ul3li4tr1td1").innerHTML = '0112';
+			document.getElementById("ul3li4tr1td2").innerHTML = 'Betumadeira em Aço';
+			document.getElementById("ul3li4tr1td3").innerHTML = '40 mm';
+			document.getElementById("ul3li4tr1td4").innerHTML = '12';
 			
             document.getElementById("ul3li4tr2").style.display = 'table-row';
-			document.getElementById("ul3li4tr2td1").innerText = '0113';
-			document.getElementById("ul3li4tr2td2").innerText = 'Betumadeira em Aço';
-			document.getElementById("ul3li4tr2td3").innerText = '50 mm';
-			document.getElementById("ul3li4tr2td4").innerText = '12';
+			document.getElementById("ul3li4tr2td1").innerHTML = '0113';
+			document.getElementById("ul3li4tr2td2").innerHTML = 'Betumadeira em Aço';
+			document.getElementById("ul3li4tr2td3").innerHTML = '50 mm';
+			document.getElementById("ul3li4tr2td4").innerHTML = '12';
 			
             document.getElementById("ul3li4tr3").style.display = 'table-row';
-			document.getElementById("ul3li4tr3td1").innerText = '0114';
-			document.getElementById("ul3li4tr3td2").innerText = 'Betumadeira em Aço';
-			document.getElementById("ul3li4tr3td3").innerText = '60 mm';
-			document.getElementById("ul3li4tr3td4").innerText = '12';
+			document.getElementById("ul3li4tr3td1").innerHTML = '0114';
+			document.getElementById("ul3li4tr3td2").innerHTML = 'Betumadeira em Aço';
+			document.getElementById("ul3li4tr3td3").innerHTML = '60 mm';
+			document.getElementById("ul3li4tr3td4").innerHTML = '12';
 			
             document.getElementById("ul3li4tr4").style.display = 'table-row';
-			document.getElementById("ul3li4tr4td1").innerText = '0115';
-			document.getElementById("ul3li4tr4td2").innerText = 'Betumadeira em Aço';
-			document.getElementById("ul3li4tr4td3").innerText = '80 mm';
-			document.getElementById("ul3li4tr4td4").innerText = '12';
+			document.getElementById("ul3li4tr4td1").innerHTML = '0115';
+			document.getElementById("ul3li4tr4td2").innerHTML = 'Betumadeira em Aço';
+			document.getElementById("ul3li4tr4td3").innerHTML = '80 mm';
+			document.getElementById("ul3li4tr4td4").innerHTML = '12';
 			
             document.getElementById("ul3li4tr5").style.display = 'table-row';
-			document.getElementById("ul3li4tr5td1").innerText = '0116';
-			document.getElementById("ul3li4tr5td2").innerText = 'Betumadeira em Aço';
-			document.getElementById("ul3li4tr5td3").innerText = '100 mm';
-			document.getElementById("ul3li4tr5td4").innerText = '12';
+			document.getElementById("ul3li4tr5td1").innerHTML = '0116';
+			document.getElementById("ul3li4tr5td2").innerHTML = 'Betumadeira em Aço';
+			document.getElementById("ul3li4tr5td3").innerHTML = '100 mm';
+			document.getElementById("ul3li4tr5td4").innerHTML = '12';
 			
             document.getElementById("ul3li4tr6").style.display = 'table-row';
-			document.getElementById("ul3li4tr6td1").innerText = '0117';
-			document.getElementById("ul3li4tr6td2").innerText = 'Betumadeira edm Aço';
-			document.getElementById("ul3li4tr6td3").innerText = '120 mm';
-			document.getElementById("ul3li4tr6td4").innerText = '12';
+			document.getElementById("ul3li4tr6td1").innerHTML = '0117';
+			document.getElementById("ul3li4tr6td2").innerHTML = 'Betumadeira edm Aço';
+			document.getElementById("ul3li4tr6td3").innerHTML = '120 mm';
+			document.getElementById("ul3li4tr6td4").innerHTML = '12';
 			
             document.getElementById("ul3li4tr7").style.display = 'table-row';
-			document.getElementById("ul3li4tr7td1").innerText = '0118';
-			document.getElementById("ul3li4tr7td2").innerText = 'Betumadeira em Inox';
-			document.getElementById("ul3li4tr7td3").innerText = '40 mm';
-			document.getElementById("ul3li4tr7td4").innerText = '12';
+			document.getElementById("ul3li4tr7td1").innerHTML = '0118';
+			document.getElementById("ul3li4tr7td2").innerHTML = 'Betumadeira em Inox';
+			document.getElementById("ul3li4tr7td3").innerHTML = '40 mm';
+			document.getElementById("ul3li4tr7td4").innerHTML = '12';
 			
             document.getElementById("ul3li4tr8").style.display = 'table-row';
-			document.getElementById("ul3li4tr8td1").innerText = '0119';
-			document.getElementById("ul3li4tr8td2").innerText = 'Betumadeira em Inox';
-			document.getElementById("ul3li4tr8td3").innerText = '60 mm';
-			document.getElementById("ul3li4tr8td4").innerText = '12';
+			document.getElementById("ul3li4tr8td1").innerHTML = '0119';
+			document.getElementById("ul3li4tr8td2").innerHTML = 'Betumadeira em Inox';
+			document.getElementById("ul3li4tr8td3").innerHTML = '60 mm';
+			document.getElementById("ul3li4tr8td4").innerHTML = '12';
 			
             document.getElementById("ul3li4tr9").style.display = 'table-row';
-			document.getElementById("ul3li4tr9td1").innerText = '0120';
-			document.getElementById("ul3li4tr9td2").innerText = 'Betumadeira em Inox';
-			document.getElementById("ul3li4tr9td3").innerText = '80 mm';
-			document.getElementById("ul3li4tr9td4").innerText = '12';
+			document.getElementById("ul3li4tr9td1").innerHTML = '0120';
+			document.getElementById("ul3li4tr9td2").innerHTML = 'Betumadeira em Inox';
+			document.getElementById("ul3li4tr9td3").innerHTML = '80 mm';
+			document.getElementById("ul3li4tr9td4").innerHTML = '12';
 			
             document.getElementById("ul3li4tr10").style.display = 'table-row';
-			document.getElementById("ul3li4tr10td1").innerText = '0121';
-			document.getElementById("ul3li4tr10td2").innerText = 'Betumadeira em Inox';
-			document.getElementById("ul3li4tr10td3").innerText = '100 mm';
-			document.getElementById("ul3li4tr10td4").innerText = '12';
+			document.getElementById("ul3li4tr10td1").innerHTML = '0121';
+			document.getElementById("ul3li4tr10td2").innerHTML = 'Betumadeira em Inox';
+			document.getElementById("ul3li4tr10td3").innerHTML = '100 mm';
+			document.getElementById("ul3li4tr10td4").innerHTML = '12';
 
             document.getElementById("ul3li4tr11").style.display = 'none';
-			document.getElementById("ul3li4tr11td1").innerText = '';
-			document.getElementById("ul3li4tr11td2").innerText = '';
-			document.getElementById("ul3li4tr11td3").innerText = '';
-			document.getElementById("ul3li4tr11td4").innerText = '';
+			document.getElementById("ul3li4tr11td1").innerHTML = '';
+			document.getElementById("ul3li4tr11td2").innerHTML = '';
+			document.getElementById("ul3li4tr11td3").innerHTML = '';
+			document.getElementById("ul3li4tr11td4").innerHTML = '';
 
 		});
         
@@ -3923,70 +3923,70 @@ Version: 1.3.1
             document.getElementById('ul3li4m6').className = "";
             
             document.getElementById("ul3li4tr1").style.display = 'table-row';
-			document.getElementById("ul3li4tr1td1").innerText = '0302';
-			document.getElementById("ul3li4tr1td2").innerText = 'Balde de Pintura';
-			document.getElementById("ul3li4tr1td3").innerText = '8 Lts';
-			document.getElementById("ul3li4tr1td4").innerText = '';
+			document.getElementById("ul3li4tr1td1").innerHTML = '0302';
+			document.getElementById("ul3li4tr1td2").innerHTML = 'Balde de Pintura';
+			document.getElementById("ul3li4tr1td3").innerHTML = '8 Lts';
+			document.getElementById("ul3li4tr1td4").innerHTML = '';
 
             document.getElementById("ul3li4tr2").style.display = 'table-row';
-			document.getElementById("ul3li4tr2td1").innerText = '0105';
-			document.getElementById("ul3li4tr2td2").innerText = 'Balde de Pintura';
-			document.getElementById("ul3li4tr2td3").innerText = '12 Lts';
-			document.getElementById("ul3li4tr2td4").innerText = '';
+			document.getElementById("ul3li4tr2td1").innerHTML = '0105';
+			document.getElementById("ul3li4tr2td2").innerHTML = 'Balde de Pintura';
+			document.getElementById("ul3li4tr2td3").innerHTML = '12 Lts';
+			document.getElementById("ul3li4tr2td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr3").style.display = 'table-row';
-			document.getElementById("ul3li4tr3td1").innerText = '0281';
-			document.getElementById("ul3li4tr3td2").innerText = 'Balde de Pintura';
-			document.getElementById("ul3li4tr3td3").innerText = '14 Lts';
-			document.getElementById("ul3li4tr3td4").innerText = '';
+			document.getElementById("ul3li4tr3td1").innerHTML = '0281';
+			document.getElementById("ul3li4tr3td2").innerHTML = 'Balde de Pintura';
+			document.getElementById("ul3li4tr3td3").innerHTML = '14 Lts';
+			document.getElementById("ul3li4tr3td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr4").style.display = 'table-row';
-			document.getElementById("ul3li4tr4td1").innerText = '0334';
-			document.getElementById("ul3li4tr4td2").innerText = 'Balde de Pintura';
-			document.getElementById("ul3li4tr4td3").innerText = '16 Lts';
-			document.getElementById("ul3li4tr4td4").innerText = '';
+			document.getElementById("ul3li4tr4td1").innerHTML = '0334';
+			document.getElementById("ul3li4tr4td2").innerHTML = 'Balde de Pintura';
+			document.getElementById("ul3li4tr4td3").innerHTML = '16 Lts';
+			document.getElementById("ul3li4tr4td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr5").style.display = 'table-row';
-			document.getElementById("ul3li4tr5td1").innerText = '0106';
-			document.getElementById("ul3li4tr5td2").innerText = 'Grelha p/ Balde de Pintura';
-			document.getElementById("ul3li4tr5td3").innerText = '';
-			document.getElementById("ul3li4tr5td4").innerText = '';
+			document.getElementById("ul3li4tr5td1").innerHTML = '0106';
+			document.getElementById("ul3li4tr5td2").innerHTML = 'Grelha p/ Balde de Pintura';
+			document.getElementById("ul3li4tr5td3").innerHTML = '';
+			document.getElementById("ul3li4tr5td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr6").style.display = 'none';
-			document.getElementById("ul3li4tr6td1").innerText = '';
-			document.getElementById("ul3li4tr6td2").innerText = '';
-			document.getElementById("ul3li4tr6td3").innerText = '';
-			document.getElementById("ul3li4tr6td4").innerText = '';
+			document.getElementById("ul3li4tr6td1").innerHTML = '';
+			document.getElementById("ul3li4tr6td2").innerHTML = '';
+			document.getElementById("ul3li4tr6td3").innerHTML = '';
+			document.getElementById("ul3li4tr6td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr7").style.display = 'none';
-			document.getElementById("ul3li4tr7td1").innerText = '';
-			document.getElementById("ul3li4tr7td2").innerText = '';
-			document.getElementById("ul3li4tr7td3").innerText = '';
-			document.getElementById("ul3li4tr7td4").innerText = '';
+			document.getElementById("ul3li4tr7td1").innerHTML = '';
+			document.getElementById("ul3li4tr7td2").innerHTML = '';
+			document.getElementById("ul3li4tr7td3").innerHTML = '';
+			document.getElementById("ul3li4tr7td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr8").style.display = 'none';
-            document.getElementById("ul3li4tr8td1").innerText = '';
-			document.getElementById("ul3li4tr8td2").innerText = '';
-			document.getElementById("ul3li4tr8td3").innerText = '';
-			document.getElementById("ul3li4tr8td4").innerText = '';
+            document.getElementById("ul3li4tr8td1").innerHTML = '';
+			document.getElementById("ul3li4tr8td2").innerHTML = '';
+			document.getElementById("ul3li4tr8td3").innerHTML = '';
+			document.getElementById("ul3li4tr8td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr9").style.display = 'none';
-			document.getElementById("ul3li4tr9td1").innerText = '';
-			document.getElementById("ul3li4tr9td2").innerText = '';
-			document.getElementById("ul3li4tr9td3").innerText = '';
-			document.getElementById("ul3li4tr9td4").innerText = '';
+			document.getElementById("ul3li4tr9td1").innerHTML = '';
+			document.getElementById("ul3li4tr9td2").innerHTML = '';
+			document.getElementById("ul3li4tr9td3").innerHTML = '';
+			document.getElementById("ul3li4tr9td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr10").style.display = 'none';
-			document.getElementById("ul3li4tr10td1").innerText = '';
-			document.getElementById("ul3li4tr10td2").innerText = '';
-			document.getElementById("ul3li4tr10td3").innerText = '';
-			document.getElementById("ul3li4tr10td4").innerText = '';
+			document.getElementById("ul3li4tr10td1").innerHTML = '';
+			document.getElementById("ul3li4tr10td2").innerHTML = '';
+			document.getElementById("ul3li4tr10td3").innerHTML = '';
+			document.getElementById("ul3li4tr10td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr11").style.display = 'none';
-			document.getElementById("ul3li4tr11td1").innerText = '';
-			document.getElementById("ul3li4tr11td2").innerText = '';
-			document.getElementById("ul3li4tr11td3").innerText = '';
-			document.getElementById("ul3li4tr11td4").innerText = '';
+			document.getElementById("ul3li4tr11td1").innerHTML = '';
+			document.getElementById("ul3li4tr11td2").innerHTML = '';
+			document.getElementById("ul3li4tr11td3").innerHTML = '';
+			document.getElementById("ul3li4tr11td4").innerHTML = '';
 			
 		});
         
@@ -4016,70 +4016,70 @@ Version: 1.3.1
             document.getElementById('ul3li4m6').className = "activeMenu";
             
             document.getElementById("ul3li4tr1").style.display = 'table-row';
-			document.getElementById("ul3li4tr1td1").innerText = '0109';
-			document.getElementById("ul3li4tr1td2").innerText = 'Cobertura Plástica Fina';
-			document.getElementById("ul3li4tr1td3").innerText = '20 m²';
-			document.getElementById("ul3li4tr1td4").innerText = '20';
+			document.getElementById("ul3li4tr1td1").innerHTML = '0109';
+			document.getElementById("ul3li4tr1td2").innerHTML = 'Cobertura Plástica Fina';
+			document.getElementById("ul3li4tr1td3").innerHTML = '20 m²';
+			document.getElementById("ul3li4tr1td4").innerHTML = '20';
 			
             document.getElementById("ul3li4tr2").style.display = 'table-row';
-			document.getElementById("ul3li4tr2td1").innerText = '0108';
-			document.getElementById("ul3li4tr2td2").innerText = 'Cobertura Plástica Fina';
-			document.getElementById("ul3li4tr2td3").innerText = '50 m²';
-			document.getElementById("ul3li4tr2td4").innerText = '10';
+			document.getElementById("ul3li4tr2td1").innerHTML = '0108';
+			document.getElementById("ul3li4tr2td2").innerHTML = 'Cobertura Plástica Fina';
+			document.getElementById("ul3li4tr2td3").innerHTML = '50 m²';
+			document.getElementById("ul3li4tr2td4").innerHTML = '10';
 			
             document.getElementById("ul3li4tr3").style.display = 'none';
-			document.getElementById("ul3li4tr3td1").innerText = '';
-			document.getElementById("ul3li4tr3td2").innerText = '';
-			document.getElementById("ul3li4tr3td3").innerText = '';
-			document.getElementById("ul3li4tr3td4").innerText = '';
+			document.getElementById("ul3li4tr3td1").innerHTML = '';
+			document.getElementById("ul3li4tr3td2").innerHTML = '';
+			document.getElementById("ul3li4tr3td3").innerHTML = '';
+			document.getElementById("ul3li4tr3td4").innerHTML = '';
 
             document.getElementById("ul3li4tr4").style.display = 'none';
-			document.getElementById("ul3li4tr4td1").innerText = '';
-			document.getElementById("ul3li4tr4td2").innerText = '';
-			document.getElementById("ul3li4tr4td3").innerText = '';
-			document.getElementById("ul3li4tr4td4").innerText = '';
+			document.getElementById("ul3li4tr4td1").innerHTML = '';
+			document.getElementById("ul3li4tr4td2").innerHTML = '';
+			document.getElementById("ul3li4tr4td3").innerHTML = '';
+			document.getElementById("ul3li4tr4td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr5").style.display = 'none';
-			document.getElementById("ul3li4tr5td1").innerText = '';
-			document.getElementById("ul3li4tr5td2").innerText = '';
-			document.getElementById("ul3li4tr5td3").innerText = '';
-			document.getElementById("ul3li4tr5td4").innerText = '';
+			document.getElementById("ul3li4tr5td1").innerHTML = '';
+			document.getElementById("ul3li4tr5td2").innerHTML = '';
+			document.getElementById("ul3li4tr5td3").innerHTML = '';
+			document.getElementById("ul3li4tr5td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr6").style.display = 'none';
-			document.getElementById("ul3li4tr6td1").innerText = '';
-			document.getElementById("ul3li4tr6td2").innerText = '';
-			document.getElementById("ul3li4tr6td3").innerText = '';
-			document.getElementById("ul3li4tr6td4").innerText = '';
+			document.getElementById("ul3li4tr6td1").innerHTML = '';
+			document.getElementById("ul3li4tr6td2").innerHTML = '';
+			document.getElementById("ul3li4tr6td3").innerHTML = '';
+			document.getElementById("ul3li4tr6td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr7").style.display = 'none';
-			document.getElementById("ul3li4tr7td1").innerText = '';
-			document.getElementById("ul3li4tr7td2").innerText = '';
-			document.getElementById("ul3li4tr7td3").innerText = '';
-			document.getElementById("ul3li4tr7td4").innerText = '';
+			document.getElementById("ul3li4tr7td1").innerHTML = '';
+			document.getElementById("ul3li4tr7td2").innerHTML = '';
+			document.getElementById("ul3li4tr7td3").innerHTML = '';
+			document.getElementById("ul3li4tr7td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr8").style.display = 'none';
-            document.getElementById("ul3li4tr8td1").innerText = '';
-			document.getElementById("ul3li4tr8td2").innerText = '';
-			document.getElementById("ul3li4tr8td3").innerText = '';
-			document.getElementById("ul3li4tr8td4").innerText = '';
+            document.getElementById("ul3li4tr8td1").innerHTML = '';
+			document.getElementById("ul3li4tr8td2").innerHTML = '';
+			document.getElementById("ul3li4tr8td3").innerHTML = '';
+			document.getElementById("ul3li4tr8td4").innerHTML = '';
 			
             document.getElementById("ul3li4tr9").style.display = 'none';
-			document.getElementById("ul3li4tr9td1").innerText = '';
-			document.getElementById("ul3li4tr9td2").innerText = '';
-			document.getElementById("ul3li4tr9td3").innerText = '';
-			document.getElementById("ul3li4tr9td4").innerText = '';
+			document.getElementById("ul3li4tr9td1").innerHTML = '';
+			document.getElementById("ul3li4tr9td2").innerHTML = '';
+			document.getElementById("ul3li4tr9td3").innerHTML = '';
+			document.getElementById("ul3li4tr9td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr10").style.display = 'none';
-			document.getElementById("ul3li4tr10td1").innerText = '';
-			document.getElementById("ul3li4tr10td2").innerText = '';
-			document.getElementById("ul3li4tr10td3").innerText = '';
-			document.getElementById("ul3li4tr10td4").innerText = '';
+			document.getElementById("ul3li4tr10td1").innerHTML = '';
+			document.getElementById("ul3li4tr10td2").innerHTML = '';
+			document.getElementById("ul3li4tr10td3").innerHTML = '';
+			document.getElementById("ul3li4tr10td4").innerHTML = '';
 			
 			document.getElementById("ul3li4tr11").style.display = 'none';
-			document.getElementById("ul3li4tr11td1").innerText = '';
-			document.getElementById("ul3li4tr11td2").innerText = '';
-			document.getElementById("ul3li4tr11td3").innerText = '';
-			document.getElementById("ul3li4tr11td4").innerText = '';
+			document.getElementById("ul3li4tr11td1").innerHTML = '';
+			document.getElementById("ul3li4tr11td2").innerHTML = '';
+			document.getElementById("ul3li4tr11td3").innerHTML = '';
+			document.getElementById("ul3li4tr11td4").innerHTML = '';
 			
 		});
         
@@ -4088,8 +4088,8 @@ Version: 1.3.1
         document.getElementById("msgEmail").placeholder = "Email";
         document.getElementById("msgAssunto").placeholder = "Assunto";
         document.getElementById("msgMensagem").placeholder = "Mensagem";
-        document.getElementById("msgEnviar").innerText = "Enviar Mensagem";
-        document.getElementById("msgContacto").innerText = "Contacte-nos !!!";
+        document.getElementById("msgEnviar").innerHTML = "Enviar Mensagem";
+        document.getElementById("msgContacto").innerHTML = "Contacte-nos !!!";
         
 		
         

@@ -721,7 +721,7 @@ textarea::-webkit-input-placeholder {
 .site-header {
 	margin: 0;
 	padding: 0 58px;
-	background: transparent;
+	background: #4D4D4D;
 	border: none;
 	position: fixed;
 	top: 0;
@@ -2775,7 +2775,7 @@ body.mobile #video_background {
 }
 
 .span_1_of_4 {
-	width: 25%;
+	width: 33%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -2962,8 +2962,9 @@ width: 100%;
 }
 
 .tableData{
-width: 100%;
+    width: 100%;
 	height: 80%;
+    display: table;
 	
 }
 
@@ -3023,8 +3024,8 @@ width: 100%;
 	
 }
 .img-list{
-	width: 100%;
-	height: 100%;
+	width: 80%;
+	height: 80%;
 	
 }
 .rolosList{
@@ -3054,6 +3055,18 @@ ul.img-list li {
   
 }
 
+.imgMenu {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.imgMenu img{
+    /*width: 330px;
+    height: 250px;*/
+}
 
 .imgMenu:hover img {
     -webkit-transform:scale(1.2);
@@ -3064,26 +3077,67 @@ ul.img-list li {
     z-index: 998;
     position: relative;
     cursor: url(/images/roloPointer.png), auto;
+    
 }
 
 
-span.text-content {
+
+.imgMenu span {
   background: rgba(0,0,0,0.5);
   color: white;
-  /*cursor: pointer;*/
   cursor: url(/images/roloPointer.png), auto;
   display: table;
-  height: 140px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 220px;
+  height: 250px;
+  
+    position:relative;
+  width: 330px;
+  vertical-align: middle;
+
   opacity: 1;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
+
+.caption {
+        width:100%;
+        bottom: .3rem;
+        position: absolute;
+        
+        display: table;
+        height: 150px;
+        vertical-align: middle;
+        background:#000;
+        background: -webkit-linear-gradient(bottom, #000 20%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: -moz-linear-gradient(bottom, #000 20%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: -o-linear-gradient(bottom, #000 20%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: linear-gradient(to top, #000 20%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+
+.thumbnail {
+        border: 0 none;
+        box-shadow: none;
+    background-color: #404040;
+        margin:0;
+        padding:0;
+}
+
+    .caption h4 {
+        font-size:2.8em;
+    font-weight: 300;
+        color: #fff;
+        -webkit-font-smoothing: antialiased;
+    }
+.bckGreyDark{
+    background-color: #404040;
+}
+
+.bckGrey{
+    background-color: #4F4F4F;
+}
+
+
 ul.img-list li:hover span.text-content {
   opacity: 0;
 }
@@ -3135,7 +3189,7 @@ span.text-content span {
   height: 100%;
   margin-top: 5%;
   margin-left: 1%;
-  
+  display: table;
   border-spacing: 0;
   
   /*background: #D0D0D0;  */
@@ -3253,3 +3307,27 @@ span.text-content span {
     left:10px;
     z-index: 30000;
 }
+
+
+.catStyle{
+    font-size: 4.0em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(255,140,0);
+}
+
+.catDiv{
+    background-color: #494949;
+    cursor: url(/images/roloPointer.png), auto;
+}
+
+.voffset  { margin-top: 2px; }
+.voffset1 { margin-top: 5px; }
+.voffset2 { margin-top: 10px; }
+.voffset3 { margin-top: 15px; }
+.voffset4 { margin-top: 30px; }
+.voffset5 { margin-top: 40px; }
+.voffset6 { margin-top: 60px; }
+.voffset7 { margin-top: 80px; }
+.voffset8 { margin-top: 100px; }
+.voffset9 { margin-top: 150px; }

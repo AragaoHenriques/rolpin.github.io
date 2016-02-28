@@ -14,10 +14,10 @@
  */
 
 // Save subscriber email to a txt file, set TRUE or FALSE
-$saveTxt   = TRUE;
+$saveTxt   = FALSE;
 
 // Send subscriber email to your email account, set TRUE or FALSE
-$sendEmail = FALSE;
+$sendEmail = TRUE;
 
 // Save subscriber email to database (MySQL), set TRUE or FALSE
 $saveMySQL = FALSE;
@@ -63,8 +63,8 @@ if(!empty($_POST)){
 		/** SendEmail starts **/
 		if($sendEmail){
 			
-			$to      = "my@email.com";     // CONFIG: Enter your email address HERE
-			$subject = "From Subscription Form";  // CONFIG: Enter your Subject
+			$to      = "aragaohenriques@gmail.com";     // CONFIG: Enter your email address HERE
+			$subject = "Subscribe Subject";  // CONFIG: Enter your Subject
 			
 			$body  = "From Subscription Form: ".$email."\r\n";
 			$body .= "\r\n";

@@ -154,13 +154,14 @@ Version: 1.3.1
 			anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', 'lastPage'],
 			menu: '#menu',
 			scrollingSpeed: 800,
-			autoScrolling: true,
+			autoScrolling: false,
 			scrollBar: true,
 			easing: 'easeInQuart',
-			resize : false,
+			resize : true,
 			paddingTop: '80px',
 			paddingBottom: '80px',
 			responsive: 1000,
+            fitToSection: false
 		});
 
 		$('a.go-slide').on( 'click', function() {
@@ -271,7 +272,7 @@ Version: 1.3.1
 		/* MAILCHIMP */
 		$('.mailchimp').ajaxChimp({
 			callback: mailchimpCallback,
-			url: "mailchimp-post-url" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".  
+			url: "//rolpin.us12.list-manage.com/subscribe/post?u=91a665f157c9c2c697c0cd8e0&amp;id=bf10789514" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".  
 		});
 
 		function mailchimpCallback(resp) {
