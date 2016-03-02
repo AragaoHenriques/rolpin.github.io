@@ -221,7 +221,7 @@ Version: 1.3.1
         
 		
         
-        //document.getElementById('cromadoTitle').innerHTML = "Cromado";
+        document.getElementById('cromadoTitle').innerHTML = "Cromado";
 		document.getElementById('rightTitleCro').innerHTML = "Cromado";
         
         document.getElementById('tecDescCro').innerHTML = "100% Poliéster";
@@ -229,7 +229,7 @@ Version: 1.3.1
         document.getElementById('corDescCro').innerHTML = "Branca";
         document.getElementById('spAppDescCro').innerHTML = "Tintas plásticas lisas ou areadas em fachadas e muros.";
         
-        //document.getElementById('espumaTitle').innerHTML = "Espuma";
+        document.getElementById('espumaTitle').innerHTML = "Espuma";
 		document.getElementById('rightTitleEsp').innerHTML = "Espuma";
         
         document.getElementById('tecDescEsp').innerHTML = "Espuma Poliéster";
@@ -237,7 +237,7 @@ Version: 1.3.1
         document.getElementById('corDescEsp').innerHTML = "Branca";
         document.getElementById('spAppDescEsp').innerHTML = "Tintas e esmaltes aquosos em pequenas superfícies lisas (cantos).";
         
-        //document.getElementById('juniorTitle').innerHTML = "Júnior";
+        document.getElementById('juniorTitle').innerHTML = "Júnior";
 		document.getElementById('rightTitleJun').innerHTML = "Júnior";
         
         document.getElementById('tecDescJun').innerHTML = "100% Poliéster";
@@ -245,7 +245,7 @@ Version: 1.3.1
         document.getElementById('corDescJun').innerHTML = "Branca";
         document.getElementById('spAppDescJun').innerHTML = "Tintas aquosas em paredes lisas. Permite uma boa cobertura e é resistente a solventes.";
         
-        //document.getElementById('microfibraTitle').innerHTML = "Microfibra";
+        document.getElementById('microfibraTitle').innerHTML = "Microfibra";
 		document.getElementById('rightTitleMic').innerHTML = "Micofibra";
         
         document.getElementById('tecDescMic').innerHTML = "100% Poliamida";
@@ -256,7 +256,7 @@ Version: 1.3.1
         
 
         
-        //document.getElementById('ravelTitle').innerHTML = "Ravel";
+        document.getElementById('ravelTitle').innerHTML = "Ravel";
 		document.getElementById('rightTitleRav').innerHTML = "Ravel";
         
         document.getElementById('tecDescRav').innerHTML = "100% Poliamida";
@@ -265,7 +265,7 @@ Version: 1.3.1
         document.getElementById('spAppDescRav').innerHTML = "Tintas aquosas em grandes superfícies lisas ou areadas (fachadas).";
         
         
-        //document.getElementById('rugoTitle').innerHTML = "Rugo";
+        document.getElementById('rugoTitle').innerHTML = "Rugo";
 		document.getElementById('rightTitleRug').innerHTML = "Rugo";
         
         document.getElementById('tecDescRug').innerHTML = "Espuma Poliéster";
@@ -274,7 +274,7 @@ Version: 1.3.1
         document.getElementById('spAppDescRug').innerHTML = "Tintas texturadas ou areadas em fachadas, muros e paredes. Usado para obter efeitos decorativos.";
         
         
-        //document.getElementById('superTitle').innerHTML = "Super";
+        document.getElementById('superTitle').innerHTML = "Super";
 		document.getElementById('rightTitleSup').innerHTML = "Super";
         
         document.getElementById('tecDescSup').innerHTML = "100% Poliéster";
@@ -284,7 +284,7 @@ Version: 1.3.1
         
         
         
-        //document.getElementById('merinoTitle').innerHTML = "Merino";
+        document.getElementById('merinoTitle').innerHTML = "Merino";
 		document.getElementById('rightTitleMer').innerHTML = "Merino";
         
         document.getElementById('tecDescMer').innerHTML = " 100% Lã pura de merino";
@@ -292,7 +292,7 @@ Version: 1.3.1
         document.getElementById('corDescMer').innerHTML = "Branca";
         document.getElementById('spAppDescMer').innerHTML = "Tintas plásticas lisas ou areadas em todo o tipo de superfícies. Excelentes absorção, cobertura e acabamento. É resistente a solventes.";
 		
-        //document.getElementById('accesoriosTitle').innerHTML = "Acessórios";
+        document.getElementById('accesoriosTitle').innerHTML = "Acessórios";
 		document.getElementById('rightTitleAce').innerHTML = "Acessórios";
         
         
