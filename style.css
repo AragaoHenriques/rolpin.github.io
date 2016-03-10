@@ -2513,11 +2513,20 @@ body.mobile #video_background {
 }
 
 .companyProfile{
-	text-align: left;
+	text-align:justify;
 	
 }
 
+#pdfCat{
+    color: white;
+    position:absolute;
+    vertical-align: middle;
+    padding-left: 10px;
+}
 
+#catalogo{
+    cursor: url(/images/roloPointer.png), auto;
+}
 
 
 .section1Div{
@@ -3316,10 +3325,6 @@ span.text-content span {
     color: rgb(255,140,0);
 }
 
-.catDiv{
-    background-color: #494949;
-    cursor: url(/images/roloPointer.png), auto;
-}
 
 .voffset  { margin-top: 2px; }
 .voffset1 { margin-top: 5px; }

@@ -171,18 +171,16 @@
                                         <li><img src="images/Slider/emp1.jpg" alt="Rolpin" /></li>
                                         <li><img src="images/Slider/emp2.jpg" alt="Rolpin" /></li>
                                         <li><img src="images/Slider/emp3.jpg" alt="Rolpin" /></li>
-                                        <li><img src="images/Slider/emp4.jpg" alt="Rolpin" /></li>
+                                        
                                         <li><img src="images/Slider/emp5.jpg" alt="Rolpin" /></li>
-                                        <li><img src="images/Slider/emp6.jpg" alt="Rolpin" /></li>
-                                        <li><img src="images/Slider/emp7.jpg" alt="Rolpin" /></li>
+                                        
+                                        
                                         <li><img src="images/Slider/emp8.jpg" alt="Rolpin" /></li>
-                                        <li><img src="images/Slider/emp9.jpg" alt="Rolpin" /></li>
-                                        <li><img src="images/Slider/emp10.jpg" alt="Rolpin" /></li>
+                                        
                                         <li><img src="images/Slider/emp11.jpg" alt="Rolpin" /></li>
                                         <li><img src="images/Slider/emp12.jpg" alt="Rolpin" /></li>
-                                        <li><img src="images/Slider/emp13.jpg" alt="Rolpin" /></li>
-                                        <li><img src="images/Slider/emp14.jpg" alt="Rolpin" /></li>
-                                        <li><img src="images/Slider/emp15.jpg" alt="Rolpin" /></li>
+                                        
+                                        
                                         <li><img src="images/Slider/emp16.jpg" alt="Rolpin" /></li>
                                         <li><img src="images/Slider/emp17.jpg" alt="Rolpin" /></li>
                                         <li><img src="images/Slider/emp18.jpg" alt="Rolpin" /></li>
@@ -213,6 +211,13 @@
 				</div>-->
             <!-- START CONTAINER -->
             <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-md-offset-4">
+                        <a id="catalogo">
+                            <img src="images/pdf.png" /><span id="pdfCat"></span>
+                        </a>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-4">
 
@@ -367,7 +372,7 @@
 
 
                     </div>
-                    <div class="col-md-4 ">
+                    <div class="col-md-4">
                                   
 
                                         <div class="col-md-12 thumbnail">
@@ -736,7 +741,7 @@
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescEsp"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescEsp"></span> | <span class="pA4" name="spCor"></span> <span id="corDescEsp"> </span> </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span id="tecDescEsp"></span> | <span class="pA4" name="spCor"></span> <span id="corDescEsp"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
                                                                     <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescEsp">  </span>
@@ -1304,7 +1309,7 @@
                                                         <div>
                                                             <div class="col-sm-9">
                                                                 <div class="row">
-                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"> <span class="pA4" name="spTecido"></span> <span id="tecDescRug"></span> | <span class="pA4" name="spAltura"></span> <span id="altDescRug"></span> | <span class="pA4" name="spCor"></span> <span id="corDescRug"> </span> </span>
+                                                                    <span class="rightDesc" name="descr"></span><span class="leftDesc"><span id="tecDescRug"></span> | <span class="pA4" name="spCor"></span> <span id="corDescRug"> </span> </span>
                                                                 </div>
                                                                 <div class="row">
                                                                     <span class="rightDesc" name="spApp"></span><span class="leftDesc" id="spAppDescRug">  </span>
@@ -1584,10 +1589,7 @@
 </div>
                     <div class="col-md-4 ">
 
-
-                                       
-                                           
-                         <div class="col-md-12 thumbnail">
+                                    <div class="col-md-12 thumbnail">
                                          <a id="openModelAcessoriosImg" href="#openModalAcessorios" class="imgMenu">
                                             <img src="images/MenuRolos/acessorios.jpg" />
                                                 <div class="caption">
@@ -1720,10 +1722,128 @@
                     </div>
                 </div>
 				<div class="row">
-					<div class="col-md-12">
-						<a id="catalogo"><img src="images/catButtonPt.png" alt="Catálogo" /></a>
-					</div>
-				</div>
+                    <div class="col-md-4 ">
+                        <div class="col-md-12 thumbnail">
+                                         <a id="openModelAcolchoadosImg" href="#openModalAcolchoados" class="imgMenu">
+                                            <img src="images/MenuRolos/acolchoados.jpg" />
+                                                <div class="caption">
+                                                    <h4 id="acolchoadosTitle"></h4>
+                                                </div>
+                                        </a>
+                                    </div>
+                        <div id="openModalAcolchoados" class="modalDialog">
+                                            <div class="row">
+                                                <div class="mainDiv col-sm-12">
+                                                    <a id="close" href="#close" title="Close" class="close">X</a>
+                                                    <div class="row">
+                                                        <div class="col-sm-3">
+                                                            <h2 id="rightTitle"><span id="rightTitleAcol"></span></h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <img id="rightImageAcolchoados" src="" width="100%" height="100%" />
+                                                        </div>
+                                                        <div id="tableData" class="col-sm-6">
+                                                            <div class="col-sm-12">
+                                                                <div id="cssmenu">
+                                                                    <ul>
+                                                                        <li id="ul3li3m1"><a id="rbRoloAcolchoados"><span name="spRoloR"></span></a></li>
+                                                                        <li id="ul3li3m2"><a id="rbCRoloAcolchoados"><span name="spRoloC"></span></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                
+                                                            </div>
+
+                                                            <div class="col-sm-12 tableData">
+                                                                <table class="features-table">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <td style="text-align:left;" name="tableCod"></td>
+                                                                            <td name="tableDesc"></td>
+                                                                            <td style="text-align:center;" name="tableMed"></td>
+                                                                            <td style="text-align:center;" name="tableUnit"></td>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr id="ul3li4tr1">
+                                                                            <td id="ul3li4tr1td1"></td>
+                                                                            <td id="ul3li4tr1td2"></td>
+                                                                            <td id="ul3li4tr1td3"></td>
+                                                                            <td id="ul3li4tr1td4"></td>
+                                                                        </tr>
+                                                                        <tr id="ul3li4tr2">
+                                                                            <td id="ul3li4tr2td1"></td>
+                                                                            <td id="ul3li4tr2td2"></td>
+                                                                            <td id="ul3li4tr2td3"></td>
+                                                                            <td id="ul3li4tr2td4"></td>
+                                                                        </tr>
+                                                                        <tr id="ul3li4tr3">
+                                                                            <td id="ul3li4tr3td1"></td>
+                                                                            <td id="ul3li4tr3td2"></td>
+                                                                            <td id="ul3li4tr3td3"></td>
+                                                                            <td id="ul3li4tr3td4"></td>
+                                                                        </tr>
+                                                                        <tr id="ul3li4tr4">
+                                                                            <td id="ul3li4tr4td1"></td>
+                                                                            <td id="ul3li4tr4td2"></td>
+                                                                            <td id="ul3li4tr4td3"></td>
+                                                                            <td id="ul3li4tr4td4"></td>
+                                                                        </tr>
+                                                                        <tr id="ul3li4tr5">
+                                                                            <td id="ul3li4tr5td1"></td>
+                                                                            <td id="ul3li4tr5td2"></td>
+                                                                            <td id="ul3li4tr5td3"></td>
+                                                                            <td id="ul3li4tr5td4"></td>
+                                                                        </tr>
+                                                                        <tr id="ul3li4tr6">
+                                                                            <td id="ul3li4tr6td1"></td>
+                                                                            <td id="ul3li4tr6td2"></td>
+                                                                            <td id="ul3li4tr6td3"></td>
+                                                                            <td id="ul3li4tr6td4"></td>
+                                                                        </tr>
+                                                                        <tr id="ul3li4tr7">
+                                                                            <td id="ul3li4tr7td1"></td>
+                                                                            <td id="ul3li4tr7td2"></td>
+                                                                            <td id="ul3li4tr7td3"></td>
+                                                                            <td id="ul3li4tr7td4"></td>
+                                                                        </tr>
+                                                                        <tr id="ul3li4tr8">
+                                                                            <td id="ul3li4tr8td1"></td>
+                                                                            <td id="ul3li4tr8td2"></td>
+                                                                            <td id="ul3li4tr8td3"></td>
+                                                                            <td id="ul3li4tr8td4"></td>
+                                                                        </tr>
+                                                                        <tr id="ul3li4tr9">
+                                                                            <td id="ul3li4tr9td1"></td>
+                                                                            <td id="ul3li4tr9td2"></td>
+                                                                            <td id="ul3li4tr9td3"></td>
+                                                                            <td id="ul3li4tr9td4"></td>
+                                                                        </tr>
+                                                                        <tr id="ul3li4tr10">
+                                                                            <td id="ul3li4tr10td1"></td>
+                                                                            <td id="ul3li4tr10td2"></td>
+                                                                            <td id="ul3li4tr10td3"></td>
+                                                                            <td id="ul3li4tr10td4"></td>
+                                                                        </tr>
+                                                                        <tr id="ul3li4tr11">
+                                                                            <td id="ul3li4tr11td1"></td>
+                                                                            <td id="ul3li4tr11td2"></td>
+                                                                            <td id="ul3li4tr11td3"></td>
+                                                                            <td id="ul3li4tr11td4"></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                </div>
             </div>
             <!-- OVERLAY -->
             <!--<div class="overlay">

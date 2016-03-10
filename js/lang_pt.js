@@ -29,7 +29,7 @@ Version: 1.3.1
         document.getElementById('objTextLbl').innerHTML = " Fazer chegar aos nossos clientes produtos de elevada qualidade, adaptados às suas necessidades e sempre ao preço mais competitivo.";*/
         
         document.getElementById('companyFirst').innerHTML = "Com 20 anos de experiência e 2000 m² de instalações equipadas com a tecnologia mais vanguardista a nível nacional, a ROLPIN foi já considerada PME líder por 3 anos consecutivos e PME excelência em 2014, sendo a empresa número 1 do setor.";
-        document.getElementById('companySecond').innerHTML = "Entre o fim dos anos 80 e o início dos anos 90, da produção artesanal de garagem dos fundadores, começava a surgir um negócio familiar na área da indústria de rolos de pintura e acessórios destinados à construção civil. Muito trabalho e dedicação, que de resto são princípios pelos quais a empresa se pauta, proporcionaram a expansão do modesto armazém inicial de 300 m2.";
+        document.getElementById('companySecond').innerHTML = "Entre o fim dos anos 80 e o início dos 90, da produção artesanal de garagem dos fundadores, começava a surgir um negócio familiar na área da indústria de rolos de pintura e acessórios destinados à construção civil. Muito trabalho e dedicação, princípios pelos quais a empresa se pauta, proporcionaram a expansão do modesto armazém inicial de 300 m².";
         document.getElementById('companyThird').innerHTML = "Atualmente, sediada na zona industrial de Gulpilhares e com uma capacidade de produção superior a 2 milhões de unidades anuais, oferece uma ampla gama de produtos, garantindo a máxima qualidade desde a matéria-prima ao embalamento." ;
 
 		
@@ -56,8 +56,8 @@ Version: 1.3.1
         document.getElementsByName('spTecido')[6].innerHTML = "Tecido";
         document.getElementsByName('spTecido')[7].innerHTML = "Tecido";
         document.getElementsByName('spTecido')[8].innerHTML = "Tecido";
-        document.getElementsByName('spTecido')[9].innerHTML = "Tecido";
-        document.getElementsByName('spTecido')[10].innerHTML = "Tecido";
+        //document.getElementsByName('spTecido')[9].innerHTML = "Tecido";
+        //document.getElementsByName('spTecido')[10].innerHTML = "Tecido";
         //document.getElementsByName('spTecido')[11].innerHTML = "Tecido";
 		
 		document.getElementsByName('spAltura')[0].innerHTML = "Altura";
@@ -68,8 +68,8 @@ Version: 1.3.1
         document.getElementsByName('spAltura')[5].innerHTML = "Altura";
         document.getElementsByName('spAltura')[6].innerHTML = "Altura";
         document.getElementsByName('spAltura')[7].innerHTML = "Altura";
-        document.getElementsByName('spAltura')[8].innerHTML = "Altura";
-        document.getElementsByName('spAltura')[10].innerHTML = "Altura";
+        //document.getElementsByName('spAltura')[8].innerHTML = "Altura";
+        //document.getElementsByName('spAltura')[10].innerHTML = "Altura";
         //document.getElementsByName('spAltura')[11].innerHTML = "Altura";
         
 		
@@ -233,7 +233,7 @@ Version: 1.3.1
 		document.getElementById('rightTitleEsp').innerHTML = "Espuma";
         
         document.getElementById('tecDescEsp').innerHTML = "Espuma Poliéster";
-        document.getElementById('altDescEsp').innerHTML = " ";
+        //document.getElementById('altDescEsp').innerHTML = " ";
         document.getElementById('corDescEsp').innerHTML = "Branca";
         document.getElementById('spAppDescEsp').innerHTML = "Tintas e esmaltes aquosos em pequenas superfícies lisas (cantos).";
         
@@ -246,7 +246,7 @@ Version: 1.3.1
         document.getElementById('spAppDescJun').innerHTML = "Tintas aquosas em paredes lisas. Permite uma boa cobertura e é resistente a solventes.";
         
         document.getElementById('microfibraTitle').innerHTML = "Microfibra";
-		document.getElementById('rightTitleMic').innerHTML = "Micofibra";
+		document.getElementById('rightTitleMic').innerHTML = "Microfibra";
         
         document.getElementById('tecDescMic').innerHTML = "100% Poliamida";
         document.getElementById('altDescMic').innerHTML = " 10 mm ";
@@ -269,7 +269,7 @@ Version: 1.3.1
 		document.getElementById('rightTitleRug').innerHTML = "Rugo";
         
         document.getElementById('tecDescRug').innerHTML = "Espuma Poliéster";
-        document.getElementById('altDescRug').innerHTML = "";
+        //document.getElementById('altDescRug').innerHTML = "";
         document.getElementById('corDescRug').innerHTML = "Amarela";
         document.getElementById('spAppDescRug').innerHTML = "Tintas texturadas ou areadas em fachadas, muros e paredes. Usado para obter efeitos decorativos.";
         
@@ -309,6 +309,7 @@ Version: 1.3.1
 		$('#catalogo').attr({target: '_blank', 
                     href  : 'http://www.rolpin.pt//catalogo/Catalogo_PT.pdf'});
         
+        document.getElementById('pdfCat').innerHTML = "Descarregar Catálogo";
         //Menu 18
 		$('#openModelAngoraImg').click(function() {
 			document.getElementById("rbRoloAngora").click();

@@ -30,8 +30,8 @@ Version: 1.3.1
         document.getElementById('objTextLbl').innerHTML = " Pour transmettre à nos clients des produits de haute qualité, adapté à vos besoins et toujours au prix le plus compétitif.";*/
 		
 		
-		document.getElementById('companyFirst').innerHTML = "Avec 20 ans d'expérience et 2000 m2 d'installations équipées de la technologie la plus avant-gardiste au niveau national, l'ROLPIN a été considéré comme un chef de file des PME pour 3 ans et PME consécutifs excellence en 2014, et l'entreprise numéro un dans l'industrie.";
-        document.getElementById('companySecond').innerHTML = "Entre la fin des années 80 et au début des années 90, le garage de l'artisanat des fondateurs, a commencé à émerger une entreprise familiale dans le domaine de rouleaux à peinture et accessoires pour l'industrie de la construction civile. Le travail acharné et le dévouement qui, d'ailleurs, sont des principes par lesquels la société est guidé, à condition de l'expansion de l'entrepôt initial modeste 300 m2.";
+		document.getElementById('companyFirst').innerHTML = "Avec 20 ans d'expérience et 2000 m² d'installations équipées de la technologie la plus avant-gardiste au niveau national, l'ROLPIN a été considéré comme un chef de file des PME pour 3 ans et PME consécutifs excellence en 2014, et l'entreprise numéro un dans l'industrie.";
+        document.getElementById('companySecond').innerHTML = "Entre la fin des années 80 et au début des années 90, le garage de l'artisanat des fondateurs, a commencé à émerger une entreprise familiale dans le domaine de rouleaux à peinture et accessoires pour l'industrie de la construction civile. Le travail acharné et le dévouement qui, d'ailleurs, sont des principes par lesquels la société est guidé, à condition de l'expansion de l'entrepôt initial modeste 300 m².";
         document.getElementById('companyThird').innerHTML = "Avec 20 ans d'expérience et 2000 m2 d'installations équipées de la dernière technologie de pointe au niveau national, l'ROLPIN a été considéré comme un chef de file des PME pour 3 ans et PME consécutifs excellence en 2014, et l'entreprise numéro un dans l'industrie." ;
 
 		
@@ -62,8 +62,8 @@ Version: 1.3.1
         document.getElementsByName('spTecido')[6].innerHTML = "Tissu";
         document.getElementsByName('spTecido')[7].innerHTML = "Tissu";
         document.getElementsByName('spTecido')[8].innerHTML = "Tissu";
-        document.getElementsByName('spTecido')[9].innerHTML = "Tissu";
-        document.getElementsByName('spTecido')[10].innerHTML = "Tissu";
+        //document.getElementsByName('spTecido')[9].innerHTML = "Tissu";
+        //document.getElementsByName('spTecido')[10].innerHTML = "Tissu";
         //document.getElementsByName('spTecido')[11].innerHTML = "Tissu";
 		
 		document.getElementsByName('spAltura')[0].innerHTML = "Hauteur";
@@ -75,8 +75,8 @@ Version: 1.3.1
         document.getElementsByName('spAltura')[6].innerHTML = "Hauteur";
         document.getElementsByName('spAltura')[7].innerHTML = "Hauteur";
         document.getElementsByName('spAltura')[8].innerHTML = "Hauteur";
-        document.getElementsByName('spAltura')[9].innerHTML = "Hauteur";
-        document.getElementsByName('spAltura')[10].innerHTML = "Hauteur";
+        //document.getElementsByName('spAltura')[9].innerHTML = "Hauteur";
+        //document.getElementsByName('spAltura')[10].innerHTML = "Hauteur";
         //document.getElementsByName('spAltura')[11].innerHTML = "Hauteur";
         
 		
@@ -238,7 +238,7 @@ Version: 1.3.1
 		document.getElementById('rightTitleEsp').innerHTML = "Espuma";
         
         document.getElementById('tecDescEsp').innerHTML = "Mousse Polyester";
-        document.getElementById('altDescEsp').innerHTML = " ";
+        //document.getElementById('altDescEsp').innerHTML = " ";
         document.getElementById('corDescEsp').innerHTML = "Blanc";
         document.getElementById('spAppDescEsp').innerHTML = "Peintures aqueuse pour coins.";
         
@@ -251,7 +251,7 @@ Version: 1.3.1
         document.getElementById('spAppDescJun').innerHTML = "Peintures aqueuses sur les parois lisses.";
         
         document.getElementById('microfibraTitle').innerHTML = "Microfibra";
-		document.getElementById('rightTitleMic').innerHTML = "Micofibra";
+		document.getElementById('rightTitleMic').innerHTML = "Microfibra";
         
         document.getElementById('tecDescMic').innerHTML = "100% Polyamide";
         document.getElementById('altDescMic').innerHTML = " 10 mm ";
@@ -274,7 +274,7 @@ Version: 1.3.1
 		document.getElementById('rightTitleRug').innerHTML = "Rugo";
         
         document.getElementById('tecDescRug').innerHTML = "Mousse Polyester";
-        document.getElementById('altDescRug').innerHTML = "";
+        //document.getElementById('altDescRug').innerHTML = "";
         document.getElementById('corDescRug').innerHTML = "Jaune";
         document.getElementById('spAppDescRug').innerHTML = "Peintures texturées ou sablées.";
         
@@ -306,6 +306,13 @@ Version: 1.3.1
 		document.getElementById('accBetumadeiraN').innerHTML = "Couteau de Peintre";
 		document.getElementById('accBaldeN').innerHTML = "Seau à Peinture";
 		document.getElementById('accCoberturasN').innerHTML = "Bâche de Protection";
+    
+    
+    
+        $('#catalogo').attr({target: '_blank', 
+                    href  : 'http://www.rolpin.pt//catalogo/Catalogo_FR.pdf'});
+        
+        document.getElementById('pdfCat').innerHTML = "Télécharger le catalogue";
     
 	 //Menu 18
 		$('#openModelAngoraImg').click(function() {

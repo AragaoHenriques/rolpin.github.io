@@ -28,9 +28,9 @@ Version: 1.3.1
         document.getElementById('objLbl').innerHTML = "Goal:";
         document.getElementById('objTextLbl').innerHTML = " To convey to our customers high quality products, tailored to your needs and always at the most competitive price.";*/
         
-        document.getElementById('companyFirst').innerHTML = "With 20 years of experience and 2000 m2 of facilities equipped with the most cutting-edge technology at national level, the ROLPIN has been considered an SME leader for 3 consecutive years and SMEs excellence in 2014, and the company number one in the industry.";
+        document.getElementById('companyFirst').innerHTML = "With 20 years of experience and 2000 m² of facilities equipped with the most cutting-edge technology at national level, the ROLPIN has been considered an SME leader for 3 consecutive years and SMEs excellence in 2014, and the company number one in the industry.";
         document.getElementById('companySecond').innerHTML = "Between the late 80s and early 90s, the craftsmanship garage of the founders, began to emerge a family business in the area of paint rollers and accessories industry for civil construction. Hard work and dedication which, moreover, are principles by which the company is guided, provided the expansion of the modest initial warehouse 300 m2.";
-        document.getElementById('companyThird').innerHTML = "With 20 years of experience and 2000 20m² of facilities equipped with the latest cutting-edge technology at national level, the ROLPIN has been considered an SME leader for 3 consecutive years and SMEs excellence in 2014, and the company number one in the industry." ;
+        document.getElementById('companyThird').innerHTML = "Currently, is located in the industrial area of Gulpilhares and has a production capacity of more than 2 million units annually. The Rolpin offers a wide range of products, ensuring the highest quality since the raw materials to the packaging." ;
 
 		
         document.getElementsByName('descr')[0].innerHTML = "Description:";
@@ -56,8 +56,8 @@ Version: 1.3.1
         document.getElementsByName('spTecido')[6].innerHTML = "Tissue";
         document.getElementsByName('spTecido')[7].innerHTML = "Tissue";
         document.getElementsByName('spTecido')[8].innerHTML = "Tissue";
-        document.getElementsByName('spTecido')[9].innerHTML = "Tissue";
-        document.getElementsByName('spTecido')[10].innerHTML = "Tissue";
+        //document.getElementsByName('spTecido')[9].innerHTML = "Tissue";
+        //document.getElementsByName('spTecido')[10].innerHTML = "Tissue";
         //document.getElementsByName('spTecido')[11].innerHTML = "Tissue";
 		
 		document.getElementsByName('spAltura')[0].innerHTML = "Height";
@@ -69,8 +69,8 @@ Version: 1.3.1
         document.getElementsByName('spAltura')[6].innerHTML = "Height";
         document.getElementsByName('spAltura')[7].innerHTML = "Height";
         document.getElementsByName('spAltura')[8].innerHTML = "Height";
-        document.getElementsByName('spAltura')[9].innerHTML = "Height";
-        document.getElementsByName('spAltura')[10].innerHTML = "Height";
+        //document.getElementsByName('spAltura')[9].innerHTML = "Height";
+        //document.getElementsByName('spAltura')[10].innerHTML = "Height";
         //document.getElementsByName('spAltura')[11].innerHTML = "Height";
         
 		
@@ -233,8 +233,8 @@ Version: 1.3.1
         document.getElementById('espumaTitle').innerHTML = "Espuma";
 		document.getElementById('rightTitleEsp').innerHTML = "Espuma";
         
-        document.getElementById('tecDescEsp').innerHTML = "Espuma Polyester";
-        document.getElementById('altDescEsp').innerHTML = "  ";
+        document.getElementById('tecDescEsp').innerHTML = "Foam Polyester";
+        //document.getElementById('altDescEsp').innerHTML = "  ";
         document.getElementById('corDescEsp').innerHTML = "White";
         document.getElementById('spAppDescEsp').innerHTML = "Water based paints and varnishes on small smooth surfaces (corners).";
         
@@ -247,7 +247,7 @@ Version: 1.3.1
         document.getElementById('spAppDescJun').innerHTML = "Water based paints on smooth surfaces. Allows a good finish and is solvent resistant.";
         
         document.getElementById('microfibraTitle').innerHTML = "Microfibra";
-		document.getElementById('rightTitleMic').innerHTML = "Micofibra";
+		document.getElementById('rightTitleMic').innerHTML = "Microfibra";
         
         document.getElementById('tecDescMic').innerHTML = "100% Polyamide";
         document.getElementById('altDescMic').innerHTML = " 10 mm ";
@@ -270,7 +270,7 @@ Version: 1.3.1
 		document.getElementById('rightTitleRug').innerHTML = "Rugo";
         
         document.getElementById('tecDescRug').innerHTML = "Espuma Polyester";
-        document.getElementById('altDescRug').innerHTML = "";
+        //document.getElementById('altDescRug').innerHTML = "";
         document.getElementById('corDescRug').innerHTML = "Yellow";
         document.getElementById('spAppDescRug').innerHTML = "Textured or sanded paints on walls and facades. Used for decorative effects.";
         
@@ -303,8 +303,10 @@ Version: 1.3.1
 		document.getElementById('accBaldeN').innerHTML = "Paint Buckets";
 		document.getElementById('accCoberturasN').innerHTML = "Plastic Drops";
         
-		 $('#catalogo').attr({target: '_blank', 
-                    href  : 'http://www.rolpin.pt//catalogo/Catalogo_PT.pdf'});
+        $('#catalogo').attr({target: '_blank', 
+                    href  : 'http://www.rolpin.pt//catalogo/Catalogo_EN.pdf'});
+        
+        document.getElementById('pdfCat').innerHTML = "Download Catalog";
         
         //Menu 18
 		$('#openModelAngoraImg').click(function() {
