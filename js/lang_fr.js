@@ -119,18 +119,18 @@ Version: 1.3.1
         document.getElementsByName('spRoloR')[10].innerHTML = "Rouleau";
         //document.getElementsByName('spRoloR')[11].innerHTML = "Rouleau";
         
-		document.getElementsByName('spRoloC')[0].innerHTML = "Refill Rouleau";
-        document.getElementsByName('spRoloC')[1].innerHTML = "Refill Rouleau";
-        document.getElementsByName('spRoloC')[2].innerHTML = "Refill Rouleau";
-        document.getElementsByName('spRoloC')[3].innerHTML = "Refill Rouleau";
-        document.getElementsByName('spRoloC')[4].innerHTML = "Refill Rouleau";
-        document.getElementsByName('spRoloC')[5].innerHTML = "Refill Rouleau";
-        document.getElementsByName('spRoloC')[6].innerHTML = "Refill Rouleau";
-        document.getElementsByName('spRoloC')[7].innerHTML = "Refill Rouleau";
-        document.getElementsByName('spRoloC')[8].innerHTML = "Refill Rouleau";
-        document.getElementsByName('spRoloC')[9].innerHTML = "Refill Rouleau";
-        document.getElementsByName('spRoloC')[10].innerHTML = "Refill Rouleau";
-        //document.getElementsByName('spRoloC')[11].innerHTML = "Refill Rouleau";
+		document.getElementsByName('spRoloC')[0].innerHTML = "Recharge Rouleau";
+        document.getElementsByName('spRoloC')[1].innerHTML = "Recharge Rouleau";
+        document.getElementsByName('spRoloC')[2].innerHTML = "Recharge Rouleau";
+        document.getElementsByName('spRoloC')[3].innerHTML = "Recharge Rouleau";
+        document.getElementsByName('spRoloC')[4].innerHTML = "Recharge Rouleau";
+        document.getElementsByName('spRoloC')[5].innerHTML = "Recharge Rouleau";
+        document.getElementsByName('spRoloC')[6].innerHTML = "Recharge Rouleau";
+        document.getElementsByName('spRoloC')[7].innerHTML = "Recharge Rouleau";
+        document.getElementsByName('spRoloC')[8].innerHTML = "Recharge Rouleau";
+        document.getElementsByName('spRoloC')[9].innerHTML = "Recharge Rouleau";
+        document.getElementsByName('spRoloC')[10].innerHTML = "Recharge Rouleau";
+        //document.getElementsByName('spRoloC')[11].innerHTML = "Recharge Rouleau";
         
 		document.getElementsByName('spRoloM')[0].innerHTML = "Mini Rouleau";
         document.getElementsByName('spRoloM')[1].innerHTML = "Mini Rouleau";
@@ -145,18 +145,18 @@ Version: 1.3.1
         //document.getElementsByName('spRoloM')[10].innerHTML = "Mini Rouleau";
         //document.getElementsByName('spRoloM')[11].innerHTML = "Mini Rouleau";
         
-		document.getElementsByName('spRoloCM')[0].innerHTML = "Refill Mini";
-        document.getElementsByName('spRoloCM')[1].innerHTML = "Refill Mini";
-        document.getElementsByName('spRoloCM')[2].innerHTML = "Refill Mini";
-        document.getElementsByName('spRoloCM')[3].innerHTML = "Refill Mini";
-        document.getElementsByName('spRoloCM')[4].innerHTML = "Refill Mini";
-        document.getElementsByName('spRoloCM')[5].innerHTML = "Refill Mini";
-        document.getElementsByName('spRoloCM')[6].innerHTML = "Refill Mini";
-        document.getElementsByName('spRoloCM')[7].innerHTML = "Refill Mini";
-        //document.getElementsByName('spRoloCM')[8].innerHTML = "Refill Mini";
-        //document.getElementsByName('spRoloCM')[9].innerHTML = "Refill Mini";
-        //document.getElementsByName('spRoloCM')[10].innerHTML = "Refill Mini";
-        //document.getElementsByName('spRoloCM')[11].innerHTML = "Refill Mini";
+		document.getElementsByName('spRoloCM')[0].innerHTML = "Recharge Mini";
+        document.getElementsByName('spRoloCM')[1].innerHTML = "Recharge Mini";
+        document.getElementsByName('spRoloCM')[2].innerHTML = "Recharge Mini";
+        document.getElementsByName('spRoloCM')[3].innerHTML = "Recharge Mini";
+        document.getElementsByName('spRoloCM')[4].innerHTML = "Recharge Mini";
+        document.getElementsByName('spRoloCM')[5].innerHTML = "Recharge Mini";
+        document.getElementsByName('spRoloCM')[6].innerHTML = "Recharge Mini";
+        document.getElementsByName('spRoloCM')[7].innerHTML = "Recharge Mini";
+        //document.getElementsByName('spRoloCM')[8].innerHTML = "Recharge Mini";
+        //document.getElementsByName('spRoloCM')[9].innerHTML = "Recharge Mini";
+        //document.getElementsByName('spRoloCM')[10].innerHTML = "Recharge Mini";
+        //document.getElementsByName('spRoloCM')[11].innerHTML = "Recharge Mini";
         
 		document.getElementsByName('tableCod')[0].innerHTML = "Code";
         document.getElementsByName('tableCod')[1].innerHTML = "Code";
